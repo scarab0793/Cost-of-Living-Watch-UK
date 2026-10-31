@@ -109,6 +109,46 @@ def ons_series():
     if count:
         write_if_changed(target, data)
 
+def ons_extended():
+    """UK ONS annual earnings and house price observations, no estimates."""
+    specs = {
+        "ons_earnings_weekly": ("emp", "k5ah", "Average weekly earnings, total pay, whole economy", "GBP/week"),
+        "ons_earnings_regular": ("emp", "k5an", "Average weekly earnings, regular pay, whole economy", "GBP/week"),
+        "ons_house_price": ("hpi", "d7a1", "UK House Price Index (published ONS series)", "index"),
+    }
+    target = ROOT / "data" / "economic.json"
+    if not target.exists():
+        return
+    data = json.loads(target.read_text(encoding="utf-8"))
+    changed = False
+    for key, (dataset, code, label, unit) in specs.items():
+        try:
+            url = f"https://www.ons.gov.uk/generator?format=csv&uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/timeseries/{code}/{dataset}" if dataset == "emp" else f"https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/{code}/{dataset}"
+            with urllib.request.urlopen(urllib.request.Request(url, headers=HEADERS), timeout=25) as response:
+                rows = csv.reader(io.StringIO(response.read().decode("utf-8-sig", errors="replace")))
+                annual = {}
+                for row in rows:
+                    if len(row) < 2:
+                        continue
+                    year = row[0].strip().strip('"')
+                    if year.isdigit() and len(year) == 4 and 1990 <= int(year) <= 2026:
+                        try:
+                            annual[year] = float(row[1].strip())
+                        except ValueError:
+                            pass
+            if len(annual) >= 8:
+                data["series"][key] = {"label": label, "unit": unit, "indicator": code.upper(),
+                    "source_url": url.replace("https://www.ons.gov.uk/generator?format=csv&uri=", "https://www.ons.gov.uk"),
+                    "values": dict(sorted(annual.items()))}
+                changed = True
+                print("ONS extended:", key, len(annual))
+            else:
+                print("ONS extended: insufficient data", key)
+        except Exception as exc:
+            print("ONS extended error", key, exc)
+    if changed:
+        write_if_changed(target, data)
+
 def news():
     feeds = {
         "HM Treasury": "https://www.gov.uk/government/organisations/hm-treasury.atom",
@@ -138,4 +178,5 @@ def news():
 if __name__ == "__main__":
     economic()
     ons_series()
+    ons_extended()
     news()
