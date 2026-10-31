@@ -18,7 +18,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/stories.json
+          git add data/stories.json data/economic.json
           if ! git diff --cached --quiet; then
             git commit -m "Refresh official UK news"
             git push
