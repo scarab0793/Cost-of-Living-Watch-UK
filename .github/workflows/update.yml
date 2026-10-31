@@ -12,6 +12,9 @@ permissions:
   contents: write
 jobs:
   refresh:
+    concurrency:
+      group: uk-data-refresh
+      cancel-in-progress: false
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -26,5 +29,15 @@ jobs:
           git add -A data
           if ! git diff --cached --quiet; then
             git commit -m "Refresh verified UK economic data and news"
-            git push
+            for attempt in 1 2 3 4 5; do
+              if git push; then
+                exit 0
+              fi
+              echo "Remote main changed; synchronising and retrying ($attempt/5)"
+              git fetch origin main
+              git rebase origin/main || { git rebase --abort; exit 1; }
+              sleep 3
+            done
+            echo "Push failed after five attempts" >&2
+            exit 1
           fi
