@@ -3,6 +3,8 @@
 No AI, no synthetic observations. Keep last good file on upstream failures.
 """
 import json
+import csv
+import io
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
@@ -15,6 +17,9 @@ INDICATORS = {
     "inflation": ("FP.CPI.TOTL.ZG", "Consumer price inflation (annual %)", "%"),
     "gdp_per_capita": ("NY.GDP.PCAP.CD", "GDP per capita (current US$)", "US$"),
     "unemployment": ("SL.UEM.TOTL.ZS", "Unemployment (% of labour force, modelled ILO estimate)", "%"),
+    "gdp_per_capita_ppp": ("NY.GDP.PCAP.PP.KD", "GDP per capita (constant 2021 international $ PPP)", "2021 international $"),
+    "household_consumption_share": ("NE.CON.PRVT.ZS", "Household consumption expenditure (% of GDP)", "%"),
+    "government_expenditure_share": ("NE.CON.GOVT.ZS", "General government final consumption expenditure (% of GDP)", "%"),
     "tax_share": ("GC.TAX.TOTL.GD.ZS", "Tax revenue (% of GDP; central government)", "%"),
     "government_revenue_share": ("GC.REV.XGRT.GD.ZS", "Revenue excluding grants (% of GDP)", "%"),
     "household_consumption": ("NE.CON.PRVT.PC.KD", "Household final consumption expenditure per capita (constant 2015 US$)", "2015 US$"),
@@ -52,6 +57,50 @@ def economic():
     else:
         print("Insufficient economic series; preserving last good data")
 
+def ons_series():
+    """Add ONS published UK monthly time-series, using annual observations only."""
+    source = {
+        "ons_cpi_index": ("mm23", "d7bt", "ONS CPI all items index (2015=100)", "index"),
+        "ons_cpi_inflation": ("mm23", "d7g7", "ONS CPI all items 12-month rate", "%"),
+        "ons_cpih_inflation": ("mm23", "l55o", "ONS CPIH all items 12-month rate", "%"),
+    }
+    target = ROOT / "data" / "economic.json"
+    if not target.exists():
+        print("ONS series skipped: economic.json absent")
+        return
+    data = json.loads(target.read_text(encoding="utf-8"))
+    count = 0
+    for key, (dataset, code, label, unit) in source.items():
+        try:
+            url = f"https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/{code}/{dataset}"
+            with urllib.request.urlopen(urllib.request.Request(url, headers=HEADERS), timeout=25) as response:
+                lines = response.read().decode("utf-8-sig", errors="replace").splitlines()
+            annual = {}
+            for row in csv.reader(lines):
+                if len(row) < 2:
+                    continue
+                year = row[0].strip().strip('"')
+                if len(year) != 4 or not year.isdigit() or not 1990 <= int(year) <= 2026:
+                    continue
+                try:
+                    annual[year] = float(row[1].strip())
+                except ValueError:
+                    pass
+            if len(annual) >= 5:
+                data["series"][key] = {
+                    "label": label, "unit": unit, "indicator": code.upper(),
+                    "source_url": f"https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/{code}/{dataset}",
+                    "values": dict(sorted(annual.items()))
+                }
+                count += 1
+                print("ONS", key, len(annual), "years")
+            else:
+                print("ONS series missing annual rows", key)
+        except Exception as exc:
+            print("ONS series error", key, exc)
+    if count:
+        write_if_changed(target, data)
+
 def news():
     feeds = {
         "HM Treasury": "https://www.gov.uk/government/organisations/hm-treasury.atom",
@@ -80,4 +129,5 @@ def news():
 
 if __name__ == "__main__":
     economic()
+    ons_series()
     news()
