@@ -187,6 +187,124 @@
    },
    "last_updated": "2026-11-01"
   },
+  "council_tax_band_d": {
+   "id": "council_tax_band_d",
+   "group": "housing",
+   "label": "Average Band D Council Tax, England (£ per year)",
+   "unit": "GBP/year",
+   "publisher": "MHCLG (DLUHC) – Council Tax levels set by local authorities in England",
+   "source_url": "https://www.gov.uk/government/statistics/council-tax-levels-set-by-local-authorities-in-england-2026-to-2027",
+   "api_url": "https://assets.publishing.service.gov.uk/media/69de1fa63e81003ae0422508/Tables_1-9_2026-27.ods",
+   "geography": "England",
+   "source_id": "Table 3 (2012 on); 2011-12 release Table 1 (2002-2011)",
+   "adjustment": "Cash terms",
+   "methodology": "Average Band D for the area, including parish precepts and the adult social care precept. Key = year the financial year starts (2025 = 2025-26). 2002-2011 are from the frozen 2011-12 release (https://assets.publishing.service.gov.uk/media/5a796f41ed915d042206863f/1870223.xls); 2012 onward refreshed from the latest release.",
+   "limitations": "England only (Scotland, Wales and Northern Ireland have different systems). Band D is a reference band, not what the typical household pays: most English homes are in Bands A-C, so the average bill is lower. 1993-2001 not integrated. Council Tax benefit/reduction is not modelled.",
+   "coverage": [
+    "2002",
+    "2026"
+   ],
+   "source_release": "council-tax-levels-set-by-local-authorities-in-england-2026-to-2027",
+   "next_release": "Annually, March",
+   "warnings": [],
+   "partial": {},
+   "values": {
+    "2002": 975.56,
+    "2003": 1101.75,
+    "2004": 1166.56,
+    "2005": 1213.81,
+    "2006": 1267.91,
+    "2007": 1321.32,
+    "2008": 1373.08,
+    "2009": 1413.84,
+    "2010": 1439.22,
+    "2011": 1439.33,
+    "2012": 1444.0,
+    "2013": 1456.0,
+    "2014": 1468.0,
+    "2015": 1484.0,
+    "2016": 1530.0,
+    "2017": 1591.0,
+    "2018": 1671.0,
+    "2019": 1750.0,
+    "2020": 1818.0,
+    "2021": 1898.0,
+    "2022": 1966.0,
+    "2023": 2065.0,
+    "2024": 2171.0,
+    "2025": 2280.0,
+    "2026": 2392.0
+   },
+   "last_updated": "2026-11-01"
+  },
+  "cpi_actual_rents": {
+   "id": "cpi_actual_rents",
+   "label": "CPI: actual rents for housing index (2015=100)",
+   "group": "housing",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7ce/mm23",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/d7ce/mm23",
+   "source_title": "CPI INDEX 04.1 : ACTUAL RENTS FOR HOUSING 2015=100",
+   "source_id": "D7CE",
+   "unit": "index 2015=100",
+   "geography": "United Kingdom",
+   "adjustment": "Original (not seasonally adjusted unless stated in title)",
+   "methodology": "Price index of rents paid by tenants (private and social), annual figure as published by ONS.",
+   "limitations": "An index of rent inflation, not average rents in pounds. Includes social rents. £ average private rents exist only from the 2010s (ONS PIPR) and are not integrated.",
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "18 November 2026",
+   "warnings": [],
+   "values": {
+    "1990": 39.8,
+    "1991": 44.4,
+    "1992": 48.1,
+    "1993": 51.6,
+    "1994": 54.4,
+    "1995": 57.2,
+    "1996": 59.9,
+    "1997": 61.8,
+    "1998": 63.7,
+    "1999": 65.6,
+    "2000": 67.7,
+    "2001": 70.0,
+    "2002": 71.8,
+    "2003": 72.9,
+    "2004": 74.5,
+    "2005": 77.1,
+    "2006": 79.5,
+    "2007": 82.0,
+    "2008": 84.8,
+    "2009": 86.3,
+    "2010": 87.5,
+    "2011": 89.7,
+    "2012": 92.7,
+    "2013": 95.0,
+    "2014": 97.2,
+    "2015": 100.0,
+    "2016": 101.8,
+    "2017": 102.7,
+    "2018": 103.2,
+    "2019": 103.9,
+    "2020": 105.4,
+    "2021": 107.2,
+    "2022": 110.9,
+    "2023": 117.3,
+    "2024": 125.7,
+    "2025": 132.5
+   },
+   "partial": {
+    "2026": {
+     "mean": 136.7,
+     "months": 9,
+     "last": "2026-09"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
   "cpi_electricity_gas": {
    "id": "cpi_electricity_gas",
    "label": "CPI: electricity, gas and other fuels index (2015=100)",
@@ -684,6 +802,276 @@
    },
    "partial": {},
    "last_updated": "2026-11-01"
+  },
+  "earnings_median_ft": {
+   "group": "earnings",
+   "unit": "GBP/week",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/earningstimeseriesofmediangrossweeklyearningsfrom1968to2022",
+   "api_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/earningstimeseriesofmediangrossweeklyearningsfrom1968to2022/current/19682026.xlsx",
+   "adjustment": "Original, cash terms",
+   "source_release": "ASHE time series",
+   "next_release": "Annual, normally October/November",
+   "warnings": [],
+   "partial": {},
+   "last_updated": "2026-11-01",
+   "id": "earnings_median_ft",
+   "label": "Median gross weekly earnings, full-time adults, UK (ASHE)",
+   "geography": "United Kingdom",
+   "source_id": "UK Median Time-series, Male & Female Adult 50th percentile",
+   "methodology": "Annual Survey of Hours and Earnings, adults on adult rates whose pay was not affected by absence. Years shown as 2004inc/2006inc are used (the series comparable with later years).",
+   "limitations": "Full-time employees only (excludes part-time and self-employed). Survey changes from 2023 mean 2022-23 comparisons need caution; latest year is provisional.",
+   "coverage": [
+    "1997",
+    "2026"
+   ],
+   "values": {
+    "1997": 320.5,
+    "1998": 334.9,
+    "1999": 345.5,
+    "2000": 359,
+    "2001": 375.9,
+    "2002": 390.9,
+    "2003": 404,
+    "2004": 419.2,
+    "2005": 431.2,
+    "2006": 443.6,
+    "2007": 457.6,
+    "2008": 479.1,
+    "2009": 488.5,
+    "2010": 498.5,
+    "2011": 498.3,
+    "2012": 506.1,
+    "2013": 517.4,
+    "2014": 518.3,
+    "2015": 527.1,
+    "2016": 538.6,
+    "2017": 550,
+    "2018": 568.3,
+    "2019": 585.2,
+    "2020": 585.7,
+    "2021": 609.8,
+    "2022": 641.8,
+    "2023": 687,
+    "2024": 728.3,
+    "2025": 766.6,
+    "2026": 811.2
+   },
+   "percentiles": {
+    "1997": {
+     "p10": 173.4,
+     "p25": 228.9,
+     "p75": 447.1,
+     "p90": 600.2
+    },
+    "1998": {
+     "p10": 180.6,
+     "p25": 238,
+     "p75": 468.3,
+     "p90": 635.6
+    },
+    "1999": {
+     "p10": 189.3,
+     "p25": 248,
+     "p75": 484.5,
+     "p90": 660.5
+    },
+    "2000": {
+     "p10": 195.8,
+     "p25": 256.6,
+     "p75": 501.8,
+     "p90": 685.4
+    },
+    "2001": {
+     "p10": 205,
+     "p25": 268.2,
+     "p75": 527.8,
+     "p90": 731.1
+    },
+    "2002": {
+     "p10": 214.4,
+     "p25": 279.2,
+     "p75": 551.8,
+     "p90": 767.8
+    },
+    "2003": {
+     "p10": 222.7,
+     "p25": 288,
+     "p75": 572.6,
+     "p90": 794.2
+    },
+    "2004": {
+     "p10": 230.3,
+     "p25": 298,
+     "p75": 590.6,
+     "p90": 814.4
+    },
+    "2005": {
+     "p10": 235.4,
+     "p25": 305.3,
+     "p75": 611.6,
+     "p90": 850.5
+    },
+    "2006": {
+     "p10": 243.8,
+     "p25": 315.2,
+     "p75": 630.5,
+     "p90": 881.6
+    },
+    "2007": {
+     "p10": 252.9,
+     "p25": 325.8,
+     "p75": 650.5,
+     "p90": 907.1
+    },
+    "2008": {
+     "p10": 262.2,
+     "p25": 338.8,
+     "p75": 677.9,
+     "p90": 950.7
+    },
+    "2009": {
+     "p10": 270.3,
+     "p25": 347,
+     "p75": 692.5,
+     "p90": 971.4
+    },
+    "2010": {
+     "p10": 275.7,
+     "p25": 354.6,
+     "p75": 705.3,
+     "p90": 986.1
+    },
+    "2011": {
+     "p10": 276.2,
+     "p25": 354,
+     "p75": 708.4,
+     "p90": 998.5
+    },
+    "2012": {
+     "p10": 282.1,
+     "p25": 360,
+     "p75": 714.8,
+     "p90": 1001.9
+    },
+    "2013": {
+     "p10": 287.5,
+     "p25": 368.1,
+     "p75": 729.1,
+     "p90": 1020
+    },
+    "2014": {
+     "p10": 287.9,
+     "p25": 369.9,
+     "p75": 733.8,
+     "p90": 1025.3
+    },
+    "2015": {
+     "p10": 296.1,
+     "p25": 378.4,
+     "p75": 741.6,
+     "p90": 1034.9
+    },
+    "2016": {
+     "p10": 308.9,
+     "p25": 389.2,
+     "p75": 762.5,
+     "p90": 1058.8
+    },
+    "2017": {
+     "p10": 318.9,
+     "p25": 399.8,
+     "p75": 774.3,
+     "p90": 1092
+    },
+    "2018": {
+     "p10": 329.8,
+     "p25": 412,
+     "p75": 799.5,
+     "p90": 1126.3
+    },
+    "2019": {
+     "p10": 345.6,
+     "p25": 429,
+     "p75": 821,
+     "p90": 1152.8
+    },
+    "2020": {
+     "p10": 345.8,
+     "p25": 429.4,
+     "p75": 828.7,
+     "p90": 1168.3
+    },
+    "2021": {
+     "p10": 370.1,
+     "p25": 453.9,
+     "p75": 851.2,
+     "p90": 1167.2
+    },
+    "2022": {
+     "p10": 397.9,
+     "p25": 480.8,
+     "p75": 885.3,
+     "p90": 1208.8
+    },
+    "2023": {
+     "p10": 433.5,
+     "p25": 519.1,
+     "p75": 945.1,
+     "p90": 1293.6
+    },
+    "2024": {
+     "p10": 468.4,
+     "p25": 555.8,
+     "p75": 994.9,
+     "p90": 1378.5
+    },
+    "2025": {
+     "p10": 493.4,
+     "p25": 583.2,
+     "p75": 1055.3,
+     "p90": 1488.4
+    },
+    "2026": {
+     "p10": 519.1,
+     "p25": 613.3,
+     "p75": 1124.5,
+     "p90": 1595.1
+    }
+   }
+  },
+  "earnings_median_ft_nes": {
+   "group": "earnings",
+   "unit": "GBP/week",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/earningstimeseriesofmediangrossweeklyearningsfrom1968to2022",
+   "api_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/earningstimeseriesofmediangrossweeklyearningsfrom1968to2022/current/19682026.xlsx",
+   "adjustment": "Original, cash terms",
+   "source_release": "ASHE time series",
+   "next_release": "Annual, normally October/November",
+   "warnings": [],
+   "partial": {},
+   "last_updated": "2026-11-01",
+   "id": "earnings_median_ft_nes",
+   "label": "Median gross weekly earnings, full-time adults, GB (New Earnings Survey, 1990-96)",
+   "geography": "Great Britain",
+   "source_id": "GB Median Time-series, Male & Female Adult 50th percentile",
+   "methodology": "New Earnings Survey, the predecessor of ASHE. Great Britain, not UK.",
+   "limitations": "Different survey and geography from ASHE (1997 onward): do not treat as one continuous series without noting the break.",
+   "coverage": [
+    "1990",
+    "1996"
+   ],
+   "values": {
+    "1990": 229.4,
+    "1991": 246.9,
+    "1992": 264.6,
+    "1993": 273.3,
+    "1994": 281.9,
+    "1995": 290.3,
+    "1996": 301.1
+   },
+   "percentiles": {}
   },
   "energy_elec_direct_debit": {
    "id": "energy_elec_direct_debit",
@@ -5873,9 +6261,9 @@
   {
    "id": "gap-median-earnings",
    "area": "Income",
-   "title": "Median earnings and earnings distribution",
-   "status": "open",
-   "detail": "Only mean weekly earnings (ONS AWE from 2000; Bank of England composite series 1990-1999) are integrated. ONS ASHE median pay is not yet imported, so 'income level' is expressed as a multiple of average earnings, not a true percentile."
+   "title": "Earnings distribution beyond the median",
+   "status": "documented",
+   "detail": "Median full-time pay is now integrated (ASHE UK 1997 on, NES GB 1990-96 as a separate line; percentiles stored). Not integrated: part-time and self-employed pay, earnings by decile in the dashboard, and a continuous median across the 1996/97 survey change."
   },
   {
    "id": "gap-earnings-splice",
@@ -5896,14 +6284,14 @@
    "area": "Housing",
    "title": "Average private rent in £",
    "status": "open",
-   "detail": "No £ rent levels are integrated. ONS rental indices start in 2005 and do not give £ levels back to 1990. Renting vs buying cannot yet be compared."
+   "detail": "ONS CPI actual-rents index (2015=100, 1988 on) is integrated as a rent-inflation measure and includes social rents. Average private rents in pounds (ONS PIPR/VOA) exist only from the 2010s and are not integrated; no rent figure in £ is shown or estimated for earlier years."
   },
   {
    "id": "gap-council-tax",
    "area": "Housing",
-   "title": "Council Tax",
+   "title": "Council Tax before 2002 and outside England",
    "status": "open",
-   "detail": "Average Band D Council Tax (MHCLG) is not yet imported. ONS local-government Council Tax receipts are shown as an aggregate only."
+   "detail": "Average Band D (England, incl. parish and ASC precepts) is integrated for 2002-2026: 2012 on refreshed from the latest MHCLG release, 2002-2011 from the frozen 2011-12 release. 1993-2001 and Scotland, Wales and Northern Ireland are not integrated; Band D is not the typical bill and Council Tax reduction is not modelled."
   },
   {
    "id": "gap-mortgage-rate-bridge",

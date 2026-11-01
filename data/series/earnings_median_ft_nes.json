@@ -1,0 +1,33 @@
+{
+ "group": "earnings",
+ "unit": "GBP/week",
+ "publisher": "Office for National Statistics",
+ "source_url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/earningstimeseriesofmediangrossweeklyearningsfrom1968to2022",
+ "api_url": "https://www.ons.gov.uk/file?uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/datasets/earningstimeseriesofmediangrossweeklyearningsfrom1968to2022/current/19682026.xlsx",
+ "adjustment": "Original, cash terms",
+ "source_release": "ASHE time series",
+ "next_release": "Annual, normally October/November",
+ "warnings": [],
+ "partial": {},
+ "last_updated": "2026-11-01",
+ "id": "earnings_median_ft_nes",
+ "label": "Median gross weekly earnings, full-time adults, GB (New Earnings Survey, 1990-96)",
+ "geography": "Great Britain",
+ "source_id": "GB Median Time-series, Male & Female Adult 50th percentile",
+ "methodology": "New Earnings Survey, the predecessor of ASHE. Great Britain, not UK.",
+ "limitations": "Different survey and geography from ASHE (1997 onward): do not treat as one continuous series without noting the break.",
+ "coverage": [
+  "1990",
+  "1996"
+ ],
+ "values": {
+  "1990": 229.4,
+  "1991": 246.9,
+  "1992": 264.6,
+  "1993": 273.3,
+  "1994": 281.9,
+  "1995": 290.3,
+  "1996": 301.1
+ },
+ "percentiles": {}
+}

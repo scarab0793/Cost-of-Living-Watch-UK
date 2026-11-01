@@ -2,9 +2,9 @@
  {
   "id": "gap-median-earnings",
   "area": "Income",
-  "title": "Median earnings and earnings distribution",
-  "status": "open",
-  "detail": "Only mean weekly earnings (ONS AWE from 2000; Bank of England composite series 1990-1999) are integrated. ONS ASHE median pay is not yet imported, so 'income level' is expressed as a multiple of average earnings, not a true percentile."
+  "title": "Earnings distribution beyond the median",
+  "status": "documented",
+  "detail": "Median full-time pay is now integrated (ASHE UK 1997 on, NES GB 1990-96 as a separate line; percentiles stored). Not integrated: part-time and self-employed pay, earnings by decile in the dashboard, and a continuous median across the 1996/97 survey change."
  },
  {
   "id": "gap-earnings-splice",
@@ -25,14 +25,14 @@
   "area": "Housing",
   "title": "Average private rent in £",
   "status": "open",
-  "detail": "No £ rent levels are integrated. ONS rental indices start in 2005 and do not give £ levels back to 1990. Renting vs buying cannot yet be compared."
+  "detail": "ONS CPI actual-rents index (2015=100, 1988 on) is integrated as a rent-inflation measure and includes social rents. Average private rents in pounds (ONS PIPR/VOA) exist only from the 2010s and are not integrated; no rent figure in £ is shown or estimated for earlier years."
  },
  {
   "id": "gap-council-tax",
   "area": "Housing",
-  "title": "Council Tax",
+  "title": "Council Tax before 2002 and outside England",
   "status": "open",
-  "detail": "Average Band D Council Tax (MHCLG) is not yet imported. ONS local-government Council Tax receipts are shown as an aggregate only."
+  "detail": "Average Band D (England, incl. parish and ASC precepts) is integrated for 2002-2026: 2012 on refreshed from the latest MHCLG release, 2002-2011 from the frozen 2011-12 release. 1993-2001 and Scotland, Wales and Northern Ireland are not integrated; Band D is not the typical bill and Council Tax reduction is not modelled."
  },
  {
   "id": "gap-mortgage-rate-bridge",

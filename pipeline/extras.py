@@ -211,8 +211,22 @@ def company_financials(data):
         print(f"company_financials: kept previous data ({exc})", file=sys.stderr)
 
 
+def _series_files(data, builder, label):
+    """Write one or more series JSON files; on failure keep whatever is already there."""
+    try:
+        recs = builder()
+        for rec in (recs if isinstance(recs, list) else [recs]):
+            _write(data / "series" / (rec["id"] + ".json"), rec)
+            print(f"{label} {rec['id']} {rec['coverage'][0]}-{rec['coverage'][1]}")
+    except Exception as exc:  # noqa: BLE001
+        print(f"{label}: kept previous data ({exc})", file=sys.stderr)
+
+
 def run(data, static=False, news_on=True, **kw):
     company_financials(data)
+    from . import ashe, council_tax
+    _series_files(data, ashe.build, "ASHE")
+    _series_files(data, council_tax.build, "COUNCILTAX")
     worldbank_context(data)
     tax_rules(data)
     energy_bills(data)

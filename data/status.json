@@ -1,9 +1,18 @@
 {
  "checked": "2026-11-01",
- "series_ok": 55,
+ "series_ok": 56,
  "series_failed": 0,
  "failed_ids": [],
  "series": {
+  "cpi_actual_rents": {
+   "ok": true,
+   "obs": 36,
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "warnings": []
+  },
   "cpi_index": {
    "ok": true,
    "obs": 36,

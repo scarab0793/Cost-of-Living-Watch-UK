@@ -264,6 +264,12 @@
       { name: 'Standard variable rate', points: pts('mortgage_svr_spliced'), partial: partialPts('mortgage_svr') }, { name: '2-year fixed (75% LTV)', points: pts('mortgage_2y_fixed_75ltv'), partial: partialPts('mortgage_2y_fixed_75ltv') }, { name: 'Bank Rate', points: pts('bank_rate'), partial: partialPts('bank_rate'), dash: '5 3' }] });
     const regs = ['united-kingdom', 'london', 'south-east', 'north-east', 'wales', 'scotland'];
     Charts.line($('regionChart'), { title: 'Regional house prices', yFormat: v => gbp(v / 1000) + 'k', zeroBase: true, series: regs.map(k => ({ name: (REGIONS.find(x => x[0] === k) || [0, k])[1], points: pts('house_price_' + k), partial: partialPts('house_price_' + k) })) });
+    Charts.line($('ctChart'), { title: 'Average Band D Council Tax', yFormat: v => gbp(v, 0), zeroBase: true, series: [{ name: 'England, average Band D', points: pts('council_tax_band_d') }] });
+    Charts.line($('rentChart'), { title: 'CPI actual rents index', yFormat: v => num(v, 0), series: [{ name: 'CPI actual rents (2015=100)', points: pts('cpi_actual_rents'), partial: partialPts('cpi_actual_rents') }] });
+    Charts.line($('medianChart'), { title: 'Mean and median weekly pay', yFormat: v => gbp(v, 0), zeroBase: true, series: [
+      { name: 'Mean, all employees (AWE; BoE composite before 2000)', points: pts('earnings_spliced') },
+      { name: 'Median, full-time, UK (ASHE)', points: pts('earnings_median_ft') },
+      { name: 'Median, full-time, GB (NES)', points: pts('earnings_median_ft_nes') }] });
   }
   function pts2(id) { return pts(id); }
 

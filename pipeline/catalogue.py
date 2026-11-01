@@ -27,6 +27,12 @@ def add(**kw):
     CATALOGUE.append(kw)
 
 
+# ---- Rent ----------------------------------------------------------------
+add(id="cpi_actual_rents", group="housing", label="CPI: actual rents for housing index (2015=100)", kind="ons", cdid="D7CE", dataset="mm23",
+    expect=r"CPI INDEX 04\.1.*ACTUAL RENTS", unit="index 2015=100", publisher=ONS,
+    method="Price index of rents paid by tenants (private and social), annual figure as published by ONS.",
+    limitations="An index of rent inflation, not average rents in pounds. Includes social rents. £ average private rents exist only from the 2010s (ONS PIPR) and are not integrated.")
+
 # ---- Prices and inflation -------------------------------------------------
 add(id="cpi_index", group="prices", label="CPI all items index (2015=100)", kind="ons", cdid="D7BT", dataset="mm23",
     expect=r"CPI INDEX 00: ALL ITEMS 2015=100", unit="index 2015=100", publisher=ONS,
