@@ -226,7 +226,7 @@ def run(data, static=False, news_on=True, **kw):
     company_financials(data)
     from . import ashe, council_tax
     _series_files(data, ashe.build, "ASHE")
-    _series_files(data, council_tax.build, "COUNCILTAX")
+    _series_files(data, council_tax.build_bands, "COUNCILTAX")
     worldbank_context(data)
     tax_rules(data)
     energy_bills(data)

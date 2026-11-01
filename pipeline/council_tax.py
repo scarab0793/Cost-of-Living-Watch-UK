@@ -81,3 +81,23 @@ def build():
         "coverage": [min(values), max(values)], "source_release": link.rsplit("/", 1)[-1], "next_release": "Annually, March",
         "warnings": [], "partial": {}, "values": dict(sorted(values.items())), "last_updated": date.today().isoformat(),
     }
+
+
+# Statutory England valuation-band ratios to Band D (Local Government Finance Act 1992): A 6/9 ... H 18/9.
+BAND_RATIO = {"a": (6, 9), "b": (7, 9), "c": (8, 9), "d": (9, 9), "e": (11, 9), "f": (13, 9), "g": (15, 9), "h": (18, 9)}
+
+
+def build_bands():
+    """Per-band England average bills, derived from average Band D with the statutory ratios.
+    Checked against the authority-level Table 9 of the latest release (Camden A = 6/9 of D)."""
+    d = build()
+    out = [d]
+    for b, (n, m) in BAND_RATIO.items():
+        if b == "d":
+            continue
+        out.append(dict(d, id=f"council_tax_band_{b}", label=f"Average Band {b.upper()} Council Tax, England (£ per year)",
+                        derived=True, source_id="derived from Band D",
+                        methodology=d["methodology"] + f" Band {b.upper()} = Band D x {n}/{m}, the fixed statutory ratio for England (applies equally to every authority).",
+                        limitations=d["limitations"] + " Derived arithmetically, not separately published as an England average.",
+                        values={y: round(v * n / m, 2) for y, v in d["values"].items()}))
+    return out

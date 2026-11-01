@@ -32,7 +32,7 @@
   "area": "Housing",
   "title": "Council Tax before 2002 and outside England",
   "status": "open",
-  "detail": "Average Band D (England, incl. parish and ASC precepts) is integrated for 2002-2026: 2012 on refreshed from the latest MHCLG release, 2002-2011 from the frozen 2011-12 release. 1993-2001 and Scotland, Wales and Northern Ireland are not integrated; Band D is not the typical bill and Council Tax reduction is not modelled."
+  "detail": "Average Band D and, derived with the statutory ratios, Bands A-H (England, incl. parish and ASC precepts) is integrated for 2002-2026: 2012 on refreshed from the latest MHCLG release, 2002-2011 from the frozen 2011-12 release. 1993-2001 and Scotland, Wales and Northern Ireland are not integrated; Bands are not the typical bill and Council Tax reduction is not modelled."
  },
  {
   "id": "gap-mortgage-rate-bridge",
