@@ -30,9 +30,9 @@
  {
   "id": "gap-council-tax",
   "area": "Housing",
-  "title": "Council Tax before 2002 and outside England",
+  "title": "Council Tax: England before 2002 and Northern Ireland",
   "status": "open",
-  "detail": "Average Band D and, derived with the statutory ratios, Bands A-H (England, incl. parish and ASC precepts) is integrated for 2002-2026: 2012 on refreshed from the latest MHCLG release, 2002-2011 from the frozen 2011-12 release. 1993-2001 and Scotland, Wales and Northern Ireland are not integrated; Bands are not the typical bill and Council Tax reduction is not modelled."
+  "detail": "England Band D 2002-2026, Scotland 1996-2026 and Wales 1993-2026 are integrated, with Bands A-H (Wales A-I) derived from the published average Band D using the statutory ratios in force each year. Not integrated: England 1993-2001; Northern Ireland, which has no Council Tax (domestic rates are charged on each property's capital value, no band system or comparable average-bill series found); Scottish water/waste-water charges; Council Tax reduction; the typical (not Band D) bill. Nations' Band D figures are on slightly different bases (England and Wales include parish/community and, for Wales, police elements) so compare levels with care."
  },
  {
   "id": "gap-mortgage-rate-bridge",
