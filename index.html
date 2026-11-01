@@ -13,7 +13,7 @@
     <h1>UK Cost of Living Watch</h1>
     <p class="sub">How have wages, tax, housing, food, energy and fuel changed for ordinary British households since 1990? Pick two years and compare, using official data only. Nothing is invented: gaps are shown as gaps.</p>
     <nav class="top" aria-label="Sections">
-      <a href="#compare">Compare years</a><a href="#trends">Trend explorer</a><a href="#tax">Tax</a><a href="#housing">Housing</a>
+      <a href="#quick">Quick answer</a><a href="#compare">Detailed comparison</a><a href="#trends">Trend explorer</a><a href="#tax">Tax</a><a href="#housing">Housing</a>
       <a href="#food">Food</a><a href="#energy">Energy</a><a href="#transport">Transport</a><a href="#government">Government</a>
       <a href="#corporate">Corporate</a><a href="#data">Data &amp; gaps</a>
     </nav>
@@ -24,8 +24,34 @@
   <noscript><div class="notice bad">This dashboard needs JavaScript to draw charts and run the comparison.</div></noscript>
   <div id="loaderror" class="notice bad" hidden></div>
 
+  <section id="quick">
+    <h2>Am I paying more tax, and is life costing more?</h2>
+    <p class="lead">Enter a salary and pick an earlier year. We show someone in the <em>same position relative to average pay</em> back then, and compare tax and everyday costs in today's money. Official data only; gaps are shown, not guessed.</p>
+    <div class="panel">
+      <div class="controls">
+        <label>Your gross salary per year (£)<input type="number" id="qSalary" min="5000" max="500000" step="500" value="35000" inputmode="numeric"></label>
+        <label>Compare with year<select id="qFrom"></select></label>
+        <label>…and year<select id="qTo"></select></label>
+        <label>Earners in household<select id="qEarners"><option value="1">One</option><option value="2">Two (each on this salary)</option></select></label>
+        <label>Where you live<select id="qRegion"></select></label>
+      </div>
+      <p class="small" style="margin:8px 0 0">The salary is for the later year. For the earlier year we use the same multiple of average earnings (e.g. 1.2× average), so you compare like with like rather than the same cash sum. <button type="button" id="qCopy" style="min-height:30px;padding:3px 10px;font-size:.8rem">Copy link to this result</button> <span id="qCopied" class="small"></span></p>
+    </div>
+    <div id="qHeadline" class="panel" style="margin-top:14px"></div>
+    <div id="qCards" class="grid" style="margin-top:14px"></div>
+    <div id="qNotes"></div>
+    <details class="adv"><summary>What do these terms mean?</summary>
+      <ul class="small" style="line-height:1.6">
+        <li><b>In today's money / real terms:</b> older amounts are scaled up by official consumer-price inflation (ONS CPI), so £1 then and now buy the same. If a figure is up in real terms, it grew faster than prices.</li>
+        <li><b>Income tax + NI:</b> tax and employee National Insurance on pay, calculated from HMRC's rates for each year. Not included: VAT, fuel duty, Council Tax and other taxes.</li>
+        <li><b>Everyday costs:</b> a fixed illustrative weekly food shop, typical gas and electricity bill and petrol for a typical year's driving.</li>
+        <li><b>Housing:</b> repayments on a mortgage for the average home in your region (10% deposit, 25 years, standard variable rate), not rent.</li>
+        <li><b>Part-year / latest / estimate:</b> the latest year may have only part-year data, or a series may end earlier; each such figure is labelled.</li>
+      </ul></details>
+  </section>
+
   <section id="compare">
-    <h2>Compare a household in two years</h2>
+    <h2>Detailed comparison: a household in two years</h2>
     <p class="lead">A full-time employee (or two) earning a chosen multiple of average earnings, who buys the average home in the chosen region, does a weekly shop, heats the home and runs a petrol car. Tax and National Insurance are calculated from the real HMRC rules for each tax year.</p>
     <div class="panel">
       <div class="controls">

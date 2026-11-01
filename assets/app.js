@@ -79,6 +79,7 @@
     ['yearA', 'yearB', 'earners', 'level', 'region', 'view', 'deposit', 'term', 'mtype', 'hours', 'miles', 'mpg', 'carry'].forEach(id => $(id).addEventListener('input', renderCompare));
     $('genStamp').textContent = ' Data build: ' + DS.generated + '.';
     renderCompare();
+    initQuick();
     initTrends(); initTax(); initHousing(); initFood(); initEnergy(); initTransport(); initGovernment(); initCorporate(); initData(stories);
   }
   function lastYear() { const s = DS.series.cpi_index; const p = Object.keys(s.partial || {}).filter(y => s.partial[y].months >= 6).map(Number); return Math.max(Math.max.apply(null, Object.keys(s.values).map(Number)), p.length ? Math.max.apply(null, p) : 0); }
@@ -179,6 +180,81 @@
 
     // keep basket section in step
     if (typeof renderBasket === 'function') renderBasket();
+  }
+
+
+  // =====================================================================================
+  // QUICK ANSWER (plain-language summary; reuses the tested calc layer)
+  function initQuick() {
+    const last = lastYear(), qs = new URLSearchParams(location.search);
+    yearOpts($('qFrom'), 1990, last, 2000); yearOpts($('qTo'), 1990, last, last);
+    REGIONS.forEach(([k, n]) => $('qRegion').add(new Option(n, k)));
+    $('qRegion').value = 'united-kingdom';
+    const set = (id, v) => { if (v != null && [...$(id).options].some(o => o.value === v)) $(id).value = v; };
+    if (qs.get('s')) $('qSalary').value = Math.max(5000, Math.min(500000, +qs.get('s') || 35000));
+    set('qFrom', qs.get('a')); set('qTo', qs.get('b')); set('qEarners', qs.get('e')); set('qRegion', qs.get('r'));
+    ['qSalary', 'qFrom', 'qTo', 'qEarners', 'qRegion'].forEach(id => $(id).addEventListener('input', renderQuick));
+    $('qCopy').addEventListener('click', () => {
+      const u = location.origin + location.pathname + '?' + quickParams() + '#quick';
+      const done = ok => { $('qCopied').textContent = ok ? 'Link copied.' : u; };
+      try { navigator.clipboard.writeText(u).then(() => done(true), () => done(false)); } catch (e) { done(false); }
+    });
+    renderQuick();
+  }
+  function quickParams() {
+    return new URLSearchParams({ s: $('qSalary').value, a: $('qFrom').value, b: $('qTo').value, e: $('qEarners').value, r: $('qRegion').value }).toString();
+  }
+  function renderQuick() {
+    const S = +$('qSalary').value, A = +$('qFrom').value, B = +$('qTo').value, people = +$('qEarners').value, region = $('qRegion').value;
+    const out = $('qHeadline'), cards = $('qCards'), notes = $('qNotes'); notes.innerHTML = '';
+    try { history.replaceState(null, '', '?' + quickParams() + location.hash); } catch (e) { /* ignore */ }
+    if (!(S >= 1000) || A >= B) { out.innerHTML = '<p>Please enter a salary and choose an earlier year on the left than the year on the right.</p>'; cards.innerHTML = ''; return; }
+    const o = { carry: true }, weB = C.weeklyEarnings(DS, B, o);
+    if (weB.v == null) { out.innerHTML = '<p>No earnings data for ' + B + '.</p>'; cards.innerHTML = ''; return; }
+    const level = S / (weB.v * 52);
+    const base = { level, earners: people, region, deposit: 10, termYears: 25, mortgageType: 'svr', hoursPerWeek: 37.5, miles: 7400, mpg: 40, carry: true };
+    const a = C.household(DS, Object.assign({ year: A }, base)), b = C.household(DS, Object.assign({ year: B }, base));
+    if (a.error || b.error) { out.innerHTML = '<p>' + esc(a.error || b.error) + '</p>'; cards.innerHTML = ''; return; }
+    const real = v => v == null ? null : C.realise(DS, v, A, B, o);
+    const ch = (x, y) => (x != null && y != null && x > 0 && y > 0) ? (y / x - 1) * 100 : null;
+    const word = (c, up, down) => c == null ? 'n/a' : (Math.abs(c) < 0.5 ? 'about the same' : (c > 0 ? num(c, 0) + '% ' + up : num(-c, 0) + '% ' + down));
+    const bk = C.basketCompare(DS, A, B, o), foodA = bk.used ? bk.totalA * 52 * people : null, foodB = bk.used ? bk.totalB * 52 * people : null;
+    const sum = (...xs) => xs.some(x => x == null) ? null : xs.reduce((s, x) => s + x, 0);
+    const evA = sum(foodA, a.energy.v, a.fuel.v), evB = sum(foodB, b.energy.v, b.fuel.v);
+    const taxRealCh = ch(real(a.taxTotal), b.taxTotal), netRealCh = ch(real(a.net), b.net), grossRealCh = ch(real(a.gross), b.gross);
+    const evRealCh = ch(real(evA), evB), mortRealCh = ch(real(a.mortgage), b.mortgage);
+    const cpiRatio = C.realise(DS, 1, A, B, o);
+    const nation = region === 'wales' ? 'wales_' : region === 'scotland' ? 'scotland_' : region === 'northern-ireland' ? null : '';
+    const ctA = nation == null ? null : sv('council_tax_' + nation + 'band_d', A, false), ctB = nation == null ? null : sv('council_tax_' + nation + 'band_d', B, false);
+    const ctRealCh = ctA && ctB ? ch(real(ctA.v), ctB.v) : null;
+    const cls = (c, goodDown) => c == null ? 'flat' : ((c > 0) === !goodDown ? 'down' : 'up');
+    const L = [];
+    L.push(`<b>Tax.</b> On ${gbp(b.gross)} in ${B} you pay about <b>${gbp(b.taxTotal)}</b> in Income Tax and National Insurance (${pct(b.effectiveRate * 100, 0)} of pay). Someone in the same position relative to average pay in ${A} paid ${gbp(a.taxTotal)} at the time (${pct(a.effectiveRate * 100, 0)} of pay), or ${gbp(real(a.taxTotal))} in ${B} money. In real terms that is <b>${word(taxRealCh, 'more', 'less')}</b> tax, and the share of pay taken is ${b.effectiveRate > a.effectiveRate + 0.002 ? 'higher' : b.effectiveRate < a.effectiveRate - 0.002 ? 'lower' : 'about the same'}.`);
+    L.push(`<b>Pay.</b> Their gross pay in ${A} was ${gbp(real(a.gross))} in ${B} money, so pay is ${word(grossRealCh, 'higher', 'lower')} in real terms now. Take-home pay is ${word(netRealCh, 'higher', 'lower')} (${gbp(a.net / 12)} → ${gbp(b.net / 12)} a month in cash terms).`);
+    if (evA != null && evB != null) L.push(`<b>Everyday costs</b> (food, gas and electricity, petrol): ${gbp(evA)} → ${gbp(evB)} a year. In real terms that is <b>${word(evRealCh, 'more', 'less')}</b>, and ${pct(evA / a.net * 100, 0)} → ${pct(evB / b.net * 100, 0)} of take-home pay. Consumer prices overall are ${num(cpiRatio, 2)}× higher than in ${A}.`);
+    else L.push(`<b>Everyday costs:</b> not shown as a total because at least one of food, energy or petrol has no data for ${A} or ${B}.`);
+    if (a.mortgage != null && b.mortgage != null) L.push(`<b>Housing</b> (mortgage on the average home in this region): ${gbp(a.mortgage / 12)} → ${gbp(b.mortgage / 12)} a month, ${word(mortRealCh, 'more', 'less')} in real terms, and ${pct(a.mortgage / a.net * 100, 0)} → ${pct(b.mortgage / b.net * 100, 0)} of take-home pay.`);
+    out.innerHTML = '<ul style="margin:0;padding-left:18px;line-height:1.7">' + L.map(t => `<li style="margin:6px 0">${t}</li>`).join('') + '</ul>';
+
+    const card = (title, va, vb, delta, cl, foot) => `<div class="kpi"><h3>${title}</h3><div class="pair"><div><div class="yr">${A}</div><div class="val">${va}</div></div><div style="text-align:right"><div class="yr">${B}</div><div class="val">${vb}</div></div></div><div class="delta ${cl || ''}">${delta}</div>${foot ? `<div class="small">${foot}</div>` : ''}</div>`;
+    const dtxt = (c, suffix) => c == null ? 'n/a' : (c > 0 ? '+' : '') + num(c, 0) + '% ' + suffix;
+    const cardsH = [
+      card('Income Tax + NI', gbp(a.taxTotal), gbp(b.taxTotal), dtxt(taxRealCh, 'in real terms'), cls(taxRealCh, true), `Share of pay ${pct(a.effectiveRate * 100, 1)} → ${pct(b.effectiveRate * 100, 1)}`),
+      card('Take-home pay', gbp(a.net), gbp(b.net), dtxt(netRealCh, 'in real terms'), cls(netRealCh, false), 'per year, after Income Tax and NI'),
+      card('Everyday costs', evA == null ? 'n/a' : gbp(evA), evB == null ? 'n/a' : gbp(evB), dtxt(evRealCh, 'in real terms'), cls(evRealCh, true), 'food + gas/electricity + petrol, per year'),
+      card('Mortgage (average home)', a.mortgage == null ? 'n/a' : gbp(a.mortgage), b.mortgage == null ? 'n/a' : gbp(b.mortgage), dtxt(mortRealCh, 'in real terms'), cls(mortRealCh, true), 'per year; home price ' + gbp(a.price.v) + ' → ' + gbp(b.price.v)),
+    ];
+    if (nation == null) cardsH.push(`<div class="kpi"><h3>Council Tax</h3><div class="small">Northern Ireland has no Council Tax: homes pay domestic rates on their capital value, and no comparable official average is integrated here.</div></div>`);
+    else cardsH.push(card('Council Tax (Band D)', ctA && ctA.v != null ? gbp(ctA.v) : 'no data', ctB && ctB.v != null ? gbp(ctB.v) : 'no data', ctRealCh == null ? (ctA && ctA.v == null ? 'No Council Tax data for ' + A + ' (England starts 2002)' : 'n/a') : dtxt(ctRealCh, 'in real terms'), cls(ctRealCh, true), 'average Band D, not included in the totals above'));
+    cards.innerHTML = cardsH.join('');
+
+    const info = [];
+    [[a, A], [b, B]].forEach(([h, y]) => [h.earnings, h.price, h.rate, h.fuel, h.energy].forEach(r => { if (r && (r.status === 'partial' || r.status === 'carried' || r.status === 'estimate')) { const m = `${y}: ${r.note}`; if (info.indexOf(m) < 0) info.push(m); } }));
+    if (A < 2000) info.push('Before April 2000 many borrowers got mortgage interest tax relief (MIRAS), which is not modelled, so the earlier mortgage cost is overstated.');
+    if (A < 2000) info.push('Earnings before 2000 use a Bank of England composite series with a slightly different definition from later ONS figures.');
+    if (bk.used < bk.available) info.push(`Food: ${bk.used} of ${bk.available} items are priced in both years and used for both.`);
+    info.push('Single-earner tax rules for England, Wales and Northern Ireland; Scottish Income Tax rates are not modelled. No pensions, student loans or benefits. Rent, water, broadband, insurance and car purchase are not included (see Data & gaps).');
+    notes.innerHTML = '<div class="notice info"><b>Good to know</b><ul style="margin:6px 0 0 18px;padding:0">' + info.map(t => `<li>${esc(t)}</li>`).join('') + '</ul></div>';
   }
 
   // =====================================================================================
