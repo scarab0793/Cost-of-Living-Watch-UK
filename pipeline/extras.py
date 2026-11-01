@@ -201,7 +201,18 @@ def energy_bills(data):
         print("DESNZ FAIL", exc, "-> kept previous energy bills")
 
 
+def company_financials(data):
+    """SEC EDGAR 20-F facts; on any failure the previous file is kept untouched."""
+    from . import edgar
+    path = data / "curated" / "company_financials.json"
+    try:
+        _write(path, edgar.build())
+    except Exception as exc:  # noqa: BLE001 - preserve last good data
+        print(f"company_financials: kept previous data ({exc})", file=sys.stderr)
+
+
 def run(data, static=False, news_on=True, **kw):
+    company_financials(data)
     worldbank_context(data)
     tax_rules(data)
     energy_bills(data)

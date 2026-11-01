@@ -27,7 +27,7 @@ class SourceError(Exception):
     pass
 
 
-def http_get(url, timeout=60, tries=4, min_gap=2.0):
+def http_get(url, timeout=60, tries=4, min_gap=2.0, ua=None):
     """GET with polite throttling per host, retry on 429/5xx with backoff."""
     host = urllib.parse.urlsplit(url).netloc
     delay = 5
@@ -37,7 +37,7 @@ def http_get(url, timeout=60, tries=4, min_gap=2.0):
             time.sleep(wait)
         _last_call[host] = time.time()
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            req = urllib.request.Request(url, headers={"User-Agent": ua or UA})
             with urllib.request.urlopen(req, timeout=timeout) as r:
                 return r.read()
         except urllib.error.HTTPError as exc:

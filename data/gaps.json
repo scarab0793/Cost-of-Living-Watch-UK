@@ -23,9 +23,9 @@
  {
   "id": "gap-rent",
   "area": "Housing",
-  "title": "Average private rent in \u00a3",
+  "title": "Average private rent in £",
   "status": "open",
-  "detail": "No \u00a3 rent levels are integrated. ONS rental indices start in 2005 and do not give \u00a3 levels back to 1990. Renting vs buying cannot yet be compared."
+  "detail": "No £ rent levels are integrated. ONS rental indices start in 2005 and do not give £ levels back to 1990. Renting vs buying cannot yet be compared."
  },
  {
   "id": "gap-council-tax",
@@ -65,9 +65,9 @@
  {
   "id": "gap-energy-pre2010",
   "area": "Energy",
-  "title": "Energy bills in \u00a3 before 2010",
+  "title": "Energy bills in £ before 2010",
   "status": "documented",
-  "detail": "DESNZ publishes \u00a3 bills from 2010 in the tables used here. For earlier years the dashboard can show only the ONS CPI electricity/gas/other-fuels index, clearly marked as an index-scaled estimate, not an observed bill."
+  "detail": "DESNZ publishes £ bills from 2010 in the tables used here. For earlier years the dashboard can show only the ONS CPI electricity/gas/other-fuels index, clearly marked as an index-scaled estimate, not an observed bill."
  },
  {
   "id": "gap-water-broadband",
@@ -81,7 +81,7 @@
   "area": "Transport",
   "title": "Five vehicle categories (small, family, mid-range, van, luxury)",
   "status": "open",
-  "detail": "No benchmark vehicle prices, insurance premiums in \u00a3, MOT, servicing, tyres or VED rates are integrated. Only the ONS quality-adjusted new-car and motor-insurance price indices, rail-fare index and petrol/diesel pump prices are available."
+  "detail": "No benchmark vehicle prices, insurance premiums in £, MOT, servicing, tyres or VED rates are integrated. Only the ONS quality-adjusted new-car and motor-insurance price indices, rail-fare index and petrol/diesel pump prices are available."
  },
  {
   "id": "gap-tax-rates-other",
@@ -100,9 +100,9 @@
  {
   "id": "gap-companies",
   "area": "Corporate",
-  "title": "Corporate financial results",
+  "title": "Company financials: only six 20-F filers, 2017 onward",
   "status": "open",
-  "detail": "No company financial statements are integrated yet. Planned sources: SEC EDGAR XBRL for 20-F filers (BP, Shell, Barclays, HSBC, NatWest, Lloyds) and annual reports for Tesco, Sainsbury's, Morrisons and Centrica. Group results must not be read as UK results."
+  "detail": "BP, Shell, Barclays, HSBC, NatWest and Lloyds are loaded from SEC EDGAR (group, statutory IFRS, XBRL era about 2017 onward; some items untagged for some years, e.g. HSBC profit attributable 2023+). Not integrated: Tesco, Sainsbury's, Morrisons, Centrica/EDF and food producers (no 20-F; need annual-report extraction), all pre-2017 years, UK-only segment results, adjusted/underlying profit. Group results must not be read as UK results."
  },
  {
   "id": "gap-regional-earnings",
@@ -116,6 +116,6 @@
   "area": "Housing",
   "title": "Mortgage interest tax relief (MIRAS) before April 2000",
   "status": "open",
-  "detail": "Relief at source on the first \u00a330,000 of mortgage interest was available until April 2000 and is not modelled, so pre-2000 repayment-mortgage costs are overstated relative to what many borrowers actually paid."
+  "detail": "Relief at source on the first £30,000 of mortgage interest was available until April 2000 and is not modelled, so pre-2000 repayment-mortgage costs are overstated relative to what many borrowers actually paid."
  }
 ]

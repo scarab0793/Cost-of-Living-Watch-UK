@@ -331,7 +331,24 @@
       <tr><td>Companies House filings</td><td><a href="https://find-and-update.company-information.service.gov.uk/">Search</a></td><td>UK entities only</td></tr></tbody></table></div>`;
   }
   function renderCompanies(c) {
-    $('corpBody').innerHTML = '<p class="lead">' + esc(c.note || '') + '</p><div id="corpTables"></div>';
+    const M = [['revenue', 'Revenue'], ['operating_profit', 'Operating profit'], ['pbt', 'Profit before tax'], ['net_profit', 'Profit to owners'], ['tax_expense', 'Tax expense'], ['tax_paid', 'Tax paid (cash)'], ['dividends_paid', 'Dividends paid'], ['buybacks', 'Buybacks']];
+    let h = `<p class="lead">${esc(c.note || '')}</p><div class="notice warn">${esc(c.limitations || '')}</div>
+      <div class="controls"><label>Company<select id="coSel">${c.companies.map(x => `<option value="${esc(x.id)}">${esc(x.name)} (${esc(x.sector)})</option>`).join('')}</select></label>
+      <label>Measure<select id="coMeasure">${M.map(m => `<option value="${m[0]}"${m[0] === 'pbt' ? ' selected' : ''}>${m[1]}</option>`).join('')}</select></label></div>
+      <div id="coChart"></div><div class="tablewrap" style="margin-top:10px"><table id="coTable"></table></div><p class="small" id="coNote"></p>`;
+    $('corpBody').innerHTML = h;
+    const draw = () => {
+      const co = c.companies.find(x => x.id === $('coSel').value), me = $('coMeasure').value;
+      const ys = Object.keys(co.years).sort();
+      const pts = ys.filter(y => co.years[y][me] != null).map(y => [+y, co.years[y][me]]);
+      const lab = (M.find(m => m[0] === me) || [])[1];
+      Charts.line($('coChart'), { title: co.name + ' ' + lab, zeroBase: true, yFormat: v => num(v, 0), series: [{ name: lab + ' (' + co.unit + ')', points: pts }] });
+      const f = v => v == null ? '<span class="small">not tagged</span>' : num(v, 0);
+      $('coTable').innerHTML = '<thead><tr><th>Year</th>' + M.map(m => `<th>${m[1]}</th>`).join('') + '</tr></thead><tbody>' +
+        ys.slice().reverse().map(y => `<tr><td>${y}</td>${M.map(m => `<td>${f(co.years[y][m[0]])}</td>`).join('')}</tr>`).join('') + '</tbody>';
+      $('coNote').textContent = co.unit + ', calendar financial year ending ' + co.fiscal_year_end + '. ' + co.revenue_note + ' Source: ' + c.publisher + '.';
+    };
+    $('coSel').addEventListener('change', draw); $('coMeasure').addEventListener('change', draw); draw();
   }
 
   // =====================================================================================
