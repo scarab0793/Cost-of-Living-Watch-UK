@@ -224,7 +224,8 @@ def _series_files(data, builder, label):
 
 def run(data, static=False, news_on=True, **kw):
     company_financials(data)
-    from . import ashe, council_tax
+    from . import ashe, council_tax, fueltax
+    _series_files(data, fueltax.build, "FUELTAX")
     _series_files(data, ashe.build, "ASHE")
     _series_files(data, council_tax.build_bands, "COUNCILTAX")
     _series_files(data, council_tax.build_scotland, "COUNCILTAX-SCOT")

@@ -233,6 +233,12 @@
     const nation = region === 'wales' ? 'wales_' : region === 'scotland' ? 'scotland_' : region === 'northern-ireland' ? null : '';
     const ctA = nation == null ? null : sv('council_tax_' + nation + 'band_d', A, false), ctB = nation == null ? null : sv('council_tax_' + nation + 'band_d', B, false);
     const ctRealCh = ctA && ctB ? ch(real(ctA.v), ctB.v) : null;
+    const ftA = C.fuelTax(DS, A, base.miles, base.mpg, o), ftB = C.fuelTax(DS, B, base.miles, base.mpg, o);
+    const evatA = C.energyVat(DS, A, a.energy.v), evatB = C.energyVat(DS, B, b.energy.v);
+    const ctOk = ctA && ctB && ctA.v != null && ctB.v != null;
+    const otherA = sum(ftA.v, evatA), otherB = sum(ftB.v, evatB);
+    const allA = otherA == null ? null : a.taxTotal + otherA + (ctOk ? ctA.v : 0), allB = otherB == null ? null : b.taxTotal + otherB + (ctOk ? ctB.v : 0);
+    const allRealCh = ch(real(allA), allB), otherRealCh = ch(real(otherA), otherB);
     const cls = (c, goodDown) => c == null ? 'flat' : ((c > 0) === !goodDown ? 'down' : 'up');
     const L = [];
     L.push(`<b>Tax.</b> On ${gbp(b.gross)} in ${B} you pay about <b>${gbp(b.taxTotal)}</b> in Income Tax and National Insurance (${pct(b.effectiveRate * 100, 0)} of pay). Someone in the same position relative to average pay in ${A} paid ${gbp(a.taxTotal)} at the time (${pct(a.effectiveRate * 100, 0)} of pay), or ${gbp(real(a.taxTotal))} in ${B} money. In real terms that is <b>${word(taxRealCh, 'more', 'less')}</b> tax, and the share of pay taken is ${b.effectiveRate > a.effectiveRate + 0.002 ? 'higher' : b.effectiveRate < a.effectiveRate - 0.002 ? 'lower' : 'about the same'}.`);
@@ -245,17 +251,18 @@
     const cb = (c, goodDown, txt) => `<b class="${c == null ? '' : ((c > 0) === !goodDown ? 'down' : 'up')}">${txt}</b>`;
     const big = [];
     big.push(`<div class="line">${taxRealCh == null ? 'Tax comparison not available.' : `Compared with someone in the same position in <b>${A}</b>, you pay ${cb(taxRealCh, true, word(taxRealCh, 'more', 'less'))} Income Tax and National Insurance in real terms (${pct(a.effectiveRate * 100, 0)} → ${pct(b.effectiveRate * 100, 0)} of pay).`}</div>`);
+    if (allA != null && allB != null) big.push(`<div class="line">Counting more of the taxes we can measure (fuel duty and VAT on petrol, VAT on gas and electricity${ctOk ? ', Council Tax at Band D' : ''}) the total is <b>${gbp(allA)} → ${gbp(allB)}</b> a year: ${cb(allRealCh, true, word(allRealCh, 'more', 'less'))} in real terms, ${pct(allA / a.gross * 100, 0)} → ${pct(allB / b.gross * 100, 0)} of gross pay.</div>`);
     if (evRealCh != null) big.push(`<div class="line">Everyday costs (food, energy, petrol) are ${cb(evRealCh, true, word(evRealCh, 'higher', 'lower'))}, while take-home pay is ${cb(netRealCh, false, word(netRealCh, 'higher', 'lower'))}${netRealCh != null && evRealCh != null ? (netRealCh > evRealCh ? ': pay has grown faster than these costs' : netRealCh < evRealCh ? ': these costs have grown faster than pay' : '') : ''}.</div>`);
     else big.push('<div class="line">Everyday costs cannot be totalled because food, energy or petrol data is missing for one of the years.</div>');
     if (a.mortgage != null && b.mortgage != null) {
       const shareB = b.mortgage / b.net * 100;
       big.push(`<div class="line">Housing: a mortgage on the average home takes ${pct(a.mortgage / a.net * 100, 0)} → ${pct(shareB, 0)} of take-home pay.${shareB > 60 ? ' Repayments this high are more than lenders usually allow on one income: this shows how costly the average home is, not what a typical buyer pays.' : ''}</div>`);
     }
-    big.push('<div class="sub2">In real terms = adjusted for inflation to ' + B + ' prices. Tax here is Income Tax and National Insurance only; VAT, fuel duty and Council Tax are not included.</div>');
+    big.push('<div class="sub2">In real terms = adjusted for inflation to ' + B + ' prices. The "All measured taxes" figure adds Income Tax and National Insurance, fuel duty and VAT on petrol, VAT on gas and electricity and Council Tax (Band D) where data exist. Other taxes (VAT on other spending, alcohol and tobacco duties, Stamp Duty, Corporation Tax) are not counted.</div>');
     $('qBig').innerHTML = big.join('');
     // ---- bars: same person then and now, all in B money
     $('qBarsYear').textContent = B;
-    const bars = [['Gross pay', real(a.gross), b.gross], ['Income Tax + NI', real(a.taxTotal), b.taxTotal], ['Take-home pay', real(a.net), b.net], ['Everyday costs', real(evA), evB], ['Mortgage (average home)', real(a.mortgage), b.mortgage]];
+    const bars = [['Gross pay', real(a.gross), b.gross], ['Income Tax + NI', real(a.taxTotal), b.taxTotal], ['All measured taxes', real(allA), allB], ['Take-home pay', real(a.net), b.net], ['Everyday costs', real(evA), evB], ['Mortgage (average home)', real(a.mortgage), b.mortgage]];
     const mx = Math.max.apply(null, bars.flatMap(r => [r[1], r[2]]).filter(x => x != null));
     $('qBars').className = 'bars';
     $('qBars').innerHTML = bars.map(([n, x, y]) => { const w = v => v == null ? 0 : Math.max(1, v / mx * 100); return `<div class="brow"><div class="blabel">${n}</div><div class="bl"><span class="y">${A}</span><div class="bar a" style="width:${w(x)}%"></div><span class="bv">${x == null ? 'no data' : gbp(x)}</span></div><div class="bl"><span class="y">${B}</span><div class="bar b" style="width:${w(y)}%"></div><span class="bv">${y == null ? 'no data' : gbp(y)}</span></div></div>`; }).join('');
@@ -269,15 +276,18 @@
       card('Everyday costs', evA == null ? 'n/a' : gbp(evA), evB == null ? 'n/a' : gbp(evB), dtxt(evRealCh, 'in real terms'), cls(evRealCh, true), 'food + gas/electricity + petrol, per year'),
       card('Mortgage (average home)', a.mortgage == null ? 'n/a' : gbp(a.mortgage), b.mortgage == null ? 'n/a' : gbp(b.mortgage), dtxt(mortRealCh, 'in real terms'), cls(mortRealCh, true), 'per year; home price ' + gbp(a.price.v) + ' → ' + gbp(b.price.v)),
     ];
+    cardsH.splice(1, 0, card('Fuel duty + VAT you pay', otherA == null ? 'n/a' : gbp(otherA), otherB == null ? 'n/a' : gbp(otherB), dtxt(otherRealCh, 'in real terms'), cls(otherRealCh, true), 'duty and VAT in petrol, plus VAT on gas and electricity'));
     if (nation == null) cardsH.push(`<div class="kpi"><h3>Council Tax</h3><div class="small">Northern Ireland has no Council Tax: homes pay domestic rates on their capital value, and no comparable official average is integrated here.</div></div>`);
-    else cardsH.push(card('Council Tax (Band D)', ctA && ctA.v != null ? gbp(ctA.v) : 'no data', ctB && ctB.v != null ? gbp(ctB.v) : 'no data', ctRealCh == null ? (ctA && ctA.v == null ? 'No Council Tax data for ' + A + ' (England starts 2002)' : 'n/a') : dtxt(ctRealCh, 'in real terms'), cls(ctRealCh, true), 'average Band D, not included in the totals above'));
+    else cardsH.push(card('Council Tax (Band D)', ctA && ctA.v != null ? gbp(ctA.v) : 'no data', ctB && ctB.v != null ? gbp(ctB.v) : 'no data', ctRealCh == null ? (ctA && ctA.v == null ? 'No Council Tax data for ' + A + ' (England starts 2002)' : 'n/a') : dtxt(ctRealCh, 'in real terms'), cls(ctRealCh, true), (ctOk ? 'average Band D, counted in the all-taxes total' : 'average Band D, not in the all-taxes total')));
     cards.innerHTML = cardsH.join('');
 
     const info = [];
-    [[a, A], [b, B]].forEach(([h, y]) => [h.earnings, h.price, h.rate, h.fuel, h.energy].forEach(r => { if (r && (r.status === 'partial' || r.status === 'carried' || r.status === 'estimate')) { const m = `${y}: ${r.note}`; if (info.indexOf(m) < 0) info.push(plainNote(m)); } }));
+    [[a, A], [b, B]].forEach(([h, y]) => [h.earnings, h.price, h.rate, h.fuel, h.energy].forEach(r => { if (r && (r.status === 'partial' || r.status === 'carried' || r.status === 'estimate')) { const m = `${y}: ${r.note}`; { const pm = plainNote(m); if (info.indexOf(pm) < 0) info.push(pm); } } }));
     if (A < 2000) info.push('Before April 2000 many borrowers got mortgage interest tax relief (MIRAS), which is not modelled, so the earlier mortgage cost is overstated.');
     if (A < 2000) info.push('Earnings before 2000 use a Bank of England composite series with a slightly different definition from later ONS figures.');
     if (bk.used < bk.available) info.push(`Food: ${bk.used} of ${bk.available} items are priced in both years and used for both.`);
+    info.push('Not counted: VAT on most other spending, alcohol, tobacco and other duties, Stamp Duty, and Corporation Tax. Food is mostly zero-rated. VAT history is hand-curated and the 1994 start of VAT on domestic fuel assumes 1 April.');
+    if (!ctOk && nation != null) info.push('Council Tax is left out of the total because it has no data for one of the years.');
     info.push('Single-earner tax rules for England, Wales and Northern Ireland; Scottish Income Tax rates are not modelled. No pensions, student loans or benefits. Rent, water, broadband, insurance and car purchase are not included (see Data & gaps).');
     notes.innerHTML = '<div class="notice info"><b>Good to know</b><ul style="margin:6px 0 0 18px;padding:0">' + info.map(t => `<li>${esc(t)}</li>`).join('') + '</ul></div>';
   }

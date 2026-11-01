@@ -176,6 +176,22 @@
     return { v: litres * p.v, status: p.status, note: p.note || `${litres.toFixed(0)} litres at £${p.v.toFixed(2)}/litre` };
   }
 
+  // ---------- tax content of everyday spending ----------
+  /* Tax in a year's petrol spend: duty per litre + VAT included in the pump price (P*v/(1+v)). */
+  function fuelTax(ds, year, miles, mpg, opts) {
+    const p = seriesValue(ds, 'price_petrol', year, opts), d = seriesValue(ds, 'fuel_duty_petrol', year, { carry: false }), v = seriesValue(ds, 'vat_standard_rate', year, { carry: false });
+    if (p.v == null || d.v == null || v.v == null) return { v: null, status: 'missing', note: 'no fuel tax data' };
+    const litres = miles / mpg * 4.54609, vr = v.v / 100;
+    const duty = litres * d.v / 100, vat = litres * p.v * vr / (1 + vr);
+    return { v: duty + vat, duty, vat, status: p.status, note: p.note };
+  }
+  /* VAT contained in a gas+electricity bill at the domestic-fuel rate. */
+  function energyVat(ds, year, bill) {
+    const r = seriesValue(ds, 'vat_domestic_fuel_rate', year, { carry: false });
+    if (bill == null || r.v == null) return null;
+    return bill * (r.v / 100) / (1 + r.v / 100);
+  }
+
   // ---------- household scenario ----------
   /* inputs: {year, level (multiple of avg earnings), earners (1|2), region slug, depositPct, termYears,
               mortgageType, hoursPerWeek, miles, mpg, carry, persons} */
@@ -229,5 +245,5 @@
 
   return { WEEKS, BASKET, seriesValue, weeklyEarnings, cpi, realise, rulesFor, incomeTax, employeeNI, takeHome,
     mortgageRate, monthlyPayment, basketCompare, energyBill, energyBillEstimate, energyAny, petrolAnnual,
-    household, hoursToBuy, effectiveRateSeries };
+    household, hoursToBuy, effectiveRateSeries, fuelTax, energyVat };
 });

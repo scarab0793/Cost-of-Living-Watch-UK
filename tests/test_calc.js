@@ -123,4 +123,22 @@ t('tax rules cover 1990-2026 with sources', () => {
   assert.ok(r.sources.a2.url.startsWith('https://assets.publishing.service.gov.uk/'));
 });
 
+t('fuel tax: duty plus VAT inside pump price (synthetic data)', () => {
+  const mk = (v) => ({ values: v, partial: {} });
+  const ds = { series: { price_petrol: mk({ 2020: 1.0 }), fuel_duty_petrol: mk({ 2020: 50 }), vat_standard_rate: mk({ 2020: 20 }) } };
+  const miles = 100, mpg = 10, litres = miles / mpg * 4.54609;
+  const r = C.fuelTax(ds, 2020, miles, mpg, {});
+  near(r.v / litres, 0.5 + 1 / 6, 1e-9, 'tax per litre');
+});
+t('energy VAT is the VAT fraction of the bill', () => {
+  const ds = { series: { vat_domestic_fuel_rate: { values: { 2020: 5 }, partial: {} } } };
+  near(C.energyVat(ds, 2020, 105), 5, 1e-9);
+  assert.strictEqual(C.energyVat(ds, 1990, 105), null);
+});
+t('real data: fuel duty and VAT series are present and sane', () => {
+  near(ds.series.fuel_duty_petrol.values['2023'], 52.95, 0.01, 'duty 2023');
+  assert.strictEqual(ds.series.vat_standard_rate.values['2025'], 20);
+  assert.strictEqual(ds.series.vat_standard_rate.values['1990'], 15);
+});
+
 console.log(`\n${n} tests passed${process.exitCode ? ' (with failures)' : ''}`);
