@@ -12,11 +12,7 @@
   <div class="wrap">
     <h1>UK Cost of Living Watch</h1>
     <p class="sub">How have wages, tax, housing, food, energy and fuel changed for ordinary British households since 1990? Pick two years and compare, using official data only. Nothing is invented: gaps are shown as gaps.</p>
-    <nav class="top" aria-label="Sections">
-      <a href="#quick">Quick answer</a><a href="#compare">Detailed comparison</a><a href="#trends">Trend explorer</a><a href="#tax">Tax</a><a href="#housing">Housing</a>
-      <a href="#food">Food</a><a href="#energy">Energy</a><a href="#transport">Transport</a><a href="#government">Government</a>
-      <a href="#corporate">Corporate</a><a href="#data">Data &amp; gaps</a>
-    </nav>
+    <nav class="top" aria-label="Sections"><a href="#quick">Your answer</a><a href="#compare">Full breakdown</a><a href="#trends">Charts &amp; data</a><a href="#government">Government &amp; companies</a><a href="#data">Sources &amp; gaps</a></nav>
   </div>
 </header>
 
@@ -37,7 +33,9 @@
       </div>
       <p class="small" style="margin:8px 0 0">The salary is for the later year. For the earlier year we use the same multiple of average earnings (e.g. 1.2× average), so you compare like with like rather than the same cash sum. <button type="button" id="qCopy" style="min-height:30px;padding:3px 10px;font-size:.8rem">Copy link to this result</button> <span id="qCopied" class="small"></span></p>
     </div>
-    <div id="qHeadline" class="panel" style="margin-top:14px"></div>
+    <div id="qBig" class="panel big" style="margin-top:14px" aria-live="polite"></div>
+    <div class="panel" style="margin-top:14px"><h3>Same person, then and now (all in <span id="qBarsYear"></span> money)</h3><div id="qBars"></div></div>
+    <details class="adv" style="margin-top:12px"><summary>Read the full explanation in words</summary><div id="qHeadline" class="panel" style="margin-top:8px"></div></details>
     <div id="qCards" class="grid" style="margin-top:14px"></div>
     <div id="qNotes"></div>
     <details class="adv"><summary>What do these terms mean?</summary>
@@ -51,7 +49,8 @@
   </section>
 
   <section id="compare">
-    <h2>Detailed comparison: a household in two years</h2>
+    <details id="compareDetails"><summary class="bigsum">Full breakdown: take-home pay, bills and hours of work, year by year</summary>
+    <h2 style="margin-top:12px">Detailed comparison: a household in two years</h2>
     <p class="lead">A full-time employee (or two) earning a chosen multiple of average earnings, who buys the average home in the chosen region, does a weekly shop, heats the home and runs a petrol car. Tax and National Insurance are calculated from the real HMRC rules for each tax year.</p>
     <div class="panel">
       <div class="controls">
@@ -86,6 +85,7 @@
     <h3 style="margin-top:22px">How many hours of work does it take to buy…?</h3>
     <p class="small">Hours of take-home pay at the chosen pay level. Prices are ONS RPI average prices, DESNZ bills and Land Registry/BoE-based mortgage costs.</p>
     <div class="tablewrap"><table id="hours"></table></div>
+    </details>
   </section>
 
   <section id="trends">

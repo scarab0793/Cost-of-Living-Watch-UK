@@ -77,6 +77,7 @@
     yearOpts($('yearA'), 1990, last, 1990); yearOpts($('yearB'), 1990, last, last);
     REGIONS.forEach(([k, n]) => $('region').add(new Option(n, k)));
     ['yearA', 'yearB', 'earners', 'level', 'region', 'view', 'deposit', 'term', 'mtype', 'hours', 'miles', 'mpg', 'carry'].forEach(id => $(id).addEventListener('input', renderCompare));
+    document.querySelectorAll('a[href="#compare"]').forEach(l => l.addEventListener('click', () => { $('compareDetails').open = true; }));
     $('genStamp').textContent = ' Data build: ' + DS.generated + '.';
     renderCompare();
     initQuick();
@@ -204,6 +205,11 @@
   function quickParams() {
     return new URLSearchParams({ s: $('qSalary').value, a: $('qFrom').value, b: $('qTo').value, e: $('qEarners').value, r: $('qRegion').value }).toString();
   }
+  function plainNote(m) {
+    return m.replace(/(\d{4}): mean of (\d+) months to \d{4}-\d\d/, '$1: only the first $2 months of the year are published so far; their average is used')
+      .replace(/(\d{4}): latest observation is (\d{4})/, '$1: this source has nothing newer than $2 yet, so the $2 figure is used')
+      .replace(/(\d{4}): ESTIMATE: 2010 DESNZ bill scaled by.*/, '$1: official energy bills only start in 2010; earlier energy costs are an estimate scaled from the official fuel price index');
+  }
   function renderQuick() {
     const S = +$('qSalary').value, A = +$('qFrom').value, B = +$('qTo').value, people = +$('qEarners').value, region = $('qRegion').value;
     const out = $('qHeadline'), cards = $('qCards'), notes = $('qNotes'); notes.innerHTML = '';
@@ -234,6 +240,25 @@
     if (evA != null && evB != null) L.push(`<b>Everyday costs</b> (food, gas and electricity, petrol): ${gbp(evA)} → ${gbp(evB)} a year. In real terms that is <b>${word(evRealCh, 'more', 'less')}</b>, and ${pct(evA / a.net * 100, 0)} → ${pct(evB / b.net * 100, 0)} of take-home pay. Consumer prices overall are ${num(cpiRatio, 2)}× higher than in ${A}.`);
     else L.push(`<b>Everyday costs:</b> not shown as a total because at least one of food, energy or petrol has no data for ${A} or ${B}.`);
     if (a.mortgage != null && b.mortgage != null) L.push(`<b>Housing</b> (mortgage on the average home in this region): ${gbp(a.mortgage / 12)} → ${gbp(b.mortgage / 12)} a month, ${word(mortRealCh, 'more', 'less')} in real terms, and ${pct(a.mortgage / a.net * 100, 0)} → ${pct(b.mortgage / b.net * 100, 0)} of take-home pay.`);
+    // ---- the two-line answer
+    const dirw = (c, up, down) => c == null ? '' : (Math.abs(c) < 0.5 ? 'about the same' : (c > 0 ? up : down));
+    const cb = (c, goodDown, txt) => `<b class="${c == null ? '' : ((c > 0) === !goodDown ? 'down' : 'up')}">${txt}</b>`;
+    const big = [];
+    big.push(`<div class="line">${taxRealCh == null ? 'Tax comparison not available.' : `Compared with someone in the same position in <b>${A}</b>, you pay ${cb(taxRealCh, true, word(taxRealCh, 'more', 'less'))} Income Tax and National Insurance in real terms (${pct(a.effectiveRate * 100, 0)} → ${pct(b.effectiveRate * 100, 0)} of pay).`}</div>`);
+    if (evRealCh != null) big.push(`<div class="line">Everyday costs (food, energy, petrol) are ${cb(evRealCh, true, word(evRealCh, 'higher', 'lower'))}, while take-home pay is ${cb(netRealCh, false, word(netRealCh, 'higher', 'lower'))}${netRealCh != null && evRealCh != null ? (netRealCh > evRealCh ? ': pay has grown faster than these costs' : netRealCh < evRealCh ? ': these costs have grown faster than pay' : '') : ''}.</div>`);
+    else big.push('<div class="line">Everyday costs cannot be totalled because food, energy or petrol data is missing for one of the years.</div>');
+    if (a.mortgage != null && b.mortgage != null) {
+      const shareB = b.mortgage / b.net * 100;
+      big.push(`<div class="line">Housing: a mortgage on the average home takes ${pct(a.mortgage / a.net * 100, 0)} → ${pct(shareB, 0)} of take-home pay.${shareB > 60 ? ' Repayments this high are more than lenders usually allow on one income: this shows how costly the average home is, not what a typical buyer pays.' : ''}</div>`);
+    }
+    big.push('<div class="sub2">In real terms = adjusted for inflation to ' + B + ' prices. Tax here is Income Tax and National Insurance only; VAT, fuel duty and Council Tax are not included.</div>');
+    $('qBig').innerHTML = big.join('');
+    // ---- bars: same person then and now, all in B money
+    $('qBarsYear').textContent = B;
+    const bars = [['Gross pay', real(a.gross), b.gross], ['Income Tax + NI', real(a.taxTotal), b.taxTotal], ['Take-home pay', real(a.net), b.net], ['Everyday costs', real(evA), evB], ['Mortgage (average home)', real(a.mortgage), b.mortgage]];
+    const mx = Math.max.apply(null, bars.flatMap(r => [r[1], r[2]]).filter(x => x != null));
+    $('qBars').className = 'bars';
+    $('qBars').innerHTML = bars.map(([n, x, y]) => { const w = v => v == null ? 0 : Math.max(1, v / mx * 100); return `<div class="brow"><div class="blabel">${n}</div><div class="bl"><span class="y">${A}</span><div class="bar a" style="width:${w(x)}%"></div><span class="bv">${x == null ? 'no data' : gbp(x)}</span></div><div class="bl"><span class="y">${B}</span><div class="bar b" style="width:${w(y)}%"></div><span class="bv">${y == null ? 'no data' : gbp(y)}</span></div></div>`; }).join('');
     out.innerHTML = '<ul style="margin:0;padding-left:18px;line-height:1.7">' + L.map(t => `<li style="margin:6px 0">${t}</li>`).join('') + '</ul>';
 
     const card = (title, va, vb, delta, cl, foot) => `<div class="kpi"><h3>${title}</h3><div class="pair"><div><div class="yr">${A}</div><div class="val">${va}</div></div><div style="text-align:right"><div class="yr">${B}</div><div class="val">${vb}</div></div></div><div class="delta ${cl || ''}">${delta}</div>${foot ? `<div class="small">${foot}</div>` : ''}</div>`;
@@ -249,7 +274,7 @@
     cards.innerHTML = cardsH.join('');
 
     const info = [];
-    [[a, A], [b, B]].forEach(([h, y]) => [h.earnings, h.price, h.rate, h.fuel, h.energy].forEach(r => { if (r && (r.status === 'partial' || r.status === 'carried' || r.status === 'estimate')) { const m = `${y}: ${r.note}`; if (info.indexOf(m) < 0) info.push(m); } }));
+    [[a, A], [b, B]].forEach(([h, y]) => [h.earnings, h.price, h.rate, h.fuel, h.energy].forEach(r => { if (r && (r.status === 'partial' || r.status === 'carried' || r.status === 'estimate')) { const m = `${y}: ${r.note}`; if (info.indexOf(m) < 0) info.push(plainNote(m)); } }));
     if (A < 2000) info.push('Before April 2000 many borrowers got mortgage interest tax relief (MIRAS), which is not modelled, so the earlier mortgage cost is overstated.');
     if (A < 2000) info.push('Earnings before 2000 use a Bank of England composite series with a slightly different definition from later ONS figures.');
     if (bk.used < bk.available) info.push(`Food: ${bk.used} of ${bk.available} items are priced in both years and used for both.`);

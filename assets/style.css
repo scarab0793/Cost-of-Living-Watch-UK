@@ -72,3 +72,11 @@ footer{border-top:1px solid var(--line);padding:20px 0 40px;color:var(--muted);f
 .news li{margin:6px 0}
 code{background:var(--chip);padding:1px 5px;border-radius:4px;font-size:.85em}
 @media(max-width:560px){.kpi .val{font-size:1.25rem}th,td{padding:7px 8px;font-size:.86rem}}
+
+.big{font-size:1.2rem;line-height:1.5;border-left:6px solid var(--accent)}
+.big .line{margin:6px 0}.big b.up{color:var(--bad)}.big b.down{color:var(--good)}.big .sub2{font-size:.88rem;color:var(--muted);margin-top:8px}
+.bars .brow{margin:10px 0}.bars .blabel{font-size:.85rem;color:var(--muted);margin-bottom:3px}
+.bars .bl{display:flex;align-items:center;gap:8px;margin:2px 0;font-size:.85rem}.bars .bl span.y{width:38px;color:var(--muted)}
+.bars .bar{height:16px;border-radius:4px;min-width:2px}.bars .a{background:var(--c4)}.bars .b{background:var(--c1)}
+.bars .bv{font-weight:600;white-space:nowrap}
+summary.bigsum{cursor:pointer;font-size:1.1rem;font-weight:600;padding:10px 14px;background:var(--panel);border:1px solid var(--line);border-radius:12px}
