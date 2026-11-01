@@ -1,0 +1,63 @@
+{
+ "id": "mortgage_svr",
+ "label": "Standard variable mortgage rate, households (%)",
+ "group": "housing",
+ "publisher": "Bank of England",
+ "source_url": "",
+ "api_url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?csv.x=yes&Datefrom=01/Jan/1990&Dateto=now&SeriesCodes=IUMTLMV&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N",
+ "source_title": "IUMTLMV",
+ "source_id": "IUMTLMV",
+ "unit": "%",
+ "geography": "United Kingdom",
+ "adjustment": "Original (not seasonally adjusted unless stated in title)",
+ "methodology": "Average of month-end quoted rates (all lenders, sterling).",
+ "limitations": "Starts 1995 in this series; 1990-1994 not covered here.",
+ "coverage": [
+  "1995",
+  "2025"
+ ],
+ "source_release": "",
+ "next_release": "",
+ "warnings": [],
+ "values": {
+  "1995": 8.246667,
+  "1996": 7.185,
+  "1997": 7.775833,
+  "1998": 8.62,
+  "1999": 6.921667,
+  "2000": 7.5525,
+  "2001": 6.810833,
+  "2002": 5.655,
+  "2003": 5.4675,
+  "2004": 6.145,
+  "2005": 6.5275,
+  "2006": 6.513333,
+  "2007": 7.443333,
+  "2008": 6.898333,
+  "2009": 4.048333,
+  "2010": 3.961667,
+  "2011": 4.079167,
+  "2012": 4.224167,
+  "2013": 4.371667,
+  "2014": 4.45,
+  "2015": 4.5125,
+  "2016": 4.439167,
+  "2017": 4.376667,
+  "2018": 4.255833,
+  "2019": 4.305833,
+  "2020": 3.785833,
+  "2021": 3.61,
+  "2022": 4.708333,
+  "2023": 7.53,
+  "2024": 7.848333,
+  "2025": 7.033333
+ },
+ "partial": {
+  "2026": {
+   "mean": 6.587778,
+   "months": 9,
+   "last": "2026-09"
+  }
+ },
+ "last_updated": "2026-11-01"
+}

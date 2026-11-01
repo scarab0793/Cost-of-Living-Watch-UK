@@ -1,0 +1,63 @@
+{
+ "id": "house_price_north-west",
+ "label": "Average house price, North West (£)",
+ "group": "housing",
+ "publisher": "HM Land Registry / ONS / Registers of Scotland / LPS NI (UK House Price Index)",
+ "source_url": "",
+ "api_url": "https://landregistry.data.gov.uk/data/ukhpi/region/north-west.csv?_pageSize=200&_page=2&_sort=refMonth&min-refMonth=1990-01&_view=all",
+ "source_title": "UK HPI average price, North West",
+ "source_id": "north-west",
+ "unit": "GBP",
+ "geography": "North West",
+ "adjustment": "Original, not seasonally adjusted",
+ "methodology": "Mean of monthly UK HPI average prices (mix-adjusted, based on registered sales). Full year = all 12 months.",
+ "limitations": "Latest year is partial until December is published. Averages include all property types.",
+ "coverage": [
+  "1995",
+  "2025"
+ ],
+ "source_release": "",
+ "next_release": "",
+ "warnings": [],
+ "values": {
+  "1995": 40878.75,
+  "1996": 40879.083333,
+  "1997": 42690.75,
+  "1998": 44360.916667,
+  "1999": 46664.5,
+  "2000": 50112.25,
+  "2001": 54947.333333,
+  "2002": 63958.333333,
+  "2003": 79438.166667,
+  "2004": 102698.833333,
+  "2005": 117584.75,
+  "2006": 128087.75,
+  "2007": 138197.333333,
+  "2008": 132234.833333,
+  "2009": 121089.583333,
+  "2010": 123953.166667,
+  "2011": 120239.666667,
+  "2012": 119378.0,
+  "2013": 119967.666667,
+  "2014": 125527.75,
+  "2015": 130207.0,
+  "2016": 137136.0,
+  "2017": 144015.333333,
+  "2018": 149200.416667,
+  "2019": 153006.583333,
+  "2020": 158970.666667,
+  "2021": 177965.25,
+  "2022": 195741.25,
+  "2023": 198163.333333,
+  "2024": 203146.666667,
+  "2025": 211778.916667
+ },
+ "partial": {
+  "2026": {
+   "mean": 217894.875,
+   "months": 8,
+   "last": "2026-08"
+  }
+ },
+ "last_updated": "2026-11-01"
+}

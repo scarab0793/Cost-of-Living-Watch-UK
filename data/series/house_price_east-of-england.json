@@ -1,0 +1,70 @@
+{
+ "id": "house_price_east-of-england",
+ "label": "Average house price, East of England (£)",
+ "group": "housing",
+ "publisher": "HM Land Registry / ONS / Registers of Scotland / LPS NI (UK House Price Index)",
+ "source_url": "",
+ "api_url": "https://landregistry.data.gov.uk/data/ukhpi/region/east-of-england.csv?_pageSize=200&_page=2&_sort=refMonth&min-refMonth=1990-01&_view=all",
+ "source_title": "UK HPI average price, East of England",
+ "source_id": "east-of-england",
+ "unit": "GBP",
+ "geography": "East of England",
+ "adjustment": "Original, not seasonally adjusted",
+ "methodology": "Mean of monthly UK HPI average prices (mix-adjusted, based on registered sales). Full year = all 12 months.",
+ "limitations": "Latest year is partial until December is published. Averages include all property types.",
+ "coverage": [
+  "1993",
+  "2025"
+ ],
+ "source_release": "",
+ "next_release": "",
+ "warnings": [],
+ "values": {
+  "1993": 55118.0,
+  "1994": 55960.0,
+  "1995": 55707.5,
+  "1996": 56200.75,
+  "1997": 62261.5,
+  "1998": 68987.75,
+  "1999": 75951.75,
+  "2000": 90382.583333,
+  "2001": 102976.166667,
+  "2002": 125800.416667,
+  "2003": 149634.083333,
+  "2004": 167542.0,
+  "2005": 175264.75,
+  "2006": 184915.333333,
+  "2007": 201608.0,
+  "2008": 193335.5,
+  "2009": 175498.666667,
+  "2010": 189337.916667,
+  "2011": 188125.75,
+  "2012": 191567.666667,
+  "2013": 197269.75,
+  "2014": 216116.833333,
+  "2015": 237207.166667,
+  "2016": 263718.583333,
+  "2017": 280397.333333,
+  "2018": 287488.916667,
+  "2019": 286451.333333,
+  "2020": 291010.166667,
+  "2021": 307257.083333,
+  "2022": 335998.0,
+  "2023": 333809.416667,
+  "2024": 329196.25,
+  "2025": 333943.5
+ },
+ "partial": {
+  "1992": {
+   "mean": 56439.0,
+   "months": 9,
+   "last": "1992-12"
+  },
+  "2026": {
+   "mean": 336879.5,
+   "months": 8,
+   "last": "2026-08"
+  }
+ },
+ "last_updated": "2026-11-01"
+}

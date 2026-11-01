@@ -1,0 +1,61 @@
+{
+ "id": "rcpt_paye_income_tax",
+ "label": "PAYE income tax receipts (£m)",
+ "group": "government",
+ "publisher": "Office for National Statistics",
+ "source_url": "https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/timeseries/ms6w/pusf",
+ "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/governmentpublicsectorandtaxes/publicsectorfinance/timeseries/ms6w/pusf",
+ "source_title": "CG: Current receipts: Taxes on income: PAYE income tax: £m CPNSA",
+ "source_id": "MS6W",
+ "unit": "GBP million",
+ "geography": "United Kingdom",
+ "adjustment": "Current prices, not inflation-adjusted",
+ "methodology": "ONS public sector finances / national accounts, annual figure as published.",
+ "limitations": "Component series; do not add together (categories overlap: e.g. NICs sit inside social contributions).",
+ "coverage": [
+  "1997",
+  "2025"
+ ],
+ "source_release": "21-10-2026",
+ "next_release": "20 November 2026",
+ "warnings": [],
+ "values": {
+  "1997": 65953.0,
+  "1998": 71310.0,
+  "1999": 77694.0,
+  "2000": 87018.0,
+  "2001": 91960.0,
+  "2002": 94109.0,
+  "2003": 98106.0,
+  "2004": 105513.0,
+  "2005": 112742.0,
+  "2006": 120011.0,
+  "2007": 130228.0,
+  "2008": 130934.0,
+  "2009": 122482.0,
+  "2010": 130019.0,
+  "2011": 134827.0,
+  "2012": 133614.0,
+  "2013": 134062.0,
+  "2014": 138308.0,
+  "2015": 144703.0,
+  "2016": 148761.0,
+  "2017": 153457.0,
+  "2018": 160354.0,
+  "2019": 163535.0,
+  "2020": 166031.0,
+  "2021": 183988.0,
+  "2022": 208140.0,
+  "2023": 233623.0,
+  "2024": 254881.0,
+  "2025": 275206.0
+ },
+ "partial": {
+  "2026": {
+   "mean": 24867.555556,
+   "months": 9,
+   "last": "2026-09"
+  }
+ },
+ "last_updated": "2026-11-01"
+}

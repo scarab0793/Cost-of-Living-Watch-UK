@@ -1,0 +1,61 @@
+{
+ "id": "rcpt_fuel_duty",
+ "label": "Fuel duty receipts (£m)",
+ "group": "government",
+ "publisher": "Office for National Statistics",
+ "source_url": "https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/timeseries/cudg/pusf",
+ "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/governmentpublicsectorandtaxes/publicsectorfinance/timeseries/cudg/pusf",
+ "source_title": "CG: Current receipts: Taxes on production: Fuel duty: £m CPNSA",
+ "source_id": "CUDG",
+ "unit": "GBP million",
+ "geography": "United Kingdom",
+ "adjustment": "Current prices, not inflation-adjusted",
+ "methodology": "ONS public sector finances / national accounts, annual figure as published.",
+ "limitations": "Component series; do not add together (categories overlap: e.g. NICs sit inside social contributions).",
+ "coverage": [
+  "1997",
+  "2025"
+ ],
+ "source_release": "21-10-2026",
+ "next_release": "20 November 2026",
+ "warnings": [],
+ "values": {
+  "1997": 18361.0,
+  "1998": 20996.0,
+  "1999": 22394.0,
+  "2000": 23043.0,
+  "2001": 22046.0,
+  "2002": 22070.0,
+  "2003": 22476.0,
+  "2004": 23412.0,
+  "2005": 23346.0,
+  "2006": 23448.0,
+  "2007": 24512.0,
+  "2008": 24790.0,
+  "2009": 25894.0,
+  "2010": 27013.0,
+  "2011": 26923.0,
+  "2012": 26703.0,
+  "2013": 26698.0,
+  "2014": 27095.0,
+  "2015": 27416.0,
+  "2016": 27989.0,
+  "2017": 27973.0,
+  "2018": 28035.0,
+  "2019": 27778.0,
+  "2020": 22818.0,
+  "2021": 24905.0,
+  "2022": 24859.0,
+  "2023": 24980.0,
+  "2024": 24369.0,
+  "2025": 24721.0
+ },
+ "partial": {
+  "2026": {
+   "mean": 2038.111111,
+   "months": 9,
+   "last": "2026-09"
+  }
+ },
+ "last_updated": "2026-11-01"
+}

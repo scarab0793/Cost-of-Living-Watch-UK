@@ -1,0 +1,58 @@
+{
+ "id": "awe_total_pay",
+ "label": "Average weekly earnings, whole economy, total pay (£/week)",
+ "group": "earnings",
+ "publisher": "Office for National Statistics",
+ "source_url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/timeseries/kab9/emp",
+ "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/timeseries/kab9/emp",
+ "source_title": "AWE: Whole Economy Level (£): Seasonally Adjusted Total Pay Excluding Arrears",
+ "source_id": "KAB9",
+ "unit": "GBP/week",
+ "geography": "United Kingdom",
+ "adjustment": "Seasonally adjusted",
+ "methodology": "Monthly Average Weekly Earnings survey, annual average of published annual figure.",
+ "limitations": "Starts 2000. Excludes arrears. Earnings of employees, not household income.",
+ "coverage": [
+  "2000",
+  "2025"
+ ],
+ "source_release": "20-10-2026",
+ "next_release": "17 November 2026",
+ "warnings": [],
+ "values": {
+  "2000": 313.0,
+  "2001": 329.0,
+  "2002": 339.0,
+  "2003": 350.0,
+  "2004": 365.0,
+  "2005": 382.0,
+  "2006": 400.0,
+  "2007": 420.0,
+  "2008": 434.0,
+  "2009": 434.0,
+  "2010": 444.0,
+  "2011": 455.0,
+  "2012": 461.0,
+  "2013": 466.0,
+  "2014": 471.0,
+  "2015": 482.0,
+  "2016": 494.0,
+  "2017": 505.0,
+  "2018": 520.0,
+  "2019": 538.0,
+  "2020": 547.0,
+  "2021": 580.0,
+  "2022": 616.0,
+  "2023": 659.0,
+  "2024": 694.0,
+  "2025": 728.0
+ },
+ "partial": {
+  "2026": {
+   "mean": 752.375,
+   "months": 8,
+   "last": "2026-08"
+  }
+ },
+ "last_updated": "2026-11-01"
+}

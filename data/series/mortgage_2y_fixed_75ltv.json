@@ -1,0 +1,63 @@
+{
+ "id": "mortgage_2y_fixed_75ltv",
+ "label": "2-year fixed mortgage rate, 75% LTV (%)",
+ "group": "housing",
+ "publisher": "Bank of England",
+ "source_url": "",
+ "api_url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?csv.x=yes&Datefrom=01/Jan/1990&Dateto=now&SeriesCodes=IUMBV34&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N",
+ "source_title": "IUMBV34",
+ "source_id": "IUMBV34",
+ "unit": "%",
+ "geography": "United Kingdom",
+ "adjustment": "Original (not seasonally adjusted unless stated in title)",
+ "methodology": "Quoted rate, mean of month-end values.",
+ "limitations": "Starts 1995.",
+ "coverage": [
+  "1995",
+  "2025"
+ ],
+ "source_release": "",
+ "next_release": "",
+ "warnings": [],
+ "values": {
+  "1995": 8.073333,
+  "1996": 6.911667,
+  "1997": 7.1625,
+  "1998": 7.008333,
+  "1999": 6.055833,
+  "2000": 6.3625,
+  "2001": 5.494167,
+  "2002": 4.958333,
+  "2003": 4.366667,
+  "2004": 5.191667,
+  "2005": 4.815833,
+  "2006": 4.9475,
+  "2007": 5.843333,
+  "2008": 5.876667,
+  "2009": 4.243333,
+  "2010": 3.755,
+  "2011": 3.339167,
+  "2012": 3.538333,
+  "2013": 2.681667,
+  "2014": 2.401667,
+  "2015": 1.921667,
+  "2016": 1.723333,
+  "2017": 1.460833,
+  "2018": 1.6875,
+  "2019": 1.593333,
+  "2020": 1.578333,
+  "2021": 1.448333,
+  "2022": 3.505,
+  "2023": 5.308333,
+  "2024": 4.805,
+  "2025": 4.285833
+ },
+ "partial": {
+  "2026": {
+   "mean": 4.671111,
+   "months": 9,
+   "last": "2026-09"
+  }
+ },
+ "last_updated": "2026-11-01"
+}

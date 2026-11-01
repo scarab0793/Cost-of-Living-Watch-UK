@@ -1,0 +1,63 @@
+{
+ "id": "house_price_west-midlands",
+ "label": "Average house price, West Midlands (£)",
+ "group": "housing",
+ "publisher": "HM Land Registry / ONS / Registers of Scotland / LPS NI (UK House Price Index)",
+ "source_url": "",
+ "api_url": "https://landregistry.data.gov.uk/data/ukhpi/region/west-midlands.csv?_pageSize=200&_page=2&_sort=refMonth&min-refMonth=1990-01&_view=all",
+ "source_title": "UK HPI average price, West Midlands",
+ "source_id": "west-midlands",
+ "unit": "GBP",
+ "geography": "West Midlands",
+ "adjustment": "Original, not seasonally adjusted",
+ "methodology": "Mean of monthly UK HPI average prices (mix-adjusted, based on registered sales). Full year = all 12 months.",
+ "limitations": "Latest year is partial until December is published. Averages include all property types.",
+ "coverage": [
+  "1995",
+  "2025"
+ ],
+ "source_release": "",
+ "next_release": "",
+ "warnings": [],
+ "values": {
+  "1995": 44019.583333,
+  "1996": 44296.0,
+  "1997": 46923.25,
+  "1998": 49459.166667,
+  "1999": 52569.583333,
+  "2000": 58173.833333,
+  "2001": 65811.333333,
+  "2002": 78591.583333,
+  "2003": 99441.083333,
+  "2004": 118128.166667,
+  "2005": 127452.083333,
+  "2006": 133967.583333,
+  "2007": 141212.75,
+  "2008": 136088.083333,
+  "2009": 122965.75,
+  "2010": 129118.833333,
+  "2011": 125313.75,
+  "2012": 125502.666667,
+  "2013": 127945.083333,
+  "2014": 134806.5,
+  "2015": 141377.25,
+  "2016": 152229.5,
+  "2017": 162590.25,
+  "2018": 172377.5,
+  "2019": 177283.333333,
+  "2020": 181148.333333,
+  "2021": 199348.0,
+  "2022": 218740.75,
+  "2023": 223234.75,
+  "2024": 224352.666667,
+  "2025": 230900.333333
+ },
+ "partial": {
+  "2026": {
+   "mean": 233779.625,
+   "months": 8,
+   "last": "2026-08"
+  }
+ },
+ "last_updated": "2026-11-01"
+}

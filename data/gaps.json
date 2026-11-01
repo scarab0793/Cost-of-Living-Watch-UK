@@ -1,0 +1,121 @@
+[
+ {
+  "id": "gap-median-earnings",
+  "area": "Income",
+  "title": "Median earnings and earnings distribution",
+  "status": "open",
+  "detail": "Only mean weekly earnings (ONS AWE from 2000; Bank of England composite series 1990-1999) are integrated. ONS ASHE median pay is not yet imported, so 'income level' is expressed as a multiple of average earnings, not a true percentile."
+ },
+ {
+  "id": "gap-earnings-splice",
+  "area": "Income",
+  "title": "Earnings series break at 2000",
+  "status": "documented",
+  "detail": "1990-1999 uses the Bank of England composite average weekly earnings; 2000 onward uses ONS AWE (whole economy, total pay). The two overlap 2000-2016 and differ by a few percent. The dashboard flags years that use the earlier series."
+ },
+ {
+  "id": "gap-hh-disposable",
+  "area": "Income",
+  "title": "Household disposable income",
+  "status": "open",
+  "detail": "ONS household disposable income per head is not yet integrated; take-home pay is computed for a single employee from HMRC tax rules, excluding benefits, tax credits, pension contributions and student loans."
+ },
+ {
+  "id": "gap-rent",
+  "area": "Housing",
+  "title": "Average private rent in \u00a3",
+  "status": "open",
+  "detail": "No \u00a3 rent levels are integrated. ONS rental indices start in 2005 and do not give \u00a3 levels back to 1990. Renting vs buying cannot yet be compared."
+ },
+ {
+  "id": "gap-council-tax",
+  "area": "Housing",
+  "title": "Council Tax",
+  "status": "open",
+  "detail": "Average Band D Council Tax (MHCLG) is not yet imported. ONS local-government Council Tax receipts are shown as an aggregate only."
+ },
+ {
+  "id": "gap-mortgage-rate-bridge",
+  "area": "Housing",
+  "title": "Mortgage rates 1990-1994",
+  "status": "documented",
+  "detail": "1990-1994 uses the building societies' basic mortgage rate (ONS AJNK via the Bank of England historical dataset); 1995 onward uses the Bank of England quoted household rate. The two agree within 0.03pp in the 1995 overlap."
+ },
+ {
+  "id": "gap-deposit",
+  "area": "Housing",
+  "title": "Deposit requirements and first-time-buyer data",
+  "status": "open",
+  "detail": "Typical deposit/loan-to-value by year is not integrated. The calculator uses a user-set deposit percentage (an assumption, not an observation)."
+ },
+ {
+  "id": "gap-food-post-2024",
+  "area": "Food",
+  "title": "RPI average-price series end in 2024 or earlier",
+  "status": "documented",
+  "detail": "ONS RPI average prices stop at 2024 for most items, 2023 for pork, 2021 for eggs (size 4) and 2012 for butter. 2025-26 comparisons use the latest observation only if you switch that option on, and the page labels it."
+ },
+ {
+  "id": "gap-food-items",
+  "area": "Food",
+  "title": "Rice, pasta and several staples",
+  "status": "open",
+  "detail": "No continuous ONS average-price series for rice or pasta was found. They are listed as unavailable, not estimated."
+ },
+ {
+  "id": "gap-energy-pre2010",
+  "area": "Energy",
+  "title": "Energy bills in \u00a3 before 2010",
+  "status": "documented",
+  "detail": "DESNZ publishes \u00a3 bills from 2010 in the tables used here. For earlier years the dashboard can show only the ONS CPI electricity/gas/other-fuels index, clearly marked as an index-scaled estimate, not an observed bill."
+ },
+ {
+  "id": "gap-water-broadband",
+  "area": "Energy",
+  "title": "Water and broadband/telecoms bills",
+  "status": "open",
+  "detail": "Not yet integrated."
+ },
+ {
+  "id": "gap-vehicles",
+  "area": "Transport",
+  "title": "Five vehicle categories (small, family, mid-range, van, luxury)",
+  "status": "open",
+  "detail": "No benchmark vehicle prices, insurance premiums in \u00a3, MOT, servicing, tyres or VED rates are integrated. Only the ONS quality-adjusted new-car and motor-insurance price indices, rail-fare index and petrol/diesel pump prices are available."
+ },
+ {
+  "id": "gap-tax-rates-other",
+  "area": "Tax",
+  "title": "VAT, fuel duty, VED, Corporation Tax, Stamp Duty rate histories",
+  "status": "open",
+  "detail": "Income Tax and employee National Insurance rules are imported from HMRC for every tax year from 1990-91. Rate histories for the other taxes are not yet imported; only their receipts (ONS) are shown where available."
+ },
+ {
+  "id": "gap-receipts",
+  "area": "Government",
+  "title": "Complete receipts breakdown",
+  "status": "open",
+  "detail": "PAYE income tax receipts start in 1993 in the ONS series used; total income tax, corporation tax receipts and total public-sector receipts are not yet integrated. Components overlap and must not be summed."
+ },
+ {
+  "id": "gap-companies",
+  "area": "Corporate",
+  "title": "Corporate financial results",
+  "status": "open",
+  "detail": "No company financial statements are integrated yet. Planned sources: SEC EDGAR XBRL for 20-F filers (BP, Shell, Barclays, HSBC, NatWest, Lloyds) and annual reports for Tesco, Sainsbury's, Morrisons and Centrica. Group results must not be read as UK results."
+ },
+ {
+  "id": "gap-regional-earnings",
+  "area": "Income",
+  "title": "Regional earnings",
+  "status": "open",
+  "detail": "Regional house prices are integrated; regional earnings are not, so regional affordability ratios use national earnings."
+ },
+ {
+  "id": "gap-miras",
+  "area": "Housing",
+  "title": "Mortgage interest tax relief (MIRAS) before April 2000",
+  "status": "open",
+  "detail": "Relief at source on the first \u00a330,000 of mortgage interest was available until April 2000 and is not modelled, so pre-2000 repayment-mortgage costs are overstated relative to what many borrowers actually paid."
+ }
+]

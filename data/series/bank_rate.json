@@ -1,0 +1,70 @@
+{
+ "id": "bank_rate",
+ "label": "Bank Rate (annual mean of daily, %)",
+ "group": "housing",
+ "publisher": "Bank of England",
+ "source_url": "",
+ "api_url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?csv.x=yes&Datefrom=01/Jan/1990&Dateto=now&SeriesCodes=IUDBEDR&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N",
+ "source_title": "IUDBEDR",
+ "source_id": "IUDBEDR",
+ "unit": "%",
+ "geography": "United Kingdom",
+ "adjustment": "Original (not seasonally adjusted unless stated in title)",
+ "methodology": "Official Bank Rate; mean of month averages.",
+ "limitations": "Policy rate, not a consumer rate.",
+ "coverage": [
+  "1990",
+  "2025"
+ ],
+ "source_release": "",
+ "next_release": "",
+ "warnings": [
+  "large jump 2021->2022: 0.105952 -> 1.45738 (kept, flagged)"
+ ],
+ "values": {
+  "1990": 14.643116,
+  "1991": 11.569975,
+  "1992": 9.428059,
+  "1993": 5.888636,
+  "1994": 5.337784,
+  "1995": 6.569189,
+  "1996": 5.884604,
+  "1997": 6.542295,
+  "1998": 7.230069,
+  "1999": 5.344886,
+  "2000": 5.964931,
+  "2001": 5.122376,
+  "2002": 4.0,
+  "2003": 3.693841,
+  "2004": 4.38091,
+  "2005": 4.648674,
+  "2006": 4.638258,
+  "2007": 5.508701,
+  "2008": 4.67531,
+  "2009": 0.644868,
+  "2010": 0.5,
+  "2011": 0.5,
+  "2012": 0.5,
+  "2013": 0.5,
+  "2014": 0.5,
+  "2015": 0.5,
+  "2016": 0.398674,
+  "2017": 0.29072,
+  "2018": 0.60322,
+  "2019": 0.75,
+  "2020": 0.228977,
+  "2021": 0.105952,
+  "2022": 1.45738,
+  "2023": 4.676038,
+  "2024": 5.108135,
+  "2025": 4.253522
+ },
+ "partial": {
+  "2026": {
+   "mean": 3.75,
+   "months": 10,
+   "last": "2026-10"
+  }
+ },
+ "last_updated": "2026-11-01"
+}

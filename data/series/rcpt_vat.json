@@ -1,0 +1,61 @@
+{
+ "id": "rcpt_vat",
+ "label": "VAT receipts (central government, £m)",
+ "group": "government",
+ "publisher": "Office for National Statistics",
+ "source_url": "https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/timeseries/nzgf/pusf",
+ "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/governmentpublicsectorandtaxes/publicsectorfinance/timeseries/nzgf/pusf",
+ "source_title": "CG: Current receipts: Taxes on production: VAT, receivable: £m CPNSA",
+ "source_id": "NZGF",
+ "unit": "GBP million",
+ "geography": "United Kingdom",
+ "adjustment": "Current prices, not inflation-adjusted",
+ "methodology": "ONS public sector finances / national accounts, annual figure as published.",
+ "limitations": "Component series; do not add together (categories overlap: e.g. NICs sit inside social contributions).",
+ "coverage": [
+  "1997",
+  "2025"
+ ],
+ "source_release": "21-10-2026",
+ "next_release": "20 November 2026",
+ "warnings": [],
+ "values": {
+  "1997": 27237.0,
+  "1998": 57069.0,
+  "1999": 62182.0,
+  "2000": 64918.0,
+  "2001": 67908.0,
+  "2002": 72048.0,
+  "2003": 78391.0,
+  "2004": 82666.0,
+  "2005": 84630.0,
+  "2006": 89014.0,
+  "2007": 93348.0,
+  "2008": 93419.0,
+  "2009": 81262.0,
+  "2010": 97565.0,
+  "2011": 113461.0,
+  "2012": 116459.0,
+  "2013": 121650.0,
+  "2014": 127647.0,
+  "2015": 132790.0,
+  "2016": 137215.0,
+  "2017": 143636.0,
+  "2018": 149454.0,
+  "2019": 155148.0,
+  "2020": 139872.0,
+  "2021": 158121.0,
+  "2022": 182084.0,
+  "2023": 194875.0,
+  "2024": 199414.0,
+  "2025": 209889.0
+ },
+ "partial": {
+  "2026": {
+   "mean": 17854.0,
+   "months": 9,
+   "last": "2026-09"
+  }
+ },
+ "last_updated": "2026-11-01"
+}

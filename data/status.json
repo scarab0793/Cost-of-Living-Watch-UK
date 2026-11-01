@@ -1,0 +1,505 @@
+{
+ "checked": "2026-11-01",
+ "series_ok": 55,
+ "series_failed": 0,
+ "failed_ids": [],
+ "series": {
+  "cpi_index": {
+   "ok": true,
+   "obs": 36,
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "warnings": []
+  },
+  "cpih_index": {
+   "ok": true,
+   "obs": 36,
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "warnings": []
+  },
+  "rpi_index": {
+   "ok": true,
+   "obs": 36,
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "warnings": []
+  },
+  "cpi_rate": {
+   "ok": true,
+   "obs": 36,
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "warnings": []
+  },
+  "cpi_electricity_gas": {
+   "ok": true,
+   "obs": 36,
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "warnings": []
+  },
+  "cpi_rail_fares": {
+   "ok": true,
+   "obs": 36,
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "warnings": []
+  },
+  "cpi_new_cars": {
+   "ok": true,
+   "obs": 30,
+   "coverage": [
+    "1996",
+    "2025"
+   ],
+   "warnings": []
+  },
+  "cpi_motor_insurance": {
+   "ok": true,
+   "obs": 11,
+   "coverage": [
+    "2015",
+    "2025"
+   ],
+   "warnings": []
+  },
+  "awe_total_pay": {
+   "ok": true,
+   "obs": 26,
+   "coverage": [
+    "2000",
+    "2025"
+   ],
+   "warnings": []
+  },
+  "awe_regular_pay": {
+   "ok": true,
+   "obs": 26,
+   "coverage": [
+    "2000",
+    "2025"
+   ],
+   "warnings": []
+  },
+  "price_milk": {
+   "ok": true,
+   "obs": 35,
+   "coverage": [
+    "1990",
+    "2024"
+   ],
+   "warnings": []
+  },
+  "price_bread_white_sliced": {
+   "ok": true,
+   "obs": 35,
+   "coverage": [
+    "1990",
+    "2024"
+   ],
+   "warnings": []
+  },
+  "price_eggs_size4": {
+   "ok": true,
+   "obs": 32,
+   "coverage": [
+    "1990",
+    "2021"
+   ],
+   "warnings": []
+  },
+  "price_butter": {
+   "ok": true,
+   "obs": 23,
+   "coverage": [
+    "1990",
+    "2012"
+   ],
+   "warnings": []
+  },
+  "price_cheese": {
+   "ok": true,
+   "obs": 35,
+   "coverage": [
+    "1990",
+    "2024"
+   ],
+   "warnings": []
+  },
+  "price_beef_mince": {
+   "ok": true,
+   "obs": 35,
+   "coverage": [
+    "1990",
+    "2024"
+   ],
+   "warnings": []
+  },
+  "price_chicken": {
+   "ok": true,
+   "obs": 35,
+   "coverage": [
+    "1990",
+    "2024"
+   ],
+   "warnings": []
+  },
+  "price_pork_loin": {
+   "ok": true,
+   "obs": 34,
+   "coverage": [
+    "1990",
+    "2023"
+   ],
+   "warnings": []
+  },
+  "price_potatoes_new": {
+   "ok": true,
+   "obs": 32,
+   "coverage": [
+    "1993",
+    "2024"
+   ],
+   "warnings": []
+  },
+  "price_potatoes_old": {
+   "ok": true,
+   "obs": 31,
+   "coverage": [
+    "1994",
+    "2024"
+   ],
+   "warnings": []
+  },
+  "price_sugar": {
+   "ok": true,
+   "obs": 35,
+   "coverage": [
+    "1990",
+    "2024"
+   ],
+   "warnings": []
+  },
+  "price_tea_bags": {
+   "ok": true,
+   "obs": 35,
+   "coverage": [
+    "1990",
+    "2024"
+   ],
+   "warnings": []
+  },
+  "price_coffee_instant": {
+   "ok": true,
+   "obs": 35,
+   "coverage": [
+    "1990",
+    "2024"
+   ],
+   "warnings": []
+  },
+  "price_bananas": {
+   "ok": true,
+   "obs": 35,
+   "coverage": [
+    "1990",
+    "2024"
+   ],
+   "warnings": []
+  },
+  "price_apples_dessert": {
+   "ok": true,
+   "obs": 35,
+   "coverage": [
+    "1990",
+    "2024"
+   ],
+   "warnings": []
+  },
+  "price_carrots": {
+   "ok": true,
+   "obs": 35,
+   "coverage": [
+    "1990",
+    "2024"
+   ],
+   "warnings": []
+  },
+  "price_tomatoes": {
+   "ok": true,
+   "obs": 35,
+   "coverage": [
+    "1990",
+    "2024"
+   ],
+   "warnings": []
+  },
+  "price_petrol": {
+   "ok": true,
+   "obs": 35,
+   "coverage": [
+    "1990",
+    "2024"
+   ],
+   "warnings": []
+  },
+  "price_diesel": {
+   "ok": true,
+   "obs": 35,
+   "coverage": [
+    "1990",
+    "2024"
+   ],
+   "warnings": []
+  },
+  "house_price_united-kingdom": {
+   "ok": true,
+   "obs": 36,
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "warnings": []
+  },
+  "house_price_england": {
+   "ok": true,
+   "obs": 36,
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "warnings": []
+  },
+  "house_price_wales": {
+   "ok": true,
+   "obs": 36,
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "warnings": []
+  },
+  "house_price_scotland": {
+   "ok": true,
+   "obs": 36,
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "warnings": []
+  },
+  "house_price_northern-ireland": {
+   "ok": true,
+   "obs": 36,
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "warnings": []
+  },
+  "house_price_north-east": {
+   "ok": true,
+   "obs": 33,
+   "coverage": [
+    "1993",
+    "2025"
+   ],
+   "warnings": []
+  },
+  "house_price_north-west": {
+   "ok": true,
+   "obs": 31,
+   "coverage": [
+    "1995",
+    "2025"
+   ],
+   "warnings": []
+  },
+  "house_price_yorkshire-and-the-humber": {
+   "ok": true,
+   "obs": 36,
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "warnings": []
+  },
+  "house_price_east-midlands": {
+   "ok": true,
+   "obs": 36,
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "warnings": []
+  },
+  "house_price_west-midlands": {
+   "ok": true,
+   "obs": 31,
+   "coverage": [
+    "1995",
+    "2025"
+   ],
+   "warnings": []
+  },
+  "house_price_east-of-england": {
+   "ok": true,
+   "obs": 33,
+   "coverage": [
+    "1993",
+    "2025"
+   ],
+   "warnings": []
+  },
+  "house_price_london": {
+   "ok": true,
+   "obs": 36,
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "warnings": []
+  },
+  "house_price_south-east": {
+   "ok": true,
+   "obs": 33,
+   "coverage": [
+    "1993",
+    "2025"
+   ],
+   "warnings": []
+  },
+  "house_price_south-west": {
+   "ok": true,
+   "obs": 36,
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "warnings": []
+  },
+  "bank_rate": {
+   "ok": true,
+   "obs": 36,
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "warnings": [
+    "large jump 2021->2022: 0.105952 -> 1.45738 (kept, flagged)"
+   ]
+  },
+  "mortgage_svr": {
+   "ok": true,
+   "obs": 31,
+   "coverage": [
+    "1995",
+    "2025"
+   ],
+   "warnings": []
+  },
+  "mortgage_2y_fixed_75ltv": {
+   "ok": true,
+   "obs": 31,
+   "coverage": [
+    "1995",
+    "2025"
+   ],
+   "warnings": []
+  },
+  "rcpt_vat": {
+   "ok": true,
+   "obs": 29,
+   "coverage": [
+    "1997",
+    "2025"
+   ],
+   "warnings": []
+  },
+  "rcpt_fuel_duty": {
+   "ok": true,
+   "obs": 29,
+   "coverage": [
+    "1997",
+    "2025"
+   ],
+   "warnings": []
+  },
+  "rcpt_paye_income_tax": {
+   "ok": true,
+   "obs": 29,
+   "coverage": [
+    "1997",
+    "2025"
+   ],
+   "warnings": []
+  },
+  "rcpt_social_contributions": {
+   "ok": true,
+   "obs": 36,
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "warnings": []
+  },
+  "rcpt_council_tax": {
+   "ok": true,
+   "obs": 36,
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "warnings": []
+  },
+  "rcpt_stamp_duty_shares": {
+   "ok": true,
+   "obs": 29,
+   "coverage": [
+    "1997",
+    "2025"
+   ],
+   "warnings": []
+  },
+  "tme": {
+   "ok": true,
+   "obs": 28,
+   "coverage": [
+    "1998",
+    "2025"
+   ],
+   "warnings": []
+  },
+  "psnd_pct_gdp": {
+   "ok": true,
+   "obs": 33,
+   "coverage": [
+    "1993",
+    "2025"
+   ],
+   "warnings": []
+  },
+  "gdp_nominal": {
+   "ok": true,
+   "obs": 36,
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "warnings": []
+  }
+ }
+}

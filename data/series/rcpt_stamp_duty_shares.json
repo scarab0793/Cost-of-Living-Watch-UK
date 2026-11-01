@@ -1,0 +1,61 @@
+{
+ "id": "rcpt_stamp_duty_shares",
+ "label": "Stamp duty on shares (£m) — NOT property SDLT",
+ "group": "government",
+ "publisher": "Office for National Statistics",
+ "source_url": "https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/timeseries/bkst/pusf",
+ "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/governmentpublicsectorandtaxes/publicsectorfinance/timeseries/bkst/pusf",
+ "source_title": "CG: Current receipts: Taxes on production: Stamp duty (shares) HMRC : £m CPNSA",
+ "source_id": "BKST",
+ "unit": "GBP million",
+ "geography": "United Kingdom",
+ "adjustment": "Current prices, not inflation-adjusted",
+ "methodology": "ONS public sector finances / national accounts, annual figure as published.",
+ "limitations": "Component series; do not add together (categories overlap: e.g. NICs sit inside social contributions).",
+ "coverage": [
+  "1997",
+  "2025"
+ ],
+ "source_release": "21-10-2026",
+ "next_release": "20 November 2026",
+ "warnings": [],
+ "values": {
+  "1997": 1291.0,
+  "1998": 1780.0,
+  "1999": 2963.0,
+  "2000": 4744.0,
+  "2001": 3209.0,
+  "2002": 2647.0,
+  "2003": 2383.0,
+  "2004": 2701.0,
+  "2005": 3084.0,
+  "2006": 3801.0,
+  "2007": 4214.0,
+  "2008": 3553.0,
+  "2009": 2918.0,
+  "2010": 3040.0,
+  "2011": 2822.0,
+  "2012": 2263.0,
+  "2013": 2864.0,
+  "2014": 3012.0,
+  "2015": 3024.0,
+  "2016": 3938.0,
+  "2017": 3470.0,
+  "2018": 3732.0,
+  "2019": 3284.0,
+  "2020": 3698.0,
+  "2021": 4212.0,
+  "2022": 4153.0,
+  "2023": 3261.0,
+  "2024": 4064.0,
+  "2025": 4528.0
+ },
+ "partial": {
+  "2026": {
+   "mean": 410.0,
+   "months": 9,
+   "last": "2026-09"
+  }
+ },
+ "last_updated": "2026-11-01"
+}

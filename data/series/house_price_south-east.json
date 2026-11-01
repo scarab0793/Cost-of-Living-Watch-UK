@@ -1,0 +1,70 @@
+{
+ "id": "house_price_south-east",
+ "label": "Average house price, South East (£)",
+ "group": "housing",
+ "publisher": "HM Land Registry / ONS / Registers of Scotland / LPS NI (UK House Price Index)",
+ "source_url": "",
+ "api_url": "https://landregistry.data.gov.uk/data/ukhpi/region/south-east.csv?_pageSize=200&_page=2&_sort=refMonth&min-refMonth=1990-01&_view=all",
+ "source_title": "UK HPI average price, South East",
+ "source_id": "south-east",
+ "unit": "GBP",
+ "geography": "South East",
+ "adjustment": "Original, not seasonally adjusted",
+ "methodology": "Mean of monthly UK HPI average prices (mix-adjusted, based on registered sales). Full year = all 12 months.",
+ "limitations": "Latest year is partial until December is published. Averages include all property types.",
+ "coverage": [
+  "1993",
+  "2025"
+ ],
+ "source_release": "",
+ "next_release": "",
+ "warnings": [],
+ "values": {
+  "1993": 61645.5,
+  "1994": 64334.5,
+  "1995": 64965.083333,
+  "1996": 66606.333333,
+  "1997": 75510.25,
+  "1998": 85114.583333,
+  "1999": 94911.083333,
+  "2000": 114718.75,
+  "2001": 128893.916667,
+  "2002": 152415.833333,
+  "2003": 176495.75,
+  "2004": 193455.666667,
+  "2005": 200485.166667,
+  "2006": 211523.166667,
+  "2007": 232912.083333,
+  "2008": 223987.5,
+  "2009": 203161.166667,
+  "2010": 222140.083333,
+  "2011": 220531.5,
+  "2012": 225420.583333,
+  "2013": 233117.416667,
+  "2014": 256118.833333,
+  "2015": 279031.166667,
+  "2016": 306045.833333,
+  "2017": 319930.25,
+  "2018": 325867.583333,
+  "2019": 323441.583333,
+  "2020": 329554.75,
+  "2021": 348428.166667,
+  "2022": 381020.25,
+  "2023": 379221.5,
+  "2024": 374675.25,
+  "2025": 379469.916667
+ },
+ "partial": {
+  "1992": {
+   "mean": 63999.666667,
+   "months": 9,
+   "last": "1992-12"
+  },
+  "2026": {
+   "mean": 379486.5,
+   "months": 8,
+   "last": "2026-08"
+  }
+ },
+ "last_updated": "2026-11-01"
+}

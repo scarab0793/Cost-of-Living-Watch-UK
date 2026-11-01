@@ -1,0 +1,32 @@
+{
+ "id": "mortgage_svr_bs_hist",
+ "group": "housing",
+ "label": "Building societies' basic (standard variable) mortgage rate (%)",
+ "publisher": "Bank of England (compiled from ONS and earlier official sources)",
+ "source_url": "https://www.bankofengland.co.uk/statistics/research-datasets",
+ "api_url": "https://www.bankofengland.co.uk/-/media/boe/files/statistics/research-datasets/a-millennium-of-macroeconomic-data-for-the-uk.xlsx",
+ "source_title": "M12 col E: Basic rate on Mortgages Building Societies (ONS series code AJNK)",
+ "source_id": "M12 col E / ONS AJNK",
+ "unit": "%",
+ "geography": "GB/UK",
+ "adjustment": "Original",
+ "methodology": "Mean of 12 monthly observations, from the BoE historical dataset (compiled from ONS).",
+ "limitations": "Series ends 1995; used only to bridge 1990-1994 before the BoE quoted-rate series (IUMTLMV) begins. Different institution mix from the BoE series; 1995 overlaps for comparison.",
+ "coverage": [
+  "1990",
+  "1995"
+ ],
+ "source_release": "v3.1",
+ "next_release": "",
+ "warnings": [],
+ "values": {
+  "1990": 15.117,
+  "1991": 12.838,
+  "1992": 10.742,
+  "1993": 8.097,
+  "1994": 7.817,
+  "1995": 8.272
+ },
+ "partial": {},
+ "last_updated": "2026-11-01"
+}

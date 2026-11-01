@@ -1,0 +1,70 @@
+{
+ "id": "house_price_north-east",
+ "label": "Average house price, North East (£)",
+ "group": "housing",
+ "publisher": "HM Land Registry / ONS / Registers of Scotland / LPS NI (UK House Price Index)",
+ "source_url": "",
+ "api_url": "https://landregistry.data.gov.uk/data/ukhpi/region/north-east.csv?_pageSize=200&_page=2&_sort=refMonth&min-refMonth=1990-01&_view=all",
+ "source_title": "UK HPI average price, North East",
+ "source_id": "north-east",
+ "unit": "GBP",
+ "geography": "North East",
+ "adjustment": "Original, not seasonally adjusted",
+ "methodology": "Mean of monthly UK HPI average prices (mix-adjusted, based on registered sales). Full year = all 12 months.",
+ "limitations": "Latest year is partial until December is published. Averages include all property types.",
+ "coverage": [
+  "1993",
+  "2025"
+ ],
+ "source_release": "",
+ "next_release": "",
+ "warnings": [],
+ "values": {
+  "1993": 40207.25,
+  "1994": 41312.75,
+  "1995": 40008.75,
+  "1996": 40045.333333,
+  "1997": 41542.916667,
+  "1998": 42937.333333,
+  "1999": 44466.333333,
+  "2000": 46652.75,
+  "2001": 49846.416667,
+  "2002": 58529.166667,
+  "2003": 75436.416667,
+  "2004": 98411.166667,
+  "2005": 111904.416667,
+  "2006": 121297.583333,
+  "2007": 128960.583333,
+  "2008": 123933.0,
+  "2009": 114436.583333,
+  "2010": 116012.333333,
+  "2011": 111098.75,
+  "2012": 110074.333333,
+  "2013": 109677.5,
+  "2014": 112179.25,
+  "2015": 114777.583333,
+  "2016": 117724.083333,
+  "2017": 119773.416667,
+  "2018": 121422.166667,
+  "2019": 121669.166667,
+  "2020": 123916.5,
+  "2021": 137431.75,
+  "2022": 148133.916667,
+  "2023": 149708.083333,
+  "2024": 151900.416667,
+  "2025": 158459.416667
+ },
+ "partial": {
+  "1992": {
+   "mean": 39456.333333,
+   "months": 9,
+   "last": "1992-12"
+  },
+  "2026": {
+   "mean": 163513.125,
+   "months": 8,
+   "last": "2026-08"
+  }
+ },
+ "last_updated": "2026-11-01"
+}

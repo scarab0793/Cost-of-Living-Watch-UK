@@ -1,0 +1,41 @@
+{
+ "id": "energy_gas_direct_debit",
+ "group": "energy",
+ "label": "Average annual gas bill, direct debit, GB (£/year)",
+ "publisher": "Department for Energy Security and Net Zero",
+ "source_url": "https://www.gov.uk/government/statistical-data-sets/annual-domestic-energy-price-statistics",
+ "api_url": "https://assets.publishing.service.gov.uk/media/6a4245df3413112faed80dbd/table_231__1_.xlsx",
+ "source_title": "QEP 2.3.1 2.3.1 (Historic)",
+ "source_id": "QEP 2.3.1",
+ "unit": "GBP/year",
+ "geography": "Great Britain",
+ "adjustment": "Cash (nominal) terms, VAT inclusive",
+ "methodology": "Bill for a fixed annual consumption of 13,600 kWh. Not actual household spend.",
+ "limitations": "Starts 2010; £ bills before 2010 are not published in these tables. Consumption basis changes in DESNZ's newer tables (from 2025) and is not mixed in. Includes Energy Price Guarantee from Oct 2022, excludes Energy Bills Support Scheme £200.",
+ "coverage": [
+  "2010",
+  "2024"
+ ],
+ "source_release": "2026-07-30",
+ "next_release": "",
+ "warnings": [],
+ "values": {
+  "2010": 503.24,
+  "2011": 550.87,
+  "2012": 609.54,
+  "2013": 644.39,
+  "2014": 661.37,
+  "2015": 624.37,
+  "2016": 563.71,
+  "2017": 560.89,
+  "2018": 580.02,
+  "2019": 591.35,
+  "2020": 557.8,
+  "2021": 549.97,
+  "2022": 1086.17,
+  "2023": 1273.0,
+  "2024": 993.78
+ },
+ "partial": {},
+ "last_updated": "2026-11-01"
+}

@@ -1,0 +1,65 @@
+{
+ "id": "tme",
+ "label": "Public sector total managed expenditure (£m)",
+ "group": "government",
+ "publisher": "Office for National Statistics",
+ "source_url": "https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/timeseries/kau3/pusf",
+ "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/governmentpublicsectorandtaxes/publicsectorfinance/timeseries/kau3/pusf",
+ "source_title": "Public sector: ex BoE exc PS Banks: Total managed expenditure: £m CPNSA",
+ "source_id": "KAU3",
+ "unit": "GBP million",
+ "geography": "United Kingdom",
+ "adjustment": "Current prices, not inflation-adjusted",
+ "methodology": "ONS public sector finances / national accounts, annual figure as published.",
+ "limitations": "Component series; do not add together (categories overlap: e.g. NICs sit inside social contributions).",
+ "coverage": [
+  "1998",
+  "2025"
+ ],
+ "source_release": "21-10-2026",
+ "next_release": "20 November 2026",
+ "warnings": [],
+ "values": {
+  "1998": 353896.0,
+  "1999": 363569.0,
+  "2000": 383895.0,
+  "2001": 409915.0,
+  "2002": 442525.0,
+  "2003": 485707.0,
+  "2004": 522445.0,
+  "2005": 557458.0,
+  "2006": 584828.0,
+  "2007": 615927.0,
+  "2008": 671547.0,
+  "2009": 716520.0,
+  "2010": 748122.0,
+  "2011": 752732.0,
+  "2012": 773911.0,
+  "2013": 772131.0,
+  "2014": 797290.0,
+  "2015": 803422.0,
+  "2016": 820878.0,
+  "2017": 849518.0,
+  "2018": 862352.0,
+  "2019": 888113.0,
+  "2020": 1071080.0,
+  "2021": 1061927.0,
+  "2022": 1114774.0,
+  "2023": 1244215.0,
+  "2024": 1289719.0,
+  "2025": 1356220.0
+ },
+ "partial": {
+  "1997": {
+   "mean": 28241.666667,
+   "months": 9,
+   "last": "1997-12"
+  },
+  "2026": {
+   "mean": 118344.444444,
+   "months": 9,
+   "last": "2026-09"
+  }
+ },
+ "last_updated": "2026-11-01"
+}

@@ -1,182 +1,193 @@
 #!/usr/bin/env python3
-"""Update independently published UK economic series and official headlines.
-No AI, no synthetic observations. Keep last good file on upstream failures.
+"""Refresh UK cost-of-living datasets from official sources.
+
+No AI, no estimates, no interpolation. Principles:
+  * every series is checked against the title the publisher returns (wrong series are rejected)
+  * a failed or implausible download never overwrites the last good data
+  * only genuinely new/revised observations change files (clean diffs, quiet Git history)
+  * all outcomes are recorded in data/status.json and data/changes.json
+
+Usage:  python update.py [--only ID,ID] [--static]   (--static also refreshes one-off archives)
+Exit code is 0 unless the pipeline itself is broken; individual source failures are logged, not fatal,
+because the previous good data is preserved.
 """
+import argparse
 import json
-import csv
-import io
-import urllib.request
-from datetime import datetime, timezone
+import re
+import sys
+from datetime import date, datetime, timezone
 from pathlib import Path
-from xml.etree import ElementTree as ET
 
 ROOT = Path(__file__).resolve().parent
-HEADERS = {"User-Agent": "UK-Living-Cost-Watch/2.0 (public statistics; github.com/scarab0793/Cost-of-Living-Watch-UK)"}
-INDICATORS = {
-    "cpi": ("FP.CPI.TOTL", "Consumer price index (2010=100)", "index"),
-    "inflation": ("FP.CPI.TOTL.ZG", "Consumer price inflation (annual %)", "%"),
-    "gdp_per_capita": ("NY.GDP.PCAP.CD", "GDP per capita (current US$)", "US$"),
-    "unemployment": ("SL.UEM.TOTL.ZS", "Unemployment (% of labour force, modelled ILO estimate)", "%"),
-    "gdp_per_capita_ppp": ("NY.GDP.PCAP.PP.KD", "GDP per capita (constant 2021 international $ PPP)", "2021 international $"),
-    "household_consumption_share": ("NE.CON.PRVT.ZS", "Household consumption expenditure (% of GDP)", "%"),
-    "electricity_access": ("EG.ELC.ACCS.ZS", "Access to electricity (% of population)", "%"),
-    "renewable_electricity_share": ("EG.ELC.RNEW.ZS", "Renewable electricity output (% of total electricity output)", "%"),
-    "energy_use": ("EG.USE.PCAP.KG.OE", "Energy use (kg of oil equivalent per capita)", "kg oil eq."),
-    "fuel_imports_share": ("TM.VAL.FUEL.ZS.UN", "Fuel imports (% of merchandise imports)", "%"),
-    "income_share_lowest": ("SI.DST.FRST.20", "Income share held by lowest 20%", "%"),
-    "income_share_highest": ("SI.DST.05TH.20", "Income share held by highest 20%", "%"),
-    "gini": ("SI.POV.GINI", "Gini index (income inequality)", "index"),
-    "life_expectancy": ("SP.DYN.LE00.IN", "Life expectancy at birth (years)", "years"),
-    "government_expenditure_share": ("NE.CON.GOVT.ZS", "General government final consumption expenditure (% of GDP)", "%"),
-    "tax_share": ("GC.TAX.TOTL.GD.ZS", "Tax revenue (% of GDP; central government)", "%"),
-    "government_revenue_share": ("GC.REV.XGRT.GD.ZS", "Revenue excluding grants (% of GDP)", "%"),
-    "household_consumption": ("NE.CON.PRVT.PC.KD", "Household final consumption expenditure per capita (constant 2015 US$)", "2015 US$"),
-}
+sys.path.insert(0, str(ROOT))
+from pipeline import fetch  # noqa: E402
+from pipeline.catalogue import CATALOGUE  # noqa: E402
 
-def get_json(url):
-    with urllib.request.urlopen(urllib.request.Request(url, headers=HEADERS), timeout=25) as r:
-        return json.load(r)
+DATA = ROOT / "data"
+SERIES_DIR = DATA / "series"
+CURATED_DIR = DATA / "curated"
+THIS_YEAR = date.today().year
+MAX_DROP = 2  # a refresh may lose at most this many observations before it is rejected
 
-def write_if_changed(path, data):
+
+def write_json(path, obj):
     path.parent.mkdir(parents=True, exist_ok=True)
-    text = json.dumps(data, ensure_ascii=False, indent=2) + "\n"
+    text = json.dumps(obj, ensure_ascii=False, indent=1, sort_keys=False) + "\n"
     if not path.exists() or path.read_text(encoding="utf-8") != text:
         path.write_text(text, encoding="utf-8")
-        print("Updated", path.relative_to(ROOT))
-    else:
-        print("Unchanged", path.relative_to(ROOT))
+        return True
+    return False
 
-def economic():
-    output = {"country": "United Kingdom", "provider": "World Bank Open Data", "provider_url": "https://data.worldbank.org/country/united-kingdom", "series": {}}
-    for key, (code, label, unit) in INDICATORS.items():
-        try:
-            url = f"https://api.worldbank.org/v2/country/GBR/indicator/{code}?format=json&per_page=150"
-            raw = get_json(url)
-            values = {str(int(r["date"])): r["value"] for r in raw[1] if r.get("value") is not None and r.get("date", "").isdigit() and 1990 <= int(r["date"]) <= 2026}
-            if not values:
-                print("No observations:", key)
-                continue
-            output["series"][key] = {"label": label, "unit": unit, "indicator": code, "source_url": f"https://data.worldbank.org/indicator/{code}?locations=GB", "values": dict(sorted(values.items()))}
-            print(key, len(values), "observations")
-        except Exception as exc:
-            print("Series error:", key, exc)
-    if len(output["series"]) >= 3:
-        write_if_changed(ROOT / "data" / "economic.json", output)
-    else:
-        print("Insufficient economic series; preserving last good data")
 
-def ons_series():
-    """Add ONS published UK monthly time-series, using annual observations only."""
-    source = {
-        "ons_cpi_index": ("mm23", "d7bt", "ONS CPI all items index (2015=100)", "index"),
-        "ons_cpi_inflation": ("mm23", "d7g7", "ONS CPI all items 12-month rate", "%"),
-        "ons_cpih_inflation": ("mm23", "l55o", "ONS CPIH all items 12-month rate", "%"),
-    }
-    target = ROOT / "data" / "economic.json"
-    if not target.exists():
-        print("ONS series skipped: economic.json absent")
-        return
-    data = json.loads(target.read_text(encoding="utf-8"))
-    count = 0
-    for key, (dataset, code, label, unit) in source.items():
+def read_json(path, default=None):
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return default
+
+
+def run_fetch(spec):
+    k = spec["kind"]
+    if k == "ons":
+        return fetch.ons_timeseries(spec["cdid"], spec["dataset"])
+    if k == "boe":
+        return fetch.boe_iadb(spec["code"])
+    if k == "hpi":
+        return fetch.landregistry_hpi(spec["region"])
+    if k == "worldbank":
+        return fetch.worldbank(spec["code"])
+    raise ValueError(f"unknown kind {k}")
+
+
+def validate(spec, result):
+    """Return (clean_annual, clean_partial, warnings). Raise fetch.SourceError to reject."""
+    title = result["meta"].get("Title", "")
+    if not re.search(spec["expect"], title, re.I):
+        raise fetch.SourceError(f"title mismatch: expected /{spec['expect']}/ got '{title}'")
+    scale = spec["scale"]
+    annual = {y: round(v * scale, 6) for y, v in result["annual"].items()
+              if y.isdigit() and 1990 <= int(y) <= THIS_YEAR + 1}
+    partial = {y: {**p, "mean": round(p["mean"] * scale, 6)} for y, p in result["partial"].items()
+               if y.isdigit() and 1990 <= int(y) <= THIS_YEAR + 1}
+    if len(annual) < spec["min_obs"]:
+        raise fetch.SourceError(f"only {len(annual)} annual observations (need {spec['min_obs']})")
+    warnings = []
+    ys = sorted(annual, key=int)
+    for a, b in zip(ys, ys[1:]):
+        if annual[a] > 0 and annual[b] / annual[a] > 8:
+            warnings.append(f"large jump {a}->{b}: {annual[a]} -> {annual[b]} (kept, flagged)")
+    return annual, partial, warnings
+
+
+def diff(old, new):
+    changed = {y: (old[y], new[y]) for y in new if y in old and abs(old[y] - new[y]) > 1e-9 * max(1, abs(old[y]))}
+    added = [y for y in new if y not in old]
+    removed = [y for y in old if y not in new]
+    return changed, added, removed
+
+
+def refresh(only=None):
+    status, changes = {}, []
+    for spec in CATALOGUE:
+        if only and spec["id"] not in only:
+            continue
+        path = SERIES_DIR / f"{spec['id']}.json"
+        old = read_json(path)
         try:
-            url = f"https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/{code}/{dataset}"
-            with urllib.request.urlopen(urllib.request.Request(url, headers=HEADERS), timeout=25) as response:
-                lines = response.read().decode("utf-8-sig", errors="replace").splitlines()
-            annual = {}
-            for row in csv.reader(lines):
-                if len(row) < 2:
-                    continue
-                year = row[0].strip().strip('"')
-                if len(year) != 4 or not year.isdigit() or not 1990 <= int(year) <= 2026:
-                    continue
-                try:
-                    annual[year] = float(row[1].strip())
-                except ValueError:
-                    pass
-            if len(annual) >= 5:
-                data["series"][key] = {
-                    "label": label, "unit": unit, "indicator": code.upper(),
-                    "source_url": f"https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/{code}/{dataset}",
-                    "values": dict(sorted(annual.items()))
-                }
-                count += 1
-                print("ONS", key, len(annual), "years")
+            result = run_fetch(spec)
+            annual, partial, warnings = validate(spec, result)
+            if old:
+                changed, added, removed = diff(old["values"], annual)
+                if len(removed) > MAX_DROP:
+                    raise fetch.SourceError(f"refresh would drop {len(removed)} observations ({removed[:5]}...)")
             else:
-                print("ONS series missing annual rows", key)
-        except Exception as exc:
-            print("ONS series error", key, exc)
-    if count:
-        write_if_changed(target, data)
+                changed, added, removed = {}, list(annual), []
+            record = {
+                "id": spec["id"], "label": spec["label"], "group": spec["group"], "publisher": spec["publisher"],
+                "source_url": result["meta"].get("source_url") or spec.get("source_url", ""),
+                "api_url": result.get("api_url", ""), "source_title": result["meta"].get("Title", ""),
+                "source_id": spec.get("cdid") or spec.get("code") or spec.get("region") or "",
+                "unit": spec["unit"], "geography": spec["geography"], "adjustment": spec["adjusted"],
+                "methodology": spec["method"], "limitations": spec["limitations"],
+                "coverage": [min(annual, key=int), max(annual, key=int)],
+                "source_release": result["meta"].get("Release date", ""),
+                "next_release": result["meta"].get("Next release", ""),
+                "warnings": warnings, "values": dict(sorted(annual.items(), key=lambda kv: int(kv[0]))),
+                "partial": dict(sorted(partial.items())),
+                "last_updated": old["last_updated"] if old else date.today().isoformat(),
+            }
+            if old and (changed or added or removed or old.get("partial") != record["partial"]):
+                record["last_updated"] = date.today().isoformat()
+            wrote = write_json(path, record)
+            status[spec["id"]] = {"ok": True, "obs": len(annual), "coverage": record["coverage"], "warnings": warnings}
+            if wrote and old and (changed or added or removed):
+                changes.append({"id": spec["id"], "date": date.today().isoformat(), "added": added,
+                                "revised": {y: {"from": a, "to": b} for y, (a, b) in changed.items()},
+                                "removed": removed})
+            print(f"OK   {spec['id']:34s} {len(annual):3d} obs {record['coverage']} {'(updated)' if wrote else ''}")
+        except Exception as exc:  # keep last good data
+            status[spec["id"]] = {"ok": False, "error": str(exc)[:300],
+                                  "preserved_last_good": bool(old)}
+            print(f"FAIL {spec['id']:34s} {exc}  -> {'kept previous data' if old else 'NO DATA YET'}")
+    return status, changes
 
-def ons_extended():
-    """UK ONS annual earnings and house price observations, no estimates."""
-    specs = {
-        "ons_earnings_weekly": ("emp", "k5ah", "Average weekly earnings, total pay, whole economy", "GBP/week"),
-        "ons_earnings_regular": ("emp", "k5an", "Average weekly earnings, regular pay, whole economy", "GBP/week"),
-        "ons_house_price": ("hpi", "d7a1", "UK House Price Index (published ONS series)", "index"),
-    }
-    target = ROOT / "data" / "economic.json"
-    if not target.exists():
-        return
-    data = json.loads(target.read_text(encoding="utf-8"))
-    changed = False
-    for key, (dataset, code, label, unit) in specs.items():
-        try:
-            url = f"https://www.ons.gov.uk/generator?format=csv&uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/timeseries/{code}/{dataset}" if dataset == "emp" else f"https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/{code}/{dataset}"
-            with urllib.request.urlopen(urllib.request.Request(url, headers=HEADERS), timeout=25) as response:
-                rows = csv.reader(io.StringIO(response.read().decode("utf-8-sig", errors="replace")))
-                annual = {}
-                for row in rows:
-                    if len(row) < 2:
-                        continue
-                    year = row[0].strip().strip('"')
-                    if year.isdigit() and len(year) == 4 and 1990 <= int(year) <= 2026:
-                        try:
-                            annual[year] = float(row[1].strip())
-                        except ValueError:
-                            pass
-            if len(annual) >= 8:
-                data["series"][key] = {"label": label, "unit": unit, "indicator": code.upper(),
-                    "source_url": url.replace("https://www.ons.gov.uk/generator?format=csv&uri=", "https://www.ons.gov.uk"),
-                    "values": dict(sorted(annual.items()))}
-                changed = True
-                print("ONS extended:", key, len(annual))
-            else:
-                print("ONS extended: insufficient data", key)
-        except Exception as exc:
-            print("ONS extended error", key, exc)
-    if changed:
-        write_if_changed(target, data)
 
-def news():
-    feeds = {
-        "HM Treasury": "https://www.gov.uk/government/organisations/hm-treasury.atom",
-        "HMRC": "https://www.gov.uk/government/organisations/hm-revenue-customs.atom",
-        "Energy Security & Net Zero": "https://www.gov.uk/government/organisations/department-for-energy-security-and-net-zero.atom",
-    }
-    items = []
-    ns = {"a": "http://www.w3.org/2005/Atom"}
-    for source, url in feeds.items():
-        try:
-            with urllib.request.urlopen(urllib.request.Request(url, headers=HEADERS), timeout=20) as r:
-                root = ET.fromstring(r.read())
-            for entry in root.findall("a:entry", ns)[:20]:
-                title = (entry.findtext("a:title", default="", namespaces=ns) or "").strip()
-                date = entry.findtext("a:updated", default="", namespaces=ns)
-                link = next((x.get("href") for x in entry.findall("a:link", ns) if x.get("rel", "alternate") == "alternate"), "")
-                if title and link and link.startswith("https://www.gov.uk/"):
-                    items.append({"title": title, "date": date, "url": link, "source": source})
-        except Exception as exc:
-            print("News feed error:", source, exc)
-    if items:
-        items = sorted({x["url"]: x for x in items}.values(), key=lambda x: x["date"], reverse=True)[:45]
-        write_if_changed(ROOT / "data" / "stories.json", items)
-    else:
-        print("No news; preserving last good data")
+def build_bundle(status):
+    """One file for the website: all series plus curated datasets plus honest gap list."""
+    series = {}
+    for p in sorted(SERIES_DIR.glob("*.json")):
+        d = read_json(p)
+        if d:
+            series[d["id"]] = d
+    curated = {}
+    for p in sorted(CURATED_DIR.glob("*.json")):
+        d = read_json(p)
+        if d:
+            curated[p.stem] = d
+    gaps = read_json(DATA / "gaps.json", [])
+    bundle = {"generated": date.today().isoformat(), "series": series, "curated": curated, "gaps": gaps}
+    return write_json(DATA / "dataset.json", bundle)
+
+
+def prior_status():
+    return read_json(DATA / "status.json", {}) or {}
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--only", default="")
+    ap.add_argument("--static", action="store_true")
+    ap.add_argument("--no-news", action="store_true")
+    args = ap.parse_args()
+    only = {s for s in args.only.split(",") if s}
+
+    status, changes = refresh(only or None)
+    if only:  # merge partial run into previous status
+        merged = prior_status().get("series", {})
+        merged.update(status)
+        status = merged
+
+    try:
+        from pipeline import extras
+        extras.run(DATA, static=args.static, news=not args.no_news)
+    except ImportError:
+        pass
+
+    if changes:
+        log = read_json(DATA / "changes.json", [])
+        log = (changes + log)[:400]
+        write_json(DATA / "changes.json", log)
+
+    failures = [k for k, v in status.items() if not v.get("ok")]
+    write_json(DATA / "status.json", {
+        "checked": date.today().isoformat(),
+        "series_ok": len(status) - len(failures), "series_failed": len(failures),
+        "failed_ids": failures, "series": status,
+    })
+    build_bundle(status)
+    print(f"\n{len(status)-len(failures)}/{len(status)} series ok; {len(failures)} failed (previous data preserved)")
+    return 0
+
 
 if __name__ == "__main__":
-    economic()
-    ons_series()
-    ons_extended()
-    news()
+    sys.exit(main())

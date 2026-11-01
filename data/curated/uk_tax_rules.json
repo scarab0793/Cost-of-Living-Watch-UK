@@ -1,0 +1,1307 @@
+{
+ "id": "uk_tax_rules",
+ "title": "Income Tax and Employee National Insurance rules by tax year",
+ "publisher": "HM Revenue & Customs (official statistics)",
+ "sources": {
+  "a1": {
+   "url": "https://assets.publishing.service.gov.uk/media/6a54c97ba4890e65cce64db8/Table_a1_-_Income_Tax_-_personal_allowances_and_reliefs.ods",
+   "page": "https://www.gov.uk/government/statistics/income-tax-personal-allowances-and-reliefs",
+   "updated": "2026-07-15T09:30:13+01:00"
+  },
+  "a2": {
+   "url": "https://assets.publishing.service.gov.uk/media/6a54ca0b9e9c95844ae64d9a/Table_a2_-_Income_Tax_-_rates_and_allowances.ods",
+   "page": "https://www.gov.uk/government/statistics/rates-of-income-statistics",
+   "updated": "2026-07-15T09:30:13+01:00"
+  },
+  "a4": {
+   "url": "https://assets.publishing.service.gov.uk/media/6a54ca0fa4890e65cce64db9/Table_a4_-_National_Insurance_Contributions_-_rates_and_allowances.ods",
+   "page": "https://www.gov.uk/government/statistics/main-features-of-national-insurance-contributions",
+   "updated": "2026-07-15T09:30:13+01:00"
+  },
+  "a4a": {
+   "url": "https://assets.publishing.service.gov.uk/media/62bb13318fa8f5720dbef442/Table-a4A.ods",
+   "page": "https://www.gov.uk/government/statistics/main-features-of-national-insurance-contributions-1985-to-1999",
+   "updated": "2014-03-28T09:30:00+00:00"
+  }
+ },
+ "key": "Tax year start (2025 = 2025-26)",
+ "scope": "England, Wales and Northern Ireland; single person under 65; employee, not contracted out",
+ "limitations": "Scottish income tax bands differ from 2017-18. Ignores pension contributions, student loan, tax credits, benefits in kind and Class 1 contracting-out. 2022-23 and 2023-24 NI are time-weighted across in-year rate changes.",
+ "years": {
+  "1990": {
+   "income_tax": {
+    "label": "1990 to 1991",
+    "personal_allowance": 3005.0,
+    "bands": [
+     [
+      20700.0,
+      25.0
+     ],
+     [
+      null,
+      40.0
+     ]
+    ],
+    "pa_taper_above": null
+   },
+   "ni": {
+    "regime": "entry_fee",
+    "periods": [
+     {
+      "months": 12,
+      "lel": 46.0,
+      "pt": null,
+      "uel": 350.0,
+      "main": 9.0,
+      "entry_fee": 2.0,
+      "above_uel": 0.0
+     }
+    ]
+   }
+  },
+  "1991": {
+   "income_tax": {
+    "label": "1991 to 1992",
+    "personal_allowance": 3295.0,
+    "bands": [
+     [
+      23700.0,
+      25.0
+     ],
+     [
+      null,
+      40.0
+     ]
+    ],
+    "pa_taper_above": null
+   },
+   "ni": {
+    "regime": "entry_fee",
+    "periods": [
+     {
+      "months": 12,
+      "lel": 52.0,
+      "pt": null,
+      "uel": 390.0,
+      "main": 9.0,
+      "entry_fee": 2.0,
+      "above_uel": 0.0
+     }
+    ]
+   }
+  },
+  "1992": {
+   "income_tax": {
+    "label": "1992 to 1993",
+    "personal_allowance": 3445.0,
+    "bands": [
+     [
+      2000.0,
+      20.0
+     ],
+     [
+      23700.0,
+      25.0
+     ],
+     [
+      null,
+      40.0
+     ]
+    ],
+    "pa_taper_above": null
+   },
+   "ni": {
+    "regime": "entry_fee",
+    "periods": [
+     {
+      "months": 12,
+      "lel": 54.0,
+      "pt": null,
+      "uel": 405.0,
+      "main": 9.0,
+      "entry_fee": 2.0,
+      "above_uel": 0.0
+     }
+    ]
+   }
+  },
+  "1993": {
+   "income_tax": {
+    "label": "1993 to 1994",
+    "personal_allowance": 3445.0,
+    "bands": [
+     [
+      2500.0,
+      20.0
+     ],
+     [
+      23700.0,
+      25.0
+     ],
+     [
+      null,
+      40.0
+     ]
+    ],
+    "pa_taper_above": null
+   },
+   "ni": {
+    "regime": "entry_fee",
+    "periods": [
+     {
+      "months": 12,
+      "lel": 56.0,
+      "pt": null,
+      "uel": 420.0,
+      "main": 9.0,
+      "entry_fee": 2.0,
+      "above_uel": 0.0
+     }
+    ]
+   }
+  },
+  "1994": {
+   "income_tax": {
+    "label": "1994 to 1995",
+    "personal_allowance": 3445.0,
+    "bands": [
+     [
+      3000.0,
+      20.0
+     ],
+     [
+      23700.0,
+      25.0
+     ],
+     [
+      null,
+      40.0
+     ]
+    ],
+    "pa_taper_above": null
+   },
+   "ni": {
+    "regime": "entry_fee",
+    "periods": [
+     {
+      "months": 12,
+      "lel": 57.0,
+      "pt": null,
+      "uel": 430.0,
+      "main": 10.0,
+      "entry_fee": 2.0,
+      "above_uel": 0.0
+     }
+    ]
+   }
+  },
+  "1995": {
+   "income_tax": {
+    "label": "1995 to 1996",
+    "personal_allowance": 3525.0,
+    "bands": [
+     [
+      3200.0,
+      20.0
+     ],
+     [
+      24300.0,
+      25.0
+     ],
+     [
+      null,
+      40.0
+     ]
+    ],
+    "pa_taper_above": null
+   },
+   "ni": {
+    "regime": "entry_fee",
+    "periods": [
+     {
+      "months": 12,
+      "lel": 58.0,
+      "pt": null,
+      "uel": 440.0,
+      "main": 10.0,
+      "entry_fee": 2.0,
+      "above_uel": 0.0
+     }
+    ]
+   }
+  },
+  "1996": {
+   "income_tax": {
+    "label": "1996 to 1997",
+    "personal_allowance": 3765.0,
+    "bands": [
+     [
+      3900.0,
+      20.0
+     ],
+     [
+      25500.0,
+      24.0
+     ],
+     [
+      null,
+      40.0
+     ]
+    ],
+    "pa_taper_above": null
+   },
+   "ni": {
+    "regime": "entry_fee",
+    "periods": [
+     {
+      "months": 12,
+      "lel": 61.0,
+      "pt": null,
+      "uel": 455.0,
+      "main": 10.0,
+      "entry_fee": 2.0,
+      "above_uel": 0.0
+     }
+    ]
+   }
+  },
+  "1997": {
+   "income_tax": {
+    "label": "1997 to 1998",
+    "personal_allowance": 4045.0,
+    "bands": [
+     [
+      4100.0,
+      20.0
+     ],
+     [
+      26100.0,
+      23.0
+     ],
+     [
+      null,
+      40.0
+     ]
+    ],
+    "pa_taper_above": null
+   },
+   "ni": {
+    "regime": "entry_fee",
+    "periods": [
+     {
+      "months": 12,
+      "lel": 62.0,
+      "pt": null,
+      "uel": 465.0,
+      "main": 10.0,
+      "entry_fee": 2.0,
+      "above_uel": 0.0
+     }
+    ]
+   }
+  },
+  "1998": {
+   "income_tax": {
+    "label": "1998 to 1999",
+    "personal_allowance": 4195.0,
+    "bands": [
+     [
+      4300.0,
+      20.0
+     ],
+     [
+      27100.0,
+      23.0
+     ],
+     [
+      null,
+      40.0
+     ]
+    ],
+    "pa_taper_above": null
+   },
+   "ni": {
+    "regime": "entry_fee",
+    "periods": [
+     {
+      "months": 12,
+      "lel": 64.0,
+      "pt": null,
+      "uel": 485.0,
+      "main": 10.0,
+      "entry_fee": 2.0,
+      "above_uel": 0.0
+     }
+    ]
+   }
+  },
+  "1999": {
+   "income_tax": {
+    "label": "1999 to 2000",
+    "personal_allowance": 4335.0,
+    "bands": [
+     [
+      1500.0,
+      10.0
+     ],
+     [
+      28000.0,
+      23.0
+     ],
+     [
+      null,
+      40.0
+     ]
+    ],
+    "pa_taper_above": null
+   },
+   "ni": {
+    "regime": "threshold",
+    "periods": [
+     {
+      "months": 12,
+      "lel": 66.0,
+      "pt": 66.0,
+      "uel": 500.0,
+      "main": 10.0,
+      "above_uel": 0.0
+     }
+    ]
+   }
+  },
+  "2000": {
+   "income_tax": {
+    "label": "2000 to 2001",
+    "personal_allowance": 4385.0,
+    "bands": [
+     [
+      1520.0,
+      10.0
+     ],
+     [
+      28400.0,
+      22.0
+     ],
+     [
+      null,
+      40.0
+     ]
+    ],
+    "pa_taper_above": null
+   },
+   "ni": {
+    "regime": "threshold",
+    "periods": [
+     {
+      "months": 12,
+      "lel": 67.0,
+      "pt": 76.0,
+      "uel": 535.0,
+      "main": 10.0,
+      "above_uel": 0.0
+     }
+    ]
+   }
+  },
+  "2001": {
+   "income_tax": {
+    "label": "2001 to 2002",
+    "personal_allowance": 4535.0,
+    "bands": [
+     [
+      1880.0,
+      10.0
+     ],
+     [
+      29400.0,
+      22.0
+     ],
+     [
+      null,
+      40.0
+     ]
+    ],
+    "pa_taper_above": null
+   },
+   "ni": {
+    "regime": "threshold",
+    "periods": [
+     {
+      "months": 12,
+      "lel": 72.0,
+      "pt": 87.0,
+      "uel": 575.0,
+      "main": 10.0,
+      "above_uel": 0.0
+     }
+    ]
+   }
+  },
+  "2002": {
+   "income_tax": {
+    "label": "2002 to 2003",
+    "personal_allowance": 4615.0,
+    "bands": [
+     [
+      1920.0,
+      10.0
+     ],
+     [
+      29900.0,
+      22.0
+     ],
+     [
+      null,
+      40.0
+     ]
+    ],
+    "pa_taper_above": null
+   },
+   "ni": {
+    "regime": "threshold",
+    "periods": [
+     {
+      "months": 12,
+      "lel": 75.0,
+      "pt": 89.0,
+      "uel": 585.0,
+      "main": 10.0,
+      "above_uel": 0.0
+     }
+    ]
+   }
+  },
+  "2003": {
+   "income_tax": {
+    "label": "2003 to 2004",
+    "personal_allowance": 4615.0,
+    "bands": [
+     [
+      1960.0,
+      10.0
+     ],
+     [
+      30500.0,
+      22.0
+     ],
+     [
+      null,
+      40.0
+     ]
+    ],
+    "pa_taper_above": null
+   },
+   "ni": {
+    "regime": "threshold",
+    "periods": [
+     {
+      "months": 12,
+      "lel": 77.0,
+      "pt": 89.0,
+      "uel": 595.0,
+      "main": 11.0,
+      "above_uel": 1.0
+     }
+    ]
+   }
+  },
+  "2004": {
+   "income_tax": {
+    "label": "2004 to 2005",
+    "personal_allowance": 4745.0,
+    "bands": [
+     [
+      2020.0,
+      10.0
+     ],
+     [
+      31400.0,
+      22.0
+     ],
+     [
+      null,
+      40.0
+     ]
+    ],
+    "pa_taper_above": null
+   },
+   "ni": {
+    "regime": "threshold",
+    "periods": [
+     {
+      "months": 12,
+      "lel": 79.0,
+      "pt": 91.0,
+      "uel": 610.0,
+      "main": 11.0,
+      "above_uel": 1.0
+     }
+    ]
+   }
+  },
+  "2005": {
+   "income_tax": {
+    "label": "2005 to 2006",
+    "personal_allowance": 4895.0,
+    "bands": [
+     [
+      2090.0,
+      10.0
+     ],
+     [
+      32400.0,
+      22.0
+     ],
+     [
+      null,
+      40.0
+     ]
+    ],
+    "pa_taper_above": null
+   },
+   "ni": {
+    "regime": "threshold",
+    "periods": [
+     {
+      "months": 12,
+      "lel": 82.0,
+      "pt": 94.0,
+      "uel": 630.0,
+      "main": 11.0,
+      "above_uel": 1.0
+     }
+    ]
+   }
+  },
+  "2006": {
+   "income_tax": {
+    "label": "2006 to 2007",
+    "personal_allowance": 5035.0,
+    "bands": [
+     [
+      2150.0,
+      10.0
+     ],
+     [
+      33300.0,
+      22.0
+     ],
+     [
+      null,
+      40.0
+     ]
+    ],
+    "pa_taper_above": null
+   },
+   "ni": {
+    "regime": "threshold",
+    "periods": [
+     {
+      "months": 12,
+      "lel": 84.0,
+      "pt": 97.0,
+      "uel": 645.0,
+      "main": 11.0,
+      "above_uel": 1.0
+     }
+    ]
+   }
+  },
+  "2007": {
+   "income_tax": {
+    "label": "2007 to 2008",
+    "personal_allowance": 5225.0,
+    "bands": [
+     [
+      2230.0,
+      10.0
+     ],
+     [
+      34600.0,
+      22.0
+     ],
+     [
+      null,
+      40.0
+     ]
+    ],
+    "pa_taper_above": null
+   },
+   "ni": {
+    "regime": "threshold",
+    "periods": [
+     {
+      "months": 12,
+      "lel": 87.0,
+      "pt": 100.0,
+      "uel": 670.0,
+      "main": 11.0,
+      "above_uel": 1.0
+     }
+    ]
+   }
+  },
+  "2008": {
+   "income_tax": {
+    "label": "2008 to 2009",
+    "personal_allowance": 6035.0,
+    "bands": [
+     [
+      34800.0,
+      20.0
+     ],
+     [
+      null,
+      40.0
+     ]
+    ],
+    "pa_taper_above": null
+   },
+   "ni": {
+    "regime": "threshold",
+    "periods": [
+     {
+      "months": 12,
+      "lel": 90.0,
+      "pt": 105.0,
+      "uel": 770.0,
+      "main": 11.0,
+      "above_uel": 1.0
+     }
+    ]
+   }
+  },
+  "2009": {
+   "income_tax": {
+    "label": "2009 to 2010",
+    "personal_allowance": 6475.0,
+    "bands": [
+     [
+      37400.0,
+      20.0
+     ],
+     [
+      null,
+      40.0
+     ]
+    ],
+    "pa_taper_above": null
+   },
+   "ni": {
+    "regime": "threshold",
+    "periods": [
+     {
+      "months": 12,
+      "lel": 95.0,
+      "pt": 110.0,
+      "uel": 844.0,
+      "main": 11.0,
+      "above_uel": 1.0
+     }
+    ]
+   }
+  },
+  "2010": {
+   "income_tax": {
+    "label": "2010 to 2011",
+    "personal_allowance": 6475.0,
+    "bands": [
+     [
+      37400.0,
+      20.0
+     ],
+     [
+      150000.0,
+      40.0
+     ],
+     [
+      null,
+      50.0
+     ]
+    ],
+    "pa_taper_above": 100000
+   },
+   "ni": {
+    "regime": "threshold",
+    "periods": [
+     {
+      "months": 12,
+      "lel": 97.0,
+      "pt": 110.0,
+      "uel": 844.0,
+      "main": 11.0,
+      "above_uel": 1.0
+     }
+    ]
+   }
+  },
+  "2011": {
+   "income_tax": {
+    "label": "2011 to 2012",
+    "personal_allowance": 7475.0,
+    "bands": [
+     [
+      35000.0,
+      20.0
+     ],
+     [
+      150000.0,
+      40.0
+     ],
+     [
+      null,
+      50.0
+     ]
+    ],
+    "pa_taper_above": 100000
+   },
+   "ni": {
+    "regime": "threshold",
+    "periods": [
+     {
+      "months": 12,
+      "lel": 102.0,
+      "pt": 139.0,
+      "uel": 817.0,
+      "main": 12.0,
+      "above_uel": 2.0
+     }
+    ]
+   }
+  },
+  "2012": {
+   "income_tax": {
+    "label": "2012 to 2013",
+    "personal_allowance": 8105.0,
+    "bands": [
+     [
+      34370.0,
+      20.0
+     ],
+     [
+      150000.0,
+      40.0
+     ],
+     [
+      null,
+      50.0
+     ]
+    ],
+    "pa_taper_above": 100000
+   },
+   "ni": {
+    "regime": "threshold",
+    "periods": [
+     {
+      "months": 12,
+      "lel": 107.0,
+      "pt": 146.0,
+      "uel": 817.0,
+      "main": 12.0,
+      "above_uel": 2.0
+     }
+    ]
+   }
+  },
+  "2013": {
+   "income_tax": {
+    "label": "2013 to 2014",
+    "personal_allowance": 9440.0,
+    "bands": [
+     [
+      32010.0,
+      20.0
+     ],
+     [
+      150000.0,
+      40.0
+     ],
+     [
+      null,
+      45.0
+     ]
+    ],
+    "pa_taper_above": 100000
+   },
+   "ni": {
+    "regime": "threshold",
+    "periods": [
+     {
+      "months": 12,
+      "lel": 109.0,
+      "pt": 149.0,
+      "uel": 797.0,
+      "main": 12.0,
+      "above_uel": 2.0
+     }
+    ]
+   }
+  },
+  "2014": {
+   "income_tax": {
+    "label": "2014 to 2015",
+    "personal_allowance": 10000.0,
+    "bands": [
+     [
+      31865.0,
+      20.0
+     ],
+     [
+      150000.0,
+      40.0
+     ],
+     [
+      null,
+      45.0
+     ]
+    ],
+    "pa_taper_above": 100000
+   },
+   "ni": {
+    "regime": "threshold",
+    "periods": [
+     {
+      "months": 12,
+      "lel": 111.0,
+      "pt": 153.0,
+      "uel": 805.0,
+      "main": 12.0,
+      "above_uel": 2.0
+     }
+    ]
+   }
+  },
+  "2015": {
+   "income_tax": {
+    "label": "2015 to 2016",
+    "personal_allowance": 10600.0,
+    "bands": [
+     [
+      31785.0,
+      20.0
+     ],
+     [
+      150000.0,
+      40.0
+     ],
+     [
+      null,
+      45.0
+     ]
+    ],
+    "pa_taper_above": 100000
+   },
+   "ni": {
+    "regime": "threshold",
+    "periods": [
+     {
+      "months": 12,
+      "lel": 112.0,
+      "pt": 155.0,
+      "uel": 815.0,
+      "main": 12.0,
+      "above_uel": 2.0
+     }
+    ]
+   }
+  },
+  "2016": {
+   "income_tax": {
+    "label": "2016 to 2017",
+    "personal_allowance": 11000.0,
+    "bands": [
+     [
+      32000.0,
+      20.0
+     ],
+     [
+      150000.0,
+      40.0
+     ],
+     [
+      null,
+      45.0
+     ]
+    ],
+    "pa_taper_above": 100000
+   },
+   "ni": {
+    "regime": "threshold",
+    "periods": [
+     {
+      "months": 12,
+      "lel": 112.0,
+      "pt": 155.0,
+      "uel": 827.0,
+      "main": 12.0,
+      "above_uel": 2.0
+     }
+    ]
+   }
+  },
+  "2017": {
+   "income_tax": {
+    "label": "2017 to 2018",
+    "personal_allowance": 11500.0,
+    "bands": [
+     [
+      33500.0,
+      20.0
+     ],
+     [
+      150000.0,
+      40.0
+     ],
+     [
+      null,
+      45.0
+     ]
+    ],
+    "pa_taper_above": 100000
+   },
+   "ni": {
+    "regime": "threshold",
+    "periods": [
+     {
+      "months": 12,
+      "lel": 113.0,
+      "pt": 157.0,
+      "uel": 866.0,
+      "main": 12.0,
+      "above_uel": 2.0
+     }
+    ]
+   }
+  },
+  "2018": {
+   "income_tax": {
+    "label": "2018 to 2019",
+    "personal_allowance": 11850.0,
+    "bands": [
+     [
+      34500.0,
+      20.0
+     ],
+     [
+      150000.0,
+      40.0
+     ],
+     [
+      null,
+      45.0
+     ]
+    ],
+    "pa_taper_above": 100000
+   },
+   "ni": {
+    "regime": "threshold",
+    "periods": [
+     {
+      "months": 12,
+      "lel": 116.0,
+      "pt": 162.0,
+      "uel": 892.0,
+      "main": 12.0,
+      "above_uel": 2.0
+     }
+    ]
+   }
+  },
+  "2019": {
+   "income_tax": {
+    "label": "2019 to 2020",
+    "personal_allowance": 12500.0,
+    "bands": [
+     [
+      37500.0,
+      20.0
+     ],
+     [
+      150000.0,
+      40.0
+     ],
+     [
+      null,
+      45.0
+     ]
+    ],
+    "pa_taper_above": 100000
+   },
+   "ni": {
+    "regime": "threshold",
+    "periods": [
+     {
+      "months": 12,
+      "lel": 118.0,
+      "pt": 166.0,
+      "uel": 962.0,
+      "main": 12.0,
+      "above_uel": 2.0
+     }
+    ]
+   }
+  },
+  "2020": {
+   "income_tax": {
+    "label": "2020 to 2021",
+    "personal_allowance": 12500.0,
+    "bands": [
+     [
+      37500.0,
+      20.0
+     ],
+     [
+      150000.0,
+      40.0
+     ],
+     [
+      null,
+      45.0
+     ]
+    ],
+    "pa_taper_above": 100000
+   },
+   "ni": {
+    "regime": "threshold",
+    "periods": [
+     {
+      "months": 12,
+      "lel": 120.0,
+      "pt": 183.0,
+      "uel": 962.0,
+      "main": 12.0,
+      "above_uel": 2.0
+     }
+    ]
+   }
+  },
+  "2021": {
+   "income_tax": {
+    "label": "2021 to 2022",
+    "personal_allowance": 12570.0,
+    "bands": [
+     [
+      37700.0,
+      20.0
+     ],
+     [
+      150000.0,
+      40.0
+     ],
+     [
+      null,
+      45.0
+     ]
+    ],
+    "pa_taper_above": 100000
+   },
+   "ni": {
+    "regime": "threshold",
+    "periods": [
+     {
+      "months": 12,
+      "lel": 120.0,
+      "pt": 184.0,
+      "uel": 967.0,
+      "main": 12.0,
+      "above_uel": 2.0
+     }
+    ]
+   }
+  },
+  "2022": {
+   "income_tax": {
+    "label": "2022 to 2023",
+    "personal_allowance": 12570.0,
+    "bands": [
+     [
+      37700.0,
+      20.0
+     ],
+     [
+      150000.0,
+      40.0
+     ],
+     [
+      null,
+      45.0
+     ]
+    ],
+    "pa_taper_above": 100000
+   },
+   "ni": {
+    "regime": "threshold",
+    "periods": [
+     {
+      "months": 3,
+      "lel": 123.0,
+      "pt": 190.0,
+      "uel": 967.0,
+      "main": 13.25,
+      "above_uel": 3.25
+     },
+     {
+      "months": 5,
+      "lel": 123.0,
+      "pt": 242.0,
+      "uel": 967.0,
+      "main": 13.25,
+      "above_uel": 3.25
+     },
+     {
+      "months": 4,
+      "lel": 123.0,
+      "pt": 242.0,
+      "uel": 967.0,
+      "main": 12.0,
+      "above_uel": 2.0
+     }
+    ]
+   }
+  },
+  "2023": {
+   "income_tax": {
+    "label": "2023 to 2024",
+    "personal_allowance": 12570.0,
+    "bands": [
+     [
+      37700.0,
+      20.0
+     ],
+     [
+      125140.0,
+      40.0
+     ],
+     [
+      null,
+      45.0
+     ]
+    ],
+    "pa_taper_above": 100000
+   },
+   "ni": {
+    "regime": "threshold",
+    "periods": [
+     {
+      "months": 9,
+      "lel": 123.0,
+      "pt": 242.0,
+      "uel": 967.0,
+      "main": 12.0,
+      "above_uel": 2.0
+     },
+     {
+      "months": 3,
+      "lel": 123.0,
+      "pt": 242.0,
+      "uel": 967.0,
+      "main": 10.0,
+      "above_uel": 2.0
+     }
+    ]
+   }
+  },
+  "2024": {
+   "income_tax": {
+    "label": "2024 to 2025",
+    "personal_allowance": 12570.0,
+    "bands": [
+     [
+      37700.0,
+      20.0
+     ],
+     [
+      125140.0,
+      40.0
+     ],
+     [
+      null,
+      45.0
+     ]
+    ],
+    "pa_taper_above": 100000
+   },
+   "ni": {
+    "regime": "threshold",
+    "periods": [
+     {
+      "months": 12,
+      "lel": 123.0,
+      "pt": 242.0,
+      "uel": 967.0,
+      "main": 8.0,
+      "above_uel": 2.0
+     }
+    ]
+   }
+  },
+  "2025": {
+   "income_tax": {
+    "label": "2025 to 2026",
+    "personal_allowance": 12570.0,
+    "bands": [
+     [
+      37700.0,
+      20.0
+     ],
+     [
+      125140.0,
+      40.0
+     ],
+     [
+      null,
+      45.0
+     ]
+    ],
+    "pa_taper_above": 100000
+   },
+   "ni": {
+    "regime": "threshold",
+    "periods": [
+     {
+      "months": 12,
+      "lel": 125.0,
+      "pt": 242.0,
+      "uel": 967.0,
+      "main": 8.0,
+      "above_uel": 2.0
+     }
+    ]
+   }
+  },
+  "2026": {
+   "income_tax": {
+    "label": "2026 to 2027",
+    "personal_allowance": 12570.0,
+    "bands": [
+     [
+      37700.0,
+      20.0
+     ],
+     [
+      125140.0,
+      40.0
+     ],
+     [
+      null,
+      45.0
+     ]
+    ],
+    "pa_taper_above": 100000
+   },
+   "ni": {
+    "regime": "threshold",
+    "periods": [
+     {
+      "months": 12,
+      "lel": 129.0,
+      "pt": 242.0,
+      "uel": 967.0,
+      "main": 8.0,
+      "above_uel": 2.0
+     }
+    ]
+   }
+  }
+ }
+}

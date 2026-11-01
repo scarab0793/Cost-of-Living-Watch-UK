@@ -1,0 +1,63 @@
+{
+ "id": "price_potatoes_old",
+ "label": "Potatoes, old white, per kg",
+ "group": "food",
+ "publisher": "Office for National Statistics",
+ "source_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/vkyy/mm23",
+ "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/vkyy/mm23",
+ "source_title": "RPI: Ave Price - Potatoes, old white, per kg",
+ "source_id": "VKYY",
+ "unit": "GBP/kg",
+ "geography": "United Kingdom",
+ "adjustment": "Original (not seasonally adjusted unless stated in title)",
+ "methodology": "RPI average price series (published by ONS in dataset MM23). Annual figure as published by ONS. Prices are for a specified item and pack size, not a market-wide census.",
+ "limitations": "Product specification and pack sizes change over time; the series may be discontinued. RPI is not a National Statistic; average-price quotes are indicative.",
+ "coverage": [
+  "1994",
+  "2024"
+ ],
+ "source_release": "21-10-2026",
+ "next_release": "18 November 2026",
+ "warnings": [],
+ "values": {
+  "1994": 0.47,
+  "1995": 0.68,
+  "1996": 0.58,
+  "1997": 0.42,
+  "1998": 0.62,
+  "1999": 0.66,
+  "2000": 0.61,
+  "2001": 0.81,
+  "2002": 0.77,
+  "2003": 0.53,
+  "2004": 0.6,
+  "2005": 0.45,
+  "2006": 0.48,
+  "2007": 0.55,
+  "2008": 0.66,
+  "2009": 0.68,
+  "2010": 0.68,
+  "2011": 0.66,
+  "2012": 0.72,
+  "2013": 0.97,
+  "2014": 0.84,
+  "2015": 0.77,
+  "2016": 0.73,
+  "2017": 0.72,
+  "2018": 0.71,
+  "2019": 0.75,
+  "2020": 0.68,
+  "2021": 0.57,
+  "2022": 0.64,
+  "2023": 0.72,
+  "2024": 0.89
+ },
+ "partial": {
+  "2025": {
+   "mean": 0.93,
+   "months": 1,
+   "last": "2025-01"
+  }
+ },
+ "last_updated": "2026-11-01"
+}

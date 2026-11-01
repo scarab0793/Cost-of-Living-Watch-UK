@@ -1,0 +1,5294 @@
+{
+ "generated": "2026-11-01",
+ "series": {
+  "awe_regular_pay": {
+   "id": "awe_regular_pay",
+   "label": "Average weekly earnings, whole economy, regular pay (£/week)",
+   "group": "earnings",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/timeseries/kai7/emp",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/timeseries/kai7/emp",
+   "source_title": "AWE: Whole Economy Level (£): Seasonally Adjusted Regular Pay Excluding Arrears",
+   "source_id": "KAI7",
+   "unit": "GBP/week",
+   "geography": "United Kingdom",
+   "adjustment": "Seasonally adjusted",
+   "methodology": "As above, regular pay (excludes bonuses).",
+   "limitations": "Starts 2000.",
+   "coverage": [
+    "2000",
+    "2025"
+   ],
+   "source_release": "20-10-2026",
+   "next_release": "17 November 2026",
+   "warnings": [],
+   "values": {
+    "2000": 296.0,
+    "2001": 310.0,
+    "2002": 323.0,
+    "2003": 334.0,
+    "2004": 346.0,
+    "2005": 360.0,
+    "2006": 374.0,
+    "2007": 390.0,
+    "2008": 405.0,
+    "2009": 412.0,
+    "2010": 420.0,
+    "2011": 428.0,
+    "2012": 434.0,
+    "2013": 438.0,
+    "2014": 442.0,
+    "2015": 453.0,
+    "2016": 464.0,
+    "2017": 473.0,
+    "2018": 488.0,
+    "2019": 505.0,
+    "2020": 516.0,
+    "2021": 543.0,
+    "2022": 573.0,
+    "2023": 613.0,
+    "2024": 648.0,
+    "2025": 679.0
+   },
+   "partial": {
+    "2026": {
+     "mean": 698.375,
+     "months": 8,
+     "last": "2026-08"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "awe_total_pay": {
+   "id": "awe_total_pay",
+   "label": "Average weekly earnings, whole economy, total pay (£/week)",
+   "group": "earnings",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/employmentandlabourmarket/peopleinwork/earningsandworkinghours/timeseries/kab9/emp",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/employmentandlabourmarket/peopleinwork/earningsandworkinghours/timeseries/kab9/emp",
+   "source_title": "AWE: Whole Economy Level (£): Seasonally Adjusted Total Pay Excluding Arrears",
+   "source_id": "KAB9",
+   "unit": "GBP/week",
+   "geography": "United Kingdom",
+   "adjustment": "Seasonally adjusted",
+   "methodology": "Monthly Average Weekly Earnings survey, annual average of published annual figure.",
+   "limitations": "Starts 2000. Excludes arrears. Earnings of employees, not household income.",
+   "coverage": [
+    "2000",
+    "2025"
+   ],
+   "source_release": "20-10-2026",
+   "next_release": "17 November 2026",
+   "warnings": [],
+   "values": {
+    "2000": 313.0,
+    "2001": 329.0,
+    "2002": 339.0,
+    "2003": 350.0,
+    "2004": 365.0,
+    "2005": 382.0,
+    "2006": 400.0,
+    "2007": 420.0,
+    "2008": 434.0,
+    "2009": 434.0,
+    "2010": 444.0,
+    "2011": 455.0,
+    "2012": 461.0,
+    "2013": 466.0,
+    "2014": 471.0,
+    "2015": 482.0,
+    "2016": 494.0,
+    "2017": 505.0,
+    "2018": 520.0,
+    "2019": 538.0,
+    "2020": 547.0,
+    "2021": 580.0,
+    "2022": 616.0,
+    "2023": 659.0,
+    "2024": 694.0,
+    "2025": 728.0
+   },
+   "partial": {
+    "2026": {
+     "mean": 752.375,
+     "months": 8,
+     "last": "2026-08"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "bank_rate": {
+   "id": "bank_rate",
+   "label": "Bank Rate (annual mean of daily, %)",
+   "group": "housing",
+   "publisher": "Bank of England",
+   "source_url": "",
+   "api_url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?csv.x=yes&Datefrom=01/Jan/1990&Dateto=now&SeriesCodes=IUDBEDR&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N",
+   "source_title": "IUDBEDR",
+   "source_id": "IUDBEDR",
+   "unit": "%",
+   "geography": "United Kingdom",
+   "adjustment": "Original (not seasonally adjusted unless stated in title)",
+   "methodology": "Official Bank Rate; mean of month averages.",
+   "limitations": "Policy rate, not a consumer rate.",
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "source_release": "",
+   "next_release": "",
+   "warnings": [
+    "large jump 2021->2022: 0.105952 -> 1.45738 (kept, flagged)"
+   ],
+   "values": {
+    "1990": 14.643116,
+    "1991": 11.569975,
+    "1992": 9.428059,
+    "1993": 5.888636,
+    "1994": 5.337784,
+    "1995": 6.569189,
+    "1996": 5.884604,
+    "1997": 6.542295,
+    "1998": 7.230069,
+    "1999": 5.344886,
+    "2000": 5.964931,
+    "2001": 5.122376,
+    "2002": 4.0,
+    "2003": 3.693841,
+    "2004": 4.38091,
+    "2005": 4.648674,
+    "2006": 4.638258,
+    "2007": 5.508701,
+    "2008": 4.67531,
+    "2009": 0.644868,
+    "2010": 0.5,
+    "2011": 0.5,
+    "2012": 0.5,
+    "2013": 0.5,
+    "2014": 0.5,
+    "2015": 0.5,
+    "2016": 0.398674,
+    "2017": 0.29072,
+    "2018": 0.60322,
+    "2019": 0.75,
+    "2020": 0.228977,
+    "2021": 0.105952,
+    "2022": 1.45738,
+    "2023": 4.676038,
+    "2024": 5.108135,
+    "2025": 4.253522
+   },
+   "partial": {
+    "2026": {
+     "mean": 3.75,
+     "months": 10,
+     "last": "2026-10"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "cpi_electricity_gas": {
+   "id": "cpi_electricity_gas",
+   "label": "CPI: electricity, gas and other fuels index (2015=100)",
+   "group": "energy",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7ch/mm23",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/d7ch/mm23",
+   "source_title": "CPI INDEX 04.5 : ELECTRICITY, GAS AND OTHER FUELS 2015=100",
+   "source_id": "D7CH",
+   "unit": "index 2015=100",
+   "geography": "United Kingdom",
+   "adjustment": "Original (not seasonally adjusted unless stated in title)",
+   "methodology": "Price index for household electricity, gas and other fuels (not a bill in £).",
+   "limitations": "An index, not a £ bill. Use with a base-year bill to estimate cost changes.",
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "18 November 2026",
+   "warnings": [],
+   "values": {
+    "1990": 34.5,
+    "1991": 37.2,
+    "1992": 38.1,
+    "1993": 37.6,
+    "1994": 39.2,
+    "1995": 40.0,
+    "1996": 40.2,
+    "1997": 39.0,
+    "1998": 37.4,
+    "1999": 37.4,
+    "2000": 37.4,
+    "2001": 37.6,
+    "2002": 38.4,
+    "2003": 39.1,
+    "2004": 41.8,
+    "2005": 47.3,
+    "2006": 59.0,
+    "2007": 63.2,
+    "2008": 74.9,
+    "2009": 80.2,
+    "2010": 77.9,
+    "2011": 85.7,
+    "2012": 92.5,
+    "2013": 99.1,
+    "2014": 103.4,
+    "2015": 100.0,
+    "2016": 97.0,
+    "2017": 100.7,
+    "2018": 107.5,
+    "2019": 111.6,
+    "2020": 106.5,
+    "2021": 111.5,
+    "2022": 183.6,
+    "2023": 212.0,
+    "2024": 172.2,
+    "2025": 174.9
+   },
+   "partial": {
+    "2026": {
+     "mean": 176.577778,
+     "months": 9,
+     "last": "2026-09"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "cpi_index": {
+   "id": "cpi_index",
+   "label": "CPI all items index (2015=100)",
+   "group": "prices",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7bt/mm23",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/d7bt/mm23",
+   "source_title": "CPI INDEX 00: ALL ITEMS 2015=100",
+   "source_id": "D7BT",
+   "unit": "index 2015=100",
+   "geography": "United Kingdom",
+   "adjustment": "Original (not seasonally adjusted unless stated in title)",
+   "methodology": "Consumer Prices Index, annual figure as published by ONS.",
+   "limitations": "Index from 1988. CPI excludes owner-occupier housing costs.",
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "18 November 2026",
+   "warnings": [],
+   "values": {
+    "1990": 55.9,
+    "1991": 60.1,
+    "1992": 62.6,
+    "1993": 64.2,
+    "1994": 65.5,
+    "1995": 67.2,
+    "1996": 68.8,
+    "1997": 70.1,
+    "1998": 71.2,
+    "1999": 72.1,
+    "2000": 72.7,
+    "2001": 73.6,
+    "2002": 74.5,
+    "2003": 75.5,
+    "2004": 76.5,
+    "2005": 78.1,
+    "2006": 79.9,
+    "2007": 81.8,
+    "2008": 84.7,
+    "2009": 86.6,
+    "2010": 89.4,
+    "2011": 93.4,
+    "2012": 96.1,
+    "2013": 98.5,
+    "2014": 100.0,
+    "2015": 100.0,
+    "2016": 100.7,
+    "2017": 103.4,
+    "2018": 105.9,
+    "2019": 107.8,
+    "2020": 108.7,
+    "2021": 111.6,
+    "2022": 121.7,
+    "2023": 130.5,
+    "2024": 133.9,
+    "2025": 138.4
+   },
+   "partial": {
+    "2026": {
+     "mean": 142.022222,
+     "months": 9,
+     "last": "2026-09"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "cpi_motor_insurance": {
+   "id": "cpi_motor_insurance",
+   "label": "CPI: motor vehicle insurance index (2015=100)",
+   "group": "transport",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/l7je/mm23",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/l7je/mm23",
+   "source_title": "CPI INDEX 12.5.4.1 Motor vehicle insurance 2015=100",
+   "source_id": "L7JE",
+   "unit": "index 2015=100",
+   "geography": "United Kingdom",
+   "adjustment": "Original (not seasonally adjusted unless stated in title)",
+   "methodology": "Motor insurance premium price index.",
+   "limitations": "Index, not £ premiums; may start after 1990.",
+   "coverage": [
+    "2015",
+    "2025"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "18 November 2026",
+   "warnings": [],
+   "values": {
+    "2015": 100.0,
+    "2016": 112.6,
+    "2017": 125.5,
+    "2018": 119.5,
+    "2019": 117.1,
+    "2020": 119.3,
+    "2021": 107.7,
+    "2022": 123.2,
+    "2023": 178.7,
+    "2024": 193.5,
+    "2025": 176.8
+   },
+   "partial": {
+    "2026": {
+     "mean": 185.111111,
+     "months": 9,
+     "last": "2026-09"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "cpi_new_cars": {
+   "id": "cpi_new_cars",
+   "label": "CPI: new cars index (2015=100)",
+   "group": "transport",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7e8/mm23",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/d7e8/mm23",
+   "source_title": "CPI INDEX 07.1.1A : NEW CARS 2015=100",
+   "source_id": "D7E8",
+   "unit": "index 2015=100",
+   "geography": "United Kingdom",
+   "adjustment": "Original (not seasonally adjusted unless stated in title)",
+   "methodology": "Quality-adjusted new car price index.",
+   "limitations": "Quality-adjusted index, not average transaction prices in £.",
+   "coverage": [
+    "1996",
+    "2025"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "18 November 2026",
+   "warnings": [],
+   "values": {
+    "1996": 86.7,
+    "1997": 88.5,
+    "1998": 90.0,
+    "1999": 89.1,
+    "2000": 86.5,
+    "2001": 82.6,
+    "2002": 82.3,
+    "2003": 82.9,
+    "2004": 84.8,
+    "2005": 86.3,
+    "2006": 87.1,
+    "2007": 88.4,
+    "2008": 89.5,
+    "2009": 90.6,
+    "2010": 93.7,
+    "2011": 96.8,
+    "2012": 97.6,
+    "2013": 97.1,
+    "2014": 98.0,
+    "2015": 100.0,
+    "2016": 100.6,
+    "2017": 103.6,
+    "2018": 108.1,
+    "2019": 112.2,
+    "2020": 115.4,
+    "2021": 119.4,
+    "2022": 126.5,
+    "2023": 132.6,
+    "2024": 135.6,
+    "2025": 139.5
+   },
+   "partial": {
+    "2026": {
+     "mean": 140.888889,
+     "months": 9,
+     "last": "2026-09"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "cpi_rail_fares": {
+   "id": "cpi_rail_fares",
+   "label": "CPI: passenger transport by railway index (2015=100)",
+   "group": "transport",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7ef/mm23",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/d7ef/mm23",
+   "source_title": "CPI INDEX 07.3.1 : PASSENGER TRANSPORT BY RAILWAY 2015=100",
+   "source_id": "D7EF",
+   "unit": "index 2015=100",
+   "geography": "United Kingdom",
+   "adjustment": "Original (not seasonally adjusted unless stated in title)",
+   "methodology": "Rail fares price index.",
+   "limitations": "Index, not £ fares.",
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "18 November 2026",
+   "warnings": [],
+   "values": {
+    "1990": 33.1,
+    "1991": 36.5,
+    "1992": 39.2,
+    "1993": 41.9,
+    "1994": 43.8,
+    "1995": 45.7,
+    "1996": 47.4,
+    "1997": 48.6,
+    "1998": 50.6,
+    "1999": 52.4,
+    "2000": 53.3,
+    "2001": 55.6,
+    "2002": 57.0,
+    "2003": 57.5,
+    "2004": 59.9,
+    "2005": 62.2,
+    "2006": 64.9,
+    "2007": 68.1,
+    "2008": 71.1,
+    "2009": 75.1,
+    "2010": 81.2,
+    "2011": 86.7,
+    "2012": 91.1,
+    "2013": 94.6,
+    "2014": 97.7,
+    "2015": 100.0,
+    "2016": 100.1,
+    "2017": 102.8,
+    "2018": 106.0,
+    "2019": 110.1,
+    "2020": 112.6,
+    "2021": 115.8,
+    "2022": 122.7,
+    "2023": 129.7,
+    "2024": 134.8,
+    "2025": 142.6
+   },
+   "partial": {
+    "2026": {
+     "mean": 145.566667,
+     "months": 9,
+     "last": "2026-09"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "cpi_rate": {
+   "id": "cpi_rate",
+   "label": "CPI annual inflation rate",
+   "group": "prices",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/d7g7/mm23",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/d7g7/mm23",
+   "source_title": "CPI ANNUAL RATE 00: ALL ITEMS 2015=100",
+   "source_id": "D7G7",
+   "unit": "%",
+   "geography": "United Kingdom",
+   "adjustment": "Original (not seasonally adjusted unless stated in title)",
+   "methodology": "12-month rate; annual average.",
+   "limitations": "",
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "18 November 2026",
+   "warnings": [],
+   "values": {
+    "1990": 7.0,
+    "1991": 7.5,
+    "1992": 4.2,
+    "1993": 2.5,
+    "1994": 2.0,
+    "1995": 2.6,
+    "1996": 2.4,
+    "1997": 1.8,
+    "1998": 1.6,
+    "1999": 1.3,
+    "2000": 0.8,
+    "2001": 1.2,
+    "2002": 1.3,
+    "2003": 1.4,
+    "2004": 1.3,
+    "2005": 2.1,
+    "2006": 2.3,
+    "2007": 2.3,
+    "2008": 3.6,
+    "2009": 2.2,
+    "2010": 3.3,
+    "2011": 4.5,
+    "2012": 2.8,
+    "2013": 2.6,
+    "2014": 1.5,
+    "2015": 0.0,
+    "2016": 0.7,
+    "2017": 2.7,
+    "2018": 2.5,
+    "2019": 1.8,
+    "2020": 0.9,
+    "2021": 2.6,
+    "2022": 9.1,
+    "2023": 7.3,
+    "2024": 2.5,
+    "2025": 3.4
+   },
+   "partial": {
+    "2026": {
+     "mean": 3.0,
+     "months": 9,
+     "last": "2026-09"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "cpih_index": {
+   "id": "cpih_index",
+   "label": "CPIH all items index (2015=100)",
+   "group": "prices",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/l522/mm23",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/l522/mm23",
+   "source_title": "CPIH INDEX 00: ALL ITEMS 2015=100",
+   "source_id": "L522",
+   "unit": "index 2015=100",
+   "geography": "United Kingdom",
+   "adjustment": "Original (not seasonally adjusted unless stated in title)",
+   "methodology": "CPI including owner occupiers' housing costs.",
+   "limitations": "Index from 1988.",
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "18 November 2026",
+   "warnings": [],
+   "values": {
+    "1990": 55.1,
+    "1991": 59.2,
+    "1992": 61.9,
+    "1993": 63.5,
+    "1994": 64.9,
+    "1995": 66.6,
+    "1996": 68.5,
+    "1997": 70.0,
+    "1998": 71.3,
+    "1999": 72.6,
+    "2000": 73.4,
+    "2001": 74.6,
+    "2002": 75.7,
+    "2003": 76.7,
+    "2004": 77.8,
+    "2005": 79.4,
+    "2006": 81.4,
+    "2007": 83.3,
+    "2008": 86.2,
+    "2009": 87.9,
+    "2010": 90.1,
+    "2011": 93.6,
+    "2012": 96.0,
+    "2013": 98.2,
+    "2014": 99.6,
+    "2015": 100.0,
+    "2016": 101.0,
+    "2017": 103.6,
+    "2018": 106.0,
+    "2019": 107.8,
+    "2020": 108.9,
+    "2021": 111.6,
+    "2022": 120.5,
+    "2023": 128.6,
+    "2024": 132.9,
+    "2025": 138.0
+   },
+   "partial": {
+    "2026": {
+     "mean": 141.833333,
+     "months": 9,
+     "last": "2026-09"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "earnings_boe_composite": {
+   "id": "earnings_boe_composite",
+   "group": "earnings",
+   "label": "Composite average weekly earnings (£/week), Bank of England historical dataset",
+   "publisher": "Bank of England (compiled from ONS and earlier official sources)",
+   "source_url": "https://www.bankofengland.co.uk/statistics/research-datasets",
+   "api_url": "https://www.bankofengland.co.uk/-/media/boe/files/statistics/research-datasets/a-millennium-of-macroeconomic-data-for-the-uk.xlsx",
+   "source_title": "Composite Average Weekly Earnings series",
+   "source_id": "A47 col B",
+   "unit": "GBP/week",
+   "geography": "GB/UK",
+   "adjustment": "Original",
+   "methodology": "Composite earnings series spliced by the BoE from official sources.",
+   "limitations": "Ends 2016. Definition differs from ONS AWE (2000 onward): the two overlap in 2000-2016 and differ by a few percent; do not treat the splice as one survey.",
+   "coverage": [
+    "1990",
+    "2016"
+   ],
+   "source_release": "v3.1",
+   "next_release": "",
+   "warnings": [],
+   "values": {
+    "1990": 203.12,
+    "1991": 218.93,
+    "1992": 232.05,
+    "1993": 238.97,
+    "1994": 247.98,
+    "1995": 256.08,
+    "1996": 265.37,
+    "1997": 277.08,
+    "1998": 291.5,
+    "1999": 304.84,
+    "2000": 317.67,
+    "2001": 334.0,
+    "2002": 344.58,
+    "2003": 355.67,
+    "2004": 371.17,
+    "2005": 388.5,
+    "2006": 406.75,
+    "2007": 426.58,
+    "2008": 441.75,
+    "2009": 441.42,
+    "2010": 451.58,
+    "2011": 462.17,
+    "2012": 468.5,
+    "2013": 474.0,
+    "2014": 479.83,
+    "2015": 491.5,
+    "2016": 503.17
+   },
+   "partial": {},
+   "last_updated": "2026-11-01"
+  },
+  "energy_elec_direct_debit": {
+   "id": "energy_elec_direct_debit",
+   "group": "energy",
+   "label": "Average annual electricity bill, direct debit, UK (£/year)",
+   "publisher": "Department for Energy Security and Net Zero",
+   "source_url": "https://www.gov.uk/government/statistical-data-sets/annual-domestic-energy-price-statistics",
+   "api_url": "https://assets.publishing.service.gov.uk/media/6a4245907ac6fd9c6a94aae0/table_221__1_.xlsx",
+   "source_title": "QEP 2.2.1 2.2.1 (Historic)",
+   "source_id": "QEP 2.2.1",
+   "unit": "GBP/year",
+   "geography": "UK",
+   "adjustment": "Cash (nominal) terms, VAT inclusive",
+   "methodology": "Bill for a fixed annual consumption of 3,600 kWh. Not actual household spend.",
+   "limitations": "Starts 2010; £ bills before 2010 are not published in these tables. Consumption basis changes in DESNZ's newer tables (from 2025) and is not mixed in. Includes Energy Price Guarantee from Oct 2022, excludes Energy Bills Support Scheme £200.",
+   "coverage": [
+    "2010",
+    "2024"
+   ],
+   "source_release": "2026-07-30",
+   "next_release": "",
+   "warnings": [],
+   "values": {
+    "2010": 431.3,
+    "2011": 469.42,
+    "2012": 496.85,
+    "2013": 530.63,
+    "2014": 542.13,
+    "2015": 531.42,
+    "2016": 532.74,
+    "2017": 575.83,
+    "2018": 627.8,
+    "2019": 681.99,
+    "2020": 687.68,
+    "2021": 754.2,
+    "2022": 1151.16,
+    "2023": 1266.5,
+    "2024": 1133.35
+   },
+   "partial": {},
+   "last_updated": "2026-11-01"
+  },
+  "energy_elec_standard_credit": {
+   "id": "energy_elec_standard_credit",
+   "group": "energy",
+   "label": "Average annual electricity bill, standard credit, UK (£/year)",
+   "publisher": "Department for Energy Security and Net Zero",
+   "source_url": "https://www.gov.uk/government/statistical-data-sets/annual-domestic-energy-price-statistics",
+   "api_url": "https://assets.publishing.service.gov.uk/media/6a4245907ac6fd9c6a94aae0/table_221__1_.xlsx",
+   "source_title": "QEP 2.2.1 2.2.1 (Historic)",
+   "source_id": "QEP 2.2.1",
+   "unit": "GBP/year",
+   "geography": "UK",
+   "adjustment": "Cash (nominal) terms, VAT inclusive",
+   "methodology": "Bill for a fixed annual consumption of 3,600 kWh. Not actual household spend.",
+   "limitations": "Starts 2010; £ bills before 2010 are not published in these tables. Consumption basis changes in DESNZ's newer tables (from 2025) and is not mixed in. Includes Energy Price Guarantee from Oct 2022, excludes Energy Bills Support Scheme £200.",
+   "coverage": [
+    "2010",
+    "2024"
+   ],
+   "source_release": "2026-07-30",
+   "next_release": "",
+   "warnings": [],
+   "values": {
+    "2010": 469.61,
+    "2011": 508.85,
+    "2012": 539.13,
+    "2013": 573.65,
+    "2014": 589.33,
+    "2015": 585.46,
+    "2016": 595.43,
+    "2017": 641.76,
+    "2018": 695.31,
+    "2019": 753.02,
+    "2020": 755.34,
+    "2021": 820.65,
+    "2022": 1226.31,
+    "2023": 1325.0,
+    "2024": 1176.63
+   },
+   "partial": {},
+   "last_updated": "2026-11-01"
+  },
+  "energy_gas_direct_debit": {
+   "id": "energy_gas_direct_debit",
+   "group": "energy",
+   "label": "Average annual gas bill, direct debit, GB (£/year)",
+   "publisher": "Department for Energy Security and Net Zero",
+   "source_url": "https://www.gov.uk/government/statistical-data-sets/annual-domestic-energy-price-statistics",
+   "api_url": "https://assets.publishing.service.gov.uk/media/6a4245df3413112faed80dbd/table_231__1_.xlsx",
+   "source_title": "QEP 2.3.1 2.3.1 (Historic)",
+   "source_id": "QEP 2.3.1",
+   "unit": "GBP/year",
+   "geography": "Great Britain",
+   "adjustment": "Cash (nominal) terms, VAT inclusive",
+   "methodology": "Bill for a fixed annual consumption of 13,600 kWh. Not actual household spend.",
+   "limitations": "Starts 2010; £ bills before 2010 are not published in these tables. Consumption basis changes in DESNZ's newer tables (from 2025) and is not mixed in. Includes Energy Price Guarantee from Oct 2022, excludes Energy Bills Support Scheme £200.",
+   "coverage": [
+    "2010",
+    "2024"
+   ],
+   "source_release": "2026-07-30",
+   "next_release": "",
+   "warnings": [],
+   "values": {
+    "2010": 503.24,
+    "2011": 550.87,
+    "2012": 609.54,
+    "2013": 644.39,
+    "2014": 661.37,
+    "2015": 624.37,
+    "2016": 563.71,
+    "2017": 560.89,
+    "2018": 580.02,
+    "2019": 591.35,
+    "2020": 557.8,
+    "2021": 549.97,
+    "2022": 1086.17,
+    "2023": 1273.0,
+    "2024": 993.78
+   },
+   "partial": {},
+   "last_updated": "2026-11-01"
+  },
+  "energy_gas_standard_credit": {
+   "id": "energy_gas_standard_credit",
+   "group": "energy",
+   "label": "Average annual gas bill, standard credit, GB (£/year)",
+   "publisher": "Department for Energy Security and Net Zero",
+   "source_url": "https://www.gov.uk/government/statistical-data-sets/annual-domestic-energy-price-statistics",
+   "api_url": "https://assets.publishing.service.gov.uk/media/6a4245df3413112faed80dbd/table_231__1_.xlsx",
+   "source_title": "QEP 2.3.1 2.3.1 (Historic)",
+   "source_id": "QEP 2.3.1",
+   "unit": "GBP/year",
+   "geography": "Great Britain",
+   "adjustment": "Cash (nominal) terms, VAT inclusive",
+   "methodology": "Bill for a fixed annual consumption of 13,600 kWh. Not actual household spend.",
+   "limitations": "Starts 2010; £ bills before 2010 are not published in these tables. Consumption basis changes in DESNZ's newer tables (from 2025) and is not mixed in. Includes Energy Price Guarantee from Oct 2022, excludes Energy Bills Support Scheme £200.",
+   "coverage": [
+    "2010",
+    "2024"
+   ],
+   "source_release": "2026-07-30",
+   "next_release": "",
+   "warnings": [],
+   "values": {
+    "2010": 540.82,
+    "2011": 594.07,
+    "2012": 664.16,
+    "2013": 704.94,
+    "2014": 730.99,
+    "2015": 697.96,
+    "2016": 646.5,
+    "2017": 638.0,
+    "2018": 658.55,
+    "2019": 659.25,
+    "2020": 639.04,
+    "2021": 601.5,
+    "2022": 1266.19,
+    "2023": 1382.73,
+    "2024": 1061.68
+   },
+   "partial": {},
+   "last_updated": "2026-11-01"
+  },
+  "gdp_nominal": {
+   "id": "gdp_nominal",
+   "label": "GDP at market prices, current prices (£m)",
+   "group": "government",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/grossdomesticproductgdp/timeseries/ybha/qna",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/grossdomesticproductgdp/timeseries/ybha/qna",
+   "source_title": "Gross Domestic Product at market prices: Current price: Seasonally adjusted £m",
+   "source_id": "YBHA",
+   "unit": "GBP million",
+   "geography": "United Kingdom",
+   "adjustment": "Current prices, not inflation-adjusted",
+   "methodology": "ONS public sector finances / national accounts, annual figure as published.",
+   "limitations": "Component series; do not add together (categories overlap: e.g. NICs sit inside social contributions).",
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "source_release": "30-09-2026",
+   "next_release": "12 November 2026",
+   "warnings": [],
+   "values": {
+    "1990": 670331.0,
+    "1991": 705165.0,
+    "1992": 730156.0,
+    "1993": 769169.0,
+    "1994": 810165.0,
+    "1995": 851390.0,
+    "1996": 909894.0,
+    "1997": 954275.0,
+    "1998": 998676.0,
+    "1999": 1042219.0,
+    "2000": 1100367.0,
+    "2001": 1145871.0,
+    "2002": 1189667.0,
+    "2003": 1257397.0,
+    "2004": 1321889.0,
+    "2005": 1397632.0,
+    "2006": 1472264.0,
+    "2007": 1546393.0,
+    "2008": 1597786.0,
+    "2009": 1556801.0,
+    "2010": 1615304.0,
+    "2011": 1670576.0,
+    "2012": 1723202.0,
+    "2013": 1792584.0,
+    "2014": 1877018.0,
+    "2015": 1928920.0,
+    "2016": 2005533.0,
+    "2017": 2102410.0,
+    "2018": 2178105.0,
+    "2019": 2263433.0,
+    "2020": 2131729.0,
+    "2021": 2332847.0,
+    "2022": 2590757.0,
+    "2023": 2766446.0,
+    "2024": 2904950.0,
+    "2025": 3044594.0
+   },
+   "partial": {},
+   "last_updated": "2026-11-01"
+  },
+  "house_price_east-midlands": {
+   "id": "house_price_east-midlands",
+   "label": "Average house price, East Midlands (£)",
+   "group": "housing",
+   "publisher": "HM Land Registry / ONS / Registers of Scotland / LPS NI (UK House Price Index)",
+   "source_url": "",
+   "api_url": "https://landregistry.data.gov.uk/data/ukhpi/region/east-midlands.csv?_pageSize=200&_page=2&_sort=refMonth&min-refMonth=1990-01&_view=all",
+   "source_title": "UK HPI average price, East Midlands",
+   "source_id": "east-midlands",
+   "unit": "GBP",
+   "geography": "East Midlands",
+   "adjustment": "Original, not seasonally adjusted",
+   "methodology": "Mean of monthly UK HPI average prices (mix-adjusted, based on registered sales). Full year = all 12 months.",
+   "limitations": "Latest year is partial until December is published. Averages include all property types.",
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "source_release": "",
+   "next_release": "",
+   "warnings": [],
+   "values": {
+    "1990": 47571.5,
+    "1991": 46568.0,
+    "1992": 45080.25,
+    "1993": 43954.0,
+    "1994": 44976.5,
+    "1995": 43986.916667,
+    "1996": 44449.416667,
+    "1997": 47427.25,
+    "1998": 50281.25,
+    "1999": 53764.166667,
+    "2000": 59930.0,
+    "2001": 67647.166667,
+    "2002": 83216.75,
+    "2003": 106061.083333,
+    "2004": 125674.666667,
+    "2005": 134854.583333,
+    "2006": 141114.083333,
+    "2007": 150050.0,
+    "2008": 141558.416667,
+    "2009": 129146.916667,
+    "2010": 135330.25,
+    "2011": 132888.166667,
+    "2012": 133491.666667,
+    "2013": 136368.083333,
+    "2014": 145584.333333,
+    "2015": 153653.833333,
+    "2016": 163698.0,
+    "2017": 173556.0,
+    "2018": 182655.333333,
+    "2019": 185853.333333,
+    "2020": 192310.666667,
+    "2021": 209216.166667,
+    "2022": 230580.333333,
+    "2023": 232440.083333,
+    "2024": 231829.166667,
+    "2025": 237523.916667
+   },
+   "partial": {
+    "2026": {
+     "mean": 241201.25,
+     "months": 8,
+     "last": "2026-08"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "house_price_east-of-england": {
+   "id": "house_price_east-of-england",
+   "label": "Average house price, East of England (£)",
+   "group": "housing",
+   "publisher": "HM Land Registry / ONS / Registers of Scotland / LPS NI (UK House Price Index)",
+   "source_url": "",
+   "api_url": "https://landregistry.data.gov.uk/data/ukhpi/region/east-of-england.csv?_pageSize=200&_page=2&_sort=refMonth&min-refMonth=1990-01&_view=all",
+   "source_title": "UK HPI average price, East of England",
+   "source_id": "east-of-england",
+   "unit": "GBP",
+   "geography": "East of England",
+   "adjustment": "Original, not seasonally adjusted",
+   "methodology": "Mean of monthly UK HPI average prices (mix-adjusted, based on registered sales). Full year = all 12 months.",
+   "limitations": "Latest year is partial until December is published. Averages include all property types.",
+   "coverage": [
+    "1993",
+    "2025"
+   ],
+   "source_release": "",
+   "next_release": "",
+   "warnings": [],
+   "values": {
+    "1993": 55118.0,
+    "1994": 55960.0,
+    "1995": 55707.5,
+    "1996": 56200.75,
+    "1997": 62261.5,
+    "1998": 68987.75,
+    "1999": 75951.75,
+    "2000": 90382.583333,
+    "2001": 102976.166667,
+    "2002": 125800.416667,
+    "2003": 149634.083333,
+    "2004": 167542.0,
+    "2005": 175264.75,
+    "2006": 184915.333333,
+    "2007": 201608.0,
+    "2008": 193335.5,
+    "2009": 175498.666667,
+    "2010": 189337.916667,
+    "2011": 188125.75,
+    "2012": 191567.666667,
+    "2013": 197269.75,
+    "2014": 216116.833333,
+    "2015": 237207.166667,
+    "2016": 263718.583333,
+    "2017": 280397.333333,
+    "2018": 287488.916667,
+    "2019": 286451.333333,
+    "2020": 291010.166667,
+    "2021": 307257.083333,
+    "2022": 335998.0,
+    "2023": 333809.416667,
+    "2024": 329196.25,
+    "2025": 333943.5
+   },
+   "partial": {
+    "1992": {
+     "mean": 56439.0,
+     "months": 9,
+     "last": "1992-12"
+    },
+    "2026": {
+     "mean": 336879.5,
+     "months": 8,
+     "last": "2026-08"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "house_price_england": {
+   "id": "house_price_england",
+   "label": "Average house price, England (£)",
+   "group": "housing",
+   "publisher": "HM Land Registry / ONS / Registers of Scotland / LPS NI (UK House Price Index)",
+   "source_url": "",
+   "api_url": "https://landregistry.data.gov.uk/data/ukhpi/region/england.csv?_pageSize=200&_page=2&_sort=refMonth&min-refMonth=1990-01&_view=all",
+   "source_title": "UK HPI average price, England",
+   "source_id": "england",
+   "unit": "GBP",
+   "geography": "England",
+   "adjustment": "Original, not seasonally adjusted",
+   "methodology": "Mean of monthly UK HPI average prices (mix-adjusted, based on registered sales). Full year = all 12 months.",
+   "limitations": "Latest year is partial until December is published. Averages include all property types.",
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "source_release": "",
+   "next_release": "",
+   "warnings": [],
+   "values": {
+    "1990": 53612.75,
+    "1991": 52459.75,
+    "1992": 49890.5,
+    "1993": 48906.0,
+    "1994": 50253.5,
+    "1995": 50343.416667,
+    "1996": 51126.166667,
+    "1997": 55855.666667,
+    "1998": 60709.5,
+    "1999": 66156.25,
+    "2000": 76299.416667,
+    "2001": 85261.75,
+    "2002": 101949.166667,
+    "2003": 122943.75,
+    "2004": 143805.333333,
+    "2005": 154432.083333,
+    "2006": 164611.333333,
+    "2007": 179409.75,
+    "2008": 172191.083333,
+    "2009": 157253.75,
+    "2010": 167557.916667,
+    "2011": 165440.666667,
+    "2012": 167572.666667,
+    "2013": 172381.5,
+    "2014": 186722.5,
+    "2015": 199377.416667,
+    "2016": 214636.666667,
+    "2017": 224856.0,
+    "2018": 231329.333333,
+    "2019": 232856.5,
+    "2020": 239383.333333,
+    "2021": 257885.25,
+    "2022": 281827.666667,
+    "2023": 282333.5,
+    "2024": 282734.5,
+    "2025": 288859.5
+   },
+   "partial": {
+    "2026": {
+     "mean": 291877.75,
+     "months": 8,
+     "last": "2026-08"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "house_price_london": {
+   "id": "house_price_london",
+   "label": "Average house price, London (£)",
+   "group": "housing",
+   "publisher": "HM Land Registry / ONS / Registers of Scotland / LPS NI (UK House Price Index)",
+   "source_url": "",
+   "api_url": "https://landregistry.data.gov.uk/data/ukhpi/region/london.csv?_pageSize=200&_page=2&_sort=refMonth&min-refMonth=1990-01&_view=all",
+   "source_title": "UK HPI average price, London",
+   "source_id": "london",
+   "unit": "GBP",
+   "geography": "London",
+   "adjustment": "Original, not seasonally adjusted",
+   "methodology": "Mean of monthly UK HPI average prices (mix-adjusted, based on registered sales). Full year = all 12 months.",
+   "limitations": "Latest year is partial until December is published. Averages include all property types.",
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "source_release": "",
+   "next_release": "",
+   "warnings": [],
+   "values": {
+    "1990": 84118.25,
+    "1991": 80651.75,
+    "1992": 73062.5,
+    "1993": 72760.75,
+    "1994": 76235.5,
+    "1995": 79993.083333,
+    "1996": 83681.166667,
+    "1997": 96289.75,
+    "1998": 109314.833333,
+    "1999": 123848.333333,
+    "2000": 152025.583333,
+    "2001": 170459.75,
+    "2002": 200617.083333,
+    "2003": 225994.583333,
+    "2004": 244743.416667,
+    "2005": 251932.5,
+    "2006": 269009.75,
+    "2007": 307370.833333,
+    "2008": 302922.666667,
+    "2009": 276046.166667,
+    "2010": 304618.5,
+    "2011": 311050.5,
+    "2012": 325370.416667,
+    "2013": 352391.666667,
+    "2014": 413366.75,
+    "2015": 455128.75,
+    "2016": 500486.75,
+    "2017": 514130.166667,
+    "2018": 511558.083333,
+    "2019": 504314.333333,
+    "2020": 517773.25,
+    "2021": 535453.666667,
+    "2022": 565955.416667,
+    "2023": 558023.75,
+    "2024": 556103.583333,
+    "2025": 562213.416667
+   },
+   "partial": {
+    "2026": {
+     "mean": 550817.875,
+     "months": 8,
+     "last": "2026-08"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "house_price_north-east": {
+   "id": "house_price_north-east",
+   "label": "Average house price, North East (£)",
+   "group": "housing",
+   "publisher": "HM Land Registry / ONS / Registers of Scotland / LPS NI (UK House Price Index)",
+   "source_url": "",
+   "api_url": "https://landregistry.data.gov.uk/data/ukhpi/region/north-east.csv?_pageSize=200&_page=2&_sort=refMonth&min-refMonth=1990-01&_view=all",
+   "source_title": "UK HPI average price, North East",
+   "source_id": "north-east",
+   "unit": "GBP",
+   "geography": "North East",
+   "adjustment": "Original, not seasonally adjusted",
+   "methodology": "Mean of monthly UK HPI average prices (mix-adjusted, based on registered sales). Full year = all 12 months.",
+   "limitations": "Latest year is partial until December is published. Averages include all property types.",
+   "coverage": [
+    "1993",
+    "2025"
+   ],
+   "source_release": "",
+   "next_release": "",
+   "warnings": [],
+   "values": {
+    "1993": 40207.25,
+    "1994": 41312.75,
+    "1995": 40008.75,
+    "1996": 40045.333333,
+    "1997": 41542.916667,
+    "1998": 42937.333333,
+    "1999": 44466.333333,
+    "2000": 46652.75,
+    "2001": 49846.416667,
+    "2002": 58529.166667,
+    "2003": 75436.416667,
+    "2004": 98411.166667,
+    "2005": 111904.416667,
+    "2006": 121297.583333,
+    "2007": 128960.583333,
+    "2008": 123933.0,
+    "2009": 114436.583333,
+    "2010": 116012.333333,
+    "2011": 111098.75,
+    "2012": 110074.333333,
+    "2013": 109677.5,
+    "2014": 112179.25,
+    "2015": 114777.583333,
+    "2016": 117724.083333,
+    "2017": 119773.416667,
+    "2018": 121422.166667,
+    "2019": 121669.166667,
+    "2020": 123916.5,
+    "2021": 137431.75,
+    "2022": 148133.916667,
+    "2023": 149708.083333,
+    "2024": 151900.416667,
+    "2025": 158459.416667
+   },
+   "partial": {
+    "1992": {
+     "mean": 39456.333333,
+     "months": 9,
+     "last": "1992-12"
+    },
+    "2026": {
+     "mean": 163513.125,
+     "months": 8,
+     "last": "2026-08"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "house_price_north-west": {
+   "id": "house_price_north-west",
+   "label": "Average house price, North West (£)",
+   "group": "housing",
+   "publisher": "HM Land Registry / ONS / Registers of Scotland / LPS NI (UK House Price Index)",
+   "source_url": "",
+   "api_url": "https://landregistry.data.gov.uk/data/ukhpi/region/north-west.csv?_pageSize=200&_page=2&_sort=refMonth&min-refMonth=1990-01&_view=all",
+   "source_title": "UK HPI average price, North West",
+   "source_id": "north-west",
+   "unit": "GBP",
+   "geography": "North West",
+   "adjustment": "Original, not seasonally adjusted",
+   "methodology": "Mean of monthly UK HPI average prices (mix-adjusted, based on registered sales). Full year = all 12 months.",
+   "limitations": "Latest year is partial until December is published. Averages include all property types.",
+   "coverage": [
+    "1995",
+    "2025"
+   ],
+   "source_release": "",
+   "next_release": "",
+   "warnings": [],
+   "values": {
+    "1995": 40878.75,
+    "1996": 40879.083333,
+    "1997": 42690.75,
+    "1998": 44360.916667,
+    "1999": 46664.5,
+    "2000": 50112.25,
+    "2001": 54947.333333,
+    "2002": 63958.333333,
+    "2003": 79438.166667,
+    "2004": 102698.833333,
+    "2005": 117584.75,
+    "2006": 128087.75,
+    "2007": 138197.333333,
+    "2008": 132234.833333,
+    "2009": 121089.583333,
+    "2010": 123953.166667,
+    "2011": 120239.666667,
+    "2012": 119378.0,
+    "2013": 119967.666667,
+    "2014": 125527.75,
+    "2015": 130207.0,
+    "2016": 137136.0,
+    "2017": 144015.333333,
+    "2018": 149200.416667,
+    "2019": 153006.583333,
+    "2020": 158970.666667,
+    "2021": 177965.25,
+    "2022": 195741.25,
+    "2023": 198163.333333,
+    "2024": 203146.666667,
+    "2025": 211778.916667
+   },
+   "partial": {
+    "2026": {
+     "mean": 217894.875,
+     "months": 8,
+     "last": "2026-08"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "house_price_northern-ireland": {
+   "id": "house_price_northern-ireland",
+   "label": "Average house price, Northern Ireland (£)",
+   "group": "housing",
+   "publisher": "HM Land Registry / ONS / Registers of Scotland / LPS NI (UK House Price Index)",
+   "source_url": "",
+   "api_url": "https://landregistry.data.gov.uk/data/ukhpi/region/northern-ireland.csv?_pageSize=200&_page=2&_sort=refMonth&min-refMonth=1990-01&_view=all",
+   "source_title": "UK HPI average price, Northern Ireland",
+   "source_id": "northern-ireland",
+   "unit": "GBP",
+   "geography": "Northern Ireland",
+   "adjustment": "Original, not seasonally adjusted",
+   "methodology": "Mean of monthly UK HPI average prices (mix-adjusted, based on registered sales). Full year = all 12 months.",
+   "limitations": "Latest year is partial until December is published. Averages include all property types.",
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "source_release": "",
+   "next_release": "",
+   "warnings": [],
+   "values": {
+    "1990": 31559.75,
+    "1991": 33761.75,
+    "1992": 34107.0,
+    "1993": 35015.25,
+    "1994": 36349.75,
+    "1995": 40562.25,
+    "1996": 44216.25,
+    "1997": 48794.75,
+    "1998": 53530.25,
+    "1999": 58719.75,
+    "2000": 65731.25,
+    "2001": 73039.75,
+    "2002": 80503.083333,
+    "2003": 87522.416667,
+    "2004": 96838.833333,
+    "2005": 113322.25,
+    "2006": 145641.75,
+    "2007": 202198.0,
+    "2008": 167045.0,
+    "2009": 133799.25,
+    "2010": 124657.5,
+    "2011": 109575.0,
+    "2012": 97339.75,
+    "2013": 94565.0,
+    "2014": 101843.75,
+    "2015": 109245.25,
+    "2016": 116375.25,
+    "2017": 120765.25,
+    "2018": 126284.0,
+    "2019": 130685.0,
+    "2020": 135508.75,
+    "2021": 147058.25,
+    "2022": 161848.0,
+    "2023": 166237.25,
+    "2024": 176816.25,
+    "2025": 189529.75
+   },
+   "partial": {
+    "2026": {
+     "mean": 200902.25,
+     "months": 8,
+     "last": "2026-08"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "house_price_scotland": {
+   "id": "house_price_scotland",
+   "label": "Average house price, Scotland (£)",
+   "group": "housing",
+   "publisher": "HM Land Registry / ONS / Registers of Scotland / LPS NI (UK House Price Index)",
+   "source_url": "",
+   "api_url": "https://landregistry.data.gov.uk/data/ukhpi/region/scotland.csv?_pageSize=200&_page=2&_sort=refMonth&min-refMonth=1990-01&_view=all",
+   "source_title": "UK HPI average price, Scotland",
+   "source_id": "scotland",
+   "unit": "GBP",
+   "geography": "Scotland",
+   "adjustment": "Original, not seasonally adjusted",
+   "methodology": "Mean of monthly UK HPI average prices (mix-adjusted, based on registered sales). Full year = all 12 months.",
+   "limitations": "Latest year is partial until December is published. Averages include all property types.",
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "source_release": "",
+   "next_release": "",
+   "warnings": [],
+   "values": {
+    "1990": 34340.0,
+    "1991": 37334.5,
+    "1992": 39254.75,
+    "1993": 39782.0,
+    "1994": 40412.0,
+    "1995": 40482.0,
+    "1996": 42202.0,
+    "1997": 44252.0,
+    "1998": 46542.0,
+    "1999": 48042.0,
+    "2000": 49642.0,
+    "2001": 51912.0,
+    "2002": 58982.666667,
+    "2003": 67112.75,
+    "2004": 86405.416667,
+    "2005": 100907.0,
+    "2006": 114985.0,
+    "2007": 131877.583333,
+    "2008": 131484.0,
+    "2009": 124985.5,
+    "2010": 126930.333333,
+    "2011": 124608.583333,
+    "2012": 120527.916667,
+    "2013": 121014.75,
+    "2014": 126701.583333,
+    "2015": 131727.666667,
+    "2016": 133519.416667,
+    "2017": 137451.833333,
+    "2018": 143484.0,
+    "2019": 146093.5,
+    "2020": 150203.75,
+    "2021": 164974.5,
+    "2022": 177998.25,
+    "2023": 177711.666667,
+    "2024": 182007.916667,
+    "2025": 189221.166667
+   },
+   "partial": {
+    "2026": {
+     "mean": 193013.5,
+     "months": 8,
+     "last": "2026-08"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "house_price_south-east": {
+   "id": "house_price_south-east",
+   "label": "Average house price, South East (£)",
+   "group": "housing",
+   "publisher": "HM Land Registry / ONS / Registers of Scotland / LPS NI (UK House Price Index)",
+   "source_url": "",
+   "api_url": "https://landregistry.data.gov.uk/data/ukhpi/region/south-east.csv?_pageSize=200&_page=2&_sort=refMonth&min-refMonth=1990-01&_view=all",
+   "source_title": "UK HPI average price, South East",
+   "source_id": "south-east",
+   "unit": "GBP",
+   "geography": "South East",
+   "adjustment": "Original, not seasonally adjusted",
+   "methodology": "Mean of monthly UK HPI average prices (mix-adjusted, based on registered sales). Full year = all 12 months.",
+   "limitations": "Latest year is partial until December is published. Averages include all property types.",
+   "coverage": [
+    "1993",
+    "2025"
+   ],
+   "source_release": "",
+   "next_release": "",
+   "warnings": [],
+   "values": {
+    "1993": 61645.5,
+    "1994": 64334.5,
+    "1995": 64965.083333,
+    "1996": 66606.333333,
+    "1997": 75510.25,
+    "1998": 85114.583333,
+    "1999": 94911.083333,
+    "2000": 114718.75,
+    "2001": 128893.916667,
+    "2002": 152415.833333,
+    "2003": 176495.75,
+    "2004": 193455.666667,
+    "2005": 200485.166667,
+    "2006": 211523.166667,
+    "2007": 232912.083333,
+    "2008": 223987.5,
+    "2009": 203161.166667,
+    "2010": 222140.083333,
+    "2011": 220531.5,
+    "2012": 225420.583333,
+    "2013": 233117.416667,
+    "2014": 256118.833333,
+    "2015": 279031.166667,
+    "2016": 306045.833333,
+    "2017": 319930.25,
+    "2018": 325867.583333,
+    "2019": 323441.583333,
+    "2020": 329554.75,
+    "2021": 348428.166667,
+    "2022": 381020.25,
+    "2023": 379221.5,
+    "2024": 374675.25,
+    "2025": 379469.916667
+   },
+   "partial": {
+    "1992": {
+     "mean": 63999.666667,
+     "months": 9,
+     "last": "1992-12"
+    },
+    "2026": {
+     "mean": 379486.5,
+     "months": 8,
+     "last": "2026-08"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "house_price_south-west": {
+   "id": "house_price_south-west",
+   "label": "Average house price, South West (£)",
+   "group": "housing",
+   "publisher": "HM Land Registry / ONS / Registers of Scotland / LPS NI (UK House Price Index)",
+   "source_url": "",
+   "api_url": "https://landregistry.data.gov.uk/data/ukhpi/region/south-west.csv?_pageSize=200&_page=2&_sort=refMonth&min-refMonth=1990-01&_view=all",
+   "source_title": "UK HPI average price, South West",
+   "source_id": "south-west",
+   "unit": "GBP",
+   "geography": "South West",
+   "adjustment": "Original, not seasonally adjusted",
+   "methodology": "Mean of monthly UK HPI average prices (mix-adjusted, based on registered sales). Full year = all 12 months.",
+   "limitations": "Latest year is partial until December is published. Averages include all property types.",
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "source_release": "",
+   "next_release": "",
+   "warnings": [],
+   "values": {
+    "1990": 56999.25,
+    "1991": 54988.75,
+    "1992": 51977.75,
+    "1993": 49694.25,
+    "1994": 51316.5,
+    "1995": 52325.083333,
+    "1996": 53444.416667,
+    "1997": 58864.583333,
+    "1998": 64687.583333,
+    "1999": 72103.25,
+    "2000": 85736.583333,
+    "2001": 97298.416667,
+    "2002": 119703.25,
+    "2003": 143866.333333,
+    "2004": 164829.0,
+    "2005": 172723.583333,
+    "2006": 183168.583333,
+    "2007": 199543.083333,
+    "2008": 188569.5,
+    "2009": 172595.083333,
+    "2010": 185350.083333,
+    "2011": 182434.666667,
+    "2012": 184115.833333,
+    "2013": 187558.833333,
+    "2014": 199428.333333,
+    "2015": 211362.083333,
+    "2016": 225124.5,
+    "2017": 236673.333333,
+    "2018": 245513.333333,
+    "2019": 246748.166667,
+    "2020": 254571.583333,
+    "2021": 272328.083333,
+    "2022": 303884.75,
+    "2023": 303559.333333,
+    "2024": 300062.083333,
+    "2025": 300489.25
+   },
+   "partial": {
+    "2026": {
+     "mean": 302361.125,
+     "months": 8,
+     "last": "2026-08"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "house_price_united-kingdom": {
+   "id": "house_price_united-kingdom",
+   "label": "Average house price, United Kingdom (£)",
+   "group": "housing",
+   "publisher": "HM Land Registry / ONS / Registers of Scotland / LPS NI (UK House Price Index)",
+   "source_url": "",
+   "api_url": "https://landregistry.data.gov.uk/data/ukhpi/region/united-kingdom.csv?_pageSize=200&_page=2&_sort=refMonth&min-refMonth=1990-01&_view=all",
+   "source_title": "UK HPI average price, United Kingdom",
+   "source_id": "united-kingdom",
+   "unit": "GBP",
+   "geography": "United Kingdom",
+   "adjustment": "Original, not seasonally adjusted",
+   "methodology": "Mean of monthly UK HPI average prices (mix-adjusted, based on registered sales). Full year = all 12 months.",
+   "limitations": "Latest year is partial until December is published. Averages include all property types.",
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "source_release": "",
+   "next_release": "",
+   "warnings": [],
+   "values": {
+    "1990": 53578.0,
+    "1991": 52814.0,
+    "1992": 50713.0,
+    "1993": 49855.25,
+    "1994": 51179.25,
+    "1995": 51529.25,
+    "1996": 53415.25,
+    "1997": 58112.25,
+    "1998": 64770.5,
+    "1999": 71816.25,
+    "2000": 82534.25,
+    "2001": 89254.5,
+    "2002": 103650.166667,
+    "2003": 119904.0,
+    "2004": 134131.0,
+    "2005": 143920.75,
+    "2006": 155229.833333,
+    "2007": 170598.0,
+    "2008": 162912.083333,
+    "2009": 148445.416667,
+    "2010": 156935.5,
+    "2011": 154654.333333,
+    "2012": 155269.333333,
+    "2013": 159261.5,
+    "2014": 172047.666667,
+    "2015": 182291.166667,
+    "2016": 195035.416667,
+    "2017": 203950.333333,
+    "2018": 210354.0,
+    "2019": 212433.75,
+    "2020": 218521.5,
+    "2021": 236312.5,
+    "2022": 258236.166667,
+    "2023": 258956.166667,
+    "2024": 260532.25,
+    "2025": 267169.083333
+   },
+   "partial": {
+    "2026": {
+     "mean": 270741.0,
+     "months": 8,
+     "last": "2026-08"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "house_price_wales": {
+   "id": "house_price_wales",
+   "label": "Average house price, Wales (£)",
+   "group": "housing",
+   "publisher": "HM Land Registry / ONS / Registers of Scotland / LPS NI (UK House Price Index)",
+   "source_url": "",
+   "api_url": "https://landregistry.data.gov.uk/data/ukhpi/region/wales.csv?_pageSize=200&_page=2&_sort=refMonth&min-refMonth=1990-01&_view=all",
+   "source_title": "UK HPI average price, Wales",
+   "source_id": "wales",
+   "unit": "GBP",
+   "geography": "Wales",
+   "adjustment": "Original, not seasonally adjusted",
+   "methodology": "Mean of monthly UK HPI average prices (mix-adjusted, based on registered sales). Full year = all 12 months.",
+   "limitations": "Latest year is partial until December is published. Averages include all property types.",
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "source_release": "",
+   "next_release": "",
+   "warnings": [],
+   "values": {
+    "1990": 41253.0,
+    "1991": 40724.75,
+    "1992": 40262.5,
+    "1993": 39980.25,
+    "1994": 40361.5,
+    "1995": 40454.666667,
+    "1996": 40785.25,
+    "1997": 43070.75,
+    "1998": 45078.75,
+    "1999": 47461.5,
+    "2000": 51119.666667,
+    "2001": 55541.25,
+    "2002": 64976.583333,
+    "2003": 82358.333333,
+    "2004": 106704.166667,
+    "2005": 120863.0,
+    "2006": 129872.916667,
+    "2007": 138499.916667,
+    "2008": 131282.416667,
+    "2009": 120873.166667,
+    "2010": 124012.166667,
+    "2011": 121586.166667,
+    "2012": 121101.0,
+    "2013": 121598.166667,
+    "2014": 127710.75,
+    "2015": 131263.916667,
+    "2016": 136749.583333,
+    "2017": 142564.083333,
+    "2018": 149036.0,
+    "2019": 154791.666667,
+    "2020": 160432.25,
+    "2021": 178928.583333,
+    "2022": 200121.083333,
+    "2023": 201222.5,
+    "2024": 203050.666667,
+    "2025": 208768.916667
+   },
+   "partial": {
+    "2026": {
+     "mean": 213599.625,
+     "months": 8,
+     "last": "2026-08"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "house_price_west-midlands": {
+   "id": "house_price_west-midlands",
+   "label": "Average house price, West Midlands (£)",
+   "group": "housing",
+   "publisher": "HM Land Registry / ONS / Registers of Scotland / LPS NI (UK House Price Index)",
+   "source_url": "",
+   "api_url": "https://landregistry.data.gov.uk/data/ukhpi/region/west-midlands.csv?_pageSize=200&_page=2&_sort=refMonth&min-refMonth=1990-01&_view=all",
+   "source_title": "UK HPI average price, West Midlands",
+   "source_id": "west-midlands",
+   "unit": "GBP",
+   "geography": "West Midlands",
+   "adjustment": "Original, not seasonally adjusted",
+   "methodology": "Mean of monthly UK HPI average prices (mix-adjusted, based on registered sales). Full year = all 12 months.",
+   "limitations": "Latest year is partial until December is published. Averages include all property types.",
+   "coverage": [
+    "1995",
+    "2025"
+   ],
+   "source_release": "",
+   "next_release": "",
+   "warnings": [],
+   "values": {
+    "1995": 44019.583333,
+    "1996": 44296.0,
+    "1997": 46923.25,
+    "1998": 49459.166667,
+    "1999": 52569.583333,
+    "2000": 58173.833333,
+    "2001": 65811.333333,
+    "2002": 78591.583333,
+    "2003": 99441.083333,
+    "2004": 118128.166667,
+    "2005": 127452.083333,
+    "2006": 133967.583333,
+    "2007": 141212.75,
+    "2008": 136088.083333,
+    "2009": 122965.75,
+    "2010": 129118.833333,
+    "2011": 125313.75,
+    "2012": 125502.666667,
+    "2013": 127945.083333,
+    "2014": 134806.5,
+    "2015": 141377.25,
+    "2016": 152229.5,
+    "2017": 162590.25,
+    "2018": 172377.5,
+    "2019": 177283.333333,
+    "2020": 181148.333333,
+    "2021": 199348.0,
+    "2022": 218740.75,
+    "2023": 223234.75,
+    "2024": 224352.666667,
+    "2025": 230900.333333
+   },
+   "partial": {
+    "2026": {
+     "mean": 233779.625,
+     "months": 8,
+     "last": "2026-08"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "house_price_yorkshire-and-the-humber": {
+   "id": "house_price_yorkshire-and-the-humber",
+   "label": "Average house price, Yorkshire and The Humber (£)",
+   "group": "housing",
+   "publisher": "HM Land Registry / ONS / Registers of Scotland / LPS NI (UK House Price Index)",
+   "source_url": "",
+   "api_url": "https://landregistry.data.gov.uk/data/ukhpi/region/yorkshire-and-the-humber.csv?_pageSize=200&_page=2&_sort=refMonth&min-refMonth=1990-01&_view=all",
+   "source_title": "UK HPI average price, Yorkshire and The Humber",
+   "source_id": "yorkshire-and-the-humber",
+   "unit": "GBP",
+   "geography": "Yorkshire and The Humber",
+   "adjustment": "Original, not seasonally adjusted",
+   "methodology": "Mean of monthly UK HPI average prices (mix-adjusted, based on registered sales). Full year = all 12 months.",
+   "limitations": "Latest year is partial until December is published. Averages include all property types.",
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "source_release": "",
+   "next_release": "",
+   "warnings": [],
+   "values": {
+    "1990": 43156.25,
+    "1991": 44785.75,
+    "1992": 43968.5,
+    "1993": 44916.5,
+    "1994": 44320.75,
+    "1995": 42260.666667,
+    "1996": 42186.833333,
+    "1997": 43601.75,
+    "1998": 44855.333333,
+    "1999": 46581.5,
+    "2000": 49993.583333,
+    "2001": 54477.583333,
+    "2002": 65055.5,
+    "2003": 82474.083333,
+    "2004": 104472.166667,
+    "2005": 118462.666667,
+    "2006": 128839.5,
+    "2007": 138773.75,
+    "2008": 133006.583333,
+    "2009": 122110.25,
+    "2010": 126262.75,
+    "2011": 122764.583333,
+    "2012": 121940.0,
+    "2013": 122567.75,
+    "2014": 128395.75,
+    "2015": 133532.833333,
+    "2016": 140258.833333,
+    "2017": 145722.0,
+    "2018": 150530.333333,
+    "2019": 153801.083333,
+    "2020": 159281.0,
+    "2021": 175033.833333,
+    "2022": 191155.833333,
+    "2023": 192742.5,
+    "2024": 196802.416667,
+    "2025": 203062.75
+   },
+   "partial": {
+    "2026": {
+     "mean": 208061.25,
+     "months": 8,
+     "last": "2026-08"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "mortgage_2y_fixed_75ltv": {
+   "id": "mortgage_2y_fixed_75ltv",
+   "label": "2-year fixed mortgage rate, 75% LTV (%)",
+   "group": "housing",
+   "publisher": "Bank of England",
+   "source_url": "",
+   "api_url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?csv.x=yes&Datefrom=01/Jan/1990&Dateto=now&SeriesCodes=IUMBV34&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N",
+   "source_title": "IUMBV34",
+   "source_id": "IUMBV34",
+   "unit": "%",
+   "geography": "United Kingdom",
+   "adjustment": "Original (not seasonally adjusted unless stated in title)",
+   "methodology": "Quoted rate, mean of month-end values.",
+   "limitations": "Starts 1995.",
+   "coverage": [
+    "1995",
+    "2025"
+   ],
+   "source_release": "",
+   "next_release": "",
+   "warnings": [],
+   "values": {
+    "1995": 8.073333,
+    "1996": 6.911667,
+    "1997": 7.1625,
+    "1998": 7.008333,
+    "1999": 6.055833,
+    "2000": 6.3625,
+    "2001": 5.494167,
+    "2002": 4.958333,
+    "2003": 4.366667,
+    "2004": 5.191667,
+    "2005": 4.815833,
+    "2006": 4.9475,
+    "2007": 5.843333,
+    "2008": 5.876667,
+    "2009": 4.243333,
+    "2010": 3.755,
+    "2011": 3.339167,
+    "2012": 3.538333,
+    "2013": 2.681667,
+    "2014": 2.401667,
+    "2015": 1.921667,
+    "2016": 1.723333,
+    "2017": 1.460833,
+    "2018": 1.6875,
+    "2019": 1.593333,
+    "2020": 1.578333,
+    "2021": 1.448333,
+    "2022": 3.505,
+    "2023": 5.308333,
+    "2024": 4.805,
+    "2025": 4.285833
+   },
+   "partial": {
+    "2026": {
+     "mean": 4.671111,
+     "months": 9,
+     "last": "2026-09"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "mortgage_svr": {
+   "id": "mortgage_svr",
+   "label": "Standard variable mortgage rate, households (%)",
+   "group": "housing",
+   "publisher": "Bank of England",
+   "source_url": "",
+   "api_url": "https://www.bankofengland.co.uk/boeapps/database/_iadb-fromshowcolumns.asp?csv.x=yes&Datefrom=01/Jan/1990&Dateto=now&SeriesCodes=IUMTLMV&CSVF=TN&UsingCodes=Y&VPD=Y&VFD=N",
+   "source_title": "IUMTLMV",
+   "source_id": "IUMTLMV",
+   "unit": "%",
+   "geography": "United Kingdom",
+   "adjustment": "Original (not seasonally adjusted unless stated in title)",
+   "methodology": "Average of month-end quoted rates (all lenders, sterling).",
+   "limitations": "Starts 1995 in this series; 1990-1994 not covered here.",
+   "coverage": [
+    "1995",
+    "2025"
+   ],
+   "source_release": "",
+   "next_release": "",
+   "warnings": [],
+   "values": {
+    "1995": 8.246667,
+    "1996": 7.185,
+    "1997": 7.775833,
+    "1998": 8.62,
+    "1999": 6.921667,
+    "2000": 7.5525,
+    "2001": 6.810833,
+    "2002": 5.655,
+    "2003": 5.4675,
+    "2004": 6.145,
+    "2005": 6.5275,
+    "2006": 6.513333,
+    "2007": 7.443333,
+    "2008": 6.898333,
+    "2009": 4.048333,
+    "2010": 3.961667,
+    "2011": 4.079167,
+    "2012": 4.224167,
+    "2013": 4.371667,
+    "2014": 4.45,
+    "2015": 4.5125,
+    "2016": 4.439167,
+    "2017": 4.376667,
+    "2018": 4.255833,
+    "2019": 4.305833,
+    "2020": 3.785833,
+    "2021": 3.61,
+    "2022": 4.708333,
+    "2023": 7.53,
+    "2024": 7.848333,
+    "2025": 7.033333
+   },
+   "partial": {
+    "2026": {
+     "mean": 6.587778,
+     "months": 9,
+     "last": "2026-09"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "mortgage_svr_bs_hist": {
+   "id": "mortgage_svr_bs_hist",
+   "group": "housing",
+   "label": "Building societies' basic (standard variable) mortgage rate (%)",
+   "publisher": "Bank of England (compiled from ONS and earlier official sources)",
+   "source_url": "https://www.bankofengland.co.uk/statistics/research-datasets",
+   "api_url": "https://www.bankofengland.co.uk/-/media/boe/files/statistics/research-datasets/a-millennium-of-macroeconomic-data-for-the-uk.xlsx",
+   "source_title": "M12 col E: Basic rate on Mortgages Building Societies (ONS series code AJNK)",
+   "source_id": "M12 col E / ONS AJNK",
+   "unit": "%",
+   "geography": "GB/UK",
+   "adjustment": "Original",
+   "methodology": "Mean of 12 monthly observations, from the BoE historical dataset (compiled from ONS).",
+   "limitations": "Series ends 1995; used only to bridge 1990-1994 before the BoE quoted-rate series (IUMTLMV) begins. Different institution mix from the BoE series; 1995 overlaps for comparison.",
+   "coverage": [
+    "1990",
+    "1995"
+   ],
+   "source_release": "v3.1",
+   "next_release": "",
+   "warnings": [],
+   "values": {
+    "1990": 15.117,
+    "1991": 12.838,
+    "1992": 10.742,
+    "1993": 8.097,
+    "1994": 7.817,
+    "1995": 8.272
+   },
+   "partial": {},
+   "last_updated": "2026-11-01"
+  },
+  "price_apples_dessert": {
+   "id": "price_apples_dessert",
+   "label": "Apples, dessert, per kg",
+   "group": "food",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/czmy/mm23",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/czmy/mm23",
+   "source_title": "RPI: Ave price - Apples, dessert, per Kg",
+   "source_id": "CZMY",
+   "unit": "GBP/kg",
+   "geography": "United Kingdom",
+   "adjustment": "Original (not seasonally adjusted unless stated in title)",
+   "methodology": "RPI average price series (published by ONS in dataset MM23). Annual figure as published by ONS. Prices are for a specified item and pack size, not a market-wide census.",
+   "limitations": "Product specification and pack sizes change over time; the series may be discontinued. RPI is not a National Statistic; average-price quotes are indicative.",
+   "coverage": [
+    "1990",
+    "2024"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "18 November 2026",
+   "warnings": [],
+   "values": {
+    "1990": 1.03,
+    "1991": 1.2,
+    "1992": 1.21,
+    "1993": 0.86,
+    "1994": 0.98,
+    "1995": 1.0,
+    "1996": 1.12,
+    "1997": 1.12,
+    "1998": 1.05,
+    "1999": 1.03,
+    "2000": 1.08,
+    "2001": 1.16,
+    "2002": 1.21,
+    "2003": 1.27,
+    "2004": 1.25,
+    "2005": 1.18,
+    "2006": 1.22,
+    "2007": 1.32,
+    "2008": 1.47,
+    "2009": 1.53,
+    "2010": 1.65,
+    "2011": 1.74,
+    "2012": 1.75,
+    "2013": 2.02,
+    "2014": 1.97,
+    "2015": 1.96,
+    "2016": 1.96,
+    "2017": 1.97,
+    "2018": 2.1,
+    "2019": 1.99,
+    "2020": 1.94,
+    "2021": 2.26,
+    "2022": 2.19,
+    "2023": 2.13,
+    "2024": 2.13
+   },
+   "partial": {
+    "2025": {
+     "mean": 2.14,
+     "months": 1,
+     "last": "2025-01"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "price_bananas": {
+   "id": "price_bananas",
+   "label": "Bananas, per kg",
+   "group": "food",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/czmv/mm23",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/czmv/mm23",
+   "source_title": "RPI: Ave price - Bananas, per Kg,",
+   "source_id": "CZMV",
+   "unit": "GBP/kg",
+   "geography": "United Kingdom",
+   "adjustment": "Original (not seasonally adjusted unless stated in title)",
+   "methodology": "RPI average price series (published by ONS in dataset MM23). Annual figure as published by ONS. Prices are for a specified item and pack size, not a market-wide census.",
+   "limitations": "Product specification and pack sizes change over time; the series may be discontinued. RPI is not a National Statistic; average-price quotes are indicative.",
+   "coverage": [
+    "1990",
+    "2024"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "18 November 2026",
+   "warnings": [],
+   "values": {
+    "1990": 1.14,
+    "1991": 1.19,
+    "1992": 1.06,
+    "1993": 1.0,
+    "1994": 1.0,
+    "1995": 0.92,
+    "1996": 0.93,
+    "1997": 1.02,
+    "1998": 1.07,
+    "1999": 1.04,
+    "2000": 0.99,
+    "2001": 1.06,
+    "2002": 1.03,
+    "2003": 0.92,
+    "2004": 0.86,
+    "2005": 0.92,
+    "2006": 0.9,
+    "2007": 0.87,
+    "2008": 0.9,
+    "2009": 0.93,
+    "2010": 0.98,
+    "2011": 0.85,
+    "2012": 0.87,
+    "2013": 0.88,
+    "2014": 0.87,
+    "2015": 0.86,
+    "2016": 0.85,
+    "2017": 0.9,
+    "2018": 0.93,
+    "2019": 0.95,
+    "2020": 0.87,
+    "2021": 0.8,
+    "2022": 0.9,
+    "2023": 1.09,
+    "2024": 1.03
+   },
+   "partial": {
+    "2025": {
+     "mean": 1.02,
+     "months": 1,
+     "last": "2025-01"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "price_beef_mince": {
+   "id": "price_beef_mince",
+   "label": "Beef mince (best), per kg",
+   "group": "food",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/czpi/mm23",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/czpi/mm23",
+   "source_title": "RPI: Ave price - Beef: home-killed, best beef mince, per Kg",
+   "source_id": "CZPI",
+   "unit": "GBP/kg",
+   "geography": "United Kingdom",
+   "adjustment": "Original (not seasonally adjusted unless stated in title)",
+   "methodology": "RPI average price series (published by ONS in dataset MM23). Annual figure as published by ONS. Prices are for a specified item and pack size, not a market-wide census.",
+   "limitations": "Product specification and pack sizes change over time; the series may be discontinued. RPI is not a National Statistic; average-price quotes are indicative.",
+   "coverage": [
+    "1990",
+    "2024"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "18 November 2026",
+   "warnings": [],
+   "values": {
+    "1990": 3.4,
+    "1991": 3.56,
+    "1992": 3.42,
+    "1993": 3.68,
+    "1994": 3.48,
+    "1995": 3.44,
+    "1996": 3.42,
+    "1997": 3.72,
+    "1998": 3.91,
+    "1999": 4.16,
+    "2000": 4.14,
+    "2001": 4.22,
+    "2002": 4.22,
+    "2003": 4.05,
+    "2004": 4.26,
+    "2005": 4.16,
+    "2006": 4.56,
+    "2007": 4.81,
+    "2008": 5.45,
+    "2009": 5.97,
+    "2010": 6.02,
+    "2011": 6.15,
+    "2012": 7.25,
+    "2013": 7.97,
+    "2014": 8.11,
+    "2015": 7.86,
+    "2016": 7.41,
+    "2017": 7.41,
+    "2018": 6.98,
+    "2019": 6.71,
+    "2020": 6.39,
+    "2021": 6.08,
+    "2022": 7.03,
+    "2023": 8.18,
+    "2024": 8.11
+   },
+   "partial": {
+    "2025": {
+     "mean": 8.43,
+     "months": 1,
+     "last": "2025-01"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "price_bread_white_sliced": {
+   "id": "price_bread_white_sliced",
+   "label": "Bread, white sliced loaf, 800g",
+   "group": "food",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/czoh/mm23",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/czoh/mm23",
+   "source_title": "RPI: Ave price - Bread: white loaf, sliced, 800g",
+   "source_id": "CZOH",
+   "unit": "GBP/800g loaf",
+   "geography": "United Kingdom",
+   "adjustment": "Original (not seasonally adjusted unless stated in title)",
+   "methodology": "RPI average price series (published by ONS in dataset MM23). Annual figure as published by ONS. Prices are for a specified item and pack size, not a market-wide census.",
+   "limitations": "Product specification and pack sizes change over time; the series may be discontinued. RPI is not a National Statistic; average-price quotes are indicative.",
+   "coverage": [
+    "1990",
+    "2024"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "18 November 2026",
+   "warnings": [],
+   "values": {
+    "1990": 0.5,
+    "1991": 0.53,
+    "1992": 0.54,
+    "1993": 0.55,
+    "1994": 0.5,
+    "1995": 0.52,
+    "1996": 0.55,
+    "1997": 0.52,
+    "1998": 0.51,
+    "1999": 0.51,
+    "2000": 0.52,
+    "2001": 0.51,
+    "2002": 0.57,
+    "2003": 0.58,
+    "2004": 0.64,
+    "2005": 0.71,
+    "2006": 0.81,
+    "2007": 0.9,
+    "2008": 1.19,
+    "2009": 1.23,
+    "2010": 1.2,
+    "2011": 1.2,
+    "2012": 1.24,
+    "2013": 1.3,
+    "2014": 1.16,
+    "2015": 1.04,
+    "2016": 1.0,
+    "2017": 1.03,
+    "2018": 1.06,
+    "2019": 1.06,
+    "2020": 1.05,
+    "2021": 1.07,
+    "2022": 1.23,
+    "2023": 1.37,
+    "2024": 1.4
+   },
+   "partial": {
+    "2025": {
+     "mean": 1.4,
+     "months": 1,
+     "last": "2025-01"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "price_butter": {
+   "id": "price_butter",
+   "label": "Butter, home produced, 250g",
+   "group": "food",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/czob/mm23",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/czob/mm23",
+   "source_title": "RPI: Ave price - Butter: Home produced, per 250g",
+   "source_id": "CZOB",
+   "unit": "GBP/250g",
+   "geography": "United Kingdom",
+   "adjustment": "Original (not seasonally adjusted unless stated in title)",
+   "methodology": "RPI average price series (published by ONS in dataset MM23). Annual figure as published by ONS. Prices are for a specified item and pack size, not a market-wide census.",
+   "limitations": "Product specification and pack sizes change over time; the series may be discontinued. RPI is not a National Statistic; average-price quotes are indicative.",
+   "coverage": [
+    "1990",
+    "2012"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "18 November 2026",
+   "warnings": [],
+   "values": {
+    "1990": 0.619,
+    "1991": 0.619,
+    "1992": 0.651,
+    "1993": 0.679,
+    "1994": 0.682,
+    "1995": 0.775,
+    "1996": 0.821,
+    "1997": 0.833,
+    "1998": 0.853,
+    "1999": 0.844,
+    "2000": 0.82,
+    "2001": 0.786,
+    "2002": 0.766,
+    "2003": 0.76,
+    "2004": 0.802,
+    "2005": 0.758,
+    "2006": 0.774,
+    "2007": 0.837,
+    "2008": 1.036,
+    "2009": 1.021,
+    "2010": 1.137,
+    "2011": 1.32,
+    "2012": 1.375
+   },
+   "partial": {
+    "2013": {
+     "mean": 1.42,
+     "months": 1,
+     "last": "2013-01"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "price_carrots": {
+   "id": "price_carrots",
+   "label": "Carrots, per kg",
+   "group": "food",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/czne/mm23",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/czne/mm23",
+   "source_title": "RPI: Ave price - Carrots, per Kg",
+   "source_id": "CZNE",
+   "unit": "GBP/kg",
+   "geography": "United Kingdom",
+   "adjustment": "Original (not seasonally adjusted unless stated in title)",
+   "methodology": "RPI average price series (published by ONS in dataset MM23). Annual figure as published by ONS. Prices are for a specified item and pack size, not a market-wide census.",
+   "limitations": "Product specification and pack sizes change over time; the series may be discontinued. RPI is not a National Statistic; average-price quotes are indicative.",
+   "coverage": [
+    "1990",
+    "2024"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "18 November 2026",
+   "warnings": [],
+   "values": {
+    "1990": 0.59,
+    "1991": 0.61,
+    "1992": 0.48,
+    "1993": 0.48,
+    "1994": 0.52,
+    "1995": 0.54,
+    "1996": 0.56,
+    "1997": 0.47,
+    "1998": 0.54,
+    "1999": 0.48,
+    "2000": 0.45,
+    "2001": 0.61,
+    "2002": 0.55,
+    "2003": 0.55,
+    "2004": 0.57,
+    "2005": 0.64,
+    "2006": 0.65,
+    "2007": 0.7,
+    "2008": 0.76,
+    "2009": 0.84,
+    "2010": 0.78,
+    "2011": 0.75,
+    "2012": 0.86,
+    "2013": 0.91,
+    "2014": 0.83,
+    "2015": 0.76,
+    "2016": 0.65,
+    "2017": 0.64,
+    "2018": 0.67,
+    "2019": 0.68,
+    "2020": 0.58,
+    "2021": 0.51,
+    "2022": 0.56,
+    "2023": 0.67,
+    "2024": 0.77
+   },
+   "partial": {
+    "2025": {
+     "mean": 0.79,
+     "months": 1,
+     "last": "2025-01"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "price_cheese": {
+   "id": "price_cheese",
+   "label": "Cheddar-type cheese, per kg",
+   "group": "food",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/cznw/mm23",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/cznw/mm23",
+   "source_title": "RPI: Ave price - Cheese: cheddar type, per Kg",
+   "source_id": "CZNW",
+   "unit": "GBP/kg",
+   "geography": "United Kingdom",
+   "adjustment": "Original (not seasonally adjusted unless stated in title)",
+   "methodology": "RPI average price series (published by ONS in dataset MM23). Annual figure as published by ONS. Prices are for a specified item and pack size, not a market-wide census.",
+   "limitations": "Product specification and pack sizes change over time; the series may be discontinued. RPI is not a National Statistic; average-price quotes are indicative.",
+   "coverage": [
+    "1990",
+    "2024"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "18 November 2026",
+   "warnings": [],
+   "values": {
+    "1990": 3.295,
+    "1991": 3.446,
+    "1992": 3.827,
+    "1993": 4.112,
+    "1994": 4.226,
+    "1995": 4.569,
+    "1996": 4.844,
+    "1997": 5.28,
+    "1998": 5.001,
+    "1999": 4.842,
+    "2000": 5.046,
+    "2001": 5.098,
+    "2002": 5.238,
+    "2003": 5.481,
+    "2004": 5.674,
+    "2005": 5.497,
+    "2006": 5.657,
+    "2007": 5.778,
+    "2008": 6.955,
+    "2009": 7.498,
+    "2010": 7.793,
+    "2011": 7.801,
+    "2012": 7.888,
+    "2013": 7.778,
+    "2014": 8.016,
+    "2015": 7.666,
+    "2016": 7.188,
+    "2017": 7.182,
+    "2018": 7.277,
+    "2019": 7.087,
+    "2020": 6.885,
+    "2021": 6.283,
+    "2022": 7.091,
+    "2023": 9.185,
+    "2024": 8.376
+   },
+   "partial": {
+    "2025": {
+     "mean": 8.63,
+     "months": 1,
+     "last": "2025-01"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "price_chicken": {
+   "id": "price_chicken",
+   "label": "Chicken, roasting, fresh/chilled, per kg",
+   "group": "food",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/czom/mm23",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/czom/mm23",
+   "source_title": "RPI: Ave price - Chicken: roasting, ovn ready, frsh/chilld, Kg",
+   "source_id": "CZOM",
+   "unit": "GBP/kg",
+   "geography": "United Kingdom",
+   "adjustment": "Original (not seasonally adjusted unless stated in title)",
+   "methodology": "RPI average price series (published by ONS in dataset MM23). Annual figure as published by ONS. Prices are for a specified item and pack size, not a market-wide census.",
+   "limitations": "Product specification and pack sizes change over time; the series may be discontinued. RPI is not a National Statistic; average-price quotes are indicative.",
+   "coverage": [
+    "1990",
+    "2024"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "18 November 2026",
+   "warnings": [],
+   "values": {
+    "1990": 2.17,
+    "1991": 2.3,
+    "1992": 2.0,
+    "1993": 2.1,
+    "1994": 2.02,
+    "1995": 2.03,
+    "1996": 2.29,
+    "1997": 2.4,
+    "1998": 2.26,
+    "1999": 2.2,
+    "2000": 2.23,
+    "2001": 2.27,
+    "2002": 2.24,
+    "2003": 2.28,
+    "2004": 2.32,
+    "2005": 2.3,
+    "2006": 2.24,
+    "2007": 2.27,
+    "2008": 2.8,
+    "2009": 2.9,
+    "2010": 2.88,
+    "2011": 3.13,
+    "2012": 3.13,
+    "2013": 3.3,
+    "2014": 3.33,
+    "2015": 3.13,
+    "2016": 2.92,
+    "2017": 2.82,
+    "2018": 2.82,
+    "2019": 2.75,
+    "2020": 2.54,
+    "2021": 2.71,
+    "2022": 3.2,
+    "2023": 3.8,
+    "2024": 3.79
+   },
+   "partial": {
+    "2025": {
+     "mean": 3.78,
+     "months": 1,
+     "last": "2025-01"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "price_coffee_instant": {
+   "id": "price_coffee_instant",
+   "label": "Coffee, instant, per 100g",
+   "group": "food",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/cznp/mm23",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/cznp/mm23",
+   "source_title": "RPI: Ave price - Coffee: pure, instant, per 100g",
+   "source_id": "CZNP",
+   "unit": "GBP/100g",
+   "geography": "United Kingdom",
+   "adjustment": "Original (not seasonally adjusted unless stated in title)",
+   "methodology": "RPI average price series (published by ONS in dataset MM23). Annual figure as published by ONS. Prices are for a specified item and pack size, not a market-wide census.",
+   "limitations": "Product specification and pack sizes change over time; the series may be discontinued. RPI is not a National Statistic; average-price quotes are indicative.",
+   "coverage": [
+    "1990",
+    "2024"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "18 November 2026",
+   "warnings": [],
+   "values": {
+    "1990": 1.3,
+    "1991": 1.3,
+    "1992": 1.26,
+    "1993": 1.24,
+    "1994": 1.63,
+    "1995": 1.93,
+    "1996": 1.89,
+    "1997": 2.0,
+    "1998": 2.05,
+    "1999": 1.95,
+    "2000": 1.88,
+    "2001": 1.81,
+    "2002": 1.78,
+    "2003": 1.8,
+    "2004": 1.75,
+    "2005": 1.79,
+    "2006": 1.89,
+    "2007": 1.97,
+    "2008": 2.0,
+    "2009": 2.26,
+    "2010": 2.24,
+    "2011": 2.62,
+    "2012": 2.68,
+    "2013": 2.67,
+    "2014": 2.75,
+    "2015": 2.73,
+    "2016": 2.65,
+    "2017": 2.91,
+    "2018": 3.04,
+    "2019": 3.03,
+    "2020": 2.93,
+    "2021": 2.88,
+    "2022": 3.25,
+    "2023": 3.3,
+    "2024": 3.32
+   },
+   "partial": {
+    "2025": {
+     "mean": 3.85,
+     "months": 1,
+     "last": "2025-01"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "price_diesel": {
+   "id": "price_diesel",
+   "label": "Diesel, per litre (Derv before Feb 2000)",
+   "group": "transport",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/czml/mm23",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/czml/mm23",
+   "source_title": "RPI: Ave price - Ultra low sulphur diesel, per litre (Derv prior to Feb 2000)",
+   "source_id": "CZML",
+   "unit": "GBP/litre",
+   "geography": "United Kingdom",
+   "adjustment": "Original (not seasonally adjusted unless stated in title)",
+   "methodology": "RPI average price series (published by ONS in dataset MM23). Annual figure as published by ONS. Prices are for a specified item and pack size, not a market-wide census.",
+   "limitations": "Product specification and pack sizes change over time; the series may be discontinued. RPI is not a National Statistic; average-price quotes are indicative.",
+   "coverage": [
+    "1990",
+    "2024"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "18 November 2026",
+   "warnings": [],
+   "values": {
+    "1990": 0.41,
+    "1991": 0.44,
+    "1992": 0.45,
+    "1993": 0.49,
+    "1994": 0.51,
+    "1995": 0.54,
+    "1996": 0.57,
+    "1997": 0.63,
+    "1998": 0.66,
+    "1999": 0.72,
+    "2000": 0.82,
+    "2001": 0.78,
+    "2002": 0.76,
+    "2003": 0.78,
+    "2004": 0.82,
+    "2005": 0.9,
+    "2006": 0.95,
+    "2007": 0.97,
+    "2008": 1.18,
+    "2009": 1.04,
+    "2010": 1.19,
+    "2011": 1.39,
+    "2012": 1.42,
+    "2013": 1.41,
+    "2014": 1.34,
+    "2015": 1.15,
+    "2016": 1.1,
+    "2017": 1.2,
+    "2018": 1.3,
+    "2019": 1.32,
+    "2020": 1.19,
+    "2021": 1.35,
+    "2022": 1.78,
+    "2023": 1.58,
+    "2024": 1.48
+   },
+   "partial": {
+    "2025": {
+     "mean": 1.43,
+     "months": 1,
+     "last": "2025-01"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "price_eggs_size4": {
+   "id": "price_eggs_size4",
+   "label": "Eggs, size 4 (55-60g), dozen",
+   "group": "food",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/cznu/mm23",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/cznu/mm23",
+   "source_title": "RPI: Ave price - Eggs: size 4 (55-60g), per dozen",
+   "source_id": "CZNU",
+   "unit": "GBP/dozen",
+   "geography": "United Kingdom",
+   "adjustment": "Original (not seasonally adjusted unless stated in title)",
+   "methodology": "RPI average price series (published by ONS in dataset MM23). Annual figure as published by ONS. Prices are for a specified item and pack size, not a market-wide census.",
+   "limitations": "Product specification and pack sizes change over time; the series may be discontinued. RPI is not a National Statistic; average-price quotes are indicative.",
+   "coverage": [
+    "1990",
+    "2021"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "18 November 2026",
+   "warnings": [],
+   "values": {
+    "1990": 1.05,
+    "1991": 0.99,
+    "1992": 1.05,
+    "1993": 1.1,
+    "1994": 1.18,
+    "1995": 1.18,
+    "1996": 1.36,
+    "1997": 1.38,
+    "1998": 1.31,
+    "1999": 1.38,
+    "2000": 1.38,
+    "2001": 1.52,
+    "2002": 1.52,
+    "2003": 1.54,
+    "2004": 1.55,
+    "2005": 1.55,
+    "2006": 1.65,
+    "2007": 1.94,
+    "2008": 2.6,
+    "2009": 2.74,
+    "2010": 2.83,
+    "2011": 2.9,
+    "2012": 2.82,
+    "2013": 2.78,
+    "2014": 2.6,
+    "2015": 2.29,
+    "2016": 2.08,
+    "2017": 2.03,
+    "2018": 1.96,
+    "2019": 1.95,
+    "2020": 1.96,
+    "2021": 1.74
+   },
+   "partial": {
+    "2022": {
+     "mean": 1.8,
+     "months": 1,
+     "last": "2022-01"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "price_milk": {
+   "id": "price_milk",
+   "label": "Milk, pasteurised, per pint",
+   "group": "food",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/cznt/mm23",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/cznt/mm23",
+   "source_title": "RPI :Ave price - Milk: Pasteurised, per pint",
+   "source_id": "CZNT",
+   "unit": "GBP/pint",
+   "geography": "United Kingdom",
+   "adjustment": "Original (not seasonally adjusted unless stated in title)",
+   "methodology": "RPI average price series (published by ONS in dataset MM23). Annual figure as published by ONS. Prices are for a specified item and pack size, not a market-wide census.",
+   "limitations": "Product specification and pack sizes change over time; the series may be discontinued. RPI is not a National Statistic; average-price quotes are indicative.",
+   "coverage": [
+    "1990",
+    "2024"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "18 November 2026",
+   "warnings": [],
+   "values": {
+    "1990": 0.305,
+    "1991": 0.324,
+    "1992": 0.339,
+    "1993": 0.343,
+    "1994": 0.36,
+    "1995": 0.361,
+    "1996": 0.359,
+    "1997": 0.351,
+    "1998": 0.341,
+    "1999": 0.342,
+    "2000": 0.342,
+    "2001": 0.366,
+    "2002": 0.363,
+    "2003": 0.366,
+    "2004": 0.352,
+    "2005": 0.349,
+    "2006": 0.348,
+    "2007": 0.368,
+    "2008": 0.421,
+    "2009": 0.441,
+    "2010": 0.442,
+    "2011": 0.453,
+    "2012": 0.46,
+    "2013": 0.46,
+    "2014": 0.462,
+    "2015": 0.433,
+    "2016": 0.427,
+    "2017": 0.432,
+    "2018": 0.441,
+    "2019": 0.441,
+    "2020": 0.431,
+    "2021": 0.429,
+    "2022": 0.572,
+    "2023": 0.672,
+    "2024": 0.651
+   },
+   "partial": {
+    "2025": {
+     "mean": 0.65,
+     "months": 1,
+     "last": "2025-01"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "price_petrol": {
+   "id": "price_petrol",
+   "label": "Unleaded petrol, pence per litre -> £/litre",
+   "group": "transport",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/czmk/mm23",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/czmk/mm23",
+   "source_title": "RPI: Ave price - Ultra low sulphur/Unleaded petrol, per litre",
+   "source_id": "CZMK",
+   "unit": "GBP/litre",
+   "geography": "United Kingdom",
+   "adjustment": "Original (not seasonally adjusted unless stated in title)",
+   "methodology": "RPI average price series (published by ONS in dataset MM23). Annual figure as published by ONS. Prices are for a specified item and pack size, not a market-wide census.",
+   "limitations": "Leaded petrol was the norm before 2000; the series is ULS/unleaded from 1990.",
+   "coverage": [
+    "1990",
+    "2024"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "18 November 2026",
+   "warnings": [],
+   "values": {
+    "1990": 0.42,
+    "1991": 0.45,
+    "1992": 0.46,
+    "1993": 0.49,
+    "1994": 0.51,
+    "1995": 0.54,
+    "1996": 0.56,
+    "1997": 0.62,
+    "1998": 0.65,
+    "1999": 0.7,
+    "2000": 0.8,
+    "2001": 0.76,
+    "2002": 0.74,
+    "2003": 0.76,
+    "2004": 0.8,
+    "2005": 0.87,
+    "2006": 0.91,
+    "2007": 0.94,
+    "2008": 1.07,
+    "2009": 1.0,
+    "2010": 1.17,
+    "2011": 1.33,
+    "2012": 1.36,
+    "2013": 1.34,
+    "2014": 1.28,
+    "2015": 1.11,
+    "2016": 1.09,
+    "2017": 1.18,
+    "2018": 1.25,
+    "2019": 1.25,
+    "2020": 1.14,
+    "2021": 1.31,
+    "2022": 1.65,
+    "2023": 1.48,
+    "2024": 1.41
+   },
+   "partial": {
+    "2025": {
+     "mean": 1.37,
+     "months": 1,
+     "last": "2025-01"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "price_pork_loin": {
+   "id": "price_pork_loin",
+   "label": "Pork loin (with bone), per kg",
+   "group": "food",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/czox/mm23",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/czox/mm23",
+   "source_title": "RPI: Ave price - Pork: home-killed, loin (with bone), per Kg",
+   "source_id": "CZOX",
+   "unit": "GBP/kg",
+   "geography": "United Kingdom",
+   "adjustment": "Original (not seasonally adjusted unless stated in title)",
+   "methodology": "RPI average price series (published by ONS in dataset MM23). Annual figure as published by ONS. Prices are for a specified item and pack size, not a market-wide census.",
+   "limitations": "Product specification and pack sizes change over time; the series may be discontinued. RPI is not a National Statistic; average-price quotes are indicative.",
+   "coverage": [
+    "1990",
+    "2023"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "18 November 2026",
+   "warnings": [],
+   "values": {
+    "1990": 3.83,
+    "1991": 4.19,
+    "1992": 4.02,
+    "1993": 3.83,
+    "1994": 3.72,
+    "1995": 4.01,
+    "1996": 4.39,
+    "1997": 4.96,
+    "1998": 4.36,
+    "1999": 4.22,
+    "2000": 4.46,
+    "2001": 4.54,
+    "2002": 4.79,
+    "2003": 4.81,
+    "2004": 5.06,
+    "2005": 5.02,
+    "2006": 5.18,
+    "2007": 5.19,
+    "2008": 5.53,
+    "2009": 5.93,
+    "2010": 5.99,
+    "2011": 6.28,
+    "2012": 6.63,
+    "2013": 6.87,
+    "2014": 6.65,
+    "2015": 6.52,
+    "2016": 6.19,
+    "2017": 6.12,
+    "2018": 6.38,
+    "2019": 6.34,
+    "2020": 6.1,
+    "2021": 6.32,
+    "2022": 7.06,
+    "2023": 8.43
+   },
+   "partial": {
+    "2024": {
+     "mean": 8.65,
+     "months": 1,
+     "last": "2024-01"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "price_potatoes_new": {
+   "id": "price_potatoes_new",
+   "label": "Potatoes, new loose, per kg",
+   "group": "food",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/cznk/mm23",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/cznk/mm23",
+   "source_title": "RPI: Ave price - Potatoes, new loose, per Kg",
+   "source_id": "CZNK",
+   "unit": "GBP/kg",
+   "geography": "United Kingdom",
+   "adjustment": "Original (not seasonally adjusted unless stated in title)",
+   "methodology": "RPI average price series (published by ONS in dataset MM23). Annual figure as published by ONS. Prices are for a specified item and pack size, not a market-wide census.",
+   "limitations": "Product specification and pack sizes change over time; the series may be discontinued. RPI is not a National Statistic; average-price quotes are indicative.",
+   "coverage": [
+    "1993",
+    "2024"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "18 November 2026",
+   "warnings": [],
+   "values": {
+    "1993": 0.49,
+    "1994": 0.53,
+    "1995": 0.6,
+    "1996": 0.56,
+    "1997": 0.54,
+    "1998": 0.77,
+    "1999": 0.71,
+    "2000": 0.7,
+    "2001": 0.87,
+    "2002": 0.87,
+    "2003": 0.89,
+    "2004": 0.96,
+    "2005": 0.84,
+    "2006": 0.8,
+    "2007": 0.83,
+    "2008": 1.1,
+    "2009": 1.36,
+    "2010": 1.56,
+    "2011": 1.62,
+    "2012": 1.65,
+    "2013": 1.84,
+    "2014": 1.6,
+    "2015": 1.53,
+    "2016": 1.52,
+    "2017": 1.73,
+    "2018": 1.52,
+    "2019": 1.33,
+    "2020": 1.33,
+    "2021": 1.34,
+    "2022": 1.32,
+    "2023": 1.41,
+    "2024": 1.51
+   },
+   "partial": {
+    "1990": {
+     "mean": 0.398889,
+     "months": 9,
+     "last": "1990-12"
+    },
+    "1991": {
+     "mean": 0.46,
+     "months": 7,
+     "last": "1991-09"
+    },
+    "1992": {
+     "mean": 0.452,
+     "months": 10,
+     "last": "1992-12"
+    },
+    "2025": {
+     "mean": 1.52,
+     "months": 1,
+     "last": "2025-01"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "price_potatoes_old": {
+   "id": "price_potatoes_old",
+   "label": "Potatoes, old white, per kg",
+   "group": "food",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/vkyy/mm23",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/vkyy/mm23",
+   "source_title": "RPI: Ave Price - Potatoes, old white, per kg",
+   "source_id": "VKYY",
+   "unit": "GBP/kg",
+   "geography": "United Kingdom",
+   "adjustment": "Original (not seasonally adjusted unless stated in title)",
+   "methodology": "RPI average price series (published by ONS in dataset MM23). Annual figure as published by ONS. Prices are for a specified item and pack size, not a market-wide census.",
+   "limitations": "Product specification and pack sizes change over time; the series may be discontinued. RPI is not a National Statistic; average-price quotes are indicative.",
+   "coverage": [
+    "1994",
+    "2024"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "18 November 2026",
+   "warnings": [],
+   "values": {
+    "1994": 0.47,
+    "1995": 0.68,
+    "1996": 0.58,
+    "1997": 0.42,
+    "1998": 0.62,
+    "1999": 0.66,
+    "2000": 0.61,
+    "2001": 0.81,
+    "2002": 0.77,
+    "2003": 0.53,
+    "2004": 0.6,
+    "2005": 0.45,
+    "2006": 0.48,
+    "2007": 0.55,
+    "2008": 0.66,
+    "2009": 0.68,
+    "2010": 0.68,
+    "2011": 0.66,
+    "2012": 0.72,
+    "2013": 0.97,
+    "2014": 0.84,
+    "2015": 0.77,
+    "2016": 0.73,
+    "2017": 0.72,
+    "2018": 0.71,
+    "2019": 0.75,
+    "2020": 0.68,
+    "2021": 0.57,
+    "2022": 0.64,
+    "2023": 0.72,
+    "2024": 0.89
+   },
+   "partial": {
+    "2025": {
+     "mean": 0.93,
+     "months": 1,
+     "last": "2025-01"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "price_sugar": {
+   "id": "price_sugar",
+   "label": "Sugar, granulated, per kg",
+   "group": "food",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/cznn/mm23",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/cznn/mm23",
+   "source_title": "RPI: Ave price - Sugar: Granulated, per Kg",
+   "source_id": "CZNN",
+   "unit": "GBP/kg",
+   "geography": "United Kingdom",
+   "adjustment": "Original (not seasonally adjusted unless stated in title)",
+   "methodology": "RPI average price series (published by ONS in dataset MM23). Annual figure as published by ONS. Prices are for a specified item and pack size, not a market-wide census.",
+   "limitations": "Product specification and pack sizes change over time; the series may be discontinued. RPI is not a National Statistic; average-price quotes are indicative.",
+   "coverage": [
+    "1990",
+    "2024"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "18 November 2026",
+   "warnings": [],
+   "values": {
+    "1990": 0.615,
+    "1991": 0.659,
+    "1992": 0.649,
+    "1993": 0.691,
+    "1994": 0.652,
+    "1995": 0.69,
+    "1996": 0.756,
+    "1997": 0.758,
+    "1998": 0.673,
+    "1999": 0.589,
+    "2000": 0.552,
+    "2001": 0.571,
+    "2002": 0.618,
+    "2003": 0.69,
+    "2004": 0.738,
+    "2005": 0.737,
+    "2006": 0.738,
+    "2007": 0.769,
+    "2008": 0.835,
+    "2009": 0.957,
+    "2010": 0.947,
+    "2011": 1.023,
+    "2012": 0.977,
+    "2013": 0.931,
+    "2014": 0.908,
+    "2015": 0.737,
+    "2016": 0.624,
+    "2017": 0.678,
+    "2018": 0.745,
+    "2019": 0.751,
+    "2020": 0.73,
+    "2021": 0.711,
+    "2022": 0.81,
+    "2023": 1.107,
+    "2024": 1.166
+   },
+   "partial": {
+    "2025": {
+     "mean": 1.13,
+     "months": 1,
+     "last": "2025-01"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "price_tea_bags": {
+   "id": "price_tea_bags",
+   "label": "Tea bags, per 250g",
+   "group": "food",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/cznq/mm23",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/cznq/mm23",
+   "source_title": "RPI: Ave price - Tea bags, per 250g",
+   "source_id": "CZNQ",
+   "unit": "GBP/250g",
+   "geography": "United Kingdom",
+   "adjustment": "Original (not seasonally adjusted unless stated in title)",
+   "methodology": "RPI average price series (published by ONS in dataset MM23). Annual figure as published by ONS. Prices are for a specified item and pack size, not a market-wide census.",
+   "limitations": "Product specification and pack sizes change over time; the series may be discontinued. RPI is not a National Statistic; average-price quotes are indicative.",
+   "coverage": [
+    "1990",
+    "2024"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "18 November 2026",
+   "warnings": [],
+   "values": {
+    "1990": 1.24,
+    "1991": 1.5,
+    "1992": 1.4,
+    "1993": 1.24,
+    "1994": 1.24,
+    "1995": 1.3,
+    "1996": 1.34,
+    "1997": 1.34,
+    "1998": 1.54,
+    "1999": 1.54,
+    "2000": 1.43,
+    "2001": 1.46,
+    "2002": 1.53,
+    "2003": 1.45,
+    "2004": 1.39,
+    "2005": 1.29,
+    "2006": 1.49,
+    "2007": 1.55,
+    "2008": 1.7,
+    "2009": 1.79,
+    "2010": 1.97,
+    "2011": 1.97,
+    "2012": 1.96,
+    "2013": 2.02,
+    "2014": 1.97,
+    "2015": 1.89,
+    "2016": 1.94,
+    "2017": 1.99,
+    "2018": 2.0,
+    "2019": 2.03,
+    "2020": 2.01,
+    "2021": 2.0,
+    "2022": 2.18,
+    "2023": 2.46,
+    "2024": 2.62
+   },
+   "partial": {
+    "2025": {
+     "mean": 2.64,
+     "months": 1,
+     "last": "2025-01"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "price_tomatoes": {
+   "id": "price_tomatoes",
+   "label": "Tomatoes, per kg",
+   "group": "food",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/cznj/mm23",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/cznj/mm23",
+   "source_title": "RPI: Ave price - Tomatoes, per Kg",
+   "source_id": "CZNJ",
+   "unit": "GBP/kg",
+   "geography": "United Kingdom",
+   "adjustment": "Original (not seasonally adjusted unless stated in title)",
+   "methodology": "RPI average price series (published by ONS in dataset MM23). Annual figure as published by ONS. Prices are for a specified item and pack size, not a market-wide census.",
+   "limitations": "Product specification and pack sizes change over time; the series may be discontinued. RPI is not a National Statistic; average-price quotes are indicative.",
+   "coverage": [
+    "1990",
+    "2024"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "18 November 2026",
+   "warnings": [],
+   "values": {
+    "1990": 1.44,
+    "1991": 1.48,
+    "1992": 1.26,
+    "1993": 1.17,
+    "1994": 1.25,
+    "1995": 1.14,
+    "1996": 1.29,
+    "1997": 1.17,
+    "1998": 1.23,
+    "1999": 1.24,
+    "2000": 1.5,
+    "2001": 1.25,
+    "2002": 1.4,
+    "2003": 1.49,
+    "2004": 1.29,
+    "2005": 1.42,
+    "2006": 1.32,
+    "2007": 1.5,
+    "2008": 1.71,
+    "2009": 1.82,
+    "2010": 1.97,
+    "2011": 1.98,
+    "2012": 2.06,
+    "2013": 2.1,
+    "2014": 2.04,
+    "2015": 2.03,
+    "2016": 2.04,
+    "2017": 2.15,
+    "2018": 2.18,
+    "2019": 2.14,
+    "2020": 2.14,
+    "2021": 2.32,
+    "2022": 2.76,
+    "2023": 3.13,
+    "2024": 3.06
+   },
+   "partial": {
+    "2025": {
+     "mean": 3.01,
+     "months": 1,
+     "last": "2025-01"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "psnd_pct_gdp": {
+   "id": "psnd_pct_gdp",
+   "label": "Public sector net debt ex banks (% of GDP)",
+   "group": "government",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/timeseries/hf6x/pusf",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/governmentpublicsectorandtaxes/publicsectorfinance/timeseries/hf6x/pusf",
+   "source_title": "PS: Net Debt (excluding public sector banks) as a % of GDP: NSA",
+   "source_id": "HF6X",
+   "unit": "% of GDP",
+   "geography": "United Kingdom",
+   "adjustment": "Current prices, not inflation-adjusted",
+   "methodology": "ONS public sector finances / national accounts, annual figure as published.",
+   "limitations": "Component series; do not add together (categories overlap: e.g. NICs sit inside social contributions).",
+   "coverage": [
+    "1993",
+    "2025"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "20 November 2026",
+   "warnings": [],
+   "values": {
+    "1993": 29.7,
+    "1994": 33.6,
+    "1995": 35.7,
+    "1996": 36.7,
+    "1997": 37.4,
+    "1998": 35.7,
+    "1999": 34.3,
+    "2000": 29.7,
+    "2001": 28.8,
+    "2002": 30.2,
+    "2003": 31.4,
+    "2004": 34.1,
+    "2005": 35.1,
+    "2006": 35.8,
+    "2007": 36.2,
+    "2008": 47.7,
+    "2009": 60.7,
+    "2010": 70.0,
+    "2011": 73.8,
+    "2012": 77.2,
+    "2013": 79.0,
+    "2014": 81.5,
+    "2015": 81.7,
+    "2016": 82.4,
+    "2017": 81.6,
+    "2018": 81.1,
+    "2019": 83.9,
+    "2020": 97.4,
+    "2021": 95.8,
+    "2022": 92.6,
+    "2023": 95.2,
+    "2024": 94.1,
+    "2025": 94.2
+   },
+   "partial": {
+    "2026": {
+     "mean": 93.5,
+     "months": 9,
+     "last": "2026-09"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "rcpt_council_tax": {
+   "id": "rcpt_council_tax",
+   "label": "Council tax receipts, local government (£m)",
+   "group": "government",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/timeseries/nmhm/pusf",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/governmentpublicsectorandtaxes/publicsectorfinance/timeseries/nmhm/pusf",
+   "source_title": "LG: Current receipts: Other current taxes: Council tax (D591a): £m CPNSA",
+   "source_id": "NMHM",
+   "unit": "GBP million",
+   "geography": "United Kingdom",
+   "adjustment": "Current prices, not inflation-adjusted",
+   "methodology": "ONS public sector finances / national accounts, annual figure as published.",
+   "limitations": "Component series; do not add together (categories overlap: e.g. NICs sit inside social contributions).",
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "20 November 2026",
+   "warnings": [],
+   "values": {
+    "1990": 0.0,
+    "1991": 0.0,
+    "1992": 0.0,
+    "1993": 5991.0,
+    "1994": 8450.0,
+    "1995": 9151.0,
+    "1996": 9861.0,
+    "1997": 10730.0,
+    "1998": 11849.0,
+    "1999": 12810.0,
+    "2000": 13991.0,
+    "2001": 15124.0,
+    "2002": 16445.0,
+    "2003": 18372.0,
+    "2004": 19761.0,
+    "2005": 20926.0,
+    "2006": 22057.0,
+    "2007": 23217.0,
+    "2008": 24262.0,
+    "2009": 24926.0,
+    "2010": 25457.0,
+    "2011": 25744.0,
+    "2012": 26062.0,
+    "2013": 27064.0,
+    "2014": 27948.0,
+    "2015": 28775.0,
+    "2016": 30016.0,
+    "2017": 31694.0,
+    "2018": 33682.0,
+    "2019": 35804.0,
+    "2020": 37269.0,
+    "2021": 39374.0,
+    "2022": 41469.0,
+    "2023": 43861.0,
+    "2024": 46682.0,
+    "2025": 49688.0
+   },
+   "partial": {
+    "2026": {
+     "mean": 4381.777778,
+     "months": 9,
+     "last": "2026-09"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "rcpt_fuel_duty": {
+   "id": "rcpt_fuel_duty",
+   "label": "Fuel duty receipts (£m)",
+   "group": "government",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/timeseries/cudg/pusf",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/governmentpublicsectorandtaxes/publicsectorfinance/timeseries/cudg/pusf",
+   "source_title": "CG: Current receipts: Taxes on production: Fuel duty: £m CPNSA",
+   "source_id": "CUDG",
+   "unit": "GBP million",
+   "geography": "United Kingdom",
+   "adjustment": "Current prices, not inflation-adjusted",
+   "methodology": "ONS public sector finances / national accounts, annual figure as published.",
+   "limitations": "Component series; do not add together (categories overlap: e.g. NICs sit inside social contributions).",
+   "coverage": [
+    "1997",
+    "2025"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "20 November 2026",
+   "warnings": [],
+   "values": {
+    "1997": 18361.0,
+    "1998": 20996.0,
+    "1999": 22394.0,
+    "2000": 23043.0,
+    "2001": 22046.0,
+    "2002": 22070.0,
+    "2003": 22476.0,
+    "2004": 23412.0,
+    "2005": 23346.0,
+    "2006": 23448.0,
+    "2007": 24512.0,
+    "2008": 24790.0,
+    "2009": 25894.0,
+    "2010": 27013.0,
+    "2011": 26923.0,
+    "2012": 26703.0,
+    "2013": 26698.0,
+    "2014": 27095.0,
+    "2015": 27416.0,
+    "2016": 27989.0,
+    "2017": 27973.0,
+    "2018": 28035.0,
+    "2019": 27778.0,
+    "2020": 22818.0,
+    "2021": 24905.0,
+    "2022": 24859.0,
+    "2023": 24980.0,
+    "2024": 24369.0,
+    "2025": 24721.0
+   },
+   "partial": {
+    "2026": {
+     "mean": 2038.111111,
+     "months": 9,
+     "last": "2026-09"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "rcpt_paye_income_tax": {
+   "id": "rcpt_paye_income_tax",
+   "label": "PAYE income tax receipts (£m)",
+   "group": "government",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/timeseries/ms6w/pusf",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/governmentpublicsectorandtaxes/publicsectorfinance/timeseries/ms6w/pusf",
+   "source_title": "CG: Current receipts: Taxes on income: PAYE income tax: £m CPNSA",
+   "source_id": "MS6W",
+   "unit": "GBP million",
+   "geography": "United Kingdom",
+   "adjustment": "Current prices, not inflation-adjusted",
+   "methodology": "ONS public sector finances / national accounts, annual figure as published.",
+   "limitations": "Component series; do not add together (categories overlap: e.g. NICs sit inside social contributions).",
+   "coverage": [
+    "1997",
+    "2025"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "20 November 2026",
+   "warnings": [],
+   "values": {
+    "1997": 65953.0,
+    "1998": 71310.0,
+    "1999": 77694.0,
+    "2000": 87018.0,
+    "2001": 91960.0,
+    "2002": 94109.0,
+    "2003": 98106.0,
+    "2004": 105513.0,
+    "2005": 112742.0,
+    "2006": 120011.0,
+    "2007": 130228.0,
+    "2008": 130934.0,
+    "2009": 122482.0,
+    "2010": 130019.0,
+    "2011": 134827.0,
+    "2012": 133614.0,
+    "2013": 134062.0,
+    "2014": 138308.0,
+    "2015": 144703.0,
+    "2016": 148761.0,
+    "2017": 153457.0,
+    "2018": 160354.0,
+    "2019": 163535.0,
+    "2020": 166031.0,
+    "2021": 183988.0,
+    "2022": 208140.0,
+    "2023": 233623.0,
+    "2024": 254881.0,
+    "2025": 275206.0
+   },
+   "partial": {
+    "2026": {
+     "mean": 24867.555556,
+     "months": 9,
+     "last": "2026-09"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "rcpt_social_contributions": {
+   "id": "rcpt_social_contributions",
+   "label": "Compulsory social contributions incl. National Insurance (£m)",
+   "group": "government",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/timeseries/aiih/pusf",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/governmentpublicsectorandtaxes/publicsectorfinance/timeseries/aiih/pusf",
+   "source_title": "CG: Current receipts: Compulsory social contributions: Receivable: £m CPNSA",
+   "source_id": "AIIH",
+   "unit": "GBP million",
+   "geography": "United Kingdom",
+   "adjustment": "Current prices, not inflation-adjusted",
+   "methodology": "ONS public sector finances / national accounts, annual figure as published.",
+   "limitations": "Component series; do not add together (categories overlap: e.g. NICs sit inside social contributions).",
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "20 November 2026",
+   "warnings": [],
+   "values": {
+    "1990": 34457.0,
+    "1991": 36193.0,
+    "1992": 37006.0,
+    "1993": 39258.0,
+    "1994": 42066.0,
+    "1995": 44397.0,
+    "1996": 46499.0,
+    "1997": 50606.0,
+    "1998": 52988.0,
+    "1999": 56742.0,
+    "2000": 60252.0,
+    "2001": 63125.0,
+    "2002": 63410.0,
+    "2003": 71540.0,
+    "2004": 79224.0,
+    "2005": 84459.0,
+    "2006": 89550.0,
+    "2007": 93210.0,
+    "2008": 98319.0,
+    "2009": 94445.0,
+    "2010": 97346.0,
+    "2011": 101441.0,
+    "2012": 104319.0,
+    "2013": 106085.0,
+    "2014": 109120.0,
+    "2015": 114173.0,
+    "2016": 121963.0,
+    "2017": 130449.0,
+    "2018": 135378.0,
+    "2019": 143952.0,
+    "2020": 143608.0,
+    "2021": 156208.0,
+    "2022": 178440.0,
+    "2023": 180921.0,
+    "2024": 173276.0,
+    "2025": 197282.0
+   },
+   "partial": {
+    "2026": {
+     "mean": 17659.444444,
+     "months": 9,
+     "last": "2026-09"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "rcpt_stamp_duty_shares": {
+   "id": "rcpt_stamp_duty_shares",
+   "label": "Stamp duty on shares (£m) — NOT property SDLT",
+   "group": "government",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/timeseries/bkst/pusf",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/governmentpublicsectorandtaxes/publicsectorfinance/timeseries/bkst/pusf",
+   "source_title": "CG: Current receipts: Taxes on production: Stamp duty (shares) HMRC : £m CPNSA",
+   "source_id": "BKST",
+   "unit": "GBP million",
+   "geography": "United Kingdom",
+   "adjustment": "Current prices, not inflation-adjusted",
+   "methodology": "ONS public sector finances / national accounts, annual figure as published.",
+   "limitations": "Component series; do not add together (categories overlap: e.g. NICs sit inside social contributions).",
+   "coverage": [
+    "1997",
+    "2025"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "20 November 2026",
+   "warnings": [],
+   "values": {
+    "1997": 1291.0,
+    "1998": 1780.0,
+    "1999": 2963.0,
+    "2000": 4744.0,
+    "2001": 3209.0,
+    "2002": 2647.0,
+    "2003": 2383.0,
+    "2004": 2701.0,
+    "2005": 3084.0,
+    "2006": 3801.0,
+    "2007": 4214.0,
+    "2008": 3553.0,
+    "2009": 2918.0,
+    "2010": 3040.0,
+    "2011": 2822.0,
+    "2012": 2263.0,
+    "2013": 2864.0,
+    "2014": 3012.0,
+    "2015": 3024.0,
+    "2016": 3938.0,
+    "2017": 3470.0,
+    "2018": 3732.0,
+    "2019": 3284.0,
+    "2020": 3698.0,
+    "2021": 4212.0,
+    "2022": 4153.0,
+    "2023": 3261.0,
+    "2024": 4064.0,
+    "2025": 4528.0
+   },
+   "partial": {
+    "2026": {
+     "mean": 410.0,
+     "months": 9,
+     "last": "2026-09"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "rcpt_vat": {
+   "id": "rcpt_vat",
+   "label": "VAT receipts (central government, £m)",
+   "group": "government",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/timeseries/nzgf/pusf",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/governmentpublicsectorandtaxes/publicsectorfinance/timeseries/nzgf/pusf",
+   "source_title": "CG: Current receipts: Taxes on production: VAT, receivable: £m CPNSA",
+   "source_id": "NZGF",
+   "unit": "GBP million",
+   "geography": "United Kingdom",
+   "adjustment": "Current prices, not inflation-adjusted",
+   "methodology": "ONS public sector finances / national accounts, annual figure as published.",
+   "limitations": "Component series; do not add together (categories overlap: e.g. NICs sit inside social contributions).",
+   "coverage": [
+    "1997",
+    "2025"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "20 November 2026",
+   "warnings": [],
+   "values": {
+    "1997": 27237.0,
+    "1998": 57069.0,
+    "1999": 62182.0,
+    "2000": 64918.0,
+    "2001": 67908.0,
+    "2002": 72048.0,
+    "2003": 78391.0,
+    "2004": 82666.0,
+    "2005": 84630.0,
+    "2006": 89014.0,
+    "2007": 93348.0,
+    "2008": 93419.0,
+    "2009": 81262.0,
+    "2010": 97565.0,
+    "2011": 113461.0,
+    "2012": 116459.0,
+    "2013": 121650.0,
+    "2014": 127647.0,
+    "2015": 132790.0,
+    "2016": 137215.0,
+    "2017": 143636.0,
+    "2018": 149454.0,
+    "2019": 155148.0,
+    "2020": 139872.0,
+    "2021": 158121.0,
+    "2022": 182084.0,
+    "2023": 194875.0,
+    "2024": 199414.0,
+    "2025": 209889.0
+   },
+   "partial": {
+    "2026": {
+     "mean": 17854.0,
+     "months": 9,
+     "last": "2026-09"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "rpi_index": {
+   "id": "rpi_index",
+   "label": "RPI all items index (Jan 1987=100)",
+   "group": "prices",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/inflationandpriceindices/timeseries/chaw/mm23",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/inflationandpriceindices/timeseries/chaw/mm23",
+   "source_title": "RPI All Items Index: Jan 1987=100",
+   "source_id": "CHAW",
+   "unit": "index Jan 1987=100",
+   "geography": "United Kingdom",
+   "adjustment": "Original (not seasonally adjusted unless stated in title)",
+   "methodology": "Retail Prices Index. Not a National Statistic; used here for long-run comparison only.",
+   "limitations": "RPI overstates inflation relative to CPI in many years (formula effect).",
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "18 November 2026",
+   "warnings": [],
+   "values": {
+    "1990": 126.1,
+    "1991": 133.5,
+    "1992": 138.5,
+    "1993": 140.7,
+    "1994": 144.1,
+    "1995": 149.1,
+    "1996": 152.7,
+    "1997": 157.5,
+    "1998": 162.9,
+    "1999": 165.4,
+    "2000": 170.3,
+    "2001": 173.3,
+    "2002": 176.2,
+    "2003": 181.3,
+    "2004": 186.7,
+    "2005": 192.0,
+    "2006": 198.1,
+    "2007": 206.6,
+    "2008": 214.8,
+    "2009": 213.7,
+    "2010": 223.6,
+    "2011": 235.2,
+    "2012": 242.7,
+    "2013": 250.1,
+    "2014": 256.0,
+    "2015": 258.5,
+    "2016": 263.1,
+    "2017": 272.5,
+    "2018": 281.6,
+    "2019": 288.8,
+    "2020": 293.1,
+    "2021": 305.0,
+    "2022": 340.3,
+    "2023": 373.3,
+    "2024": 386.7,
+    "2025": 402.7
+   },
+   "partial": {
+    "2026": {
+     "mean": 415.0,
+     "months": 9,
+     "last": "2026-09"
+    }
+   },
+   "last_updated": "2026-11-01"
+  },
+  "tme": {
+   "id": "tme",
+   "label": "Public sector total managed expenditure (£m)",
+   "group": "government",
+   "publisher": "Office for National Statistics",
+   "source_url": "https://www.ons.gov.uk/economy/governmentpublicsectorandtaxes/publicsectorfinance/timeseries/kau3/pusf",
+   "api_url": "https://www.ons.gov.uk/generator?format=csv&uri=/economy/governmentpublicsectorandtaxes/publicsectorfinance/timeseries/kau3/pusf",
+   "source_title": "Public sector: ex BoE exc PS Banks: Total managed expenditure: £m CPNSA",
+   "source_id": "KAU3",
+   "unit": "GBP million",
+   "geography": "United Kingdom",
+   "adjustment": "Current prices, not inflation-adjusted",
+   "methodology": "ONS public sector finances / national accounts, annual figure as published.",
+   "limitations": "Component series; do not add together (categories overlap: e.g. NICs sit inside social contributions).",
+   "coverage": [
+    "1998",
+    "2025"
+   ],
+   "source_release": "21-10-2026",
+   "next_release": "20 November 2026",
+   "warnings": [],
+   "values": {
+    "1998": 353896.0,
+    "1999": 363569.0,
+    "2000": 383895.0,
+    "2001": 409915.0,
+    "2002": 442525.0,
+    "2003": 485707.0,
+    "2004": 522445.0,
+    "2005": 557458.0,
+    "2006": 584828.0,
+    "2007": 615927.0,
+    "2008": 671547.0,
+    "2009": 716520.0,
+    "2010": 748122.0,
+    "2011": 752732.0,
+    "2012": 773911.0,
+    "2013": 772131.0,
+    "2014": 797290.0,
+    "2015": 803422.0,
+    "2016": 820878.0,
+    "2017": 849518.0,
+    "2018": 862352.0,
+    "2019": 888113.0,
+    "2020": 1071080.0,
+    "2021": 1061927.0,
+    "2022": 1114774.0,
+    "2023": 1244215.0,
+    "2024": 1289719.0,
+    "2025": 1356220.0
+   },
+   "partial": {
+    "1997": {
+     "mean": 28241.666667,
+     "months": 9,
+     "last": "1997-12"
+    },
+    "2026": {
+     "mean": 118344.444444,
+     "months": 9,
+     "last": "2026-09"
+    }
+   },
+   "last_updated": "2026-11-01"
+  }
+ },
+ "curated": {
+  "uk_tax_rules": {
+   "id": "uk_tax_rules",
+   "title": "Income Tax and Employee National Insurance rules by tax year",
+   "publisher": "HM Revenue & Customs (official statistics)",
+   "sources": {
+    "a1": {
+     "url": "https://assets.publishing.service.gov.uk/media/6a54c97ba4890e65cce64db8/Table_a1_-_Income_Tax_-_personal_allowances_and_reliefs.ods",
+     "page": "https://www.gov.uk/government/statistics/income-tax-personal-allowances-and-reliefs",
+     "updated": "2026-07-15T09:30:13+01:00"
+    },
+    "a2": {
+     "url": "https://assets.publishing.service.gov.uk/media/6a54ca0b9e9c95844ae64d9a/Table_a2_-_Income_Tax_-_rates_and_allowances.ods",
+     "page": "https://www.gov.uk/government/statistics/rates-of-income-statistics",
+     "updated": "2026-07-15T09:30:13+01:00"
+    },
+    "a4": {
+     "url": "https://assets.publishing.service.gov.uk/media/6a54ca0fa4890e65cce64db9/Table_a4_-_National_Insurance_Contributions_-_rates_and_allowances.ods",
+     "page": "https://www.gov.uk/government/statistics/main-features-of-national-insurance-contributions",
+     "updated": "2026-07-15T09:30:13+01:00"
+    },
+    "a4a": {
+     "url": "https://assets.publishing.service.gov.uk/media/62bb13318fa8f5720dbef442/Table-a4A.ods",
+     "page": "https://www.gov.uk/government/statistics/main-features-of-national-insurance-contributions-1985-to-1999",
+     "updated": "2014-03-28T09:30:00+00:00"
+    }
+   },
+   "key": "Tax year start (2025 = 2025-26)",
+   "scope": "England, Wales and Northern Ireland; single person under 65; employee, not contracted out",
+   "limitations": "Scottish income tax bands differ from 2017-18. Ignores pension contributions, student loan, tax credits, benefits in kind and Class 1 contracting-out. 2022-23 and 2023-24 NI are time-weighted across in-year rate changes.",
+   "years": {
+    "1990": {
+     "income_tax": {
+      "label": "1990 to 1991",
+      "personal_allowance": 3005.0,
+      "bands": [
+       [
+        20700.0,
+        25.0
+       ],
+       [
+        null,
+        40.0
+       ]
+      ],
+      "pa_taper_above": null
+     },
+     "ni": {
+      "regime": "entry_fee",
+      "periods": [
+       {
+        "months": 12,
+        "lel": 46.0,
+        "pt": null,
+        "uel": 350.0,
+        "main": 9.0,
+        "entry_fee": 2.0,
+        "above_uel": 0.0
+       }
+      ]
+     }
+    },
+    "1991": {
+     "income_tax": {
+      "label": "1991 to 1992",
+      "personal_allowance": 3295.0,
+      "bands": [
+       [
+        23700.0,
+        25.0
+       ],
+       [
+        null,
+        40.0
+       ]
+      ],
+      "pa_taper_above": null
+     },
+     "ni": {
+      "regime": "entry_fee",
+      "periods": [
+       {
+        "months": 12,
+        "lel": 52.0,
+        "pt": null,
+        "uel": 390.0,
+        "main": 9.0,
+        "entry_fee": 2.0,
+        "above_uel": 0.0
+       }
+      ]
+     }
+    },
+    "1992": {
+     "income_tax": {
+      "label": "1992 to 1993",
+      "personal_allowance": 3445.0,
+      "bands": [
+       [
+        2000.0,
+        20.0
+       ],
+       [
+        23700.0,
+        25.0
+       ],
+       [
+        null,
+        40.0
+       ]
+      ],
+      "pa_taper_above": null
+     },
+     "ni": {
+      "regime": "entry_fee",
+      "periods": [
+       {
+        "months": 12,
+        "lel": 54.0,
+        "pt": null,
+        "uel": 405.0,
+        "main": 9.0,
+        "entry_fee": 2.0,
+        "above_uel": 0.0
+       }
+      ]
+     }
+    },
+    "1993": {
+     "income_tax": {
+      "label": "1993 to 1994",
+      "personal_allowance": 3445.0,
+      "bands": [
+       [
+        2500.0,
+        20.0
+       ],
+       [
+        23700.0,
+        25.0
+       ],
+       [
+        null,
+        40.0
+       ]
+      ],
+      "pa_taper_above": null
+     },
+     "ni": {
+      "regime": "entry_fee",
+      "periods": [
+       {
+        "months": 12,
+        "lel": 56.0,
+        "pt": null,
+        "uel": 420.0,
+        "main": 9.0,
+        "entry_fee": 2.0,
+        "above_uel": 0.0
+       }
+      ]
+     }
+    },
+    "1994": {
+     "income_tax": {
+      "label": "1994 to 1995",
+      "personal_allowance": 3445.0,
+      "bands": [
+       [
+        3000.0,
+        20.0
+       ],
+       [
+        23700.0,
+        25.0
+       ],
+       [
+        null,
+        40.0
+       ]
+      ],
+      "pa_taper_above": null
+     },
+     "ni": {
+      "regime": "entry_fee",
+      "periods": [
+       {
+        "months": 12,
+        "lel": 57.0,
+        "pt": null,
+        "uel": 430.0,
+        "main": 10.0,
+        "entry_fee": 2.0,
+        "above_uel": 0.0
+       }
+      ]
+     }
+    },
+    "1995": {
+     "income_tax": {
+      "label": "1995 to 1996",
+      "personal_allowance": 3525.0,
+      "bands": [
+       [
+        3200.0,
+        20.0
+       ],
+       [
+        24300.0,
+        25.0
+       ],
+       [
+        null,
+        40.0
+       ]
+      ],
+      "pa_taper_above": null
+     },
+     "ni": {
+      "regime": "entry_fee",
+      "periods": [
+       {
+        "months": 12,
+        "lel": 58.0,
+        "pt": null,
+        "uel": 440.0,
+        "main": 10.0,
+        "entry_fee": 2.0,
+        "above_uel": 0.0
+       }
+      ]
+     }
+    },
+    "1996": {
+     "income_tax": {
+      "label": "1996 to 1997",
+      "personal_allowance": 3765.0,
+      "bands": [
+       [
+        3900.0,
+        20.0
+       ],
+       [
+        25500.0,
+        24.0
+       ],
+       [
+        null,
+        40.0
+       ]
+      ],
+      "pa_taper_above": null
+     },
+     "ni": {
+      "regime": "entry_fee",
+      "periods": [
+       {
+        "months": 12,
+        "lel": 61.0,
+        "pt": null,
+        "uel": 455.0,
+        "main": 10.0,
+        "entry_fee": 2.0,
+        "above_uel": 0.0
+       }
+      ]
+     }
+    },
+    "1997": {
+     "income_tax": {
+      "label": "1997 to 1998",
+      "personal_allowance": 4045.0,
+      "bands": [
+       [
+        4100.0,
+        20.0
+       ],
+       [
+        26100.0,
+        23.0
+       ],
+       [
+        null,
+        40.0
+       ]
+      ],
+      "pa_taper_above": null
+     },
+     "ni": {
+      "regime": "entry_fee",
+      "periods": [
+       {
+        "months": 12,
+        "lel": 62.0,
+        "pt": null,
+        "uel": 465.0,
+        "main": 10.0,
+        "entry_fee": 2.0,
+        "above_uel": 0.0
+       }
+      ]
+     }
+    },
+    "1998": {
+     "income_tax": {
+      "label": "1998 to 1999",
+      "personal_allowance": 4195.0,
+      "bands": [
+       [
+        4300.0,
+        20.0
+       ],
+       [
+        27100.0,
+        23.0
+       ],
+       [
+        null,
+        40.0
+       ]
+      ],
+      "pa_taper_above": null
+     },
+     "ni": {
+      "regime": "entry_fee",
+      "periods": [
+       {
+        "months": 12,
+        "lel": 64.0,
+        "pt": null,
+        "uel": 485.0,
+        "main": 10.0,
+        "entry_fee": 2.0,
+        "above_uel": 0.0
+       }
+      ]
+     }
+    },
+    "1999": {
+     "income_tax": {
+      "label": "1999 to 2000",
+      "personal_allowance": 4335.0,
+      "bands": [
+       [
+        1500.0,
+        10.0
+       ],
+       [
+        28000.0,
+        23.0
+       ],
+       [
+        null,
+        40.0
+       ]
+      ],
+      "pa_taper_above": null
+     },
+     "ni": {
+      "regime": "threshold",
+      "periods": [
+       {
+        "months": 12,
+        "lel": 66.0,
+        "pt": 66.0,
+        "uel": 500.0,
+        "main": 10.0,
+        "above_uel": 0.0
+       }
+      ]
+     }
+    },
+    "2000": {
+     "income_tax": {
+      "label": "2000 to 2001",
+      "personal_allowance": 4385.0,
+      "bands": [
+       [
+        1520.0,
+        10.0
+       ],
+       [
+        28400.0,
+        22.0
+       ],
+       [
+        null,
+        40.0
+       ]
+      ],
+      "pa_taper_above": null
+     },
+     "ni": {
+      "regime": "threshold",
+      "periods": [
+       {
+        "months": 12,
+        "lel": 67.0,
+        "pt": 76.0,
+        "uel": 535.0,
+        "main": 10.0,
+        "above_uel": 0.0
+       }
+      ]
+     }
+    },
+    "2001": {
+     "income_tax": {
+      "label": "2001 to 2002",
+      "personal_allowance": 4535.0,
+      "bands": [
+       [
+        1880.0,
+        10.0
+       ],
+       [
+        29400.0,
+        22.0
+       ],
+       [
+        null,
+        40.0
+       ]
+      ],
+      "pa_taper_above": null
+     },
+     "ni": {
+      "regime": "threshold",
+      "periods": [
+       {
+        "months": 12,
+        "lel": 72.0,
+        "pt": 87.0,
+        "uel": 575.0,
+        "main": 10.0,
+        "above_uel": 0.0
+       }
+      ]
+     }
+    },
+    "2002": {
+     "income_tax": {
+      "label": "2002 to 2003",
+      "personal_allowance": 4615.0,
+      "bands": [
+       [
+        1920.0,
+        10.0
+       ],
+       [
+        29900.0,
+        22.0
+       ],
+       [
+        null,
+        40.0
+       ]
+      ],
+      "pa_taper_above": null
+     },
+     "ni": {
+      "regime": "threshold",
+      "periods": [
+       {
+        "months": 12,
+        "lel": 75.0,
+        "pt": 89.0,
+        "uel": 585.0,
+        "main": 10.0,
+        "above_uel": 0.0
+       }
+      ]
+     }
+    },
+    "2003": {
+     "income_tax": {
+      "label": "2003 to 2004",
+      "personal_allowance": 4615.0,
+      "bands": [
+       [
+        1960.0,
+        10.0
+       ],
+       [
+        30500.0,
+        22.0
+       ],
+       [
+        null,
+        40.0
+       ]
+      ],
+      "pa_taper_above": null
+     },
+     "ni": {
+      "regime": "threshold",
+      "periods": [
+       {
+        "months": 12,
+        "lel": 77.0,
+        "pt": 89.0,
+        "uel": 595.0,
+        "main": 11.0,
+        "above_uel": 1.0
+       }
+      ]
+     }
+    },
+    "2004": {
+     "income_tax": {
+      "label": "2004 to 2005",
+      "personal_allowance": 4745.0,
+      "bands": [
+       [
+        2020.0,
+        10.0
+       ],
+       [
+        31400.0,
+        22.0
+       ],
+       [
+        null,
+        40.0
+       ]
+      ],
+      "pa_taper_above": null
+     },
+     "ni": {
+      "regime": "threshold",
+      "periods": [
+       {
+        "months": 12,
+        "lel": 79.0,
+        "pt": 91.0,
+        "uel": 610.0,
+        "main": 11.0,
+        "above_uel": 1.0
+       }
+      ]
+     }
+    },
+    "2005": {
+     "income_tax": {
+      "label": "2005 to 2006",
+      "personal_allowance": 4895.0,
+      "bands": [
+       [
+        2090.0,
+        10.0
+       ],
+       [
+        32400.0,
+        22.0
+       ],
+       [
+        null,
+        40.0
+       ]
+      ],
+      "pa_taper_above": null
+     },
+     "ni": {
+      "regime": "threshold",
+      "periods": [
+       {
+        "months": 12,
+        "lel": 82.0,
+        "pt": 94.0,
+        "uel": 630.0,
+        "main": 11.0,
+        "above_uel": 1.0
+       }
+      ]
+     }
+    },
+    "2006": {
+     "income_tax": {
+      "label": "2006 to 2007",
+      "personal_allowance": 5035.0,
+      "bands": [
+       [
+        2150.0,
+        10.0
+       ],
+       [
+        33300.0,
+        22.0
+       ],
+       [
+        null,
+        40.0
+       ]
+      ],
+      "pa_taper_above": null
+     },
+     "ni": {
+      "regime": "threshold",
+      "periods": [
+       {
+        "months": 12,
+        "lel": 84.0,
+        "pt": 97.0,
+        "uel": 645.0,
+        "main": 11.0,
+        "above_uel": 1.0
+       }
+      ]
+     }
+    },
+    "2007": {
+     "income_tax": {
+      "label": "2007 to 2008",
+      "personal_allowance": 5225.0,
+      "bands": [
+       [
+        2230.0,
+        10.0
+       ],
+       [
+        34600.0,
+        22.0
+       ],
+       [
+        null,
+        40.0
+       ]
+      ],
+      "pa_taper_above": null
+     },
+     "ni": {
+      "regime": "threshold",
+      "periods": [
+       {
+        "months": 12,
+        "lel": 87.0,
+        "pt": 100.0,
+        "uel": 670.0,
+        "main": 11.0,
+        "above_uel": 1.0
+       }
+      ]
+     }
+    },
+    "2008": {
+     "income_tax": {
+      "label": "2008 to 2009",
+      "personal_allowance": 6035.0,
+      "bands": [
+       [
+        34800.0,
+        20.0
+       ],
+       [
+        null,
+        40.0
+       ]
+      ],
+      "pa_taper_above": null
+     },
+     "ni": {
+      "regime": "threshold",
+      "periods": [
+       {
+        "months": 12,
+        "lel": 90.0,
+        "pt": 105.0,
+        "uel": 770.0,
+        "main": 11.0,
+        "above_uel": 1.0
+       }
+      ]
+     }
+    },
+    "2009": {
+     "income_tax": {
+      "label": "2009 to 2010",
+      "personal_allowance": 6475.0,
+      "bands": [
+       [
+        37400.0,
+        20.0
+       ],
+       [
+        null,
+        40.0
+       ]
+      ],
+      "pa_taper_above": null
+     },
+     "ni": {
+      "regime": "threshold",
+      "periods": [
+       {
+        "months": 12,
+        "lel": 95.0,
+        "pt": 110.0,
+        "uel": 844.0,
+        "main": 11.0,
+        "above_uel": 1.0
+       }
+      ]
+     }
+    },
+    "2010": {
+     "income_tax": {
+      "label": "2010 to 2011",
+      "personal_allowance": 6475.0,
+      "bands": [
+       [
+        37400.0,
+        20.0
+       ],
+       [
+        150000.0,
+        40.0
+       ],
+       [
+        null,
+        50.0
+       ]
+      ],
+      "pa_taper_above": 100000
+     },
+     "ni": {
+      "regime": "threshold",
+      "periods": [
+       {
+        "months": 12,
+        "lel": 97.0,
+        "pt": 110.0,
+        "uel": 844.0,
+        "main": 11.0,
+        "above_uel": 1.0
+       }
+      ]
+     }
+    },
+    "2011": {
+     "income_tax": {
+      "label": "2011 to 2012",
+      "personal_allowance": 7475.0,
+      "bands": [
+       [
+        35000.0,
+        20.0
+       ],
+       [
+        150000.0,
+        40.0
+       ],
+       [
+        null,
+        50.0
+       ]
+      ],
+      "pa_taper_above": 100000
+     },
+     "ni": {
+      "regime": "threshold",
+      "periods": [
+       {
+        "months": 12,
+        "lel": 102.0,
+        "pt": 139.0,
+        "uel": 817.0,
+        "main": 12.0,
+        "above_uel": 2.0
+       }
+      ]
+     }
+    },
+    "2012": {
+     "income_tax": {
+      "label": "2012 to 2013",
+      "personal_allowance": 8105.0,
+      "bands": [
+       [
+        34370.0,
+        20.0
+       ],
+       [
+        150000.0,
+        40.0
+       ],
+       [
+        null,
+        50.0
+       ]
+      ],
+      "pa_taper_above": 100000
+     },
+     "ni": {
+      "regime": "threshold",
+      "periods": [
+       {
+        "months": 12,
+        "lel": 107.0,
+        "pt": 146.0,
+        "uel": 817.0,
+        "main": 12.0,
+        "above_uel": 2.0
+       }
+      ]
+     }
+    },
+    "2013": {
+     "income_tax": {
+      "label": "2013 to 2014",
+      "personal_allowance": 9440.0,
+      "bands": [
+       [
+        32010.0,
+        20.0
+       ],
+       [
+        150000.0,
+        40.0
+       ],
+       [
+        null,
+        45.0
+       ]
+      ],
+      "pa_taper_above": 100000
+     },
+     "ni": {
+      "regime": "threshold",
+      "periods": [
+       {
+        "months": 12,
+        "lel": 109.0,
+        "pt": 149.0,
+        "uel": 797.0,
+        "main": 12.0,
+        "above_uel": 2.0
+       }
+      ]
+     }
+    },
+    "2014": {
+     "income_tax": {
+      "label": "2014 to 2015",
+      "personal_allowance": 10000.0,
+      "bands": [
+       [
+        31865.0,
+        20.0
+       ],
+       [
+        150000.0,
+        40.0
+       ],
+       [
+        null,
+        45.0
+       ]
+      ],
+      "pa_taper_above": 100000
+     },
+     "ni": {
+      "regime": "threshold",
+      "periods": [
+       {
+        "months": 12,
+        "lel": 111.0,
+        "pt": 153.0,
+        "uel": 805.0,
+        "main": 12.0,
+        "above_uel": 2.0
+       }
+      ]
+     }
+    },
+    "2015": {
+     "income_tax": {
+      "label": "2015 to 2016",
+      "personal_allowance": 10600.0,
+      "bands": [
+       [
+        31785.0,
+        20.0
+       ],
+       [
+        150000.0,
+        40.0
+       ],
+       [
+        null,
+        45.0
+       ]
+      ],
+      "pa_taper_above": 100000
+     },
+     "ni": {
+      "regime": "threshold",
+      "periods": [
+       {
+        "months": 12,
+        "lel": 112.0,
+        "pt": 155.0,
+        "uel": 815.0,
+        "main": 12.0,
+        "above_uel": 2.0
+       }
+      ]
+     }
+    },
+    "2016": {
+     "income_tax": {
+      "label": "2016 to 2017",
+      "personal_allowance": 11000.0,
+      "bands": [
+       [
+        32000.0,
+        20.0
+       ],
+       [
+        150000.0,
+        40.0
+       ],
+       [
+        null,
+        45.0
+       ]
+      ],
+      "pa_taper_above": 100000
+     },
+     "ni": {
+      "regime": "threshold",
+      "periods": [
+       {
+        "months": 12,
+        "lel": 112.0,
+        "pt": 155.0,
+        "uel": 827.0,
+        "main": 12.0,
+        "above_uel": 2.0
+       }
+      ]
+     }
+    },
+    "2017": {
+     "income_tax": {
+      "label": "2017 to 2018",
+      "personal_allowance": 11500.0,
+      "bands": [
+       [
+        33500.0,
+        20.0
+       ],
+       [
+        150000.0,
+        40.0
+       ],
+       [
+        null,
+        45.0
+       ]
+      ],
+      "pa_taper_above": 100000
+     },
+     "ni": {
+      "regime": "threshold",
+      "periods": [
+       {
+        "months": 12,
+        "lel": 113.0,
+        "pt": 157.0,
+        "uel": 866.0,
+        "main": 12.0,
+        "above_uel": 2.0
+       }
+      ]
+     }
+    },
+    "2018": {
+     "income_tax": {
+      "label": "2018 to 2019",
+      "personal_allowance": 11850.0,
+      "bands": [
+       [
+        34500.0,
+        20.0
+       ],
+       [
+        150000.0,
+        40.0
+       ],
+       [
+        null,
+        45.0
+       ]
+      ],
+      "pa_taper_above": 100000
+     },
+     "ni": {
+      "regime": "threshold",
+      "periods": [
+       {
+        "months": 12,
+        "lel": 116.0,
+        "pt": 162.0,
+        "uel": 892.0,
+        "main": 12.0,
+        "above_uel": 2.0
+       }
+      ]
+     }
+    },
+    "2019": {
+     "income_tax": {
+      "label": "2019 to 2020",
+      "personal_allowance": 12500.0,
+      "bands": [
+       [
+        37500.0,
+        20.0
+       ],
+       [
+        150000.0,
+        40.0
+       ],
+       [
+        null,
+        45.0
+       ]
+      ],
+      "pa_taper_above": 100000
+     },
+     "ni": {
+      "regime": "threshold",
+      "periods": [
+       {
+        "months": 12,
+        "lel": 118.0,
+        "pt": 166.0,
+        "uel": 962.0,
+        "main": 12.0,
+        "above_uel": 2.0
+       }
+      ]
+     }
+    },
+    "2020": {
+     "income_tax": {
+      "label": "2020 to 2021",
+      "personal_allowance": 12500.0,
+      "bands": [
+       [
+        37500.0,
+        20.0
+       ],
+       [
+        150000.0,
+        40.0
+       ],
+       [
+        null,
+        45.0
+       ]
+      ],
+      "pa_taper_above": 100000
+     },
+     "ni": {
+      "regime": "threshold",
+      "periods": [
+       {
+        "months": 12,
+        "lel": 120.0,
+        "pt": 183.0,
+        "uel": 962.0,
+        "main": 12.0,
+        "above_uel": 2.0
+       }
+      ]
+     }
+    },
+    "2021": {
+     "income_tax": {
+      "label": "2021 to 2022",
+      "personal_allowance": 12570.0,
+      "bands": [
+       [
+        37700.0,
+        20.0
+       ],
+       [
+        150000.0,
+        40.0
+       ],
+       [
+        null,
+        45.0
+       ]
+      ],
+      "pa_taper_above": 100000
+     },
+     "ni": {
+      "regime": "threshold",
+      "periods": [
+       {
+        "months": 12,
+        "lel": 120.0,
+        "pt": 184.0,
+        "uel": 967.0,
+        "main": 12.0,
+        "above_uel": 2.0
+       }
+      ]
+     }
+    },
+    "2022": {
+     "income_tax": {
+      "label": "2022 to 2023",
+      "personal_allowance": 12570.0,
+      "bands": [
+       [
+        37700.0,
+        20.0
+       ],
+       [
+        150000.0,
+        40.0
+       ],
+       [
+        null,
+        45.0
+       ]
+      ],
+      "pa_taper_above": 100000
+     },
+     "ni": {
+      "regime": "threshold",
+      "periods": [
+       {
+        "months": 3,
+        "lel": 123.0,
+        "pt": 190.0,
+        "uel": 967.0,
+        "main": 13.25,
+        "above_uel": 3.25
+       },
+       {
+        "months": 5,
+        "lel": 123.0,
+        "pt": 242.0,
+        "uel": 967.0,
+        "main": 13.25,
+        "above_uel": 3.25
+       },
+       {
+        "months": 4,
+        "lel": 123.0,
+        "pt": 242.0,
+        "uel": 967.0,
+        "main": 12.0,
+        "above_uel": 2.0
+       }
+      ]
+     }
+    },
+    "2023": {
+     "income_tax": {
+      "label": "2023 to 2024",
+      "personal_allowance": 12570.0,
+      "bands": [
+       [
+        37700.0,
+        20.0
+       ],
+       [
+        125140.0,
+        40.0
+       ],
+       [
+        null,
+        45.0
+       ]
+      ],
+      "pa_taper_above": 100000
+     },
+     "ni": {
+      "regime": "threshold",
+      "periods": [
+       {
+        "months": 9,
+        "lel": 123.0,
+        "pt": 242.0,
+        "uel": 967.0,
+        "main": 12.0,
+        "above_uel": 2.0
+       },
+       {
+        "months": 3,
+        "lel": 123.0,
+        "pt": 242.0,
+        "uel": 967.0,
+        "main": 10.0,
+        "above_uel": 2.0
+       }
+      ]
+     }
+    },
+    "2024": {
+     "income_tax": {
+      "label": "2024 to 2025",
+      "personal_allowance": 12570.0,
+      "bands": [
+       [
+        37700.0,
+        20.0
+       ],
+       [
+        125140.0,
+        40.0
+       ],
+       [
+        null,
+        45.0
+       ]
+      ],
+      "pa_taper_above": 100000
+     },
+     "ni": {
+      "regime": "threshold",
+      "periods": [
+       {
+        "months": 12,
+        "lel": 123.0,
+        "pt": 242.0,
+        "uel": 967.0,
+        "main": 8.0,
+        "above_uel": 2.0
+       }
+      ]
+     }
+    },
+    "2025": {
+     "income_tax": {
+      "label": "2025 to 2026",
+      "personal_allowance": 12570.0,
+      "bands": [
+       [
+        37700.0,
+        20.0
+       ],
+       [
+        125140.0,
+        40.0
+       ],
+       [
+        null,
+        45.0
+       ]
+      ],
+      "pa_taper_above": 100000
+     },
+     "ni": {
+      "regime": "threshold",
+      "periods": [
+       {
+        "months": 12,
+        "lel": 125.0,
+        "pt": 242.0,
+        "uel": 967.0,
+        "main": 8.0,
+        "above_uel": 2.0
+       }
+      ]
+     }
+    },
+    "2026": {
+     "income_tax": {
+      "label": "2026 to 2027",
+      "personal_allowance": 12570.0,
+      "bands": [
+       [
+        37700.0,
+        20.0
+       ],
+       [
+        125140.0,
+        40.0
+       ],
+       [
+        null,
+        45.0
+       ]
+      ],
+      "pa_taper_above": 100000
+     },
+     "ni": {
+      "regime": "threshold",
+      "periods": [
+       {
+        "months": 12,
+        "lel": 129.0,
+        "pt": 242.0,
+        "uel": 967.0,
+        "main": 8.0,
+        "above_uel": 2.0
+       }
+      ]
+     }
+    }
+   }
+  }
+ },
+ "gaps": [
+  {
+   "id": "gap-median-earnings",
+   "area": "Income",
+   "title": "Median earnings and earnings distribution",
+   "status": "open",
+   "detail": "Only mean weekly earnings (ONS AWE from 2000; Bank of England composite series 1990-1999) are integrated. ONS ASHE median pay is not yet imported, so 'income level' is expressed as a multiple of average earnings, not a true percentile."
+  },
+  {
+   "id": "gap-earnings-splice",
+   "area": "Income",
+   "title": "Earnings series break at 2000",
+   "status": "documented",
+   "detail": "1990-1999 uses the Bank of England composite average weekly earnings; 2000 onward uses ONS AWE (whole economy, total pay). The two overlap 2000-2016 and differ by a few percent. The dashboard flags years that use the earlier series."
+  },
+  {
+   "id": "gap-hh-disposable",
+   "area": "Income",
+   "title": "Household disposable income",
+   "status": "open",
+   "detail": "ONS household disposable income per head is not yet integrated; take-home pay is computed for a single employee from HMRC tax rules, excluding benefits, tax credits, pension contributions and student loans."
+  },
+  {
+   "id": "gap-rent",
+   "area": "Housing",
+   "title": "Average private rent in £",
+   "status": "open",
+   "detail": "No £ rent levels are integrated. ONS rental indices start in 2005 and do not give £ levels back to 1990. Renting vs buying cannot yet be compared."
+  },
+  {
+   "id": "gap-council-tax",
+   "area": "Housing",
+   "title": "Council Tax",
+   "status": "open",
+   "detail": "Average Band D Council Tax (MHCLG) is not yet imported. ONS local-government Council Tax receipts are shown as an aggregate only."
+  },
+  {
+   "id": "gap-mortgage-rate-bridge",
+   "area": "Housing",
+   "title": "Mortgage rates 1990-1994",
+   "status": "documented",
+   "detail": "1990-1994 uses the building societies' basic mortgage rate (ONS AJNK via the Bank of England historical dataset); 1995 onward uses the Bank of England quoted household rate. The two agree within 0.03pp in the 1995 overlap."
+  },
+  {
+   "id": "gap-deposit",
+   "area": "Housing",
+   "title": "Deposit requirements and first-time-buyer data",
+   "status": "open",
+   "detail": "Typical deposit/loan-to-value by year is not integrated. The calculator uses a user-set deposit percentage (an assumption, not an observation)."
+  },
+  {
+   "id": "gap-food-post-2024",
+   "area": "Food",
+   "title": "RPI average-price series end in 2024 or earlier",
+   "status": "documented",
+   "detail": "ONS RPI average prices stop at 2024 for most items, 2023 for pork, 2021 for eggs (size 4) and 2012 for butter. 2025-26 comparisons use the latest observation only if you switch that option on, and the page labels it."
+  },
+  {
+   "id": "gap-food-items",
+   "area": "Food",
+   "title": "Rice, pasta and several staples",
+   "status": "open",
+   "detail": "No continuous ONS average-price series for rice or pasta was found. They are listed as unavailable, not estimated."
+  },
+  {
+   "id": "gap-energy-pre2010",
+   "area": "Energy",
+   "title": "Energy bills in £ before 2010",
+   "status": "documented",
+   "detail": "DESNZ publishes £ bills from 2010 in the tables used here. For earlier years the dashboard can show only the ONS CPI electricity/gas/other-fuels index, clearly marked as an index-scaled estimate, not an observed bill."
+  },
+  {
+   "id": "gap-water-broadband",
+   "area": "Energy",
+   "title": "Water and broadband/telecoms bills",
+   "status": "open",
+   "detail": "Not yet integrated."
+  },
+  {
+   "id": "gap-vehicles",
+   "area": "Transport",
+   "title": "Five vehicle categories (small, family, mid-range, van, luxury)",
+   "status": "open",
+   "detail": "No benchmark vehicle prices, insurance premiums in £, MOT, servicing, tyres or VED rates are integrated. Only the ONS quality-adjusted new-car and motor-insurance price indices, rail-fare index and petrol/diesel pump prices are available."
+  },
+  {
+   "id": "gap-tax-rates-other",
+   "area": "Tax",
+   "title": "VAT, fuel duty, VED, Corporation Tax, Stamp Duty rate histories",
+   "status": "open",
+   "detail": "Income Tax and employee National Insurance rules are imported from HMRC for every tax year from 1990-91. Rate histories for the other taxes are not yet imported; only their receipts (ONS) are shown where available."
+  },
+  {
+   "id": "gap-receipts",
+   "area": "Government",
+   "title": "Complete receipts breakdown",
+   "status": "open",
+   "detail": "PAYE income tax receipts start in 1993 in the ONS series used; total income tax, corporation tax receipts and total public-sector receipts are not yet integrated. Components overlap and must not be summed."
+  },
+  {
+   "id": "gap-companies",
+   "area": "Corporate",
+   "title": "Corporate financial results",
+   "status": "open",
+   "detail": "No company financial statements are integrated yet. Planned sources: SEC EDGAR XBRL for 20-F filers (BP, Shell, Barclays, HSBC, NatWest, Lloyds) and annual reports for Tesco, Sainsbury's, Morrisons and Centrica. Group results must not be read as UK results."
+  },
+  {
+   "id": "gap-regional-earnings",
+   "area": "Income",
+   "title": "Regional earnings",
+   "status": "open",
+   "detail": "Regional house prices are integrated; regional earnings are not, so regional affordability ratios use national earnings."
+  },
+  {
+   "id": "gap-miras",
+   "area": "Housing",
+   "title": "Mortgage interest tax relief (MIRAS) before April 2000",
+   "status": "open",
+   "detail": "Relief at source on the first £30,000 of mortgage interest was available until April 2000 and is not modelled, so pre-2000 repayment-mortgage costs are overstated relative to what many borrowers actually paid."
+  }
+ ]
+}
