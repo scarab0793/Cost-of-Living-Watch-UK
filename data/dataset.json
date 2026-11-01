@@ -7932,9 +7932,9 @@
   {
    "id": "gap-tax-rates-other",
    "area": "Tax",
-   "title": "VAT, fuel duty, VED, Corporation Tax, Stamp Duty rate histories",
+   "title": "VED, Corporation Tax, Stamp Duty and other rate histories",
    "status": "open",
-   "detail": "Income Tax and employee National Insurance rules are imported from HMRC for every tax year from 1990-91. Rate histories for the other taxes are not yet imported; only their receipts (ONS) are shown where available."
+   "detail": "Integrated: fuel duty (HMRC dated history, day-weighted per year) and VAT (standard rate and domestic fuel rate; hand-curated from legislation.gov.uk and a secondary compilation, the April 1994 domestic-fuel start day is assumed). Not integrated: Vehicle Excise Duty history (needs parsing of VERA 1994 Schedule 1 versions; CO2-band regimes from 2001 and 2017), Corporation Tax, Stamp Duty, alcohol and tobacco duties, and VAT on spending other than petrol and household energy."
   },
   {
    "id": "gap-receipts",
