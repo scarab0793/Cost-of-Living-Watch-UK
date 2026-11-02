@@ -1,23 +1,8 @@
 {
- "checked": "2026-11-01",
- "series_ok": 42,
- "series_failed": 14,
- "failed_ids": [
-  "house_price_united-kingdom",
-  "house_price_england",
-  "house_price_wales",
-  "house_price_scotland",
-  "house_price_northern-ireland",
-  "house_price_north-east",
-  "house_price_north-west",
-  "house_price_yorkshire-and-the-humber",
-  "house_price_east-midlands",
-  "house_price_west-midlands",
-  "house_price_east-of-england",
-  "house_price_london",
-  "house_price_south-east",
-  "house_price_south-west"
- ],
+ "checked": "2026-11-02",
+ "series_ok": 56,
+ "series_failed": 0,
+ "failed_ids": [],
  "series": {
   "cpi_actual_rents": {
    "ok": true,
@@ -290,74 +275,130 @@
    "warnings": []
   },
   "house_price_united-kingdom": {
-   "ok": false,
-   "error": "HTTP 403 for https://landregistry.data.gov.uk/data/ukhpi/region/united-kingdom.csv?_pageSize=200&_page=0&_sort=refMonth&min-refMonth=1990-01&_view=all",
-   "preserved_last_good": true
+   "ok": true,
+   "obs": 36,
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "warnings": []
   },
   "house_price_england": {
-   "ok": false,
-   "error": "HTTP 403 for https://landregistry.data.gov.uk/data/ukhpi/region/england.csv?_pageSize=200&_page=0&_sort=refMonth&min-refMonth=1990-01&_view=all",
-   "preserved_last_good": true
+   "ok": true,
+   "obs": 36,
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "warnings": []
   },
   "house_price_wales": {
-   "ok": false,
-   "error": "HTTP 403 for https://landregistry.data.gov.uk/data/ukhpi/region/wales.csv?_pageSize=200&_page=0&_sort=refMonth&min-refMonth=1990-01&_view=all",
-   "preserved_last_good": true
+   "ok": true,
+   "obs": 36,
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "warnings": []
   },
   "house_price_scotland": {
-   "ok": false,
-   "error": "HTTP 403 for https://landregistry.data.gov.uk/data/ukhpi/region/scotland.csv?_pageSize=200&_page=0&_sort=refMonth&min-refMonth=1990-01&_view=all",
-   "preserved_last_good": true
+   "ok": true,
+   "obs": 36,
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "warnings": []
   },
   "house_price_northern-ireland": {
-   "ok": false,
-   "error": "HTTP 403 for https://landregistry.data.gov.uk/data/ukhpi/region/northern-ireland.csv?_pageSize=200&_page=0&_sort=refMonth&min-refMonth=1990-01&_view=all",
-   "preserved_last_good": true
+   "ok": true,
+   "obs": 36,
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "warnings": []
   },
   "house_price_north-east": {
-   "ok": false,
-   "error": "HTTP 403 for https://landregistry.data.gov.uk/data/ukhpi/region/north-east.csv?_pageSize=200&_page=0&_sort=refMonth&min-refMonth=1990-01&_view=all",
-   "preserved_last_good": true
+   "ok": true,
+   "obs": 33,
+   "coverage": [
+    "1993",
+    "2025"
+   ],
+   "warnings": []
   },
   "house_price_north-west": {
-   "ok": false,
-   "error": "HTTP 403 for https://landregistry.data.gov.uk/data/ukhpi/region/north-west.csv?_pageSize=200&_page=0&_sort=refMonth&min-refMonth=1990-01&_view=all",
-   "preserved_last_good": true
+   "ok": true,
+   "obs": 31,
+   "coverage": [
+    "1995",
+    "2025"
+   ],
+   "warnings": []
   },
   "house_price_yorkshire-and-the-humber": {
-   "ok": false,
-   "error": "HTTP 403 for https://landregistry.data.gov.uk/data/ukhpi/region/yorkshire-and-the-humber.csv?_pageSize=200&_page=0&_sort=refMonth&min-refMonth=1990-01&_view=all",
-   "preserved_last_good": true
+   "ok": true,
+   "obs": 36,
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "warnings": []
   },
   "house_price_east-midlands": {
-   "ok": false,
-   "error": "HTTP 403 for https://landregistry.data.gov.uk/data/ukhpi/region/east-midlands.csv?_pageSize=200&_page=0&_sort=refMonth&min-refMonth=1990-01&_view=all",
-   "preserved_last_good": true
+   "ok": true,
+   "obs": 36,
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "warnings": []
   },
   "house_price_west-midlands": {
-   "ok": false,
-   "error": "HTTP 403 for https://landregistry.data.gov.uk/data/ukhpi/region/west-midlands.csv?_pageSize=200&_page=0&_sort=refMonth&min-refMonth=1990-01&_view=all",
-   "preserved_last_good": true
+   "ok": true,
+   "obs": 31,
+   "coverage": [
+    "1995",
+    "2025"
+   ],
+   "warnings": []
   },
   "house_price_east-of-england": {
-   "ok": false,
-   "error": "HTTP 403 for https://landregistry.data.gov.uk/data/ukhpi/region/east-of-england.csv?_pageSize=200&_page=0&_sort=refMonth&min-refMonth=1990-01&_view=all",
-   "preserved_last_good": true
+   "ok": true,
+   "obs": 33,
+   "coverage": [
+    "1993",
+    "2025"
+   ],
+   "warnings": []
   },
   "house_price_london": {
-   "ok": false,
-   "error": "HTTP 403 for https://landregistry.data.gov.uk/data/ukhpi/region/london.csv?_pageSize=200&_page=0&_sort=refMonth&min-refMonth=1990-01&_view=all",
-   "preserved_last_good": true
+   "ok": true,
+   "obs": 36,
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "warnings": []
   },
   "house_price_south-east": {
-   "ok": false,
-   "error": "HTTP 403 for https://landregistry.data.gov.uk/data/ukhpi/region/south-east.csv?_pageSize=200&_page=0&_sort=refMonth&min-refMonth=1990-01&_view=all",
-   "preserved_last_good": true
+   "ok": true,
+   "obs": 33,
+   "coverage": [
+    "1993",
+    "2025"
+   ],
+   "warnings": []
   },
   "house_price_south-west": {
-   "ok": false,
-   "error": "HTTP 403 for https://landregistry.data.gov.uk/data/ukhpi/region/south-west.csv?_pageSize=200&_page=0&_sort=refMonth&min-refMonth=1990-01&_view=all",
-   "preserved_last_good": true
+   "ok": true,
+   "obs": 36,
+   "coverage": [
+    "1990",
+    "2025"
+   ],
+   "warnings": []
   },
   "bank_rate": {
    "ok": true,
