@@ -1,5 +1,35 @@
 [
  {
+  "title": "Debt Management and Banking Manual",
+  "date": "2026-11-02T16:45:22Z",
+  "url": "https://www.gov.uk/hmrc-internal-manuals/debt-management-and-banking",
+  "source": "HMRC"
+ },
+ {
+  "title": "Self Assessment Manual",
+  "date": "2026-11-02T16:31:37Z",
+  "url": "https://www.gov.uk/hmrc-internal-manuals/self-assessment-manual",
+  "source": "HMRC"
+ },
+ {
+  "title": "Earned settlement",
+  "date": "2026-11-02T16:09:05Z",
+  "url": "https://www.gov.uk/government/consultations/earned-settlement",
+  "source": "HM Treasury"
+ },
+ {
+  "title": "Customs Declaration Service: service availability and issues",
+  "date": "2026-11-02T16:06:08Z",
+  "url": "https://www.gov.uk/guidance/customs-declaration-service-service-availability-and-issues",
+  "source": "HMRC"
+ },
+ {
+  "title": "Guidance: Import Control System 2: service availability and issues",
+  "date": "2026-11-02T16:02:33Z",
+  "url": "https://www.gov.uk/government/publications/import-control-system-2-service-availability-and-issues",
+  "source": "HMRC"
+ },
+ {
   "title": "Corporate report: Energy Act 2013 (Part 3): annual report, 2025 to 2026",
   "date": "2026-11-02T15:54:16Z",
   "url": "https://www.gov.uk/government/publications/energy-act-2013-part-3-annual-report-2025-to-2026",
@@ -78,21 +108,9 @@
   "source": "HMRC"
  },
  {
-  "title": "Guidance: Import Control System 2: service availability and issues",
-  "date": "2026-11-02T12:46:31Z",
-  "url": "https://www.gov.uk/government/publications/import-control-system-2-service-availability-and-issues",
-  "source": "HMRC"
- },
- {
   "title": "How to work out your Alcohol Duty rates if you’re eligible for Small Producer Relief",
   "date": "2026-11-02T12:44:39Z",
   "url": "https://www.gov.uk/guidance/how-to-work-out-your-alcohol-duty-rates-if-youre-eligible-for-small-producer-relief",
-  "source": "HMRC"
- },
- {
-  "title": "Customs Declaration Service: service availability and issues",
-  "date": "2026-11-02T12:14:19Z",
-  "url": "https://www.gov.uk/guidance/customs-declaration-service-service-availability-and-issues",
   "source": "HMRC"
  },
  {
@@ -141,18 +159,6 @@
   "title": "Fraud Civil Investigation Manual",
   "date": "2026-11-02T11:22:51Z",
   "url": "https://www.gov.uk/hmrc-internal-manuals/fraud-civil-investigation",
-  "source": "HMRC"
- },
- {
-  "title": "Claim tax relief if you paid UK-source yearly interest to an overseas lender without deducting tax",
-  "date": "2026-11-02T11:17:41Z",
-  "url": "https://www.gov.uk/guidance/claim-tax-relief-if-you-paid-uk-source-yearly-interest-to-an-overseas-lender-without-deducting-tax",
-  "source": "HMRC"
- },
- {
-  "title": "Guidance: Save As You Earn (SAYE): end of year return template and guidance notes",
-  "date": "2026-11-02T10:57:15Z",
-  "url": "https://www.gov.uk/government/publications/save-as-you-earn-end-of-year-template",
   "source": "HMRC"
  },
  {
@@ -261,12 +267,6 @@
   "title": "Accredited official statistics: Road fuel prices: 18 October 2027",
   "date": "2026-10-29T11:40:06Z",
   "url": "https://www.gov.uk/government/statistics/announcements/road-fuel-prices-18-october-2027",
-  "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Accredited official statistics: Road fuel prices: 11 October 2027",
-  "date": "2026-10-29T11:40:00Z",
-  "url": "https://www.gov.uk/government/statistics/announcements/road-fuel-prices-11-october-2027",
   "source": "Energy Security & Net Zero"
  }
 ]
