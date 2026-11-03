@@ -1,5 +1,41 @@
 [
  {
+  "title": "International Manual",
+  "date": "2026-11-03T16:49:40Z",
+  "url": "https://www.gov.uk/hmrc-internal-manuals/international-manual",
+  "source": "HMRC"
+ },
+ {
+  "title": "Oil and gas: offshore environmental legislation",
+  "date": "2026-11-03T16:30:03Z",
+  "url": "https://www.gov.uk/guidance/oil-and-gas-offshore-environmental-legislation",
+  "source": "Energy Security & Net Zero"
+ },
+ {
+  "title": "Guidance: UK ETS technical guidance: Free Allocation Regulation (FAR)",
+  "date": "2026-11-03T15:43:10Z",
+  "url": "https://www.gov.uk/government/publications/uk-ets-technical-guidance-free-allocation-regulation-far",
+  "source": "Energy Security & Net Zero"
+ },
+ {
+  "title": "Guidance: UK ETS technical guidance: Monitoring and Reporting Regulation (MRR) 2018",
+  "date": "2026-11-03T15:42:36Z",
+  "url": "https://www.gov.uk/government/publications/uk-ets-technical-guidance-monitoring-and-reporting-regulation-mrr-2018",
+  "source": "Energy Security & Net Zero"
+ },
+ {
+  "title": "Guidance: Help to Save: service availability and issues",
+  "date": "2026-11-03T14:57:16Z",
+  "url": "https://www.gov.uk/government/publications/help-to-save-service-availability-and-issues",
+  "source": "HMRC"
+ },
+ {
+  "title": "Data Element 2/3: Document and Other Reference Codes: Licence Types — Imports and Exports of the Customs Declaration Service (CDS)",
+  "date": "2026-11-03T14:25:05Z",
+  "url": "https://www.gov.uk/guidance/data-element-23-document-and-other-reference-codes-licence-types-imports-and-exports-of-the-customs-declaration-service-cds",
+  "source": "HMRC"
+ },
+ {
   "title": "Research: Ambient gamma radiation dose rates across the UK",
   "date": "2026-11-03T14:12:06Z",
   "url": "https://www.gov.uk/government/publications/ambient-gamma-radiation-dose-rates-across-the-uk",
@@ -127,7 +163,7 @@
  },
  {
   "title": "Giant 12-tonne box lowered into place for fusion upgrade",
-  "date": "2026-11-03T09:24:39Z",
+  "date": "2026-11-03T09:24:00Z",
   "url": "https://www.gov.uk/government/news/giant-12-tonne-box-lowered-into-place-for-fusion-upgrade",
   "source": "Energy Security & Net Zero"
  },
@@ -150,34 +186,16 @@
   "source": "HMRC"
  },
  {
-  "title": "Guidance: Making Tax Digital for Income Tax: service availability and issues",
-  "date": "2026-11-03T08:25:38Z",
-  "url": "https://www.gov.uk/government/publications/use-software-to-send-income-tax-updates-service-availability-and-issues",
-  "source": "HMRC"
- },
- {
   "title": "Research: Analysis of the impact of government energy support on household incomes in England",
   "date": "2026-11-03T06:00:00Z",
   "url": "https://www.gov.uk/government/publications/analysis-of-the-impact-of-government-energy-support-on-household-incomes-in-england",
   "source": "HM Treasury"
  },
  {
-  "title": "Self Assessment Manual",
-  "date": "2026-11-02T16:31:37Z",
-  "url": "https://www.gov.uk/hmrc-internal-manuals/self-assessment-manual",
-  "source": "HMRC"
- },
- {
   "title": "Earned settlement",
   "date": "2026-11-02T16:09:05Z",
   "url": "https://www.gov.uk/government/consultations/earned-settlement",
   "source": "HM Treasury"
- },
- {
-  "title": "Customs Declaration Service: service availability and issues",
-  "date": "2026-11-02T16:06:08Z",
-  "url": "https://www.gov.uk/guidance/customs-declaration-service-service-availability-and-issues",
-  "source": "HMRC"
  },
  {
   "title": "Corporate report: Energy Act 2013 (Part 3): annual report, 2025 to 2026",
@@ -250,23 +268,5 @@
   "date": "2026-10-30T00:01:00Z",
   "url": "https://www.gov.uk/government/news/defence-contracts-to-prioritise-british-jobs-and-skills",
   "source": "HM Treasury"
- },
- {
-  "title": "Transparency data: DESNZ: spending over £25,000, January 2026",
-  "date": "2026-10-29T16:00:06Z",
-  "url": "https://www.gov.uk/government/publications/desnz-spending-over-25000-january-2026",
-  "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Transparency data: DESNZ: spending over £500, June 2026",
-  "date": "2026-10-29T16:00:06Z",
-  "url": "https://www.gov.uk/government/publications/desnz-spending-over-500-june-2026",
-  "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Transparency data: DESNZ: spending over £500, July 2026",
-  "date": "2026-10-29T16:00:06Z",
-  "url": "https://www.gov.uk/government/publications/desnz-spending-over-500-july-2026",
-  "source": "Energy Security & Net Zero"
  }
 ]
