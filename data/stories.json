@@ -1,5 +1,59 @@
 [
  {
+  "title": "Notice: Annual Tax on Enveloped Dwellings Returns Notice",
+  "date": "2026-11-05T16:05:26Z",
+  "url": "https://www.gov.uk/government/publications/stld-annual-tax-on-enveloped-dwellings-ated",
+  "source": "HMRC"
+ },
+ {
+  "title": "Guidance: Annual Tax on Enveloped Dwellings: technical guidance",
+  "date": "2026-11-05T16:00:32Z",
+  "url": "https://www.gov.uk/government/publications/annual-tax-on-enveloped-dwellings-technical-guidance",
+  "source": "HMRC"
+ },
+ {
+  "title": "Policy paper: Income Tax: changes resulting from new savings and property rates",
+  "date": "2026-11-05T15:53:45Z",
+  "url": "https://www.gov.uk/government/publications/income-tax-changes-resulting-from-new-savings-and-property-rates",
+  "source": "HMRC"
+ },
+ {
+  "title": "Get childcare: step by step",
+  "date": "2026-11-05T15:41:40Z",
+  "url": "https://www.gov.uk/get-childcare",
+  "source": "HMRC"
+ },
+ {
+  "title": "Guidance: Authorised Consignee Temporary Storage (ACTS) location codes for Data Element 5/23 of the Customs Declaration Service",
+  "date": "2026-11-05T15:27:24Z",
+  "url": "https://www.gov.uk/government/publications/authorised-consignee-temporary-storage-acts-location-codes-for-data-element-523-of-the-customs-declaration-service",
+  "source": "HMRC"
+ },
+ {
+  "title": "Non-statutory Clearance Guidance",
+  "date": "2026-11-05T15:25:39Z",
+  "url": "https://www.gov.uk/hmrc-internal-manuals/other-non-statutory-clearance",
+  "source": "HMRC"
+ },
+ {
+  "title": "Guidance: Internal temporary storage facilities (ITSFs) codes for Data Element 5/23 of the Customs Declaration Service",
+  "date": "2026-11-05T15:17:42Z",
+  "url": "https://www.gov.uk/government/publications/internal-temporary-storage-facilities-itsfs-codes-for-data-element-523-of-the-customs-declaration-service",
+  "source": "HMRC"
+ },
+ {
+  "title": "Guidance: VAT online: service availability and issues",
+  "date": "2026-11-05T15:03:24Z",
+  "url": "https://www.gov.uk/government/publications/vat-online-service-availability-and-issues",
+  "source": "HMRC"
+ },
+ {
+  "title": "Guidance: Darlington Economic Campus (DEC)",
+  "date": "2026-11-05T14:44:05Z",
+  "url": "https://www.gov.uk/government/publications/darlington-economic-campus-dec",
+  "source": "HM Treasury"
+ },
+ {
   "title": "Guidance: Change in bonus rates for Save As You Earn (SAYE) share option schemes",
   "date": "2026-11-05T14:07:35Z",
   "url": "https://www.gov.uk/government/publications/change-in-bonus-rates-for-save-as-you-earn-saye-share-option-schemes",
@@ -96,34 +150,10 @@
   "source": "HMRC"
  },
  {
-  "title": "How to use the voluntary payrolling benefits and expenses online service",
-  "date": "2026-11-05T00:05:03Z",
-  "url": "https://www.gov.uk/guidance/paying-your-employees-expenses-and-benefits-through-your-payroll",
-  "source": "HMRC"
- },
- {
-  "title": "Voluntarily payrolling employees' benefits and expenses",
-  "date": "2026-11-05T00:05:03Z",
-  "url": "https://www.gov.uk/guidance/payrolling-tax-employees-benefits-and-expenses-through-your-payroll",
-  "source": "HMRC"
- },
- {
-  "title": "Advance Tax Certainty Service",
-  "date": "2026-11-05T00:00:00Z",
-  "url": "https://www.gov.uk/hmrc-internal-manuals/advance-tax-certainty-service",
-  "source": "HMRC"
- },
- {
   "title": "Corporate report: Exchange Equalisation Account: report and accounts 2025 to 2026",
   "date": "2026-11-04T16:12:20Z",
   "url": "https://www.gov.uk/government/publications/exchange-equalisation-account-report-and-accounts-2025-to-2026",
   "source": "HM Treasury"
- },
- {
-  "title": "Apply to pay voluntary National Insurance contributions for periods abroad by post (CF83)",
-  "date": "2026-11-04T15:08:31Z",
-  "url": "https://www.gov.uk/guidance/apply-to-pay-voluntary-national-insurance-contributions-for-periods-abroad-by-post-cf83",
-  "source": "HMRC"
  },
  {
   "title": "Corporate report: National Savings and Investments Annual Report and Accounts 2025 to 2026",
@@ -162,18 +192,6 @@
   "source": "Energy Security & Net Zero"
  },
  {
-  "title": "Guidance: Customs civil penalties",
-  "date": "2026-11-04T11:22:15Z",
-  "url": "https://www.gov.uk/government/publications/customs-civil-penalties",
-  "source": "HMRC"
- },
- {
-  "title": "Tell HMRC an entity liable for the Economic Crime Levy has become insolvent",
-  "date": "2026-11-04T10:58:40Z",
-  "url": "https://www.gov.uk/guidance/tell-hmrc-an-entity-liable-for-the-economic-crime-levy-has-become-insolvent",
-  "source": "HMRC"
- },
- {
   "title": "Research: Functioning of the UK carbon market, 2025",
   "date": "2026-11-04T09:45:55Z",
   "url": "https://www.gov.uk/government/publications/functioning-of-the-uk-carbon-market-2025",
@@ -184,18 +202,6 @@
   "date": "2026-11-04T09:45:49Z",
   "url": "https://www.gov.uk/government/publications/standards-for-official-statistics-published-by-desnz",
   "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Find your Local Housing Allowance rates",
-  "date": "2026-11-04T09:43:15Z",
-  "url": "https://www.gov.uk/guidance/local-housing-allowance",
-  "source": "HMRC"
- },
- {
-  "title": "Guidance: Approved offshore reporting funds",
-  "date": "2026-11-04T09:34:27Z",
-  "url": "https://www.gov.uk/government/publications/approved-offshore-reporting-funds",
-  "source": "HMRC"
  },
  {
   "title": "Research: UK official holdings of international reserves: October 2026",
@@ -262,11 +268,5 @@
   "date": "2026-11-03T14:12:06Z",
   "url": "https://www.gov.uk/government/publications/ambient-gamma-radiation-dose-rates-across-the-uk",
   "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Child Trust Fund injustice to end under Government plans",
-  "date": "2026-11-03T13:00:11Z",
-  "url": "https://www.gov.uk/government/news/child-trust-fund-injustice-to-end-under-government-plans",
-  "source": "HM Treasury"
  }
 ]
