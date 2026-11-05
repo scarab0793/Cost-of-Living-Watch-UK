@@ -1,5 +1,119 @@
 [
  {
+  "title": "Guidance: Change in bonus rates for Save As You Earn (SAYE) share option schemes",
+  "date": "2026-11-05T14:07:35Z",
+  "url": "https://www.gov.uk/government/publications/change-in-bonus-rates-for-save-as-you-earn-saye-share-option-schemes",
+  "source": "HMRC"
+ },
+ {
+  "title": "Capital Gains Manual",
+  "date": "2026-11-05T13:39:24Z",
+  "url": "https://www.gov.uk/hmrc-internal-manuals/capital-gains-manual",
+  "source": "HMRC"
+ },
+ {
+  "title": "Receive goods into and remove goods from an excise warehouse (Excise Notice 197)",
+  "date": "2026-11-05T13:35:04Z",
+  "url": "https://www.gov.uk/guidance/receive-goods-into-and-remove-goods-from-an-excise-warehouse-excise-notice-197",
+  "source": "HMRC"
+ },
+ {
+  "title": "Policy paper: Budget 2026: Overview of tax legislation and rates (OOTLAR)",
+  "date": "2026-11-05T13:23:10Z",
+  "url": "https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar",
+  "source": "HMRC"
+ },
+ {
+  "title": "International Manual",
+  "date": "2026-11-05T13:11:42Z",
+  "url": "https://www.gov.uk/hmrc-internal-manuals/international-manual",
+  "source": "HMRC"
+ },
+ {
+  "title": "Correspondence: UK-Switzerland Financial Dialogue 2026 Joint Statement",
+  "date": "2026-11-05T13:00:03Z",
+  "url": "https://www.gov.uk/government/publications/uk-switzerland-financial-dialogue-2026-joint-statement",
+  "source": "HM Treasury"
+ },
+ {
+  "title": "Compliance Handbook",
+  "date": "2026-11-05T12:03:48Z",
+  "url": "https://www.gov.uk/hmrc-internal-manuals/compliance-handbook",
+  "source": "HMRC"
+ },
+ {
+  "title": "Corporate report: Tax avoidance litigation decisions",
+  "date": "2026-11-05T12:01:31Z",
+  "url": "https://www.gov.uk/government/publications/tax-avoidance-litigation-decisions",
+  "source": "HMRC"
+ },
+ {
+  "title": "Guidance: Appendix 1: DE 1/10: Requested and Previous Procedure Codes of the Customs Declaration Service (CDS)",
+  "date": "2026-11-05T11:59:15Z",
+  "url": "https://www.gov.uk/government/publications/appendix-1-de-110-requested-and-previous-procedure-codes-of-the-customs-declaration-service-cds",
+  "source": "HMRC"
+ },
+ {
+  "title": "Capacity Market: new technologies 2026",
+  "date": "2026-11-05T11:45:15Z",
+  "url": "https://www.gov.uk/government/consultations/capacity-market-new-technologies-2026",
+  "source": "Energy Security & Net Zero"
+ },
+ {
+  "title": "Making an entry summary declaration",
+  "date": "2026-11-05T11:35:01Z",
+  "url": "https://www.gov.uk/guidance/making-an-entry-summary-declaration",
+  "source": "HMRC"
+ },
+ {
+  "title": "Form: Self Assessment: Partnership Tax Return (SA800)",
+  "date": "2026-11-05T10:35:14Z",
+  "url": "https://www.gov.uk/government/publications/self-assessment-partnership-tax-return-sa800",
+  "source": "HMRC"
+ },
+ {
+  "title": "Standard: Government Functional Standard - GovS 014: Debt",
+  "date": "2026-11-05T10:30:00Z",
+  "url": "https://www.gov.uk/government/publications/government-functional-standard-govs-014-debt",
+  "source": "HM Treasury"
+ },
+ {
+  "title": "Start or end an exception to mandatory payrolling of benefits",
+  "date": "2026-11-05T10:00:53Z",
+  "url": "https://www.gov.uk/guidance/start-or-end-an-exception-to-mandatory-payrolling-of-benefits",
+  "source": "HMRC"
+ },
+ {
+  "title": "Notice: Boiler Upgrade Scheme: approval to over-allocate vouchers, November 2026",
+  "date": "2026-11-05T09:29:57Z",
+  "url": "https://www.gov.uk/government/publications/boiler-upgrade-scheme-approval-to-over-allocate-vouchers-november-2026",
+  "source": "Energy Security & Net Zero"
+ },
+ {
+  "title": "Find out about the loan charge settlement scheme",
+  "date": "2026-11-05T08:48:16Z",
+  "url": "https://www.gov.uk/guidance/find-out-about-the-loan-charge-settlement-scheme",
+  "source": "HMRC"
+ },
+ {
+  "title": "How to use the voluntary payrolling benefits and expenses online service",
+  "date": "2026-11-05T00:05:03Z",
+  "url": "https://www.gov.uk/guidance/paying-your-employees-expenses-and-benefits-through-your-payroll",
+  "source": "HMRC"
+ },
+ {
+  "title": "Voluntarily payrolling employees' benefits and expenses",
+  "date": "2026-11-05T00:05:03Z",
+  "url": "https://www.gov.uk/guidance/payrolling-tax-employees-benefits-and-expenses-through-your-payroll",
+  "source": "HMRC"
+ },
+ {
+  "title": "Advance Tax Certainty Service",
+  "date": "2026-11-05T00:00:00Z",
+  "url": "https://www.gov.uk/hmrc-internal-manuals/advance-tax-certainty-service",
+  "source": "HMRC"
+ },
+ {
   "title": "Corporate report: Exchange Equalisation Account: report and accounts 2025 to 2026",
   "date": "2026-11-04T16:12:20Z",
   "url": "https://www.gov.uk/government/publications/exchange-equalisation-account-report-and-accounts-2025-to-2026",
@@ -9,12 +123,6 @@
   "title": "Apply to pay voluntary National Insurance contributions for periods abroad by post (CF83)",
   "date": "2026-11-04T15:08:31Z",
   "url": "https://www.gov.uk/guidance/apply-to-pay-voluntary-national-insurance-contributions-for-periods-abroad-by-post-cf83",
-  "source": "HMRC"
- },
- {
-  "title": "Capital Gains Manual",
-  "date": "2026-11-04T14:58:14Z",
-  "url": "https://www.gov.uk/hmrc-internal-manuals/capital-gains-manual",
   "source": "HMRC"
  },
  {
@@ -96,12 +204,6 @@
   "source": "HM Treasury"
  },
  {
-  "title": "Research: Local reference rents, listed by BRMA and property size (October 2026)",
-  "date": "2026-11-04T09:30:06Z",
-  "url": "https://www.gov.uk/government/publications/local-reference-rents-listed-by-brma-and-property-size-october-2026",
-  "source": "HMRC"
- },
- {
   "title": "Protecting the world’s most biodiverse coral reef ecosystems",
   "date": "2026-11-04T09:30:06Z",
   "url": "https://www.gov.uk/government/case-studies/protecting-the-worlds-most-biodiverse-coral-reef-ecosystems",
@@ -120,70 +222,22 @@
   "source": "Energy Security & Net Zero"
  },
  {
-  "title": "Guidance: VAT online: service availability and issues",
-  "date": "2026-11-04T09:19:54Z",
-  "url": "https://www.gov.uk/government/publications/vat-online-service-availability-and-issues",
-  "source": "HMRC"
- },
- {
-  "title": "Guidance: Making Tax Digital for Income Tax: service availability and issues",
-  "date": "2026-11-04T09:15:10Z",
-  "url": "https://www.gov.uk/government/publications/use-software-to-send-income-tax-updates-service-availability-and-issues",
-  "source": "HMRC"
- },
- {
   "title": "Statutory guidance: Reference documents for The Customs (Reliefs from a Liability to Import Duty and Miscellaneous Amendments) (EU Exit) Regulations 2020",
   "date": "2026-11-04T09:08:48Z",
   "url": "https://www.gov.uk/government/publications/reference-documents-for-the-customs-reliefs-from-a-liability-to-import-duty-and-miscellaneous-amendments-eu-exit-regulations-2020",
-  "source": "HMRC"
+  "source": "HM Treasury"
  },
  {
   "title": "Statutory guidance: Reference document for authorised use: eligible goods and authorised uses",
   "date": "2026-11-04T09:08:35Z",
   "url": "https://www.gov.uk/government/publications/authorised-use-eligible-goods-and-authorised-uses",
-  "source": "HMRC"
+  "source": "HM Treasury"
  },
  {
   "title": "Statutory guidance: Reference Documents for The Customs Tariff (Suspension of Import Duty Rates) (EU Exit) Regulations 2020",
   "date": "2026-11-04T09:08:22Z",
   "url": "https://www.gov.uk/government/publications/reference-documents-for-the-customs-tariff-suspension-of-import-duty-rates-eu-exit-regulations-2020",
-  "source": "HMRC"
- },
- {
-  "title": "Software developers providing entry summary declaration support",
-  "date": "2026-11-04T09:07:23Z",
-  "url": "https://www.gov.uk/guidance/software-developers-providing-entry-summary-declaration-support",
-  "source": "HMRC"
- },
- {
-  "title": "Check if a letter you’ve received from HMRC is genuine",
-  "date": "2026-11-04T08:10:14Z",
-  "url": "https://www.gov.uk/guidance/check-if-a-letter-youve-received-from-hmrc-is-genuine",
-  "source": "HMRC"
- },
- {
-  "title": "How to move parcels from Great Britain to Northern Ireland for express operators",
-  "date": "2026-11-04T07:58:59Z",
-  "url": "https://www.gov.uk/guidance/how-to-move-parcels-from-great-britain-to-northern-ireland-for-express-operators",
-  "source": "HMRC"
- },
- {
-  "title": "Insolvency (VAT Notice 700/56)",
-  "date": "2026-11-04T07:57:34Z",
-  "url": "https://www.gov.uk/guidance/insolvency-and-vat-notice-70056",
-  "source": "HMRC"
- },
- {
-  "title": "24. PAYE",
-  "date": "2026-11-04T07:48:01Z",
-  "url": "https://www.gov.uk/guidance/insolvency-practitioner-s-handbook/24-paye",
-  "source": "HMRC"
- },
- {
-  "title": "Insolvency practitioner's handbook",
-  "date": "2026-11-04T07:48:01Z",
-  "url": "https://www.gov.uk/guidance/insolvency-practitioner-s-handbook",
-  "source": "HMRC"
+  "source": "HM Treasury"
  },
  {
   "title": "Oil and gas: offshore environmental legislation",
@@ -204,18 +258,6 @@
   "source": "Energy Security & Net Zero"
  },
  {
-  "title": "Guidance: Help to Save: service availability and issues",
-  "date": "2026-11-03T14:57:16Z",
-  "url": "https://www.gov.uk/government/publications/help-to-save-service-availability-and-issues",
-  "source": "HMRC"
- },
- {
-  "title": "Data Element 2/3: Document and Other Reference Codes: Licence Types — Imports and Exports of the Customs Declaration Service (CDS)",
-  "date": "2026-11-03T14:25:05Z",
-  "url": "https://www.gov.uk/guidance/data-element-23-document-and-other-reference-codes-licence-types-imports-and-exports-of-the-customs-declaration-service-cds",
-  "source": "HMRC"
- },
- {
   "title": "Research: Ambient gamma radiation dose rates across the UK",
   "date": "2026-11-03T14:12:06Z",
   "url": "https://www.gov.uk/government/publications/ambient-gamma-radiation-dose-rates-across-the-uk",
@@ -225,48 +267,6 @@
   "title": "Child Trust Fund injustice to end under Government plans",
   "date": "2026-11-03T13:00:11Z",
   "url": "https://www.gov.uk/government/news/child-trust-fund-injustice-to-end-under-government-plans",
-  "source": "HM Treasury"
- },
- {
-  "title": "Official Statistics: HM Treasury Statistics: Timetable, standards and policies",
-  "date": "2026-11-03T10:11:24Z",
-  "url": "https://www.gov.uk/government/statistics/hm-treasury-statistics-timetable-standards-and-policies",
-  "source": "HM Treasury"
- },
- {
-  "title": "Accredited official statistics: Weekly road fuel prices",
-  "date": "2026-11-03T09:30:03Z",
-  "url": "https://www.gov.uk/government/statistics/weekly-road-fuel-prices",
-  "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Proposed legislative changes to support implementation of the British Industrial Competitiveness Scheme",
-  "date": "2026-11-03T09:30:03Z",
-  "url": "https://www.gov.uk/government/consultations/proposed-legislative-changes-to-support-implementation-of-the-british-industrial-competitiveness-scheme",
-  "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Independent report: Independent regulatory skills and capability review of the Office of Gas and Electricity Markets (Ofgem)",
-  "date": "2026-11-03T09:30:03Z",
-  "url": "https://www.gov.uk/government/publications/independent-regulatory-skills-and-capability-review-of-the-office-of-gas-and-electricity-markets-ofgem",
-  "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Proposed implementation of Fixed Price Certificates into the UK-wide RO schemes",
-  "date": "2026-11-03T09:30:00Z",
-  "url": "https://www.gov.uk/government/consultations/proposed-implementation-of-fixed-price-certificates-into-the-uk-wide-ro-schemes",
-  "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Giant 12-tonne box lowered into place for fusion upgrade",
-  "date": "2026-11-03T09:24:00Z",
-  "url": "https://www.gov.uk/government/news/giant-12-tonne-box-lowered-into-place-for-fusion-upgrade",
-  "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Research: Analysis of the impact of government energy support on household incomes in England",
-  "date": "2026-11-03T06:00:00Z",
-  "url": "https://www.gov.uk/government/publications/analysis-of-the-impact-of-government-energy-support-on-household-incomes-in-england",
   "source": "HM Treasury"
  }
 ]

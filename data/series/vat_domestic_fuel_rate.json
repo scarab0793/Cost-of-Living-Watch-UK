@@ -9,7 +9,7 @@
  "next_release": "Manual: update when the rate changes",
  "warnings": [],
  "partial": {},
- "last_updated": "2026-11-04",
+ "last_updated": "2026-11-05",
  "unit": "%",
  "source_id": "https://www.legislation.gov.uk/ukpga/1994/23/section/2 ; https://en.wikipedia.org/wiki/Value-added_tax_in_the_United_Kingdom (secondary, cites BBC and HMRC)",
  "limitations": "Hand-curated, not downloaded automatically. Zero-rated and reduced-rate goods other than domestic fuel and power are not modelled. Exact start day of the April 1994 domestic-fuel VAT is assumed to be 1 April.",
