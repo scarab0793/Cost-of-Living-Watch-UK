@@ -1,5 +1,119 @@
 [
  {
+  "title": "Exporting controlled goods from Great Britain during HMRC system issues",
+  "date": "2026-11-06T14:13:15Z",
+  "url": "https://www.gov.uk/guidance/exporting-controlled-goods-from-great-britain-during-hmrc-system-issues",
+  "source": "HMRC"
+ },
+ {
+  "title": "Stamp Taxes on Shares Manual",
+  "date": "2026-11-06T13:39:17Z",
+  "url": "https://www.gov.uk/hmrc-internal-manuals/stamp-taxes-shares-manual",
+  "source": "HMRC"
+ },
+ {
+  "title": "HMRC interest rates update",
+  "date": "2026-11-06T13:22:28Z",
+  "url": "https://www.gov.uk/government/news/hmrc-interest-rates-update--2",
+  "source": "HMRC"
+ },
+ {
+  "title": "Guidance: Rates and allowances: Inheritance Tax thresholds and interest rates",
+  "date": "2026-11-06T12:39:21Z",
+  "url": "https://www.gov.uk/government/publications/rates-and-allowances-inheritance-tax-thresholds-and-interest-rates",
+  "source": "HMRC"
+ },
+ {
+  "title": "Electric vehicle charging point sites",
+  "date": "2026-11-06T12:12:28Z",
+  "url": "https://www.gov.uk/guidance/rating-manual-section-6-part-3-valuation-of-all-property-classes/electric-vehicle-charging-point-sites",
+  "source": "HMRC"
+ },
+ {
+  "title": "Rating Manual section 5a: valuation of all property classes",
+  "date": "2026-11-06T12:12:28Z",
+  "url": "https://www.gov.uk/guidance/rating-manual-section-6-part-3-valuation-of-all-property-classes",
+  "source": "HMRC"
+ },
+ {
+  "title": "Electric vehicle charging point sites — practice notes",
+  "date": "2026-11-06T12:12:28Z",
+  "url": "https://www.gov.uk/guidance/rating-manual-section-6-part-3-valuation-of-all-property-classes/electric-vehicle-charging-point-sites-practice-notes",
+  "source": "HMRC"
+ },
+ {
+  "title": "Guidance: External temporary storage facilities codes for Data Element 5/23 of the Customs Declaration Service",
+  "date": "2026-11-06T11:25:21Z",
+  "url": "https://www.gov.uk/government/publications/external-temporary-storage-facilities-codes-for-data-element-523-of-the-customs-declaration-service",
+  "source": "HMRC"
+ },
+ {
+  "title": "Policy paper: Prohibition of promotion of certain tax avoidance arrangements",
+  "date": "2026-11-06T10:49:17Z",
+  "url": "https://www.gov.uk/government/publications/prohibition-of-promotion-of-certain-tax-avoidance-arrangements",
+  "source": "HMRC"
+ },
+ {
+  "title": "Corporate report: HMRC's engagement forums",
+  "date": "2026-11-06T10:47:01Z",
+  "url": "https://www.gov.uk/government/publications/hmrcs-engagement-forums",
+  "source": "HMRC"
+ },
+ {
+  "title": "Official Statistics: Heat pump deployment statistics: September 2026",
+  "date": "2026-11-06T10:31:26Z",
+  "url": "https://www.gov.uk/government/statistics/announcements/heat-pump-deployment-statistics-september-2026",
+  "source": "Energy Security & Net Zero"
+ },
+ {
+  "title": "Shriti Vadera appointed as External Adviser to the Chancellor",
+  "date": "2026-11-06T10:30:00Z",
+  "url": "https://www.gov.uk/government/news/shriti-vadera-appointed-as-external-adviser-to-the-chancellor",
+  "source": "HM Treasury"
+ },
+ {
+  "title": "HMRC email updates, videos and webinars for VAT",
+  "date": "2026-11-06T10:28:11Z",
+  "url": "https://www.gov.uk/guidance/hmrc-email-updates-videos-and-webinars-for-vat",
+  "source": "HMRC"
+ },
+ {
+  "title": "Policy paper: Income Tax treatment of image rights payments connected to employment",
+  "date": "2026-11-06T10:00:08Z",
+  "url": "https://www.gov.uk/government/publications/income-tax-treatment-of-image-rights-payments-connected-to-employment",
+  "source": "HMRC"
+ },
+ {
+  "title": "COTAX Manual",
+  "date": "2026-11-06T09:44:30Z",
+  "url": "https://www.gov.uk/hmrc-internal-manuals/cotax-manual",
+  "source": "HMRC"
+ },
+ {
+  "title": "Guidance: Simplified Process for Internal Market Movements (SPIMM): Category of goods guidance",
+  "date": "2026-11-06T09:41:03Z",
+  "url": "https://www.gov.uk/government/publications/simplified-process-for-internal-market-movements-spimm-category-of-goods-guidance",
+  "source": "HMRC"
+ },
+ {
+  "title": "Form: Submit an EMCS fallback change of destination (FCoD) by email",
+  "date": "2026-11-06T09:22:41Z",
+  "url": "https://www.gov.uk/government/publications/emcs-fallback-change-of-destination-fcod",
+  "source": "HMRC"
+ },
+ {
+  "title": "Guidance: Corporation Tax: assessments (CT220 Notes)",
+  "date": "2026-11-06T08:59:45Z",
+  "url": "https://www.gov.uk/government/publications/corporation-tax-assessments-ct220-notes",
+  "source": "HMRC"
+ },
+ {
+  "title": "Banking Manual",
+  "date": "2026-11-06T08:27:53Z",
+  "url": "https://www.gov.uk/hmrc-internal-manuals/banking-manual",
+  "source": "HMRC"
+ },
+ {
   "title": "Notice: Annual Tax on Enveloped Dwellings Returns Notice",
   "date": "2026-11-05T16:05:26Z",
   "url": "https://www.gov.uk/government/publications/stld-annual-tax-on-enveloped-dwellings-ated",
@@ -18,70 +132,10 @@
   "source": "HMRC"
  },
  {
-  "title": "Get childcare: step by step",
-  "date": "2026-11-05T15:41:40Z",
-  "url": "https://www.gov.uk/get-childcare",
-  "source": "HMRC"
- },
- {
-  "title": "Guidance: Authorised Consignee Temporary Storage (ACTS) location codes for Data Element 5/23 of the Customs Declaration Service",
-  "date": "2026-11-05T15:27:24Z",
-  "url": "https://www.gov.uk/government/publications/authorised-consignee-temporary-storage-acts-location-codes-for-data-element-523-of-the-customs-declaration-service",
-  "source": "HMRC"
- },
- {
-  "title": "Non-statutory Clearance Guidance",
-  "date": "2026-11-05T15:25:39Z",
-  "url": "https://www.gov.uk/hmrc-internal-manuals/other-non-statutory-clearance",
-  "source": "HMRC"
- },
- {
-  "title": "Guidance: Internal temporary storage facilities (ITSFs) codes for Data Element 5/23 of the Customs Declaration Service",
-  "date": "2026-11-05T15:17:42Z",
-  "url": "https://www.gov.uk/government/publications/internal-temporary-storage-facilities-itsfs-codes-for-data-element-523-of-the-customs-declaration-service",
-  "source": "HMRC"
- },
- {
-  "title": "Guidance: VAT online: service availability and issues",
-  "date": "2026-11-05T15:03:24Z",
-  "url": "https://www.gov.uk/government/publications/vat-online-service-availability-and-issues",
-  "source": "HMRC"
- },
- {
   "title": "Guidance: Darlington Economic Campus (DEC)",
   "date": "2026-11-05T14:44:05Z",
   "url": "https://www.gov.uk/government/publications/darlington-economic-campus-dec",
   "source": "HM Treasury"
- },
- {
-  "title": "Guidance: Change in bonus rates for Save As You Earn (SAYE) share option schemes",
-  "date": "2026-11-05T14:07:35Z",
-  "url": "https://www.gov.uk/government/publications/change-in-bonus-rates-for-save-as-you-earn-saye-share-option-schemes",
-  "source": "HMRC"
- },
- {
-  "title": "Capital Gains Manual",
-  "date": "2026-11-05T13:39:24Z",
-  "url": "https://www.gov.uk/hmrc-internal-manuals/capital-gains-manual",
-  "source": "HMRC"
- },
- {
-  "title": "Receive goods into and remove goods from an excise warehouse (Excise Notice 197)",
-  "date": "2026-11-05T13:35:04Z",
-  "url": "https://www.gov.uk/guidance/receive-goods-into-and-remove-goods-from-an-excise-warehouse-excise-notice-197",
-  "source": "HMRC"
- },
- {
-  "title": "Policy paper: Budget 2026: Overview of tax legislation and rates (OOTLAR)",
-  "date": "2026-11-05T13:23:10Z",
-  "url": "https://www.gov.uk/government/publications/budget-2026-overview-of-tax-legislation-and-rates-ootlar",
-  "source": "HMRC"
- },
- {
-  "title": "International Manual",
-  "date": "2026-11-05T13:11:42Z",
-  "url": "https://www.gov.uk/hmrc-internal-manuals/international-manual",
-  "source": "HMRC"
  },
  {
   "title": "Correspondence: UK-Switzerland Financial Dialogue 2026 Joint Statement",
@@ -90,40 +144,10 @@
   "source": "HM Treasury"
  },
  {
-  "title": "Compliance Handbook",
-  "date": "2026-11-05T12:03:48Z",
-  "url": "https://www.gov.uk/hmrc-internal-manuals/compliance-handbook",
-  "source": "HMRC"
- },
- {
-  "title": "Corporate report: Tax avoidance litigation decisions",
-  "date": "2026-11-05T12:01:31Z",
-  "url": "https://www.gov.uk/government/publications/tax-avoidance-litigation-decisions",
-  "source": "HMRC"
- },
- {
-  "title": "Guidance: Appendix 1: DE 1/10: Requested and Previous Procedure Codes of the Customs Declaration Service (CDS)",
-  "date": "2026-11-05T11:59:15Z",
-  "url": "https://www.gov.uk/government/publications/appendix-1-de-110-requested-and-previous-procedure-codes-of-the-customs-declaration-service-cds",
-  "source": "HMRC"
- },
- {
   "title": "Capacity Market: new technologies 2026",
   "date": "2026-11-05T11:45:15Z",
   "url": "https://www.gov.uk/government/consultations/capacity-market-new-technologies-2026",
   "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Making an entry summary declaration",
-  "date": "2026-11-05T11:35:01Z",
-  "url": "https://www.gov.uk/guidance/making-an-entry-summary-declaration",
-  "source": "HMRC"
- },
- {
-  "title": "Form: Self Assessment: Partnership Tax Return (SA800)",
-  "date": "2026-11-05T10:35:14Z",
-  "url": "https://www.gov.uk/government/publications/self-assessment-partnership-tax-return-sa800",
-  "source": "HMRC"
  },
  {
   "title": "Standard: Government Functional Standard - GovS 014: Debt",
@@ -132,22 +156,10 @@
   "source": "HM Treasury"
  },
  {
-  "title": "Start or end an exception to mandatory payrolling of benefits",
-  "date": "2026-11-05T10:00:53Z",
-  "url": "https://www.gov.uk/guidance/start-or-end-an-exception-to-mandatory-payrolling-of-benefits",
-  "source": "HMRC"
- },
- {
   "title": "Notice: Boiler Upgrade Scheme: approval to over-allocate vouchers, November 2026",
   "date": "2026-11-05T09:29:57Z",
   "url": "https://www.gov.uk/government/publications/boiler-upgrade-scheme-approval-to-over-allocate-vouchers-november-2026",
   "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Find out about the loan charge settlement scheme",
-  "date": "2026-11-05T08:48:16Z",
-  "url": "https://www.gov.uk/guidance/find-out-about-the-loan-charge-settlement-scheme",
-  "source": "HMRC"
  },
  {
   "title": "Corporate report: Exchange Equalisation Account: report and accounts 2025 to 2026",
@@ -255,18 +267,6 @@
   "title": "Guidance: UK ETS technical guidance: Free Allocation Regulation (FAR)",
   "date": "2026-11-03T15:43:10Z",
   "url": "https://www.gov.uk/government/publications/uk-ets-technical-guidance-free-allocation-regulation-far",
-  "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Guidance: UK ETS technical guidance: Monitoring and Reporting Regulation (MRR) 2018",
-  "date": "2026-11-03T15:42:36Z",
-  "url": "https://www.gov.uk/government/publications/uk-ets-technical-guidance-monitoring-and-reporting-regulation-mrr-2018",
-  "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Research: Ambient gamma radiation dose rates across the UK",
-  "date": "2026-11-03T14:12:06Z",
-  "url": "https://www.gov.uk/government/publications/ambient-gamma-radiation-dose-rates-across-the-uk",
   "source": "Energy Security & Net Zero"
  }
 ]
