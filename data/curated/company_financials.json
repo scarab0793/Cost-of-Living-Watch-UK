@@ -2,7 +2,7 @@
  "id": "company_financials",
  "title": "Company financial results (group, IFRS statutory)",
  "publisher": "Companies' own SEC Form 20-F filings, via SEC EDGAR XBRL API",
- "updated": "2026-11-06",
+ "updated": "2026-11-07",
  "note": "Group-level statutory IFRS results as filed on Form 20-F, in each company's reporting currency (USD for BP, Shell, HSBC; GBP for the others), millions. Not UK-only: group results include overseas activity. Statutory, not adjusted or underlying, profit. Financial years end 31 December. Coverage is the XBRL era (about 2017 onward). Higher profit does not by itself show price gouging.",
  "limitations": "Tesco, Sainsbury's, Morrisons, Centrica, EDF and food manufacturers do not file 20-Fs, so are not included. Tax paid and tax expense are group-wide, not UK Corporation Tax. A blank means the filer did not tag it.",
  "companies": [
