@@ -47,7 +47,7 @@
   "2025": 1200.34,
   "2026": 1286.01
  },
- "last_updated": "2026-11-08",
+ "last_updated": "2026-11-09",
  "source_id": "derived from Band D",
  "methodology": "Scotland average Band D (weighted by Band D equivalents), key = year the financial year starts (2025 = 2025-26). Band ratios: England-style 6/9...18/9 until 2016-17; 240/360...882/360 from 2017-18 (higher bands E-H pay more). Band B = Band D x the statutory ratio in force that year.",
  "limitations": "Scotland only. Band D is a reference band, not the typical bill. Water and waste-water charges (billed with Council Tax in Scotland) are not included. Council Tax Reduction not modelled. Derived arithmetically from the published average Band D.",
