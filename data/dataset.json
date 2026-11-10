@@ -180,12 +180,12 @@
    },
    "partial": {
     "2026": {
-     "mean": 3.759091,
+     "mean": 3.761364,
      "months": 11,
      "last": "2026-11"
     }
    },
-   "last_updated": "2026-11-09"
+   "last_updated": "2026-11-10"
   },
   "council_tax_band_a": {
    "id": "council_tax_band_a",
