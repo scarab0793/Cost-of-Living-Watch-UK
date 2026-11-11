@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10",
+ "generated": "2026-11-11",
  "series": {
   "awe_regular_pay": {
    "id": "awe_regular_pay",
@@ -180,12 +180,12 @@
    },
    "partial": {
     "2026": {
-     "mean": 3.761364,
+     "mean": 3.762987,
      "months": 11,
      "last": "2026-11"
     }
    },
-   "last_updated": "2026-11-10"
+   "last_updated": "2026-11-11"
   },
   "council_tax_band_a": {
    "id": "council_tax_band_a",
@@ -235,7 +235,7 @@
     "2025": 1520.0,
     "2026": 1594.67
    },
-   "last_updated": "2026-11-10",
+   "last_updated": "2026-11-11",
    "derived": true
   },
   "council_tax_band_b": {
@@ -286,7 +286,7 @@
     "2025": 1773.33,
     "2026": 1860.44
    },
-   "last_updated": "2026-11-10",
+   "last_updated": "2026-11-11",
    "derived": true
   },
   "council_tax_band_c": {
@@ -337,7 +337,7 @@
     "2025": 2026.67,
     "2026": 2126.22
    },
-   "last_updated": "2026-11-10",
+   "last_updated": "2026-11-11",
    "derived": true
   },
   "council_tax_band_d": {
@@ -388,7 +388,7 @@
     "2025": 2280.0,
     "2026": 2392.0
    },
-   "last_updated": "2026-11-10"
+   "last_updated": "2026-11-11"
   },
   "council_tax_band_e": {
    "id": "council_tax_band_e",
@@ -438,7 +438,7 @@
     "2025": 2786.67,
     "2026": 2923.56
    },
-   "last_updated": "2026-11-10",
+   "last_updated": "2026-11-11",
    "derived": true
   },
   "council_tax_band_f": {
@@ -489,7 +489,7 @@
     "2025": 3293.33,
     "2026": 3455.11
    },
-   "last_updated": "2026-11-10",
+   "last_updated": "2026-11-11",
    "derived": true
   },
   "council_tax_band_g": {
@@ -540,7 +540,7 @@
     "2025": 3800.0,
     "2026": 3986.67
    },
-   "last_updated": "2026-11-10",
+   "last_updated": "2026-11-11",
    "derived": true
   },
   "council_tax_band_h": {
@@ -591,7 +591,7 @@
     "2025": 4560.0,
     "2026": 4784.0
    },
-   "last_updated": "2026-11-10",
+   "last_updated": "2026-11-11",
    "derived": true
   },
   "council_tax_scotland_band_a": {
@@ -643,7 +643,7 @@
     "2025": 1028.87,
     "2026": 1102.29
    },
-   "last_updated": "2026-11-10",
+   "last_updated": "2026-11-11",
    "source_id": "derived from Band D",
    "methodology": "Scotland average Band D (weighted by Band D equivalents), key = year the financial year starts (2025 = 2025-26). Band ratios: England-style 6/9...18/9 until 2016-17; 240/360...882/360 from 2017-18 (higher bands E-H pay more). Band A = Band D x the statutory ratio in force that year.",
    "limitations": "Scotland only. Band D is a reference band, not the typical bill. Water and waste-water charges (billed with Council Tax in Scotland) are not included. Council Tax Reduction not modelled. Derived arithmetically from the published average Band D.",
@@ -700,7 +700,7 @@
     "2025": 1200.34,
     "2026": 1286.01
    },
-   "last_updated": "2026-11-10",
+   "last_updated": "2026-11-11",
    "source_id": "derived from Band D",
    "methodology": "Scotland average Band D (weighted by Band D equivalents), key = year the financial year starts (2025 = 2025-26). Band ratios: England-style 6/9...18/9 until 2016-17; 240/360...882/360 from 2017-18 (higher bands E-H pay more). Band B = Band D x the statutory ratio in force that year.",
    "limitations": "Scotland only. Band D is a reference band, not the typical bill. Water and waste-water charges (billed with Council Tax in Scotland) are not included. Council Tax Reduction not modelled. Derived arithmetically from the published average Band D.",
@@ -757,7 +757,7 @@
     "2025": 1371.82,
     "2026": 1469.72
    },
-   "last_updated": "2026-11-10",
+   "last_updated": "2026-11-11",
    "source_id": "derived from Band D",
    "methodology": "Scotland average Band D (weighted by Band D equivalents), key = year the financial year starts (2025 = 2025-26). Band ratios: England-style 6/9...18/9 until 2016-17; 240/360...882/360 from 2017-18 (higher bands E-H pay more). Band C = Band D x the statutory ratio in force that year.",
    "limitations": "Scotland only. Band D is a reference band, not the typical bill. Water and waste-water charges (billed with Council Tax in Scotland) are not included. Council Tax Reduction not modelled. Derived arithmetically from the published average Band D.",
@@ -814,7 +814,7 @@
     "2025": 1543.3,
     "2026": 1653.44
    },
-   "last_updated": "2026-11-10",
+   "last_updated": "2026-11-11",
    "source_id": "Scotland row, Band D Council Tax by year",
    "methodology": "Scotland average Band D (weighted by Band D equivalents), key = year the financial year starts (2025 = 2025-26). Band ratios: England-style 6/9...18/9 until 2016-17; 240/360...882/360 from 2017-18 (higher bands E-H pay more).",
    "limitations": "Scotland only. Band D is a reference band, not the typical bill. Water and waste-water charges (billed with Council Tax in Scotland) are not included. Council Tax Reduction not modelled.",
@@ -870,7 +870,7 @@
     "2025": 2027.72,
     "2026": 2172.44
    },
-   "last_updated": "2026-11-10",
+   "last_updated": "2026-11-11",
    "source_id": "derived from Band D",
    "methodology": "Scotland average Band D (weighted by Band D equivalents), key = year the financial year starts (2025 = 2025-26). Band ratios: England-style 6/9...18/9 until 2016-17; 240/360...882/360 from 2017-18 (higher bands E-H pay more). Band E = Band D x the statutory ratio in force that year.",
    "limitations": "Scotland only. Band D is a reference band, not the typical bill. Water and waste-water charges (billed with Council Tax in Scotland) are not included. Council Tax Reduction not modelled. Derived arithmetically from the published average Band D.",
@@ -927,7 +927,7 @@
     "2025": 2507.86,
     "2026": 2686.84
    },
-   "last_updated": "2026-11-10",
+   "last_updated": "2026-11-11",
    "source_id": "derived from Band D",
    "methodology": "Scotland average Band D (weighted by Band D equivalents), key = year the financial year starts (2025 = 2025-26). Band ratios: England-style 6/9...18/9 until 2016-17; 240/360...882/360 from 2017-18 (higher bands E-H pay more). Band F = Band D x the statutory ratio in force that year.",
    "limitations": "Scotland only. Band D is a reference band, not the typical bill. Water and waste-water charges (billed with Council Tax in Scotland) are not included. Council Tax Reduction not modelled. Derived arithmetically from the published average Band D.",
@@ -984,7 +984,7 @@
     "2025": 3022.3,
     "2026": 3237.99
    },
-   "last_updated": "2026-11-10",
+   "last_updated": "2026-11-11",
    "source_id": "derived from Band D",
    "methodology": "Scotland average Band D (weighted by Band D equivalents), key = year the financial year starts (2025 = 2025-26). Band ratios: England-style 6/9...18/9 until 2016-17; 240/360...882/360 from 2017-18 (higher bands E-H pay more). Band G = Band D x the statutory ratio in force that year.",
    "limitations": "Scotland only. Band D is a reference band, not the typical bill. Water and waste-water charges (billed with Council Tax in Scotland) are not included. Council Tax Reduction not modelled. Derived arithmetically from the published average Band D.",
@@ -1041,7 +1041,7 @@
     "2025": 3781.08,
     "2026": 4050.93
    },
-   "last_updated": "2026-11-10",
+   "last_updated": "2026-11-11",
    "source_id": "derived from Band D",
    "methodology": "Scotland average Band D (weighted by Band D equivalents), key = year the financial year starts (2025 = 2025-26). Band ratios: England-style 6/9...18/9 until 2016-17; 240/360...882/360 from 2017-18 (higher bands E-H pay more). Band H = Band D x the statutory ratio in force that year.",
    "limitations": "Scotland only. Band D is a reference band, not the typical bill. Water and waste-water charges (billed with Council Tax in Scotland) are not included. Council Tax Reduction not modelled. Derived arithmetically from the published average Band D.",
@@ -1101,7 +1101,7 @@
     "2025": 1446.47,
     "2026": 1522.05
    },
-   "last_updated": "2026-11-10",
+   "last_updated": "2026-11-11",
    "source_id": "derived from Band D",
    "methodology": "Wales average Band D including community council and police elements, key = year the financial year starts (2025 = 2025-26). Band ratios: 6/9...18/9 until 2004-05; band I (21/9) added with the 2005 revaluation. Band A = Band D x the statutory ratio in force that year.",
    "limitations": "Wales only. Band D is a reference band, not the typical bill. The 2005 revaluation moved homes between bands, so bills for a given band are not like-for-like across 2004/05. Council Tax Reduction not modelled. Derived arithmetically from the published average Band D.",
@@ -1161,7 +1161,7 @@
     "2025": 1687.55,
     "2026": 1775.73
    },
-   "last_updated": "2026-11-10",
+   "last_updated": "2026-11-11",
    "source_id": "derived from Band D",
    "methodology": "Wales average Band D including community council and police elements, key = year the financial year starts (2025 = 2025-26). Band ratios: 6/9...18/9 until 2004-05; band I (21/9) added with the 2005 revaluation. Band B = Band D x the statutory ratio in force that year.",
    "limitations": "Wales only. Band D is a reference band, not the typical bill. The 2005 revaluation moved homes between bands, so bills for a given band are not like-for-like across 2004/05. Council Tax Reduction not modelled. Derived arithmetically from the published average Band D.",
@@ -1221,7 +1221,7 @@
     "2025": 1928.63,
     "2026": 2029.4
    },
-   "last_updated": "2026-11-10",
+   "last_updated": "2026-11-11",
    "source_id": "derived from Band D",
    "methodology": "Wales average Band D including community council and police elements, key = year the financial year starts (2025 = 2025-26). Band ratios: 6/9...18/9 until 2004-05; band I (21/9) added with the 2005 revaluation. Band C = Band D x the statutory ratio in force that year.",
    "limitations": "Wales only. Band D is a reference band, not the typical bill. The 2005 revaluation moved homes between bands, so bills for a given band are not like-for-like across 2004/05. Council Tax Reduction not modelled. Derived arithmetically from the published average Band D.",
@@ -1281,7 +1281,7 @@
     "2025": 2169.71,
     "2026": 2283.08
    },
-   "last_updated": "2026-11-10",
+   "last_updated": "2026-11-11",
    "source_id": "Total CT for billing authority area, Total Unitary Authorities",
    "methodology": "Wales average Band D including community council and police elements, key = year the financial year starts (2025 = 2025-26). Band ratios: 6/9...18/9 until 2004-05; band I (21/9) added with the 2005 revaluation.",
    "limitations": "Wales only. Band D is a reference band, not the typical bill. The 2005 revaluation moved homes between bands, so bills for a given band are not like-for-like across 2004/05. Council Tax Reduction not modelled.",
@@ -1340,7 +1340,7 @@
     "2025": 2651.87,
     "2026": 2790.43
    },
-   "last_updated": "2026-11-10",
+   "last_updated": "2026-11-11",
    "source_id": "derived from Band D",
    "methodology": "Wales average Band D including community council and police elements, key = year the financial year starts (2025 = 2025-26). Band ratios: 6/9...18/9 until 2004-05; band I (21/9) added with the 2005 revaluation. Band E = Band D x the statutory ratio in force that year.",
    "limitations": "Wales only. Band D is a reference band, not the typical bill. The 2005 revaluation moved homes between bands, so bills for a given band are not like-for-like across 2004/05. Council Tax Reduction not modelled. Derived arithmetically from the published average Band D.",
@@ -1400,7 +1400,7 @@
     "2025": 3134.03,
     "2026": 3297.78
    },
-   "last_updated": "2026-11-10",
+   "last_updated": "2026-11-11",
    "source_id": "derived from Band D",
    "methodology": "Wales average Band D including community council and police elements, key = year the financial year starts (2025 = 2025-26). Band ratios: 6/9...18/9 until 2004-05; band I (21/9) added with the 2005 revaluation. Band F = Band D x the statutory ratio in force that year.",
    "limitations": "Wales only. Band D is a reference band, not the typical bill. The 2005 revaluation moved homes between bands, so bills for a given band are not like-for-like across 2004/05. Council Tax Reduction not modelled. Derived arithmetically from the published average Band D.",
@@ -1460,7 +1460,7 @@
     "2025": 3616.18,
     "2026": 3805.13
    },
-   "last_updated": "2026-11-10",
+   "last_updated": "2026-11-11",
    "source_id": "derived from Band D",
    "methodology": "Wales average Band D including community council and police elements, key = year the financial year starts (2025 = 2025-26). Band ratios: 6/9...18/9 until 2004-05; band I (21/9) added with the 2005 revaluation. Band G = Band D x the statutory ratio in force that year.",
    "limitations": "Wales only. Band D is a reference band, not the typical bill. The 2005 revaluation moved homes between bands, so bills for a given band are not like-for-like across 2004/05. Council Tax Reduction not modelled. Derived arithmetically from the published average Band D.",
@@ -1520,7 +1520,7 @@
     "2025": 4339.42,
     "2026": 4566.16
    },
-   "last_updated": "2026-11-10",
+   "last_updated": "2026-11-11",
    "source_id": "derived from Band D",
    "methodology": "Wales average Band D including community council and police elements, key = year the financial year starts (2025 = 2025-26). Band ratios: 6/9...18/9 until 2004-05; band I (21/9) added with the 2005 revaluation. Band H = Band D x the statutory ratio in force that year.",
    "limitations": "Wales only. Band D is a reference band, not the typical bill. The 2005 revaluation moved homes between bands, so bills for a given band are not like-for-like across 2004/05. Council Tax Reduction not modelled. Derived arithmetically from the published average Band D.",
@@ -1568,7 +1568,7 @@
     "2025": 5062.66,
     "2026": 5327.19
    },
-   "last_updated": "2026-11-10",
+   "last_updated": "2026-11-11",
    "source_id": "derived from Band D",
    "methodology": "Wales average Band D including community council and police elements, key = year the financial year starts (2025 = 2025-26). Band ratios: 6/9...18/9 until 2004-05; band I (21/9) added with the 2005 revaluation. Band I = Band D x the statutory ratio in force that year.",
    "limitations": "Wales only. Band D is a reference band, not the typical bill. The 2005 revaluation moved homes between bands, so bills for a given band are not like-for-like across 2004/05. Council Tax Reduction not modelled. Derived arithmetically from the published average Band D.",
@@ -2153,7 +2153,7 @@
    "next_release": "Annual, normally October/November",
    "warnings": [],
    "partial": {},
-   "last_updated": "2026-11-10",
+   "last_updated": "2026-11-11",
    "id": "earnings_median_ft",
    "label": "Median gross weekly earnings, full-time adults, UK (ASHE)",
    "geography": "United Kingdom",
@@ -2390,7 +2390,7 @@
    "next_release": "Annual, normally October/November",
    "warnings": [],
    "partial": {},
-   "last_updated": "2026-11-10",
+   "last_updated": "2026-11-11",
    "id": "earnings_median_ft_nes",
    "label": "Median gross weekly earnings, full-time adults, GB (New Earnings Survey, 1990-96)",
    "geography": "Great Britain",
@@ -2587,7 +2587,7 @@
    "next_release": "With each Budget change",
    "warnings": [],
    "partial": {},
-   "last_updated": "2026-11-10",
+   "last_updated": "2026-11-11",
    "methodology": "Day-weighted average over the calendar year of the dated duty rates in force, main pump grade. Rates already legislated for later in the current year are included as scheduled.",
    "limitations": "Duty only (VAT is separate). Petrol means ultra low sulphur petrol where listed, otherwise unleaded; before 1999 most petrol sold was leaded, which carried a higher duty, so the unleaded rate understates duty paid then.",
    "id": "fuel_duty_diesel",
@@ -2649,7 +2649,7 @@
    "next_release": "With each Budget change",
    "warnings": [],
    "partial": {},
-   "last_updated": "2026-11-10",
+   "last_updated": "2026-11-11",
    "methodology": "Day-weighted average over the calendar year of the dated duty rates in force, main pump grade. Rates already legislated for later in the current year are included as scheduled.",
    "limitations": "Duty only (VAT is separate). Petrol means ultra low sulphur petrol where listed, otherwise unleaded; before 1999 most petrol sold was leaded, which carried a higher duty, so the unleaded rate understates duty paid then.",
    "id": "fuel_duty_petrol",
@@ -5722,7 +5722,7 @@
    "next_release": "Manual: update when the rate changes",
    "warnings": [],
    "partial": {},
-   "last_updated": "2026-11-10",
+   "last_updated": "2026-11-11",
    "unit": "%",
    "source_id": "https://www.legislation.gov.uk/ukpga/1994/23/section/2 ; https://en.wikipedia.org/wiki/Value-added_tax_in_the_United_Kingdom (secondary, cites BBC and HMRC)",
    "limitations": "Hand-curated, not downloaded automatically. Zero-rated and reduced-rate goods other than domestic fuel and power are not modelled. Exact start day of the April 1994 domestic-fuel VAT is assumed to be 1 April.",
@@ -5784,7 +5784,7 @@
    "next_release": "Manual: update when the rate changes",
    "warnings": [],
    "partial": {},
-   "last_updated": "2026-11-10",
+   "last_updated": "2026-11-11",
    "unit": "%",
    "source_id": "https://www.legislation.gov.uk/ukpga/1994/23/section/2 ; https://en.wikipedia.org/wiki/Value-added_tax_in_the_United_Kingdom (secondary, cites BBC and HMRC)",
    "limitations": "Hand-curated, not downloaded automatically. Zero-rated and reduced-rate goods other than domestic fuel and power are not modelled. Exact start day of the April 1994 domestic-fuel VAT is assumed to be 1 April.",
@@ -5841,7 +5841,7 @@
    "id": "company_financials",
    "title": "Company financial results (group, IFRS statutory)",
    "publisher": "Companies' own SEC Form 20-F filings, via SEC EDGAR XBRL API",
-   "updated": "2026-11-10",
+   "updated": "2026-11-11",
    "note": "Group-level statutory IFRS results as filed on Form 20-F, in each company's reporting currency (USD for BP, Shell, HSBC; GBP for the others), millions. Not UK-only: group results include overseas activity. Statutory, not adjusted or underlying, profit. Financial years end 31 December. Coverage is the XBRL era (about 2017 onward). Higher profit does not by itself show price gouging.",
    "limitations": "Tesco, Sainsbury's, Morrisons, Centrica, EDF and food manufacturers do not file 20-Fs, so are not included. Tax paid and tax expense are group-wide, not UK Corporation Tax. A blank means the filer did not tag it.",
    "companies": [

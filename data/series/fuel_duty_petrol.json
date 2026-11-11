@@ -9,7 +9,7 @@
  "next_release": "With each Budget change",
  "warnings": [],
  "partial": {},
- "last_updated": "2026-11-10",
+ "last_updated": "2026-11-11",
  "methodology": "Day-weighted average over the calendar year of the dated duty rates in force, main pump grade. Rates already legislated for later in the current year are included as scheduled.",
  "limitations": "Duty only (VAT is separate). Petrol means ultra low sulphur petrol where listed, otherwise unleaded; before 1999 most petrol sold was leaded, which carried a higher duty, so the unleaded rate understates duty paid then.",
  "id": "fuel_duty_petrol",
