@@ -1,5 +1,35 @@
 [
  {
+  "title": "Remittance Basis and Domicile Manual",
+  "date": "2026-11-13T17:20:11Z",
+  "url": "https://www.gov.uk/hmrc-internal-manuals/residence-domicile-and-remittance-basis",
+  "source": "HMRC"
+ },
+ {
+  "title": "Residence and FIG Regime Manual",
+  "date": "2026-11-13T15:47:43Z",
+  "url": "https://www.gov.uk/hmrc-internal-manuals/residence-and-fig-regime-manual",
+  "source": "HMRC"
+ },
+ {
+  "title": "Vaping Products Duty and Vaping Duty Stamps guidance",
+  "date": "2026-11-13T15:42:45Z",
+  "url": "https://www.gov.uk/hmrc-internal-manuals/vaping-products-duty-and-vaping-duty-stamps-guidance",
+  "source": "HMRC"
+ },
+ {
+  "title": "Oil and gas: offshore environmental legislation",
+  "date": "2026-11-13T15:14:17Z",
+  "url": "https://www.gov.uk/guidance/oil-and-gas-offshore-environmental-legislation",
+  "source": "Energy Security & Net Zero"
+ },
+ {
+  "title": "COTAX Manual",
+  "date": "2026-11-13T14:55:56Z",
+  "url": "https://www.gov.uk/hmrc-internal-manuals/cotax-manual",
+  "source": "HMRC"
+ },
+ {
   "title": "Guidance: Find software suppliers for filing charities repayments online",
   "date": "2026-11-13T14:38:58Z",
   "url": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers",
@@ -99,30 +129,6 @@
   "title": "Pay annual tax on enveloped dwellings",
   "date": "2026-11-13T12:58:33Z",
   "url": "https://www.gov.uk/guidance/pay-annual-tax-on-enveloped-dwellings",
-  "source": "HMRC"
- },
- {
-  "title": "Pay a penalty charge for not registering or maintaining a trust",
-  "date": "2026-11-13T12:58:28Z",
-  "url": "https://www.gov.uk/guidance/pay-a-penalty-charge-for-not-registering-or-maintaining-a-trust",
-  "source": "HMRC"
- },
- {
-  "title": "Pay tax on cryptoassets",
-  "date": "2026-11-13T12:58:24Z",
-  "url": "https://www.gov.uk/guidance/pay-tax-on-cryptoassets",
-  "source": "HMRC"
- },
- {
-  "title": "Pay General Betting, Pool Betting or Remote Gaming Duty",
-  "date": "2026-11-13T12:57:21Z",
-  "url": "https://www.gov.uk/guidance/pay-general-betting-pool-betting-or-remote-gaming-duty",
-  "source": "HMRC"
- },
- {
-  "title": "Pay Insurance Premium Tax",
-  "date": "2026-11-13T12:57:14Z",
-  "url": "https://www.gov.uk/guidance/pay-insurance-premium-tax",
   "source": "HMRC"
  },
  {
@@ -228,6 +234,18 @@
   "source": "Energy Security & Net Zero"
  },
  {
+  "title": "Decision: Boreas Offshore Wind Farm Project: post-consent condition discharge, Planning Act 2008",
+  "date": "2026-11-12T00:00:00Z",
+  "url": "https://www.gov.uk/government/publications/boreas-offshore-wind-farm-project-post-consent-condition-discharge-planning-act-2008",
+  "source": "Energy Security & Net Zero"
+ },
+ {
+  "title": "Notice: Vanguard East and Vanguard West Offshore Wind Farm Project: post-consent condition discharge, Planning Act 2008",
+  "date": "2026-11-12T00:00:00Z",
+  "url": "https://www.gov.uk/government/publications/vanguard-east-and-vanguard-west-offshore-wind-farm-project-post-consent-condition-discharge-planning-act-2008",
+  "source": "Energy Security & Net Zero"
+ },
+ {
   "title": "UK Trade Tariff: duty suspensions and autonomous tariff quotas",
   "date": "2026-11-11T15:27:56Z",
   "url": "https://www.gov.uk/guidance/duty-suspensions-and-tariff-quotas",
@@ -240,12 +258,6 @@
   "source": "HM Treasury"
  },
  {
-  "title": "Oil and gas: offshore environmental legislation",
-  "date": "2026-11-11T13:59:49Z",
-  "url": "https://www.gov.uk/guidance/oil-and-gas-offshore-environmental-legislation",
-  "source": "Energy Security & Net Zero"
- },
- {
   "title": "Guidance: Money Laundering Advisory Notice: High Risk Third Countries",
   "date": "2026-11-11T12:29:00Z",
   "url": "https://www.gov.uk/government/publications/money-laundering-advisory-notice-high-risk-third-countries--2",
@@ -256,17 +268,5 @@
   "date": "2026-11-11T11:27:08Z",
   "url": "https://www.gov.uk/government/news/affordable-finance-access-for-tens-of-thousands-more-people",
   "source": "HM Treasury"
- },
- {
-  "title": "Notice: National Energy Efficiency Data-framework statistics - Gas Safe Register data: privacy notice",
-  "date": "2026-11-11T09:49:53Z",
-  "url": "https://www.gov.uk/government/publications/national-energy-efficiency-data-framework-statistics-gas-safe-register-data-privacy-notice",
-  "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Policy paper: Global Clean Power Alliance: finance mission country action plans",
-  "date": "2026-11-11T08:00:02Z",
-  "url": "https://www.gov.uk/government/publications/global-clean-power-alliance-finance-mission-country-action-plans",
-  "source": "Energy Security & Net Zero"
  }
 ]
