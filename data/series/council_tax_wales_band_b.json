@@ -50,7 +50,7 @@
   "2025": 1687.55,
   "2026": 1775.73
  },
- "last_updated": "2026-11-12",
+ "last_updated": "2026-11-13",
  "source_id": "derived from Band D",
  "methodology": "Wales average Band D including community council and police elements, key = year the financial year starts (2025 = 2025-26). Band ratios: 6/9...18/9 until 2004-05; band I (21/9) added with the 2005 revaluation. Band B = Band D x the statutory ratio in force that year.",
  "limitations": "Wales only. Band D is a reference band, not the typical bill. The 2005 revaluation moved homes between bands, so bills for a given band are not like-for-like across 2004/05. Council Tax Reduction not modelled. Derived arithmetically from the published average Band D.",

@@ -1,33 +1,171 @@
 [
  {
-  "title": "Rating Manual section 3: maintaining the rating list",
-  "date": "2026-11-12T17:23:46Z",
-  "url": "https://www.gov.uk/guidance/rating-manual-section-3-valuation-principles",
+  "title": "Guidance: Find software suppliers for filing charities repayments online",
+  "date": "2026-11-13T14:38:58Z",
+  "url": "https://www.gov.uk/government/publications/charities-online-commercial-software-suppliers",
   "source": "HMRC"
  },
  {
-  "title": "Part 5: Transitional Relief",
-  "date": "2026-11-12T17:23:46Z",
-  "url": "https://www.gov.uk/guidance/rating-manual-section-3-valuation-principles/part-5-transitional-relief",
+  "title": "Capital Gains Manual",
+  "date": "2026-11-13T14:26:32Z",
+  "url": "https://www.gov.uk/hmrc-internal-manuals/capital-gains-manual",
   "source": "HMRC"
  },
  {
-  "title": "Get ready for MTD: an agent toolkit",
-  "date": "2026-11-12T17:21:43Z",
-  "url": "https://www.gov.uk/guidance/get-ready-for-mtd-an-agent-toolkit",
+  "title": "Pay overclaimed Research and Development (R&D) tax relief",
+  "date": "2026-11-13T13:04:32Z",
+  "url": "https://www.gov.uk/guidance/pay-overclaimed-research-and-development-rd-tax-relief",
   "source": "HMRC"
  },
  {
-  "title": "Guidance and other useful information",
-  "date": "2026-11-12T17:21:43Z",
-  "url": "https://www.gov.uk/guidance/get-ready-for-mtd-an-agent-toolkit/guidance-and-other-useful-information",
+  "title": "Pay the Spirit Drinks Verification Scheme fee",
+  "date": "2026-11-13T13:03:55Z",
+  "url": "https://www.gov.uk/guidance/pay-spirits-drinks-verification-fee",
   "source": "HMRC"
  },
  {
-  "title": "Nicotine Approval Scheme",
-  "date": "2026-11-12T17:19:41Z",
-  "url": "https://www.gov.uk/government/consultations/nicotine-approval-scheme",
+  "title": "Pay for imports declared using the Customs Declaration Service",
+  "date": "2026-11-13T13:03:11Z",
+  "url": "https://www.gov.uk/guidance/pay-for-imports-declared-using-the-customs-declaration-service",
   "source": "HMRC"
+ },
+ {
+  "title": "Pay your Economic Crime Levy",
+  "date": "2026-11-13T13:03:05Z",
+  "url": "https://www.gov.uk/guidance/pay-your-economic-crime-levy",
+  "source": "HMRC"
+ },
+ {
+  "title": "Accredited official statistics: HMRC tax receipts and National Insurance contributions for the UK",
+  "date": "2026-11-13T13:02:12Z",
+  "url": "https://www.gov.uk/government/statistics/announcements/hmrc-tax-receipts-and-national-insurance-contributions-for-the-uk--152",
+  "source": "HMRC"
+ },
+ {
+  "title": "Pay Stamp Duty on shares",
+  "date": "2026-11-13T13:01:43Z",
+  "url": "https://www.gov.uk/guidance/pay-stamp-duty",
+  "source": "HMRC"
+ },
+ {
+  "title": "Pay Stamp Duty Reserve Tax",
+  "date": "2026-11-13T13:01:37Z",
+  "url": "https://www.gov.uk/guidance/pay-stamp-duty-reserve-tax",
+  "source": "HMRC"
+ },
+ {
+  "title": "Pay taxes, penalties or enquiry settlements",
+  "date": "2026-11-13T13:01:31Z",
+  "url": "https://www.gov.uk/guidance/pay-taxes-penalties-or-enquiry-settlements",
+  "source": "HMRC"
+ },
+ {
+  "title": "Pay the VAT due on your Import One Stop Shop VAT return",
+  "date": "2026-11-13T13:01:22Z",
+  "url": "https://www.gov.uk/guidance/pay-the-vat-due-on-your-import-one-stop-shop-vat-return",
+  "source": "HMRC"
+ },
+ {
+  "title": "Pay Pillar 2 top-up taxes (Domestic Top-up Tax and Multinational Top-up Tax)",
+  "date": "2026-11-13T13:01:16Z",
+  "url": "https://www.gov.uk/guidance/pay-pillar-2-top-up-taxes-domestic-top-up-tax-and-multinational-top-up-tax",
+  "source": "HMRC"
+ },
+ {
+  "title": "Pay Alcohol Duty",
+  "date": "2026-11-13T13:00:01Z",
+  "url": "https://www.gov.uk/guidance/pay-alcohol-duty",
+  "source": "HMRC"
+ },
+ {
+  "title": "Policy paper: UK-Canada climate finance: joint statement",
+  "date": "2026-11-13T13:00:01Z",
+  "url": "https://www.gov.uk/government/publications/uk-canada-climate-finance-joint-statement",
+  "source": "Energy Security & Net Zero"
+ },
+ {
+  "title": "Pay the Soft Drinks Industry Levy (notice 5)",
+  "date": "2026-11-13T12:59:54Z",
+  "url": "https://www.gov.uk/guidance/pay-the-soft-drinks-industry-levy-notice-5",
+  "source": "HMRC"
+ },
+ {
+  "title": "Pay Stamp Duty Land Tax",
+  "date": "2026-11-13T12:58:40Z",
+  "url": "https://www.gov.uk/guidance/pay-stamp-duty-land-tax",
+  "source": "HMRC"
+ },
+ {
+  "title": "Pay annual tax on enveloped dwellings",
+  "date": "2026-11-13T12:58:33Z",
+  "url": "https://www.gov.uk/guidance/pay-annual-tax-on-enveloped-dwellings",
+  "source": "HMRC"
+ },
+ {
+  "title": "Pay a penalty charge for not registering or maintaining a trust",
+  "date": "2026-11-13T12:58:28Z",
+  "url": "https://www.gov.uk/guidance/pay-a-penalty-charge-for-not-registering-or-maintaining-a-trust",
+  "source": "HMRC"
+ },
+ {
+  "title": "Pay tax on cryptoassets",
+  "date": "2026-11-13T12:58:24Z",
+  "url": "https://www.gov.uk/guidance/pay-tax-on-cryptoassets",
+  "source": "HMRC"
+ },
+ {
+  "title": "Pay General Betting, Pool Betting or Remote Gaming Duty",
+  "date": "2026-11-13T12:57:21Z",
+  "url": "https://www.gov.uk/guidance/pay-general-betting-pool-betting-or-remote-gaming-duty",
+  "source": "HMRC"
+ },
+ {
+  "title": "Pay Insurance Premium Tax",
+  "date": "2026-11-13T12:57:14Z",
+  "url": "https://www.gov.uk/guidance/pay-insurance-premium-tax",
+  "source": "HMRC"
+ },
+ {
+  "title": "Research: Renewable Energy Planning Database: quarterly extract",
+  "date": "2026-11-13T12:00:02Z",
+  "url": "https://www.gov.uk/government/publications/renewable-energy-planning-database-quarterly-extract",
+  "source": "Energy Security & Net Zero"
+ },
+ {
+  "title": "Transparency data: Heat networks pipelines",
+  "date": "2026-11-13T12:00:02Z",
+  "url": "https://www.gov.uk/government/publications/heat-networks-pipelines",
+  "source": "Energy Security & Net Zero"
+ },
+ {
+  "title": "Notice: IPCC Methodology Report on Carbon Dioxide Removal Technologies, Carbon Capture, Utilization, and Storage for National Greenhouse Gas Inventories (additional guidance): expert review of the First Order Draft",
+  "date": "2026-11-13T10:25:09Z",
+  "url": "https://www.gov.uk/government/publications/ipcc-methodology-report-on-carbon-dioxide-removal-technologies-carbon-capture-utilization-and-storage-for-national-greenhouse-gas-inventories-addition",
+  "source": "Energy Security & Net Zero"
+ },
+ {
+  "title": "Notice: IPCC AR7: expert review of the Working Group III Contribution (Mitigation of Climate Change)",
+  "date": "2026-11-13T10:25:00Z",
+  "url": "https://www.gov.uk/government/publications/ipcc-ar7-mitigation-of-climate-change-expert-review-of-the-working-group-iii-contribution",
+  "source": "Energy Security & Net Zero"
+ },
+ {
+  "title": "Notice: IPCC AR7 and the Technical Guidelines for Assessing Climate Change Impacts and Adaptation including Indicators, Metrics and Methodologies: expert review of the Working Group II contribution (Impacts, Adaptation and Vulnerability)",
+  "date": "2026-11-13T10:24:28Z",
+  "url": "https://www.gov.uk/government/publications/ipcc-ar7-and-the-technical-guidelines-for-assessing-climate-change-impacts-and-adaptation-including-indicators-metrics-and-methodologies-expert-review",
+  "source": "Energy Security & Net Zero"
+ },
+ {
+  "title": "Guidance: Contributing to the IPCC",
+  "date": "2026-11-13T10:23:28Z",
+  "url": "https://www.gov.uk/government/publications/contributing-to-the-ipcc",
+  "source": "Energy Security & Net Zero"
+ },
+ {
+  "title": "Oil and gas: inspection strategy and enforcement activity",
+  "date": "2026-11-13T09:30:39Z",
+  "url": "https://www.gov.uk/guidance/oil-and-gas-decc-public-registers-of-enforcement-activity",
+  "source": "Energy Security & Net Zero"
  },
  {
   "title": "Ukraine’s drone pioneers bring battle-tested tech and high-skilled jobs to Britain",
@@ -37,51 +175,15 @@
  },
  {
   "title": "Global clean electricity to cut bills and boost energy security",
-  "date": "2026-11-12T17:06:29Z",
+  "date": "2026-11-12T17:06:00Z",
   "url": "https://www.gov.uk/government/news/global-clean-electricity-to-cut-bills-and-boost-energy-security",
   "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Economic Crime Supervision Handbook",
-  "date": "2026-11-12T16:44:45Z",
-  "url": "https://www.gov.uk/hmrc-internal-manuals/economic-crime-supervision-handbook",
-  "source": "HMRC"
  },
  {
   "title": "Corporate report: National Loans Fund account 2025 to 2026",
   "date": "2026-11-12T16:44:25Z",
   "url": "https://www.gov.uk/government/publications/national-loans-fund-account-2025-to-2026",
   "source": "HM Treasury"
- },
- {
-  "title": "Research: Local reference rents, listed by BRMA and property size (September 2026)",
-  "date": "2026-11-12T16:07:45Z",
-  "url": "https://www.gov.uk/government/publications/local-reference-rents-listed-by-brma-and-property-size-september-2026",
-  "source": "HMRC"
- },
- {
-  "title": "Research: Local reference rents, listed by BRMA and property size (August 2026)",
-  "date": "2026-11-12T16:07:38Z",
-  "url": "https://www.gov.uk/government/publications/local-reference-rents-listed-by-brma-and-property-size-august-2026",
-  "source": "HMRC"
- },
- {
-  "title": "Research: Local reference rents, listed by BRMA and property size (July 2026)",
-  "date": "2026-11-12T16:07:32Z",
-  "url": "https://www.gov.uk/government/publications/local-reference-rents-listed-by-brma-and-property-size-july-2026",
-  "source": "HMRC"
- },
- {
-  "title": "Enquiry Manual",
-  "date": "2026-11-12T16:02:14Z",
-  "url": "https://www.gov.uk/hmrc-internal-manuals/enquiry-manual",
-  "source": "HMRC"
- },
- {
-  "title": "Check genuine HMRC contact that uses more than one communication method",
-  "date": "2026-11-12T15:42:56Z",
-  "url": "https://www.gov.uk/guidance/check-genuine-hmrc-contact-that-uses-more-than-one-communication-method",
-  "source": "HMRC"
  },
  {
   "title": "Global Clean Power Alliance",
@@ -100,60 +202,6 @@
   "date": "2026-11-12T15:21:29Z",
   "url": "https://www.gov.uk/government/news/clean-energy-jobs-fair-held-in-birmingham",
   "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Guidance: Help to Save: service availability and issues",
-  "date": "2026-11-12T14:11:46Z",
-  "url": "https://www.gov.uk/government/publications/help-to-save-service-availability-and-issues",
-  "source": "HMRC"
- },
- {
-  "title": "Corporate report: Named tax avoidance schemes, promoters, enablers and suppliers",
-  "date": "2026-11-12T13:13:46Z",
-  "url": "https://www.gov.uk/government/publications/named-tax-avoidance-schemes-promoters-enablers-and-suppliers",
-  "source": "HMRC"
- },
- {
-  "title": "Guidance: Child Benefit: service availability and issues",
-  "date": "2026-11-12T13:05:34Z",
-  "url": "https://www.gov.uk/government/publications/child-benefit-service-availability-and-issues",
-  "source": "HMRC"
- },
- {
-  "title": "Guidance: Plastic Packaging Tax: service availability and issues",
-  "date": "2026-11-12T12:23:00Z",
-  "url": "https://www.gov.uk/government/publications/register-for-plastic-packaging-tax-service-availability-and-issues",
-  "source": "HMRC"
- },
- {
-  "title": "Policy paper: Changes to employee share schemes, including Company Share Option Plan and Enterprise Management Incentives",
-  "date": "2026-11-12T12:02:04Z",
-  "url": "https://www.gov.uk/government/publications/changes-to-employee-share-schemes-including-company-share-option-plan-and-enterprise-management-incentives",
-  "source": "HMRC"
- },
- {
-  "title": "Guidance: VAT online: service availability and issues",
-  "date": "2026-11-12T11:21:53Z",
-  "url": "https://www.gov.uk/government/publications/vat-online-service-availability-and-issues",
-  "source": "HMRC"
- },
- {
-  "title": "Sending a relief at source annual information return",
-  "date": "2026-11-12T11:17:19Z",
-  "url": "https://www.gov.uk/guidance/pension-administrators-ras-annual-information-returns",
-  "source": "HMRC"
- },
- {
-  "title": "National Insurance Manual",
-  "date": "2026-11-12T11:05:28Z",
-  "url": "https://www.gov.uk/hmrc-internal-manuals/national-insurance-manual",
-  "source": "HMRC"
- },
- {
-  "title": "Find out if you can get an exemption from Making Tax Digital for Income Tax",
-  "date": "2026-11-12T11:02:14Z",
-  "url": "https://www.gov.uk/guidance/find-out-if-you-can-get-an-exemption-from-making-tax-digital-for-income-tax",
-  "source": "HMRC"
  },
  {
   "title": "Earned settlement",
@@ -198,12 +246,6 @@
   "source": "Energy Security & Net Zero"
  },
  {
-  "title": "Oil and gas: inspection strategy and enforcement activity",
-  "date": "2026-11-11T13:57:37Z",
-  "url": "https://www.gov.uk/guidance/oil-and-gas-decc-public-registers-of-enforcement-activity",
-  "source": "Energy Security & Net Zero"
- },
- {
   "title": "Guidance: Money Laundering Advisory Notice: High Risk Third Countries",
   "date": "2026-11-11T12:29:00Z",
   "url": "https://www.gov.uk/government/publications/money-laundering-advisory-notice-high-risk-third-countries--2",
@@ -225,48 +267,6 @@
   "title": "Policy paper: Global Clean Power Alliance: finance mission country action plans",
   "date": "2026-11-11T08:00:02Z",
   "url": "https://www.gov.uk/government/publications/global-clean-power-alliance-finance-mission-country-action-plans",
-  "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Prime Minister hails major investment in UK renewables",
-  "date": "2026-11-11T06:10:18Z",
-  "url": "https://www.gov.uk/government/news/prime-minister-hails-major-investment-in-uk-renewables",
-  "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Guidance: Taking part in the UK Emissions Trading Scheme markets",
-  "date": "2026-11-10T18:11:44Z",
-  "url": "https://www.gov.uk/government/publications/taking-part-in-the-uk-emissions-trading-scheme-markets",
-  "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Decision: Botley West Solar Farm: development consent order, Planning Act 2008",
-  "date": "2026-11-10T16:14:07Z",
-  "url": "https://www.gov.uk/government/publications/botley-west-solar-farm-development-consent-order-planning-act-2008",
-  "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Correspondence: Asset Purchase Facility (APF) ceiling, November 2026",
-  "date": "2026-11-10T12:00:00Z",
-  "url": "https://www.gov.uk/government/publications/asset-purchase-facility-apf-ceiling-november-2026",
-  "source": "HM Treasury"
- },
- {
-  "title": "Accredited official statistics: Weekly road fuel prices",
-  "date": "2026-11-10T09:30:02Z",
-  "url": "https://www.gov.uk/government/statistics/weekly-road-fuel-prices",
-  "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Guidance: OSCAR guidance for Budgeting (Plans and Outturn)",
-  "date": "2026-11-10T09:26:52Z",
-  "url": "https://www.gov.uk/government/publications/oscar-guidance-for-budgeting-plans-and-outturn",
-  "source": "HM Treasury"
- },
- {
-  "title": "Policy paper: UK-Japan offshore wind industrial compact",
-  "date": "2026-11-10T09:00:00Z",
-  "url": "https://www.gov.uk/government/publications/uk-japan-offshore-wind-industrial-compact",
   "source": "Energy Security & Net Zero"
  }
 ]
