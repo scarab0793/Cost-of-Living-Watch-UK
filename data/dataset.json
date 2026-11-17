@@ -19,8 +19,8 @@
     "2000",
     "2025"
    ],
-   "source_release": "20-10-2026",
-   "next_release": "17 November 2026",
+   "source_release": "17-11-2026",
+   "next_release": "15 December 2026",
    "warnings": [],
    "values": {
     "2000": 296.0,
@@ -52,12 +52,12 @@
    },
    "partial": {
     "2026": {
-     "mean": 698.375,
-     "months": 8,
-     "last": "2026-08"
+     "mean": 699.444444,
+     "months": 9,
+     "last": "2026-09"
     }
    },
-   "last_updated": "2026-11-01"
+   "last_updated": "2026-11-17"
   },
   "awe_total_pay": {
    "id": "awe_total_pay",
@@ -77,8 +77,8 @@
     "2000",
     "2025"
    ],
-   "source_release": "20-10-2026",
-   "next_release": "17 November 2026",
+   "source_release": "17-11-2026",
+   "next_release": "15 December 2026",
    "warnings": [],
    "values": {
     "2000": 313.0,
@@ -110,12 +110,12 @@
    },
    "partial": {
     "2026": {
-     "mean": 752.375,
-     "months": 8,
-     "last": "2026-08"
+     "mean": 753.444444,
+     "months": 9,
+     "last": "2026-09"
     }
    },
-   "last_updated": "2026-11-01"
+   "last_updated": "2026-11-17"
   },
   "bank_rate": {
    "id": "bank_rate",
@@ -180,12 +180,12 @@
    },
    "partial": {
     "2026": {
-     "mean": 3.765909,
+     "mean": 3.766529,
      "months": 11,
      "last": "2026-11"
     }
    },
-   "last_updated": "2026-11-16"
+   "last_updated": "2026-11-17"
   },
   "council_tax_band_a": {
    "id": "council_tax_band_a",
