@@ -180,12 +180,12 @@
    },
    "partial": {
     "2026": {
-     "mean": 3.766529,
+     "mean": 3.767045,
      "months": 11,
      "last": "2026-11"
     }
    },
-   "last_updated": "2026-11-17"
+   "last_updated": "2026-11-18"
   },
   "council_tax_band_a": {
    "id": "council_tax_band_a",
@@ -1594,8 +1594,8 @@
     "1990",
     "2025"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "18 November 2026",
+   "source_release": "18-11-2026",
+   "next_release": "16 December 2026",
    "warnings": [],
    "values": {
     "1990": 39.8,
@@ -1637,12 +1637,12 @@
    },
    "partial": {
     "2026": {
-     "mean": 136.7,
-     "months": 9,
-     "last": "2026-09"
+     "mean": 136.98,
+     "months": 10,
+     "last": "2026-10"
     }
    },
-   "last_updated": "2026-11-01"
+   "last_updated": "2026-11-18"
   },
   "cpi_electricity_gas": {
    "id": "cpi_electricity_gas",
@@ -1662,8 +1662,8 @@
     "1990",
     "2025"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "18 November 2026",
+   "source_release": "18-11-2026",
+   "next_release": "16 December 2026",
    "warnings": [],
    "values": {
     "1990": 34.5,
@@ -1705,12 +1705,12 @@
    },
    "partial": {
     "2026": {
-     "mean": 176.577778,
-     "months": 9,
-     "last": "2026-09"
+     "mean": 177.74,
+     "months": 10,
+     "last": "2026-10"
     }
    },
-   "last_updated": "2026-11-01"
+   "last_updated": "2026-11-18"
   },
   "cpi_index": {
    "id": "cpi_index",
@@ -1730,8 +1730,8 @@
     "1990",
     "2025"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "18 November 2026",
+   "source_release": "18-11-2026",
+   "next_release": "16 December 2026",
    "warnings": [],
    "values": {
     "1990": 55.9,
@@ -1773,12 +1773,12 @@
    },
    "partial": {
     "2026": {
-     "mean": 142.022222,
-     "months": 9,
-     "last": "2026-09"
+     "mean": 142.31,
+     "months": 10,
+     "last": "2026-10"
     }
    },
-   "last_updated": "2026-11-01"
+   "last_updated": "2026-11-18"
   },
   "cpi_motor_insurance": {
    "id": "cpi_motor_insurance",
@@ -1798,8 +1798,8 @@
     "2015",
     "2025"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "18 November 2026",
+   "source_release": "18-11-2026",
+   "next_release": "16 December 2026",
    "warnings": [],
    "values": {
     "2015": 100.0,
@@ -1816,12 +1816,12 @@
    },
    "partial": {
     "2026": {
-     "mean": 185.111111,
-     "months": 9,
-     "last": "2026-09"
+     "mean": 186.05,
+     "months": 10,
+     "last": "2026-10"
     }
    },
-   "last_updated": "2026-11-01"
+   "last_updated": "2026-11-18"
   },
   "cpi_new_cars": {
    "id": "cpi_new_cars",
@@ -1841,8 +1841,8 @@
     "1996",
     "2025"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "18 November 2026",
+   "source_release": "18-11-2026",
+   "next_release": "16 December 2026",
    "warnings": [],
    "values": {
     "1996": 86.7,
@@ -1878,12 +1878,12 @@
    },
    "partial": {
     "2026": {
-     "mean": 140.888889,
-     "months": 9,
-     "last": "2026-09"
+     "mean": 140.91,
+     "months": 10,
+     "last": "2026-10"
     }
    },
-   "last_updated": "2026-11-01"
+   "last_updated": "2026-11-18"
   },
   "cpi_rail_fares": {
    "id": "cpi_rail_fares",
@@ -1903,8 +1903,8 @@
     "1990",
     "2025"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "18 November 2026",
+   "source_release": "18-11-2026",
+   "next_release": "16 December 2026",
    "warnings": [],
    "values": {
     "1990": 33.1,
@@ -1946,12 +1946,12 @@
    },
    "partial": {
     "2026": {
-     "mean": 145.566667,
-     "months": 9,
-     "last": "2026-09"
+     "mean": 145.86,
+     "months": 10,
+     "last": "2026-10"
     }
    },
-   "last_updated": "2026-11-01"
+   "last_updated": "2026-11-18"
   },
   "cpi_rate": {
    "id": "cpi_rate",
@@ -1971,8 +1971,8 @@
     "1990",
     "2025"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "18 November 2026",
+   "source_release": "18-11-2026",
+   "next_release": "16 December 2026",
    "warnings": [],
    "values": {
     "1990": 7.0,
@@ -2014,12 +2014,12 @@
    },
    "partial": {
     "2026": {
-     "mean": 3.0,
-     "months": 9,
-     "last": "2026-09"
+     "mean": 3.06,
+     "months": 10,
+     "last": "2026-10"
     }
    },
-   "last_updated": "2026-11-01"
+   "last_updated": "2026-11-18"
   },
   "cpih_index": {
    "id": "cpih_index",
@@ -2039,8 +2039,8 @@
     "1990",
     "2025"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "18 November 2026",
+   "source_release": "18-11-2026",
+   "next_release": "16 December 2026",
    "warnings": [],
    "values": {
     "1990": 55.1,
@@ -2082,12 +2082,12 @@
    },
    "partial": {
     "2026": {
-     "mean": 141.833333,
-     "months": 9,
-     "last": "2026-09"
+     "mean": 142.11,
+     "months": 10,
+     "last": "2026-10"
     }
    },
-   "last_updated": "2026-11-01"
+   "last_updated": "2026-11-18"
   },
   "earnings_boe_composite": {
    "id": "earnings_boe_composite",
@@ -2819,16 +2819,16 @@
     "2022": 230580.333333,
     "2023": 232440.083333,
     "2024": 231829.166667,
-    "2025": 237523.916667
+    "2025": 237397.333333
    },
    "partial": {
     "2026": {
-     "mean": 241201.25,
-     "months": 8,
-     "last": "2026-08"
+     "mean": 241452.555556,
+     "months": 9,
+     "last": "2026-09"
     }
    },
-   "last_updated": "2026-11-01"
+   "last_updated": "2026-11-18"
   },
   "house_price_east-of-england": {
    "id": "house_price_east-of-england",
@@ -2884,7 +2884,7 @@
     "2022": 335998.0,
     "2023": 333809.416667,
     "2024": 329196.25,
-    "2025": 333943.5
+    "2025": 333796.666667
    },
    "partial": {
     "1992": {
@@ -2893,12 +2893,12 @@
      "last": "1992-12"
     },
     "2026": {
-     "mean": 336879.5,
-     "months": 8,
-     "last": "2026-08"
+     "mean": 336965.666667,
+     "months": 9,
+     "last": "2026-09"
     }
    },
-   "last_updated": "2026-11-01"
+   "last_updated": "2026-11-18"
   },
   "house_price_england": {
    "id": "house_price_england",
@@ -2957,16 +2957,16 @@
     "2022": 281827.666667,
     "2023": 282333.5,
     "2024": 282734.5,
-    "2025": 288859.5
+    "2025": 288809.5
    },
    "partial": {
     "2026": {
-     "mean": 291877.75,
-     "months": 8,
-     "last": "2026-08"
+     "mean": 291836.222222,
+     "months": 9,
+     "last": "2026-09"
     }
    },
-   "last_updated": "2026-11-01"
+   "last_updated": "2026-11-18"
   },
   "house_price_london": {
    "id": "house_price_london",
@@ -3025,16 +3025,16 @@
     "2022": 565955.416667,
     "2023": 558023.75,
     "2024": 556103.583333,
-    "2025": 562213.416667
+    "2025": 562430.333333
    },
    "partial": {
     "2026": {
-     "mean": 550817.875,
-     "months": 8,
-     "last": "2026-08"
+     "mean": 550173.222222,
+     "months": 9,
+     "last": "2026-09"
     }
    },
-   "last_updated": "2026-11-01"
+   "last_updated": "2026-11-18"
   },
   "house_price_north-east": {
    "id": "house_price_north-east",
@@ -3090,7 +3090,7 @@
     "2022": 148133.916667,
     "2023": 149708.083333,
     "2024": 151900.416667,
-    "2025": 158459.416667
+    "2025": 158440.083333
    },
    "partial": {
     "1992": {
@@ -3099,12 +3099,12 @@
      "last": "1992-12"
     },
     "2026": {
-     "mean": 163513.125,
-     "months": 8,
-     "last": "2026-08"
+     "mean": 163616.444444,
+     "months": 9,
+     "last": "2026-09"
     }
    },
-   "last_updated": "2026-11-01"
+   "last_updated": "2026-11-18"
   },
   "house_price_north-west": {
    "id": "house_price_north-west",
@@ -3158,16 +3158,16 @@
     "2022": 195741.25,
     "2023": 198163.333333,
     "2024": 203146.666667,
-    "2025": 211778.916667
+    "2025": 211832.583333
    },
    "partial": {
     "2026": {
-     "mean": 217894.875,
-     "months": 8,
-     "last": "2026-08"
+     "mean": 218098.0,
+     "months": 9,
+     "last": "2026-09"
     }
    },
-   "last_updated": "2026-11-01"
+   "last_updated": "2026-11-18"
   },
   "house_price_northern-ireland": {
    "id": "house_price_northern-ireland",
@@ -3226,16 +3226,16 @@
     "2022": 161848.0,
     "2023": 166237.25,
     "2024": 176816.25,
-    "2025": 189529.75
+    "2025": 189551.0
    },
    "partial": {
     "2026": {
-     "mean": 200902.25,
-     "months": 8,
-     "last": "2026-08"
+     "mean": 202467.333333,
+     "months": 9,
+     "last": "2026-09"
     }
    },
-   "last_updated": "2026-11-01"
+   "last_updated": "2026-11-18"
   },
   "house_price_scotland": {
    "id": "house_price_scotland",
@@ -3294,16 +3294,16 @@
     "2022": 177998.25,
     "2023": 177711.666667,
     "2024": 182007.916667,
-    "2025": 189221.166667
+    "2025": 189283.333333
    },
    "partial": {
     "2026": {
-     "mean": 193013.5,
-     "months": 8,
-     "last": "2026-08"
+     "mean": 193702.111111,
+     "months": 9,
+     "last": "2026-09"
     }
    },
-   "last_updated": "2026-11-01"
+   "last_updated": "2026-11-18"
   },
   "house_price_south-east": {
    "id": "house_price_south-east",
@@ -3359,7 +3359,7 @@
     "2022": 381020.25,
     "2023": 379221.5,
     "2024": 374675.25,
-    "2025": 379469.916667
+    "2025": 379347.0
    },
    "partial": {
     "1992": {
@@ -3368,12 +3368,12 @@
      "last": "1992-12"
     },
     "2026": {
-     "mean": 379486.5,
-     "months": 8,
-     "last": "2026-08"
+     "mean": 379004.333333,
+     "months": 9,
+     "last": "2026-09"
     }
    },
-   "last_updated": "2026-11-01"
+   "last_updated": "2026-11-18"
   },
   "house_price_south-west": {
    "id": "house_price_south-west",
@@ -3432,16 +3432,16 @@
     "2022": 303884.75,
     "2023": 303559.333333,
     "2024": 300062.083333,
-    "2025": 300489.25
+    "2025": 300333.916667
    },
    "partial": {
     "2026": {
-     "mean": 302361.125,
-     "months": 8,
-     "last": "2026-08"
+     "mean": 302094.777778,
+     "months": 9,
+     "last": "2026-09"
     }
    },
-   "last_updated": "2026-11-01"
+   "last_updated": "2026-11-18"
   },
   "house_price_united-kingdom": {
    "id": "house_price_united-kingdom",
@@ -3500,16 +3500,16 @@
     "2022": 258236.166667,
     "2023": 258956.166667,
     "2024": 260532.25,
-    "2025": 267169.083333
+    "2025": 267139.5
    },
    "partial": {
     "2026": {
-     "mean": 270741.0,
-     "months": 8,
-     "last": "2026-08"
+     "mean": 270894.222222,
+     "months": 9,
+     "last": "2026-09"
     }
    },
-   "last_updated": "2026-11-01"
+   "last_updated": "2026-11-18"
   },
   "house_price_wales": {
    "id": "house_price_wales",
@@ -3568,16 +3568,16 @@
     "2022": 200121.083333,
     "2023": 201222.5,
     "2024": 203050.666667,
-    "2025": 208768.916667
+    "2025": 208695.833333
    },
    "partial": {
     "2026": {
-     "mean": 213599.625,
-     "months": 8,
-     "last": "2026-08"
+     "mean": 213757.888889,
+     "months": 9,
+     "last": "2026-09"
     }
    },
-   "last_updated": "2026-11-01"
+   "last_updated": "2026-11-18"
   },
   "house_price_west-midlands": {
    "id": "house_price_west-midlands",
@@ -3631,16 +3631,16 @@
     "2022": 218740.75,
     "2023": 223234.75,
     "2024": 224352.666667,
-    "2025": 230900.333333
+    "2025": 230917.416667
    },
    "partial": {
     "2026": {
-     "mean": 233779.625,
-     "months": 8,
-     "last": "2026-08"
+     "mean": 233927.666667,
+     "months": 9,
+     "last": "2026-09"
     }
    },
-   "last_updated": "2026-11-01"
+   "last_updated": "2026-11-18"
   },
   "house_price_yorkshire-and-the-humber": {
    "id": "house_price_yorkshire-and-the-humber",
@@ -3699,16 +3699,16 @@
     "2022": 191155.833333,
     "2023": 192742.5,
     "2024": 196802.416667,
-    "2025": 203062.75
+    "2025": 203054.25
    },
    "partial": {
     "2026": {
-     "mean": 208061.25,
-     "months": 8,
-     "last": "2026-08"
+     "mean": 208168.444444,
+     "months": 9,
+     "last": "2026-09"
     }
    },
-   "last_updated": "2026-11-01"
+   "last_updated": "2026-11-18"
   },
   "mortgage_2y_fixed_75ltv": {
    "id": "mortgage_2y_fixed_75ltv",
@@ -3886,8 +3886,8 @@
     "1990",
     "2024"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "18 November 2026",
+   "source_release": "18-11-2026",
+   "next_release": "16 December 2026",
    "warnings": [],
    "values": {
     "1990": 1.03,
@@ -3953,8 +3953,8 @@
     "1990",
     "2024"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "18 November 2026",
+   "source_release": "18-11-2026",
+   "next_release": "16 December 2026",
    "warnings": [],
    "values": {
     "1990": 1.14,
@@ -4020,8 +4020,8 @@
     "1990",
     "2024"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "18 November 2026",
+   "source_release": "18-11-2026",
+   "next_release": "16 December 2026",
    "warnings": [],
    "values": {
     "1990": 3.4,
@@ -4087,8 +4087,8 @@
     "1990",
     "2024"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "18 November 2026",
+   "source_release": "18-11-2026",
+   "next_release": "16 December 2026",
    "warnings": [],
    "values": {
     "1990": 0.5,
@@ -4154,8 +4154,8 @@
     "1990",
     "2012"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "18 November 2026",
+   "source_release": "18-11-2026",
+   "next_release": "16 December 2026",
    "warnings": [],
    "values": {
     "1990": 0.619,
@@ -4209,8 +4209,8 @@
     "1990",
     "2024"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "18 November 2026",
+   "source_release": "18-11-2026",
+   "next_release": "16 December 2026",
    "warnings": [],
    "values": {
     "1990": 0.59,
@@ -4276,8 +4276,8 @@
     "1990",
     "2024"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "18 November 2026",
+   "source_release": "18-11-2026",
+   "next_release": "16 December 2026",
    "warnings": [],
    "values": {
     "1990": 3.295,
@@ -4343,8 +4343,8 @@
     "1990",
     "2024"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "18 November 2026",
+   "source_release": "18-11-2026",
+   "next_release": "16 December 2026",
    "warnings": [],
    "values": {
     "1990": 2.17,
@@ -4410,8 +4410,8 @@
     "1990",
     "2024"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "18 November 2026",
+   "source_release": "18-11-2026",
+   "next_release": "16 December 2026",
    "warnings": [],
    "values": {
     "1990": 1.3,
@@ -4477,8 +4477,8 @@
     "1990",
     "2024"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "18 November 2026",
+   "source_release": "18-11-2026",
+   "next_release": "16 December 2026",
    "warnings": [],
    "values": {
     "1990": 0.41,
@@ -4544,8 +4544,8 @@
     "1990",
     "2021"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "18 November 2026",
+   "source_release": "18-11-2026",
+   "next_release": "16 December 2026",
    "warnings": [],
    "values": {
     "1990": 1.05,
@@ -4608,8 +4608,8 @@
     "1990",
     "2024"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "18 November 2026",
+   "source_release": "18-11-2026",
+   "next_release": "16 December 2026",
    "warnings": [],
    "values": {
     "1990": 0.305,
@@ -4675,8 +4675,8 @@
     "1990",
     "2024"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "18 November 2026",
+   "source_release": "18-11-2026",
+   "next_release": "16 December 2026",
    "warnings": [],
    "values": {
     "1990": 0.42,
@@ -4742,8 +4742,8 @@
     "1990",
     "2023"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "18 November 2026",
+   "source_release": "18-11-2026",
+   "next_release": "16 December 2026",
    "warnings": [],
    "values": {
     "1990": 3.83,
@@ -4808,8 +4808,8 @@
     "1993",
     "2024"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "18 November 2026",
+   "source_release": "18-11-2026",
+   "next_release": "16 December 2026",
    "warnings": [],
    "values": {
     "1993": 0.49,
@@ -4887,8 +4887,8 @@
     "1994",
     "2024"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "18 November 2026",
+   "source_release": "18-11-2026",
+   "next_release": "16 December 2026",
    "warnings": [],
    "values": {
     "1994": 0.47,
@@ -4950,8 +4950,8 @@
     "1990",
     "2024"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "18 November 2026",
+   "source_release": "18-11-2026",
+   "next_release": "16 December 2026",
    "warnings": [],
    "values": {
     "1990": 0.615,
@@ -5017,8 +5017,8 @@
     "1990",
     "2024"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "18 November 2026",
+   "source_release": "18-11-2026",
+   "next_release": "16 December 2026",
    "warnings": [],
    "values": {
     "1990": 1.24,
@@ -5084,8 +5084,8 @@
     "1990",
     "2024"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "18 November 2026",
+   "source_release": "18-11-2026",
+   "next_release": "16 December 2026",
    "warnings": [],
    "values": {
     "1990": 1.44,
@@ -5596,8 +5596,8 @@
     "1990",
     "2025"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "18 November 2026",
+   "source_release": "18-11-2026",
+   "next_release": "16 December 2026",
    "warnings": [],
    "values": {
     "1990": 126.1,
@@ -5639,12 +5639,12 @@
    },
    "partial": {
     "2026": {
-     "mean": 415.0,
-     "months": 9,
-     "last": "2026-09"
+     "mean": 415.95,
+     "months": 10,
+     "last": "2026-10"
     }
    },
-   "last_updated": "2026-11-01"
+   "last_updated": "2026-11-18"
   },
   "tme": {
    "id": "tme",

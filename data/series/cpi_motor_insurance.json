@@ -16,8 +16,8 @@
   "2015",
   "2025"
  ],
- "source_release": "21-10-2026",
- "next_release": "18 November 2026",
+ "source_release": "18-11-2026",
+ "next_release": "16 December 2026",
  "warnings": [],
  "values": {
   "2015": 100.0,
@@ -34,10 +34,10 @@
  },
  "partial": {
   "2026": {
-   "mean": 185.111111,
-   "months": 9,
-   "last": "2026-09"
+   "mean": 186.05,
+   "months": 10,
+   "last": "2026-10"
   }
  },
- "last_updated": "2026-11-01"
+ "last_updated": "2026-11-18"
 }

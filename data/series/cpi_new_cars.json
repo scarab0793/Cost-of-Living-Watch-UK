@@ -16,8 +16,8 @@
   "1996",
   "2025"
  ],
- "source_release": "21-10-2026",
- "next_release": "18 November 2026",
+ "source_release": "18-11-2026",
+ "next_release": "16 December 2026",
  "warnings": [],
  "values": {
   "1996": 86.7,
@@ -53,10 +53,10 @@
  },
  "partial": {
   "2026": {
-   "mean": 140.888889,
-   "months": 9,
-   "last": "2026-09"
+   "mean": 140.91,
+   "months": 10,
+   "last": "2026-10"
   }
  },
- "last_updated": "2026-11-01"
+ "last_updated": "2026-11-18"
 }

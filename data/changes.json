@@ -1,0 +1,170 @@
+[
+ {
+  "id": "house_price_united-kingdom",
+  "date": "2026-11-18",
+  "added": [],
+  "revised": {
+   "2025": {
+    "from": 267169.083333,
+    "to": 267139.5
+   }
+  },
+  "removed": []
+ },
+ {
+  "id": "house_price_england",
+  "date": "2026-11-18",
+  "added": [],
+  "revised": {
+   "2025": {
+    "from": 288859.5,
+    "to": 288809.5
+   }
+  },
+  "removed": []
+ },
+ {
+  "id": "house_price_wales",
+  "date": "2026-11-18",
+  "added": [],
+  "revised": {
+   "2025": {
+    "from": 208768.916667,
+    "to": 208695.833333
+   }
+  },
+  "removed": []
+ },
+ {
+  "id": "house_price_scotland",
+  "date": "2026-11-18",
+  "added": [],
+  "revised": {
+   "2025": {
+    "from": 189221.166667,
+    "to": 189283.333333
+   }
+  },
+  "removed": []
+ },
+ {
+  "id": "house_price_northern-ireland",
+  "date": "2026-11-18",
+  "added": [],
+  "revised": {
+   "2025": {
+    "from": 189529.75,
+    "to": 189551.0
+   }
+  },
+  "removed": []
+ },
+ {
+  "id": "house_price_north-east",
+  "date": "2026-11-18",
+  "added": [],
+  "revised": {
+   "2025": {
+    "from": 158459.416667,
+    "to": 158440.083333
+   }
+  },
+  "removed": []
+ },
+ {
+  "id": "house_price_north-west",
+  "date": "2026-11-18",
+  "added": [],
+  "revised": {
+   "2025": {
+    "from": 211778.916667,
+    "to": 211832.583333
+   }
+  },
+  "removed": []
+ },
+ {
+  "id": "house_price_yorkshire-and-the-humber",
+  "date": "2026-11-18",
+  "added": [],
+  "revised": {
+   "2025": {
+    "from": 203062.75,
+    "to": 203054.25
+   }
+  },
+  "removed": []
+ },
+ {
+  "id": "house_price_east-midlands",
+  "date": "2026-11-18",
+  "added": [],
+  "revised": {
+   "2025": {
+    "from": 237523.916667,
+    "to": 237397.333333
+   }
+  },
+  "removed": []
+ },
+ {
+  "id": "house_price_west-midlands",
+  "date": "2026-11-18",
+  "added": [],
+  "revised": {
+   "2025": {
+    "from": 230900.333333,
+    "to": 230917.416667
+   }
+  },
+  "removed": []
+ },
+ {
+  "id": "house_price_east-of-england",
+  "date": "2026-11-18",
+  "added": [],
+  "revised": {
+   "2025": {
+    "from": 333943.5,
+    "to": 333796.666667
+   }
+  },
+  "removed": []
+ },
+ {
+  "id": "house_price_london",
+  "date": "2026-11-18",
+  "added": [],
+  "revised": {
+   "2025": {
+    "from": 562213.416667,
+    "to": 562430.333333
+   }
+  },
+  "removed": []
+ },
+ {
+  "id": "house_price_south-east",
+  "date": "2026-11-18",
+  "added": [],
+  "revised": {
+   "2025": {
+    "from": 379469.916667,
+    "to": 379347.0
+   }
+  },
+  "removed": []
+ },
+ {
+  "id": "house_price_south-west",
+  "date": "2026-11-18",
+  "added": [],
+  "revised": {
+   "2025": {
+    "from": 300489.25,
+    "to": 300333.916667
+   }
+  },
+  "removed": []
+ }
+]
