@@ -1,5 +1,41 @@
 [
  {
+  "title": "Official Statistics: Tax-Free Childcare Statistics, September 2026",
+  "date": "2026-11-18T20:46:58Z",
+  "url": "https://www.gov.uk/government/statistics/announcements/tax-free-childcare-statistics-september-2026",
+  "source": "HMRC"
+ },
+ {
+  "title": "Official Statistics: Social Housing Decarbonisation Fund statistics: November 2027",
+  "date": "2026-11-18T16:41:47Z",
+  "url": "https://www.gov.uk/government/statistics/announcements/social-housing-decarbonisation-fund-statistics-november-2027",
+  "source": "Energy Security & Net Zero"
+ },
+ {
+  "title": "Official Statistics: Social Housing Decarbonisation Fund statistics: August 2027",
+  "date": "2026-11-18T16:41:45Z",
+  "url": "https://www.gov.uk/government/statistics/announcements/social-housing-decarbonisation-fund-statistics-august-2027",
+  "source": "Energy Security & Net Zero"
+ },
+ {
+  "title": "Official Statistics: Social Housing Decarbonisation Fund statistics: May 2027",
+  "date": "2026-11-18T16:41:42Z",
+  "url": "https://www.gov.uk/government/statistics/announcements/social-housing-decarbonisation-fund-statistics-may-2027",
+  "source": "Energy Security & Net Zero"
+ },
+ {
+  "title": "Official Statistics: Social Housing Decarbonisation Fund statistics: February 2027",
+  "date": "2026-11-18T16:41:39Z",
+  "url": "https://www.gov.uk/government/statistics/announcements/social-housing-decarbonisation-fund-statistics-february-2027",
+  "source": "Energy Security & Net Zero"
+ },
+ {
+  "title": "Manage a registered pension scheme",
+  "date": "2026-11-18T16:09:38Z",
+  "url": "https://www.gov.uk/guidance/manage-a-registered-pension-scheme",
+  "source": "HMRC"
+ },
+ {
   "title": "Check if you meet HMRC's conditions to register as a tax adviser",
   "date": "2026-11-18T15:35:49Z",
   "url": "https://www.gov.uk/guidance/check-if-you-meet-hmrcs-conditions-to-register-as-a-tax-adviser",
@@ -114,22 +150,10 @@
   "source": "HMRC"
  },
  {
-  "title": "Contacting HMRC",
-  "date": "2026-11-18T11:51:46Z",
-  "url": "https://www.gov.uk/guidance/tax-agents-handbook/contacting-hmrc",
-  "source": "HMRC"
- },
- {
   "title": "Correspondence: Study to examine skills retention in UK financial services",
   "date": "2026-11-18T11:00:08Z",
   "url": "https://www.gov.uk/government/publications/study-to-examine-skills-retention-in-uk-financial-services",
   "source": "HM Treasury"
- },
- {
-  "title": "Tax adviser registration opens for payroll professionals",
-  "date": "2026-11-18T10:24:10Z",
-  "url": "https://www.gov.uk/government/news/tax-adviser-registration-opens-for-payroll-professionals",
-  "source": "HMRC"
  },
  {
   "title": "Transparency data: HMT workforce management information: October 2026",
@@ -244,29 +268,5 @@
   "date": "2026-11-17T11:42:06Z",
   "url": "https://www.gov.uk/government/statistics/announcements/sub-national-estimates-of-properties-not-connected-to-the-gas-network-2015-2025",
   "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Official Statistics: Subnational electricity consumption at postcode level in 2025",
-  "date": "2026-11-17T11:41:11Z",
-  "url": "https://www.gov.uk/government/statistics/announcements/sub-national-electricity-consumption-at-postcode-level-in-2025",
-  "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Official Statistics: Subnational gas consumption at postcode level in 2025",
-  "date": "2026-11-17T11:40:24Z",
-  "url": "https://www.gov.uk/government/statistics/announcements/sub-national-gas-consumption-at-postcode-level-in-2025",
-  "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Official Statistics: Subnational gas consumption in Northern Ireland: 2015-2025",
-  "date": "2026-11-17T11:39:28Z",
-  "url": "https://www.gov.uk/government/statistics/announcements/sub-national-gas-consumption-in-northern-ireland-2015-2025",
-  "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Five further Critical Third Parties designated",
-  "date": "2026-11-17T11:37:40Z",
-  "url": "https://www.gov.uk/government/news/five-further-critical-third-parties-designated",
-  "source": "HM Treasury"
  }
 ]
