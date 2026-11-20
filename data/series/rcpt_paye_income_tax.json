@@ -16,8 +16,8 @@
   "1997",
   "2025"
  ],
- "source_release": "21-10-2026",
- "next_release": "20 November 2026",
+ "source_release": "20-11-2026",
+ "next_release": "22 December 2026",
  "warnings": [],
  "values": {
   "1997": 65953.0,
@@ -52,10 +52,10 @@
  },
  "partial": {
   "2026": {
-   "mean": 24867.555556,
-   "months": 9,
-   "last": "2026-09"
+   "mean": 24704.8,
+   "months": 10,
+   "last": "2026-10"
   }
  },
- "last_updated": "2026-11-01"
+ "last_updated": "2026-11-20"
 }

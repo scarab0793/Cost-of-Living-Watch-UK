@@ -180,12 +180,12 @@
    },
    "partial": {
     "2026": {
-     "mean": 3.767483,
+     "mean": 3.767857,
      "months": 11,
      "last": "2026-11"
     }
    },
-   "last_updated": "2026-11-19"
+   "last_updated": "2026-11-20"
   },
   "council_tax_band_a": {
    "id": "council_tax_band_a",
@@ -5151,8 +5151,8 @@
     "1993",
     "2025"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "20 November 2026",
+   "source_release": "20-11-2026",
+   "next_release": "22 December 2026",
    "warnings": [],
    "values": {
     "1993": 29.7,
@@ -5191,12 +5191,12 @@
    },
    "partial": {
     "2026": {
-     "mean": 93.5,
-     "months": 9,
-     "last": "2026-09"
+     "mean": 93.82,
+     "months": 10,
+     "last": "2026-10"
     }
    },
-   "last_updated": "2026-11-01"
+   "last_updated": "2026-11-20"
   },
   "rcpt_council_tax": {
    "id": "rcpt_council_tax",
@@ -5216,8 +5216,8 @@
     "1990",
     "2025"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "20 November 2026",
+   "source_release": "20-11-2026",
+   "next_release": "22 December 2026",
    "warnings": [],
    "values": {
     "1990": 0.0,
@@ -5259,12 +5259,12 @@
    },
    "partial": {
     "2026": {
-     "mean": 4381.777778,
-     "months": 9,
-     "last": "2026-09"
+     "mean": 4393.0,
+     "months": 10,
+     "last": "2026-10"
     }
    },
-   "last_updated": "2026-11-01"
+   "last_updated": "2026-11-20"
   },
   "rcpt_fuel_duty": {
    "id": "rcpt_fuel_duty",
@@ -5284,8 +5284,8 @@
     "1997",
     "2025"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "20 November 2026",
+   "source_release": "20-11-2026",
+   "next_release": "22 December 2026",
    "warnings": [],
    "values": {
     "1997": 18361.0,
@@ -5320,12 +5320,12 @@
    },
    "partial": {
     "2026": {
-     "mean": 2038.111111,
-     "months": 9,
-     "last": "2026-09"
+     "mean": 2037.8,
+     "months": 10,
+     "last": "2026-10"
     }
    },
-   "last_updated": "2026-11-01"
+   "last_updated": "2026-11-20"
   },
   "rcpt_paye_income_tax": {
    "id": "rcpt_paye_income_tax",
@@ -5345,8 +5345,8 @@
     "1997",
     "2025"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "20 November 2026",
+   "source_release": "20-11-2026",
+   "next_release": "22 December 2026",
    "warnings": [],
    "values": {
     "1997": 65953.0,
@@ -5381,12 +5381,12 @@
    },
    "partial": {
     "2026": {
-     "mean": 24867.555556,
-     "months": 9,
-     "last": "2026-09"
+     "mean": 24704.8,
+     "months": 10,
+     "last": "2026-10"
     }
    },
-   "last_updated": "2026-11-01"
+   "last_updated": "2026-11-20"
   },
   "rcpt_social_contributions": {
    "id": "rcpt_social_contributions",
@@ -5406,8 +5406,8 @@
     "1990",
     "2025"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "20 November 2026",
+   "source_release": "20-11-2026",
+   "next_release": "22 December 2026",
    "warnings": [],
    "values": {
     "1990": 34457.0,
@@ -5449,12 +5449,12 @@
    },
    "partial": {
     "2026": {
-     "mean": 17659.444444,
-     "months": 9,
-     "last": "2026-09"
+     "mean": 17692.6,
+     "months": 10,
+     "last": "2026-10"
     }
    },
-   "last_updated": "2026-11-01"
+   "last_updated": "2026-11-20"
   },
   "rcpt_stamp_duty_shares": {
    "id": "rcpt_stamp_duty_shares",
@@ -5474,8 +5474,8 @@
     "1997",
     "2025"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "20 November 2026",
+   "source_release": "20-11-2026",
+   "next_release": "22 December 2026",
    "warnings": [],
    "values": {
     "1997": 1291.0,
@@ -5510,12 +5510,12 @@
    },
    "partial": {
     "2026": {
-     "mean": 410.0,
-     "months": 9,
-     "last": "2026-09"
+     "mean": 420.4,
+     "months": 10,
+     "last": "2026-10"
     }
    },
-   "last_updated": "2026-11-01"
+   "last_updated": "2026-11-20"
   },
   "rcpt_vat": {
    "id": "rcpt_vat",
@@ -5535,8 +5535,8 @@
     "1997",
     "2025"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "20 November 2026",
+   "source_release": "20-11-2026",
+   "next_release": "22 December 2026",
    "warnings": [],
    "values": {
     "1997": 27237.0,
@@ -5571,12 +5571,12 @@
    },
    "partial": {
     "2026": {
-     "mean": 17854.0,
-     "months": 9,
-     "last": "2026-09"
+     "mean": 18095.4,
+     "months": 10,
+     "last": "2026-10"
     }
    },
-   "last_updated": "2026-11-01"
+   "last_updated": "2026-11-20"
   },
   "rpi_index": {
    "id": "rpi_index",
@@ -5664,8 +5664,8 @@
     "1998",
     "2025"
    ],
-   "source_release": "21-10-2026",
-   "next_release": "20 November 2026",
+   "source_release": "20-11-2026",
+   "next_release": "22 December 2026",
    "warnings": [],
    "values": {
     "1998": 353896.0,
@@ -5704,12 +5704,12 @@
      "last": "1997-12"
     },
     "2026": {
-     "mean": 118344.444444,
-     "months": 9,
-     "last": "2026-09"
+     "mean": 118849.5,
+     "months": 10,
+     "last": "2026-10"
     }
    },
-   "last_updated": "2026-11-01"
+   "last_updated": "2026-11-20"
   },
   "vat_domestic_fuel_rate": {
    "group": "tax",
