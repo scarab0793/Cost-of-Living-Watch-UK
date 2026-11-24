@@ -1,5 +1,167 @@
 [
  {
+  "title": "Insurance Premium Tax",
+  "date": "2026-11-24T17:04:13Z",
+  "url": "https://www.gov.uk/hmrc-internal-manuals/insurance-premium-tax",
+  "source": "HMRC"
+ },
+ {
+  "title": "VAT Insurance",
+  "date": "2026-11-24T16:50:38Z",
+  "url": "https://www.gov.uk/hmrc-internal-manuals/vat-insurance",
+  "source": "HMRC"
+ },
+ {
+  "title": "Guidance: Appendix 21: Import Declaration Category Data Sets",
+  "date": "2026-11-24T16:22:08Z",
+  "url": "https://www.gov.uk/government/publications/appendix-21-import-declaration-category-data-sets",
+  "source": "HMRC"
+ },
+ {
+  "title": "Capital Gains Manual",
+  "date": "2026-11-24T16:02:59Z",
+  "url": "https://www.gov.uk/hmrc-internal-manuals/capital-gains-manual",
+  "source": "HMRC"
+ },
+ {
+  "title": "Daniel E. Pinto appointed to the Bank of England’s Financial Policy Committee",
+  "date": "2026-11-24T16:00:00Z",
+  "url": "https://www.gov.uk/government/news/daniel-e-pinto-appointed-to-the-bank-of-englands-financial-policy-committee",
+  "source": "HM Treasury"
+ },
+ {
+  "title": "Holding and Movements Assurance Guidance",
+  "date": "2026-11-24T15:55:41Z",
+  "url": "https://www.gov.uk/hmrc-internal-manuals/holding-and-movements-assurance-guidance",
+  "source": "HMRC"
+ },
+ {
+  "title": "Official Statistics: Boiler Upgrade Scheme: October 2026",
+  "date": "2026-11-24T14:46:12Z",
+  "url": "https://www.gov.uk/government/statistics/announcements/boiler-upgrade-scheme-october-2026",
+  "source": "Energy Security & Net Zero"
+ },
+ {
+  "title": "Official Statistics: Warm Homes: Social Housing Fund statistics - October 2026",
+  "date": "2026-11-24T14:20:36Z",
+  "url": "https://www.gov.uk/government/statistics/announcements/warm-homes-social-housing-fund-statistics-october-2026",
+  "source": "Energy Security & Net Zero"
+ },
+ {
+  "title": "Software developers providing customs declaration software",
+  "date": "2026-11-24T13:58:37Z",
+  "url": "https://www.gov.uk/guidance/list-of-software-developers-providing-customs-declaration-support",
+  "source": "HMRC"
+ },
+ {
+  "title": "HMRC email updates, videos and webinars for company directors",
+  "date": "2026-11-24T13:10:44Z",
+  "url": "https://www.gov.uk/guidance/help-and-support-for-company-directors",
+  "source": "HMRC"
+ },
+ {
+  "title": "HMRC email updates, videos and webinars for employing people",
+  "date": "2026-11-24T13:01:47Z",
+  "url": "https://www.gov.uk/guidance/help-and-support-for-employing-people",
+  "source": "HMRC"
+ },
+ {
+  "title": "Employment Income Manual",
+  "date": "2026-11-24T12:04:43Z",
+  "url": "https://www.gov.uk/hmrc-internal-manuals/employment-income-manual",
+  "source": "HMRC"
+ },
+ {
+  "title": "Accredited official statistics: Monthly property transactions completed in the UK with the value of £40,000 or above",
+  "date": "2026-11-24T11:52:46Z",
+  "url": "https://www.gov.uk/government/statistics/announcements/monthly-property-transactions-completed-in-the-uk-with-the-value-of-40000-or-above--32",
+  "source": "HMRC"
+ },
+ {
+  "title": "HMRC videos and webinars for Making Tax Digital for Income Tax",
+  "date": "2026-11-24T11:50:16Z",
+  "url": "https://www.gov.uk/guidance/help-and-support-for-making-tax-digital",
+  "source": "HMRC"
+ },
+ {
+  "title": "Pensions Tax Manual",
+  "date": "2026-11-24T11:48:12Z",
+  "url": "https://www.gov.uk/hmrc-internal-manuals/pensions-tax-manual",
+  "source": "HMRC"
+ },
+ {
+  "title": "Independent report: Terms of Reference - Chair of the Better Regulation Executive",
+  "date": "2026-11-24T11:21:24Z",
+  "url": "https://www.gov.uk/government/publications/terms-of-reference-chair-of-the-better-regulation-executive",
+  "source": "HM Treasury"
+ },
+ {
+  "title": "Correspondence: Nuclear Regulatory Review: joint ministerial letter to industry",
+  "date": "2026-11-24T11:10:54Z",
+  "url": "https://www.gov.uk/government/publications/nuclear-regulatory-review-joint-ministerial-letter-to-industry",
+  "source": "Energy Security & Net Zero"
+ },
+ {
+  "title": "Statement to the 31st Session of the Conference of the States Parties of the OPCW",
+  "date": "2026-11-24T11:09:41Z",
+  "url": "https://www.gov.uk/government/speeches/statement-to-the-31st-session-of-the-conference-of-the-states-parties-of-the-opcw",
+  "source": "Energy Security & Net Zero"
+ },
+ {
+  "title": "Pay the Soft Drinks Industry Levy (notice 5)",
+  "date": "2026-11-24T10:48:53Z",
+  "url": "https://www.gov.uk/guidance/pay-the-soft-drinks-industry-levy-notice-5",
+  "source": "HMRC"
+ },
+ {
+  "title": "Tax code notices go online for millions",
+  "date": "2026-11-24T10:29:16Z",
+  "url": "https://www.gov.uk/government/news/tax-code-notices-go-online-for-millions",
+  "source": "HMRC"
+ },
+ {
+  "title": "Apply for business rates for a self-catering property in Wales",
+  "date": "2026-11-24T10:17:19Z",
+  "url": "https://www.gov.uk/guidance/apply-for-business-rates-for-a-self-catering-property-in-wales",
+  "source": "HMRC"
+ },
+ {
+  "title": "The Tax Agent's Handbook",
+  "date": "2026-11-24T09:56:51Z",
+  "url": "https://www.gov.uk/guidance/tax-agents-handbook",
+  "source": "HMRC"
+ },
+ {
+  "title": "Getting started",
+  "date": "2026-11-24T09:56:51Z",
+  "url": "https://www.gov.uk/guidance/tax-agents-handbook/getting-started",
+  "source": "HMRC"
+ },
+ {
+  "title": "Official Statistics: UK International Climate Finance results 2026",
+  "date": "2026-11-24T09:38:32Z",
+  "url": "https://www.gov.uk/government/statistics/uk-international-climate-finance-results-2026",
+  "source": "Energy Security & Net Zero"
+ },
+ {
+  "title": "Accredited official statistics: Weekly road fuel prices",
+  "date": "2026-11-24T09:30:09Z",
+  "url": "https://www.gov.uk/government/statistics/weekly-road-fuel-prices",
+  "source": "Energy Security & Net Zero"
+ },
+ {
+  "title": "Notice: Electricity transmission licence exemption: Neart na Gaoithe Wind Farm",
+  "date": "2026-11-24T09:30:07Z",
+  "url": "https://www.gov.uk/government/publications/electricity-transmission-licence-exemption-neart-na-gaoithe-wind-farm",
+  "source": "Energy Security & Net Zero"
+ },
+ {
+  "title": "Better regulation chief appointed to cut unnecessary bureaucracy",
+  "date": "2026-11-24T09:01:00Z",
+  "url": "https://www.gov.uk/government/news/better-regulation-chief-appointed-to-cut-unnecessary-bureaucracy",
+  "source": "HM Treasury"
+ },
+ {
   "title": "Guidance: Self Assessment payment plan: service availability and issues",
   "date": "2026-11-23T17:08:56Z",
   "url": "https://www.gov.uk/government/publications/self-assessment-payment-plan-service-availability-and-issues",
@@ -24,82 +186,10 @@
   "source": "HMRC"
  },
  {
-  "title": "Software developers providing entry summary declaration support",
-  "date": "2026-11-23T15:11:13Z",
-  "url": "https://www.gov.uk/guidance/software-developers-providing-entry-summary-declaration-support",
-  "source": "HMRC"
- },
- {
-  "title": "Guidance: VAT payment plan: service availability and issues",
-  "date": "2026-11-23T14:46:21Z",
-  "url": "https://www.gov.uk/government/publications/vat-payment-plan-service-availability-and-issues",
-  "source": "HMRC"
- },
- {
-  "title": "Policy paper: Draft legislation: exemption for EU, EEA and Swiss-origin goods from CBAM",
-  "date": "2026-11-23T14:35:58Z",
-  "url": "https://www.gov.uk/government/publications/draft-legislation-exemption-for-eu-eea-and-swiss-origin-goods-from-cbam",
-  "source": "HMRC"
- },
- {
-  "title": "Policy paper: Carbon border adjustment mechanism (CBAM): Policy summary",
-  "date": "2026-11-23T14:35:16Z",
-  "url": "https://www.gov.uk/government/publications/carbon-border-adjustment-mechanism-cbam-policy-summary",
-  "source": "HMRC"
- },
- {
-  "title": "Guidance: Childcare service: service availability and issues",
-  "date": "2026-11-23T14:34:00Z",
-  "url": "https://www.gov.uk/government/publications/tax-free-childcare-service-service-availability-and-issues",
-  "source": "HMRC"
- },
- {
-  "title": "Accredited official statistics: Road fuel prices: 23 November 2026",
-  "date": "2026-11-23T14:32:48Z",
-  "url": "https://www.gov.uk/government/statistics/announcements/road-fuel-prices-23-november-2026",
-  "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Imported Carbon Border Adjustment (CBAM) goods that may not contribute towards the registration threshold",
-  "date": "2026-11-23T14:31:20Z",
-  "url": "https://www.gov.uk/guidance/imported-carbon-border-adjustment-cbam-goods-that-may-not-contribute-towards-the-registration-threshold",
-  "source": "HMRC"
- },
- {
-  "title": "Keeping records for Carbon Border Adjustment Mechanism (CBAM)",
-  "date": "2026-11-23T14:30:34Z",
-  "url": "https://www.gov.uk/guidance/keeping-records-for-carbon-border-adjustment-mechanism-cbam",
-  "source": "HMRC"
- },
- {
-  "title": "Voluntarily payrolling employees' benefits and expenses",
-  "date": "2026-11-23T14:14:52Z",
-  "url": "https://www.gov.uk/guidance/payrolling-tax-employees-benefits-and-expenses-through-your-payroll",
-  "source": "HMRC"
- },
- {
-  "title": "Guidance: Simple Assessment payment plan: service availability and issues",
-  "date": "2026-11-23T13:48:58Z",
-  "url": "https://www.gov.uk/government/publications/simple-assessment-payment-plan-service-availability-and-issues",
-  "source": "HMRC"
- },
- {
-  "title": "Appoint a trusted helper to manage your Valuation Office digital service",
-  "date": "2026-11-23T13:30:57Z",
-  "url": "https://www.gov.uk/guidance/appoint-a-trusted-helper-to-manage-your-voa-digital-service",
-  "source": "HMRC"
- },
- {
   "title": "Policy paper: National risk assessment of proliferation financing 2026",
   "date": "2026-11-23T12:30:00Z",
   "url": "https://www.gov.uk/government/publications/national-risk-assessment-of-proliferation-financing-2026",
   "source": "HM Treasury"
- },
- {
-  "title": "Apply for business rates for a self-catering property in England",
-  "date": "2026-11-23T12:21:44Z",
-  "url": "https://www.gov.uk/guidance/apply-for-business-rates-for-a-self-catering-property-in-england",
-  "source": "HMRC"
  },
  {
   "title": "Accredited official statistics: Energy prices: July to September 2026",
@@ -114,12 +204,6 @@
   "source": "Energy Security & Net Zero"
  },
  {
-  "title": "Guidance: Help to Save: service availability and issues",
-  "date": "2026-11-23T11:53:24Z",
-  "url": "https://www.gov.uk/government/publications/help-to-save-service-availability-and-issues",
-  "source": "HMRC"
- },
- {
   "title": "Oil and gas: offshore environmental legislation",
   "date": "2026-11-23T11:35:01Z",
   "url": "https://www.gov.uk/guidance/oil-and-gas-offshore-environmental-legislation",
@@ -132,40 +216,10 @@
   "source": "Energy Security & Net Zero"
  },
  {
-  "title": "Compliance Handbook",
-  "date": "2026-11-23T11:09:24Z",
-  "url": "https://www.gov.uk/hmrc-internal-manuals/compliance-handbook",
-  "source": "HMRC"
- },
- {
-  "title": "Guidance: External temporary storage facilities codes for Data Element 5/23 of the Customs Declaration Service",
-  "date": "2026-11-23T11:01:57Z",
-  "url": "https://www.gov.uk/government/publications/external-temporary-storage-facilities-codes-for-data-element-523-of-the-customs-declaration-service",
-  "source": "HMRC"
- },
- {
-  "title": "Check if a business is registered for money laundering supervision",
-  "date": "2026-11-23T10:55:07Z",
-  "url": "https://www.gov.uk/guidance/money-laundering-regulations-supervised-business-register",
-  "source": "HMRC"
- },
- {
-  "title": "Guidance: PAYE expenses and benefits (EXB) submissions: schema 2026 to 2027",
-  "date": "2026-11-23T10:42:41Z",
-  "url": "https://www.gov.uk/government/publications/paye-internet-submissions-expenses-and-benefits-schema-2026-to-2027",
-  "source": "HMRC"
- },
- {
   "title": "Warm Home Discount: insulation and microgeneration measures",
   "date": "2026-11-23T10:00:04Z",
   "url": "https://www.gov.uk/government/consultations/warm-home-discount-insulation-and-microgeneration-measures",
   "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Transparency data: HMRC: workforce management information, October 2026",
-  "date": "2026-11-23T09:30:01Z",
-  "url": "https://www.gov.uk/government/publications/hmrc-workforce-management-information-october-2026",
-  "source": "HMRC"
  },
  {
   "title": "Notice: Electricity transmission licence exemption: Dogger Bank A wind farm, 2026",
@@ -174,8 +228,8 @@
   "source": "Energy Security & Net Zero"
  },
  {
-  "title": "COP31 Outcomes - your questions answered",
-  "date": "2026-11-22T22:59:37Z",
+  "title": "COP31 outcomes - your questions answered",
+  "date": "2026-11-22T22:59:00Z",
   "url": "https://www.gov.uk/government/news/cop31-outcomes-your-questions-answered",
   "source": "Energy Security & Net Zero"
  },
@@ -213,60 +267,6 @@
   "title": "Research: Methodology: Economic Impact of the UK–EU Youth Experience Scheme",
   "date": "2026-11-20T13:09:59Z",
   "url": "https://www.gov.uk/government/publications/methodology-economic-impact-of-the-uk-eu-youth-experience-scheme",
-  "source": "HM Treasury"
- },
- {
-  "title": "Sports stadiums and supermarkets drive 2026 solar revolution",
-  "date": "2026-11-20T11:59:00Z",
-  "url": "https://www.gov.uk/government/news/sports-stadiums-and-supermarkets-drive-2026-solar-revolution",
-  "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Accredited official statistics: Energy trends, UK submission for JODI: November 2026 (Energy Trends Tables 3.16 and 4.5)",
-  "date": "2026-11-20T10:44:49Z",
-  "url": "https://www.gov.uk/government/statistics/announcements/energy-trends-uk-submission-for-jodi-november-2026",
-  "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Official Statistics: Average road fuel sales, deliveries and stock levels for week ending Sunday 27 December 2026",
-  "date": "2026-11-20T09:35:22Z",
-  "url": "https://www.gov.uk/government/statistics/announcements/average-road-fuel-sales-deliveries-and-stock-levels-for-week-ending-sunday-27-december-2026",
-  "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Research: Estimating clean energy R&D spending using tax credit data",
-  "date": "2026-11-20T09:28:40Z",
-  "url": "https://www.gov.uk/government/publications/estimating-clean-energy-rd-spending-using-tax-credit-data",
-  "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Research: Methane Emissions from Anaerobic Digestion (MEAD) 2.0",
-  "date": "2026-11-20T09:27:11Z",
-  "url": "https://www.gov.uk/government/publications/methane-emissions-from-anaerobic-digestion-mead-20",
-  "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Research: Life cycle assessment for anaerobic digestion (AD LCA)",
-  "date": "2026-11-20T09:26:32Z",
-  "url": "https://www.gov.uk/government/publications/life-cycle-assessment-for-anaerobic-digestion-ad-lca",
-  "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Accredited official statistics: Public sector finances bulletin",
-  "date": "2026-11-20T07:00:02Z",
-  "url": "https://www.gov.uk/government/statistics/public-sector-finances-bulletin",
-  "source": "HM Treasury"
- },
- {
-  "title": "Policy paper: HM Treasury Market Engagement Group summary minutes – November 2026",
-  "date": "2026-11-19T07:30:00Z",
-  "url": "https://www.gov.uk/government/publications/hm-treasury-market-engagement-group-summary-minutes-november-2026",
-  "source": "HM Treasury"
- },
- {
-  "title": "Correspondence: Study to examine skills retention in UK financial services",
-  "date": "2026-11-18T11:00:08Z",
-  "url": "https://www.gov.uk/government/publications/study-to-examine-skills-retention-in-uk-financial-services",
   "source": "HM Treasury"
  }
 ]
