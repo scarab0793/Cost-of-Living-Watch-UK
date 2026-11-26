@@ -1,5 +1,29 @@
 [
  {
+  "title": "Reading notes for Declaration Category Data Sets: CDS Declaration and Customs Clearance Request Instructions",
+  "date": "2026-11-26T00:15:00Z",
+  "url": "https://www.gov.uk/guidance/reading-notes-for-declaration-category-data-sets-cds-declaration-and-customs-clearance-request-instructions",
+  "source": "HMRC"
+ },
+ {
+  "title": "Additional Information (AI) Statement Codes for Data Element 2/2 of the Customs Declaration Service (CDS)",
+  "date": "2026-11-26T00:15:00Z",
+  "url": "https://www.gov.uk/guidance/additional-information-ai-statement-codes-for-data-element-22-of-the-customs-declaration-service-cds",
+  "source": "HMRC"
+ },
+ {
+  "title": "Guidance: Simplified Process for Internal Market Movements (SPIMM) and UK Carrier (UKC) Scheme: Declaration Category Data Sets",
+  "date": "2026-11-26T00:15:00Z",
+  "url": "https://www.gov.uk/government/publications/simplified-process-for-internal-market-movements-spimm-and-uk-carrier-ukc-scheme-declaration-category-data-sets",
+  "source": "HMRC"
+ },
+ {
+  "title": "£100 Household Energy Payment factsheet",
+  "date": "2026-11-25T17:26:39Z",
+  "url": "https://www.gov.uk/government/news/100-household-energy-payment-factsheet",
+  "source": "Energy Security & Net Zero"
+ },
+ {
   "title": "Accredited official statistics: UK residual fuel consumption at regional and local authority level, 2005 to 2025",
   "date": "2026-11-25T15:44:23Z",
   "url": "https://www.gov.uk/government/statistics/announcements/uk-residual-fuel-consumption-at-regional-and-local-authority-level-2005-to-2025",
@@ -198,12 +222,6 @@
   "source": "Energy Security & Net Zero"
  },
  {
-  "title": "Guidance: Designated standards: welding equipment",
-  "date": "2026-11-25T00:01:04Z",
-  "url": "https://www.gov.uk/government/publications/designated-standards-welding-equipment",
-  "source": "Energy Security & Net Zero"
- },
- {
   "title": "20 million households to receive £100 payment",
   "date": "2026-11-24T21:44:18Z",
   "url": "https://www.gov.uk/government/news/20-million-households-to-receive-100-payment",
@@ -249,24 +267,6 @@
   "title": "Software developers providing customs declaration software",
   "date": "2026-11-24T13:58:37Z",
   "url": "https://www.gov.uk/guidance/list-of-software-developers-providing-customs-declaration-support",
-  "source": "HMRC"
- },
- {
-  "title": "HMRC email updates, videos and webinars for company directors",
-  "date": "2026-11-24T13:10:44Z",
-  "url": "https://www.gov.uk/guidance/help-and-support-for-company-directors",
-  "source": "HMRC"
- },
- {
-  "title": "HMRC email updates, videos and webinars for employing people",
-  "date": "2026-11-24T13:01:47Z",
-  "url": "https://www.gov.uk/guidance/help-and-support-for-employing-people",
-  "source": "HMRC"
- },
- {
-  "title": "Employment Income Manual",
-  "date": "2026-11-24T12:04:43Z",
-  "url": "https://www.gov.uk/hmrc-internal-manuals/employment-income-manual",
   "source": "HMRC"
  }
 ]
