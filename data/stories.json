@@ -1,5 +1,95 @@
 [
  {
+  "title": "Policy paper: Economic Evidence to the Pay Review Bodies: 2027-28 Pay Round",
+  "date": "2026-11-27T16:36:08Z",
+  "url": "https://www.gov.uk/government/publications/economic-evidence-to-the-pay-review-bodies-2027-28-pay-round",
+  "source": "HM Treasury"
+ },
+ {
+  "title": "IFRS 18 Exposure Draft",
+  "date": "2026-11-27T16:15:05Z",
+  "url": "https://www.gov.uk/government/consultations/ifrs-18-presentation-and-disclosure-in-financial-statements-exposure-draft",
+  "source": "HM Treasury"
+ },
+ {
+  "title": "PAYE Settlement Agreements",
+  "date": "2026-11-27T15:36:43Z",
+  "url": "https://www.gov.uk/hmrc-internal-manuals/paye-settlement-agreements",
+  "source": "HMRC"
+ },
+ {
+  "title": "Economic Crime Supervision Handbook",
+  "date": "2026-11-27T15:35:02Z",
+  "url": "https://www.gov.uk/hmrc-internal-manuals/economic-crime-supervision-handbook",
+  "source": "HMRC"
+ },
+ {
+  "title": "Guidance: Report and pay Capital Gains Tax on UK property: service availability and issues",
+  "date": "2026-11-27T14:53:46Z",
+  "url": "https://www.gov.uk/government/publications/report-and-pay-capital-gains-tax-on-uk-property-service-availability-and-issues",
+  "source": "HMRC"
+ },
+ {
+  "title": "Report a problem using the Customs Declaration Service",
+  "date": "2026-11-27T13:50:57Z",
+  "url": "https://www.gov.uk/guidance/report-a-problem-using-the-customs-declaration-service",
+  "source": "HMRC"
+ },
+ {
+  "title": "Guidance: Check an EORI number: service availability and issues",
+  "date": "2026-11-27T13:29:13Z",
+  "url": "https://www.gov.uk/government/publications/check-an-eori-number-service-availability-and-issues",
+  "source": "HMRC"
+ },
+ {
+  "title": "International treaty: Estonia: tax treaties",
+  "date": "2026-11-27T11:51:28Z",
+  "url": "https://www.gov.uk/government/publications/estonia-tax-treaties",
+  "source": "HMRC"
+ },
+ {
+  "title": "Corporate report: FRAB minutes and associated papers: 19 November 2026",
+  "date": "2026-11-27T11:41:19Z",
+  "url": "https://www.gov.uk/government/publications/frab-minutes-and-associated-papers-19-november-2026",
+  "source": "HM Treasury"
+ },
+ {
+  "title": "Correspondence: Government correspondence on the regulation of actuaries",
+  "date": "2026-11-27T11:35:15Z",
+  "url": "https://www.gov.uk/government/publications/government-correspondence-on-the-regulation-of-actuaries",
+  "source": "HM Treasury"
+ },
+ {
+  "title": "Pay the Spirit Drinks Verification Scheme fee",
+  "date": "2026-11-27T11:28:43Z",
+  "url": "https://www.gov.uk/guidance/pay-spirits-drinks-verification-fee",
+  "source": "HMRC"
+ },
+ {
+  "title": "Promotional material: Help with PAYE Settlement Agreement calculations — GfC1",
+  "date": "2026-11-27T11:22:40Z",
+  "url": "https://www.gov.uk/government/publications/gfc1-2022-guidelines-for-compliance-help-with-paye-settlement-agreement-calculations",
+  "source": "HMRC"
+ },
+ {
+  "title": "Accredited official statistics: Monthly property transactions completed in the UK with value of £40,000 or above",
+  "date": "2026-11-27T09:30:02Z",
+  "url": "https://www.gov.uk/government/statistics/monthly-property-transactions-completed-in-the-uk-with-value-40000-or-above",
+  "source": "HMRC"
+ },
+ {
+  "title": "Decision: CIL Appeal 1896718 — 07 October 26 — retained-parts deduction",
+  "date": "2026-11-27T09:30:02Z",
+  "url": "https://www.gov.uk/government/publications/cil-appeal-1896718-07-october-26-retained-parts-deduction",
+  "source": "HMRC"
+ },
+ {
+  "title": "Accredited official statistics: Alcohol Bulletin",
+  "date": "2026-11-27T09:30:02Z",
+  "url": "https://www.gov.uk/government/statistics/alcohol-bulletin",
+  "source": "HMRC"
+ },
+ {
   "title": "Transfer Pricing: International Controlled Transactions Schedule",
   "date": "2026-11-26T16:32:39Z",
   "url": "https://www.gov.uk/government/consultations/transfer-pricing-international-controlled-transactions-schedule",
@@ -90,24 +180,6 @@
   "source": "Energy Security & Net Zero"
  },
  {
-  "title": "Research: Investigating use of Offshore Service Providers",
-  "date": "2026-11-26T10:08:35Z",
-  "url": "https://www.gov.uk/government/publications/investigating-use-of-offshore-service-providers",
-  "source": "HMRC"
- },
- {
-  "title": "Research: Business awareness and use of the Customs Civil Penalty Regime",
-  "date": "2026-11-26T10:00:02Z",
-  "url": "https://www.gov.uk/government/publications/business-awareness-and-use-of-the-customs-civil-penalty-regime",
-  "source": "HMRC"
- },
- {
-  "title": "Research: Research into Voluntary National Insurance contributions",
-  "date": "2026-11-26T10:00:02Z",
-  "url": "https://www.gov.uk/government/publications/research-into-voluntary-national-insurance-contributions",
-  "source": "HMRC"
- },
- {
   "title": "Accredited official statistics: Road fuel prices: 29 November 2027",
   "date": "2026-11-26T09:59:42Z",
   "url": "https://www.gov.uk/government/statistics/announcements/road-fuel-prices-29-november-2027",
@@ -138,34 +210,10 @@
   "source": "Energy Security & Net Zero"
  },
  {
-  "title": "Corporate report: People involved in transactions connected with VAT fraud",
-  "date": "2026-11-26T09:34:31Z",
-  "url": "https://www.gov.uk/government/publications/people-involved-in-transactions-connected-with-vat-fraud",
-  "source": "HMRC"
- },
- {
-  "title": "Corporate report: Details of deliberate tax defaulters",
-  "date": "2026-11-26T09:34:00Z",
-  "url": "https://www.gov.uk/government/publications/publishing-details-of-deliberate-tax-defaulters-pddd",
-  "source": "HMRC"
- },
- {
-  "title": "Corporate report: Penalties for a failure to correct certain offshore tax non-compliance",
-  "date": "2026-11-26T09:32:50Z",
-  "url": "https://www.gov.uk/government/publications/penalties-for-a-failure-to-correct-certain-offshore-tax-non-compliance",
-  "source": "HMRC"
- },
- {
   "title": "Research: Energy Savings Opportunity Scheme (Phase 3): interim evaluation",
   "date": "2026-11-26T09:30:37Z",
   "url": "https://www.gov.uk/government/publications/energy-savings-opportunity-scheme-phase-3-interim-evaluation",
   "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Research: Analysis of Ukrainian nationals entering employment in the UK",
-  "date": "2026-11-26T09:30:28Z",
-  "url": "https://www.gov.uk/government/publications/analysis-of-ukrainian-nationals-entering-employment-in-the-uk",
-  "source": "HMRC"
  },
  {
   "title": "Guidance: Warm Homes: Local Grant and Warm Homes: Social Housing Fund Statistics methodology and background note",
@@ -220,53 +268,5 @@
   "date": "2026-11-26T09:30:22Z",
   "url": "https://www.gov.uk/government/statistical-data-sets/international-domestic-energy-prices",
   "source": "Energy Security & Net Zero"
- },
- {
-  "title": "International non-domestic energy prices",
-  "date": "2026-11-26T09:30:22Z",
-  "url": "https://www.gov.uk/government/statistical-data-sets/international-non-domestic-energy-prices",
-  "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Comparisons of international road fuel prices",
-  "date": "2026-11-26T09:30:22Z",
-  "url": "https://www.gov.uk/government/statistical-data-sets/comparisons-of-international-road-fuel-prices",
-  "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Guidance: Smart meters statistics: methodology note",
-  "date": "2026-11-26T09:30:18Z",
-  "url": "https://www.gov.uk/government/publications/smart-meters-statistics-methodology-note",
-  "source": "Energy Security & Net Zero"
- },
- {
-  "title": "Research: HMRC AI customer support survey",
-  "date": "2026-11-26T09:30:09Z",
-  "url": "https://www.gov.uk/government/publications/hmrc-ai-customer-support-survey",
-  "source": "HMRC"
- },
- {
-  "title": "Research: Research exploring customer views on revenue correction notices",
-  "date": "2026-11-26T09:30:08Z",
-  "url": "https://www.gov.uk/government/publications/research-exploring-customer-views-on-revenue-correction-notices",
-  "source": "HMRC"
- },
- {
-  "title": "Official Statistics: UK trade in goods by business characteristics 2025",
-  "date": "2026-11-26T09:30:08Z",
-  "url": "https://www.gov.uk/government/statistics/uk-trade-in-goods-by-business-characteristics-2025",
-  "source": "HMRC"
- },
- {
-  "title": "Research: Research exploring customer views on the shift to digital post",
-  "date": "2026-11-26T09:30:08Z",
-  "url": "https://www.gov.uk/government/publications/research-exploring-customer-views-on-the-shift-to-digital-post",
-  "source": "HMRC"
- },
- {
-  "title": "Correspondence: CMA correspondence in relation to private provision in the dentistry market",
-  "date": "2026-11-26T07:00:26Z",
-  "url": "https://www.gov.uk/government/publications/cma-correspondence-in-relation-to-private-provision-in-the-dentistry-market",
-  "source": "HM Treasury"
  }
 ]
